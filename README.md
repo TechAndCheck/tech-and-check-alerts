@@ -13,3 +13,8 @@ To start the service
 ```
 > yarn start
 ```
+
+## Contribution instructions
+If you are interested in contributing this project: thank you!  Contributions are done via pull request.
+
+Please be sure to review our [contribution guidelines](CONTRIBUTING.md) and [code of conduct](docs/CODE_OF_CONDUCT.md).
