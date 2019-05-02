@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/TechAndCheck/tech-and-check-alerts.svg?branch=master)](https://travis-ci.org/TechAndCheck/tech-and-check-alerts)
+
 # Tech & Check Alerts
 A system that send outs a daily tip sheet for fact checkers, developed at the Duke Reporters Lab.
 
