@@ -22,13 +22,25 @@ If you introduce a new framework or dependency, add the necessary information to
 
 ### Configurations
 
-We're using `dotenv` for general runtime configuration settings. Never hard code values that should be configurable, but instead edit the .env.template file.
+We're using `dotenv` for general runtime configuration settings. Never hard code values that should be configurable, but instead edit the .env.example file.
 
 Commits that introduce a new configurable variable should also document the configuration steps in the commit message.
 
 ### Migrations
 
-Section TBD
+The golden rule of migrations: Never edit a migration file that has been committed to master.
+
+We're using `sequelize` as our ORM and migration library.  You can get a list of sequelize commands by typing:
+
+```
+> sequelize
+```
+
+You can run migrations by typing:
+
+```
+> yarn migrate
+```
 
 ### Linting and Code Style
 
