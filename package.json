@@ -29,5 +29,10 @@
     "eslint-plugin-react": "^7.12.4",
     "nodemon": "^1.19.0",
     "parcel": "^1.12.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "pg": "^7.10.0",
+    "sequelize": "^5.8.5"
   }
 }
