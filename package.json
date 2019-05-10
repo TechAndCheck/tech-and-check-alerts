@@ -19,6 +19,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "babel-eslint": "^10.0.1",
     "concurrently": "^4.1.0",
@@ -31,8 +32,11 @@
     "parcel": "^1.12.3"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.0.0",
     "pg": "^7.10.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
     "sequelize": "^5.8.5"
   }
 }
