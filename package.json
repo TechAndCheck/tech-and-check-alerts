@@ -14,7 +14,8 @@
     "start": "concurrently 'yarn start-node' 'yarn parcel:dev'",
     "build": "babel src -d lib",
     "lint": "./node_modules/.bin/eslint 'src/**/*.js'",
-    "test": ""
+    "test": "",
+    "migrate": "sequelize db:migrate"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
