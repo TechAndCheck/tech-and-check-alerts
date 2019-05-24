@@ -11,7 +11,4 @@ describe('HelloWorldCrawler', () => {
     expect(crawler).toHaveProperty('crawlHandler')
     expect(crawler.crawlHandler).toBeInstanceOf(Function)
   })
-  it('Should have this totally fake property invented to annoy Travis CI', () => {
-    expect(crawler).toHaveProperty('travisCI')
-  })
 })
