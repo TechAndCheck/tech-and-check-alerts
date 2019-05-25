@@ -1,4 +1,4 @@
-import AbstractCrawler from '../AbstractCrawler'
+import AbstractCrawler from './AbstractCrawler'
 
 class HelloWorldCrawler extends AbstractCrawler {
   constructor() {
