@@ -14,7 +14,8 @@
     "start": "concurrently 'yarn start-node' 'yarn parcel:dev'",
     "build": "babel src -d lib",
     "lint": "./node_modules/.bin/eslint 'src/**/*.js'",
-    "test": "",
+    "test": "jest --verbose --coverage",
+    "test:watch": "jest --verbose --watch",
     "migrate": "sequelize db:migrate"
   },
   "devDependencies": {
@@ -29,6 +30,7 @@
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.8.0",
     "nodemon": "^1.19.0",
     "parcel": "^1.12.3"
   },
@@ -39,5 +41,8 @@
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "sequelize": "^5.8.5"
+  },
+  "jest": {
+    "cacheDirectory": "./.jestcache"
   }
 }

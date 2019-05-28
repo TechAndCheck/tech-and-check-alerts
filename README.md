@@ -48,6 +48,17 @@ A template for the contents of `.env` is provided in `.env.example`.
 > yarn start
 ```
 
+### Run tests
+
+```
+> yarn test
+```
+
+Or, to start a watcher that runs tests as you change them:
+```
+> yarn test:watch
+```
+
 ## Contributing
 
 If you're interested in contributing to this project: thank you! Contributions are made via pull request. Please be sure to review our [contribution guidelines](CONTRIBUTING.md) and [code of conduct](docs/CODE_OF_CONDUCT.md).
