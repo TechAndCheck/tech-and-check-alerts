@@ -8,6 +8,7 @@ export const Schedules = {
 export const QueueNames = {
   crawlerQueues: {
     ABSTRACT: 'abstractCrawler',
+    CNN_TRANSCRIPT_PORTAL: 'cnnTranscriptPortalCrawler',
     HELLO_WORLD: 'helloWorldCrawler',
   },
 }
