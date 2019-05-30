@@ -16,7 +16,10 @@
     "lint": "./node_modules/.bin/eslint 'src/**/*.js'",
     "test": "jest --verbose --coverage",
     "test:watch": "jest --verbose --watch",
-    "migrate": "sequelize db:migrate"
+    "migrate": "sequelize db:migrate",
+    "queue:jobs:list": "babel-node -- src/scripts/listScheduledJobs",
+    "queue:jobs:schedule": "babel-node -- src/scripts/scheduleJobs",
+    "queue:jobs:unschedule": "babel-node -- src/scripts/unscheduleJobs"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -35,6 +38,7 @@
     "parcel": "^1.12.3"
   },
   "dependencies": {
+    "bull": "^3.9.1",
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.0.0",
     "pg": "^7.10.0",

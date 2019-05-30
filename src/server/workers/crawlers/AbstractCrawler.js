@@ -15,6 +15,7 @@ class AbstractCrawler {
    * @param string htmlString The HTML or JSON that came from the HTTP request
    * @return [String] the list of URLs that should be scraped
    */
+  // (this is an abstract method and we need to define its footprint.)
   // eslint-disable-next-line no-unused-vars
   crawlHandler = (responseString) => {
     throw new Error('You wrote a new crawler but forgot to define the crawlHandler.')
