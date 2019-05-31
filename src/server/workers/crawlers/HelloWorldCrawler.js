@@ -1,14 +1,12 @@
 import AbstractCrawler from './AbstractCrawler'
+import { extractUrls } from '../../utils/crawler'
 
 class HelloWorldCrawler extends AbstractCrawler {
   constructor() {
     super('https://google.com')
   }
 
-  crawlHandler = (responseString) => {
-    console.log(`Hello, I crawled ${responseString}`)
-    return []
-  }
+  crawlHandler = responseString => extractUrls(responseString)
 }
 
 export default HelloWorldCrawler

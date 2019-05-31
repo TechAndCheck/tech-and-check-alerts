@@ -44,13 +44,11 @@ class AbstractJobScheduler {
   })
 
   scheduleJobs = () => this.getQueue().add(
-    this.getScheduleName(),
-    {},
+    this.getJobData(),
     { repeat: this.getRepeatOptions() },
   )
 
   unscheduleJobs = () => this.getQueue().removeRepeatable(
-    this.getScheduleName(),
     this.getRepeatOptions(),
   )
 }
