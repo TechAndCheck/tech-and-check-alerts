@@ -1,10 +1,12 @@
 import fs from 'fs'
 import path from 'path'
 import Sequelize from 'sequelize'
-import config from '../../../config/sequelize-config'
 
-const env = process.env.NODE_ENV || 'development'
-const envConfig = config[env]
+import config from '../config'
+import sequelizeConfig from '../../../config/sequelize-config'
+
+const env = config.NODE_ENV || 'development'
+const envConfig = sequelizeConfig[env]
 
 const db = {}
 const sequelize = new Sequelize(envConfig.url, envConfig)
