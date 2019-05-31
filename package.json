@@ -19,7 +19,8 @@
     "migrate": "sequelize db:migrate",
     "queue:jobs:list": "babel-node -- src/scripts/listScheduledJobs",
     "queue:jobs:schedule": "babel-node -- src/scripts/scheduleJobs",
-    "queue:jobs:unschedule": "babel-node -- src/scripts/unscheduleJobs"
+    "queue:jobs:unschedule": "babel-node -- src/scripts/unscheduleJobs",
+    "newsletter:send-test": "babel-node -- src/scripts/sendTestNewsletter"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -40,7 +41,9 @@
   "dependencies": {
     "bull": "^3.9.1",
     "cheerio": "^1.0.0-rc.3",
+    "dayjs": "^1.8.14",
     "dotenv": "^8.0.0",
+    "mailgun-js": "^0.22.0",
     "pg": "^7.10.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
