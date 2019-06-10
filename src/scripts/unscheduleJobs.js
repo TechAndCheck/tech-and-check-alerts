@@ -1,12 +1,12 @@
 import queueDicts from '../server/queues'
 import { getQueueFromQueueDict } from '../server/utils/queue'
+import logger from '../server/utils/logger'
 
 const softUnscheduleJobs = queueDict => queueDict.scheduler.unscheduleJobs()
 
 const hardUnscheduleJobs = async (queueDict) => {
   const queue = getQueueFromQueueDict(queueDict)
   const jobs = await queue.getRepeatableJobs()
-
   return Promise.all(jobs.map(job => queue.removeRepeatableByKey(job.key)))
 }
 
@@ -18,12 +18,9 @@ const unscheduleJobs = (queueDict) => {
   }
   return softUnscheduleJobs(queueDict)
 }
-const renderResults = (results) => {
-  console.log(results)
-}
 
 const promises = queueDicts.map(unscheduleJobs)
 Promise.all(promises).then((results) => {
-  renderResults(results)
+  logger.info(`Jobs ${isHardFlagSet() ? '(hard) ' : ''}unscheduled for ${results.length} queues`)
   process.exit()
 })
