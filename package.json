@@ -19,7 +19,8 @@
     "migrate": "sequelize db:migrate",
     "queue:jobs:list": "babel-node -- src/scripts/listScheduledJobs",
     "queue:jobs:schedule": "babel-node -- src/scripts/scheduleJobs",
-    "queue:jobs:unschedule": "babel-node -- src/scripts/unscheduleJobs"
+    "queue:jobs:unschedule": "babel-node -- src/scripts/unscheduleJobs",
+    "queue:jobs:run:cnn-portal-crawler": "babel-node -- src/scripts/runCrawler"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
