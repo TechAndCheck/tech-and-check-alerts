@@ -1,5 +1,7 @@
 import rp from 'request-promise'
 
+import logger from '../../utils/logger'
+
 class AbstractCrawler {
   constructor(crawlUrl) {
     this.crawlUrl = crawlUrl
@@ -29,7 +31,7 @@ class AbstractCrawler {
     return rp(this.crawlUrl)
       .then(this.crawlHandler)
       .catch((err) => {
-        console.log(err)
+        logger.error(err)
       })
   }
 }
