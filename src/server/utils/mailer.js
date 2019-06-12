@@ -15,15 +15,22 @@ export const isMessageSendable = (mail) => {
   )
 }
 
-// The `mailgun-js` package lets you configure it to run in "test mode", which simulates but does
-// not complete Mailgun API interactions. When this mode is enabled, however, mailgun-js runs a
-// noisy logger that logs a bunch of stuff to the console. Since we enable test mode when NODE_ENV
-// reports we're testing, this pollutes our test results with a bunch of unnecessary logging. So,
-// we create a logger that returns a bunch of useful data but doesn't actually log to console.
+
+/**
+ * The `mailgun-js` package lets you configure it to run in "test mode", which simulates but does
+ * not complete Mailgun API interactions. When this mode is enabled, however, mailgun-js runs a
+ * noisy logger that logs a bunch of stuff to the console. Since we enable test mode when NODE_ENV
+ * reports we're testing, this pollutes our test results with a bunch of unnecessary logging. So,
+ * we create a logger that returns a bunch of useful data but doesn't actually log to console.
+ *
+ * @return {object} Currently returns some structured request details, although doesn't need to.
+ *                  (As a silent logger, all it needs to do is log them.)
+ */
 export const testModeLogger = (httpOptions, payload, form) => {
   const { method, path } = httpOptions
   const hasPayload = !!payload
   const hasForm = !!form
+  // TODO: After this is merged, actually log this with the new logger.
   return {
     method, path, hasPayload, hasForm,
   }
