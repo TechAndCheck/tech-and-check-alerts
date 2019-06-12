@@ -2,13 +2,14 @@ import Mailgun from 'mailgun-js'
 
 import config from '../../config'
 import { isMessageSendable, testModeLogger } from '../../utils/mailer'
+import { isTestEnv } from '../../utils'
 
 class Mailer {
   constructor() {
     this.mailgun = Mailgun({
       apiKey: config.MAILGUN_API_KEY,
       domain: config.MAILGUN_API_DOMAIN,
-      testMode: config.NODE_ENV === 'test',
+      testMode: isTestEnv(),
       testModeLogger,
     })
   }
