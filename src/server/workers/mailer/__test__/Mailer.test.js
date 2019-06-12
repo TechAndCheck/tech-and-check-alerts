@@ -12,8 +12,8 @@ describe('Mailer', () => {
       apiKey: mailer.mailgun.apiKey,
       domain: mailer.mailgun.domain,
     }).toEqual({
-      apiKey: config.MAILER_API_KEY,
-      domain: config.MAILER_API_DOMAIN,
+      apiKey: config.MAILGUN_API_KEY,
+      domain: config.MAILGUN_API_DOMAIN,
     })
   })
   it('Should not send without valid message data', () => {

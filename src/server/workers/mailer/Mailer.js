@@ -6,8 +6,8 @@ import { isMessageSendable, testModeLogger } from '../../utils/mailer'
 class Mailer {
   constructor() {
     this.mailgun = Mailgun({
-      apiKey: config.MAILER_API_KEY,
-      domain: config.MAILER_API_DOMAIN,
+      apiKey: config.MAILGUN_API_KEY,
+      domain: config.MAILGUN_API_DOMAIN,
       testMode: config.NODE_ENV === 'test',
       testModeLogger,
     })
