@@ -19,11 +19,11 @@ if (!recipient) {
 
 const sendTestEmail = () => new Promise(() => {
   const mailer = new Mailer()
-  return Promise.resolve(mailer.send({
+  return mailer.send({
     recipient,
     subject: 'This is a test email.',
     body: 'This is the body of the email.',
-  }))
+  })
 })
 sendTestEmail().then(() => {
   process.exit()
