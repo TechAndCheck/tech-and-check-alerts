@@ -23,19 +23,7 @@ This project uses [redis](https://redis.io/) as a data store for queues.  You wi
 
 ### Configure the project
 
-You will need to configure your environment variables.  In production this can be done however your host recommends; in development we recommend using an .env file.
-
-The environment variables used in this project are:
-
-* DATABASE_URL_PRODUCTION :: The full database url to be used in production.
-* DATABASE_URL_DEVELOPMENT :: The full database url to be used in development.
-* DATABASE_URL_TEST :: The full database url to be used in testing.
-* REDIS_URL :: The redis url to be used.
-* ENABLED_QUEUE_DIRECTORIES :: The comma separated list of queue directories that should be loaded when the application starts.  A wildcard (*) will load all valid queues.
-
-Database urls will look something like `postgresql://username:password@localhost/dbname`
-
-A template for the contents of `.env` is provided in `.env.example`.
+You will need to configure your environment variables.  In production this can be done however your host recommends; in development we recommend using an `.env` file. A template for the contents of `.env` is provided in `.env.example`.
 
 ```
 > cp .env.example .env
