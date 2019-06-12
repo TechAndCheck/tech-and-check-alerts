@@ -1,9 +1,11 @@
 import Mailer from '../server/workers/mailer'
+import { isValidEmailAddressFormat } from '../server/utils/mailer'
 
 const getRecipient = () => {
   const recipientFlag = process.argv.indexOf('-r')
   if (recipientFlag !== -1) {
-    return process.argv[recipientFlag + 1]
+    const recipient = process.argv[recipientFlag + 1]
+    if (isValidEmailAddressFormat(recipient)) return recipient
   }
   return null
 }

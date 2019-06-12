@@ -1,20 +1,20 @@
 import {
-  isValidEmailAddress,
+  isValidEmailAddressFormat,
   isMessageSendable,
 } from '../mailer'
 
 import testData from '../../workers/mailer/__test__/mailerTestData'
 
 describe('utils/mailer', () => {
-  describe('#isValidEmailAddress', () => {
+  describe('#isValidEmailAddressFormat', () => {
     it('Should approve valid emails', () => {
       testData.recipient.valid.forEach((recipient) => {
-        expect(isValidEmailAddress(recipient)).toBe(true)
+        expect(isValidEmailAddressFormat(recipient)).toBe(true)
       })
     })
     it('Should reject invalid emails', () => {
       testData.recipient.invalid.forEach((recipient) => {
-        expect(isValidEmailAddress(recipient)).toBe(false)
+        expect(isValidEmailAddressFormat(recipient)).toBe(false)
       })
     })
   })
