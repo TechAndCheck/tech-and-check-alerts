@@ -2,6 +2,7 @@ import Mailgun from 'mailgun-js'
 
 import config from '../../config'
 import { isMessageSendable, testModeLogger } from '../../utils/mailer'
+import logger from '../../utils/logger'
 import { isTestEnv } from '../../utils'
 
 class Mailer {
@@ -29,9 +30,8 @@ class Mailer {
     }
 
     return mailgun.messages().send(mailgunData, (error, body) => {
-      // TODO: Log (#34) or notify (#35) if things go good or bad.
-      if (error) console.log(`Error: ${error}`)
-      if (body) console.log(body)
+      if (error) logger.error(error)
+      else if (body) logger.info(body)
     })
   }
 }

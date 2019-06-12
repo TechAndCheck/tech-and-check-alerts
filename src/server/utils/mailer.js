@@ -1,3 +1,5 @@
+import logger from './logger'
+
 export const isValidEmailAddressFormat = (emailAddress) => {
   const re = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/
   return re.test(String(emailAddress).toLowerCase())
@@ -21,16 +23,14 @@ export const isMessageSendable = (mail) => {
  * not complete Mailgun API interactions. When this mode is enabled, however, mailgun-js runs a
  * noisy logger that logs a bunch of stuff to the console. Since we enable test mode when NODE_ENV
  * reports we're testing, this pollutes our test results with a bunch of unnecessary logging. So,
- * we create a logger that returns a bunch of useful data but doesn't actually log to console.
+ * we create a logger that returns a bunch of useful data but doesn't actually log.
  *
- * @return {object} Currently returns some structured request details, although doesn't need to.
- *                  (As a silent logger, all it needs to do is log them.)
+ * @return {object} Returns some structured request details, although we do nothing with it.
  */
 export const testModeLogger = (httpOptions, payload, form) => {
   const { method, path } = httpOptions
   const hasPayload = !!payload
   const hasForm = !!form
-  // TODO: After this is merged, actually log this with the new logger.
   return {
     method, path, hasPayload, hasForm,
   }
