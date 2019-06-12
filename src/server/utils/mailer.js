@@ -1,5 +1,3 @@
-import logger from './logger'
-
 export const isValidEmailAddressFormat = (emailAddress) => {
   const re = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/
   return re.test(String(emailAddress).toLowerCase())
