@@ -3,9 +3,10 @@ import path from 'path'
 import Sequelize from 'sequelize'
 
 import config from '../config'
+import { ENV_NAMES } from '../constants'
 import sequelizeConfig from '../../../config/sequelize-config'
 
-const env = config.NODE_ENV || 'development'
+const env = config.NODE_ENV || ENV_NAMES.DEVELOPMENT
 const envConfig = sequelizeConfig[env]
 
 const db = {}
