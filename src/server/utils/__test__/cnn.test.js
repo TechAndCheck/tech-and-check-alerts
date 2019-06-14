@@ -134,6 +134,8 @@ describe('utils/cnn', () => {
     it('Should create line breaks on speaker change', () => {
       expect(addBreaksOnSpeakerChange('DONNA: My name is Donna.  JOHNNA: My name is... Johnna?  Who wrote this.'))
         .toBe('DONNA: My name is Donna.\nJOHNNA: My name is... Johnna?  Who wrote this.')
+      expect(addBreaksOnSpeakerChange('JANE: testing. ELIANA JOHNSON, NATIONAL POLITICAL REPORTER, "POLITICO": Testing'))
+        .toBe('JANE: testing.\nELIANA JOHNSON, NATIONAL POLITICAL REPORTER, "POLITICO": Testing')
     })
     it('Should not create line breaks for one speaker', () => {
       expect(removeTimestamps('DONNA: Whoever it is they seem to be running out of ideas.'))
@@ -161,6 +163,12 @@ describe('utils/cnn', () => {
         .toEqual('DONNA')
       expect(getAttributionFromChunk('DONNA, SLAYER OF CAKES: My name is Donna.'))
         .toEqual('DONNA, SLAYER OF CAKES')
+      expect(getAttributionFromChunk('REV. AL SHARPTON (D), PRESIDENTIAL CANDIDATE: Schwarzenegger is an impostor. You will see at the end of this that I\'m the real Terminator. I want to terminate Bush.'))
+        .toEqual('REV. AL SHARPTON (D), PRESIDENTIAL CANDIDATE')
+    })
+    it('Should return an empty attribution if none exists', () => {
+      expect(getAttributionFromChunk('This has no attribution'))
+        .toEqual('')
     })
   })
 
@@ -184,18 +192,32 @@ describe('utils/cnn', () => {
       expect(getNameFromAttribution('DONNA LITTLE, SLAYER OF CAKES'))
         .toEqual('DONNA LITTLE')
     })
+    it('Should return an empty name if there is no attribution', () => {
+      expect(getNameFromAttribution(''))
+        .toEqual('')
+    })
   })
 
   describe('getAffiliationFromAttribution', () => {
-    it('Should extract the affiliation from an attribution', () => {
-      expect(getAffiliationFromAttribution('DONNA'))
-        .toEqual('')
-      expect(getAffiliationFromAttribution('DONNA LITTLE'))
-        .toEqual('')
+    it('Should extract the affiliation from an attribution if one exists', () => {
       expect(getAffiliationFromAttribution('DONNA, SLAYER OF CAKES'))
         .toEqual('SLAYER OF CAKES')
       expect(getAffiliationFromAttribution('DONNA LITTLE, SLAYER OF CAKES'))
         .toEqual('SLAYER OF CAKES')
+      expect(getAffiliationFromAttribution('DONNA LITTLE, SLAYER OF "CAKES"'))
+        .toEqual('SLAYER OF "CAKES"')
+      expect(getAffiliationFromAttribution('DONNA LITTLE, SLAYER OF "CAKES" (RETIRED)'))
+        .toEqual('SLAYER OF "CAKES" (RETIRED)')
+    })
+    it('Should return an empty affiliation if there is no affiliation', () => {
+      expect(getAffiliationFromAttribution('DONNA'))
+        .toEqual('')
+      expect(getAffiliationFromAttribution('DONNA LITTLE'))
+        .toEqual('')
+    })
+    it('Should return an empty affiliation if there is no attribution', () => {
+      expect(getAffiliationFromAttribution(''))
+        .toEqual('')
     })
   })
 
