@@ -1,6 +1,8 @@
 import cheerio from 'cheerio'
 
 import {
+  isTranscriptUrl,
+  getFullCnnUrl,
   removeTimestamps,
   removeSpeakerReminders,
   removeDescriptors,
@@ -18,6 +20,13 @@ import AbstractStatementScraper from './AbstractStatementScraper'
 const $ = cheerio
 
 class CnnTranscriptStatementScraper extends AbstractStatementScraper {
+  constructor(url) {
+    if (!isTranscriptUrl(url)) {
+      throw new Error('CnnTranscriptStatementScraper was passed a URL that does not appear to be a CNN transcript.')
+    }
+    super(getFullCnnUrl(url))
+  }
+
   getTranscriptText = (html) => {
     const $bodyTextElements = $(html).find('.cnnBodyText')
     const bodyTexts = $bodyTextElements.map((i, element) => $(element).text())

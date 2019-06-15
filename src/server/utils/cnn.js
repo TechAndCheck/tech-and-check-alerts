@@ -64,7 +64,7 @@ export const removeDescriptors = transcript => transcript
  * @return {String}            The modified transcript with line breaks inserted.
  */
 export const addBreaksOnSpeakerChange = transcript => transcript
-  .replace(/([.?!\-)\]])\s*([.,A-Z\s]*:)/g, '$1\n$2')
+  .replace(/([.?!\-)\]])\s*([.,A-Z\s"()]*:)/g, '$1\n$2')
 
 
 /**
@@ -77,7 +77,7 @@ export const addBreaksOnSpeakerChange = transcript => transcript
 export const splitTranscriptIntoChunks = transcript => transcript.split('\n')
 
 // Used to identify the speaker section of a chunk
-const chunkSpeakerRegex = /[.,A-Z\s]+[:]/
+const chunkAttributionRegex = /[.,A-Z\s"()]+[:]/
 
 /**
  * Extract the speaker name / affiliation from a chunk.
@@ -85,9 +85,11 @@ const chunkSpeakerRegex = /[.,A-Z\s]+[:]/
  * @param  {String} chunk The segment of a transcript which contains a speaker and a statement.
  * @return {String}       The portion of the chunk that describes the person who was speaking.
  */
-export const getAttributionFromChunk = chunk => chunk
-  .match(chunkSpeakerRegex)[0]
-  .slice(0, -1).trim()
+export const getAttributionFromChunk = chunk => (
+  (chunk.match(chunkAttributionRegex)
+  || [':'])[0]
+    .slice(0, -1).trim()
+)
 
 /**
  * Extract the content of what was said from a chunk.
@@ -96,7 +98,7 @@ export const getAttributionFromChunk = chunk => chunk
  * @return {String}       The portion of the chunk that contains what was said.
  */
 export const getStatementFromChunk = chunk => chunk
-  .replace(chunkSpeakerRegex, '').trim()
+  .replace(chunkAttributionRegex, '').trim()
 
 /**
  * Extract the person's name from an attribution string.
@@ -104,9 +106,10 @@ export const getStatementFromChunk = chunk => chunk
  * @param  {String} attribution The full string describing a person.
  * @return {String}             The portion of the attribution that contains the person's name
  */
-export const getNameFromAttribution = attribution => attribution
-  .match(/[A-Z\s]+/)[0]
-
+export const getNameFromAttribution = attribution => (
+  (attribution.match(/[A-Z\s.()]+/)
+  || [''])[0]
+)
 /**
  * Extract the person's affiliation from an attribution string.
  *
@@ -115,7 +118,7 @@ export const getNameFromAttribution = attribution => attribution
  *                                  the person's affiliation
  */
 export const getAffiliationFromAttribution = attribution => (
-  (attribution.match(/,([A-Z\s,]*)/)
+  (attribution.match(/,([A-Z\s,"()]*)/)
   || [','])[0]
     .substring(1)
     .trim()

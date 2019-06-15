@@ -12,4 +12,7 @@ export const QueueNames = {
     CNN_TRANSCRIPT_LIST: 'cnnTranscriptListCrawler',
     HELLO_WORLD: 'helloWorldCrawler',
   },
+  scraperQueues: {
+    CNN_TRANSCRIPT_STATEMENT: 'cnnTranscriptStatementScraper',
+  },
 }
