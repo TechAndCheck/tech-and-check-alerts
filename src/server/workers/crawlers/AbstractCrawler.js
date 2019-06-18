@@ -1,12 +1,6 @@
-import rp from 'request-promise'
+import AbstractScraper from '../scrapers/AbstractScraper'
 
-import logger from '../../utils/logger'
-
-class AbstractCrawler {
-  constructor(crawlUrl) {
-    this.crawlUrl = crawlUrl
-  }
-
+class AbstractCrawler extends AbstractScraper {
   /**
    * Process the result of an HTTP request and identify the urls
    * to pass into the scraper pipeline.
@@ -23,17 +17,7 @@ class AbstractCrawler {
     throw new Error('You wrote a new crawler but forgot to define the crawlHandler.')
   }
 
-  /**
-   * Runs the crawler
-   * @return Promise a promise that returns the list of URLs that came fromthe crawl handler
-   */
-  async run() {
-    return rp(this.crawlUrl)
-      .then(this.crawlHandler)
-      .catch((err) => {
-        logger.error(err)
-      })
-  }
+  scrapeHandler = responseString => this.crawlHandler(responseString)
 }
 
 export default AbstractCrawler

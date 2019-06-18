@@ -55,7 +55,7 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
     return statements
   }
 
-  scrapeHandler = (responseString) => {
+  statementScrapeHandler = (responseString) => {
     const transcript = this.getTranscriptText(responseString)
     const statements = this.extractStatementsFromTranscript(transcript)
     return statements
