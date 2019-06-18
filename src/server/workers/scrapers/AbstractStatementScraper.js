@@ -1,40 +1,23 @@
-import rp from 'request-promise'
+import AbstractScraper from './AbstractScraper'
 
-import logger from '../../utils/logger'
-
-class AbstractStatementScraper {
-  constructor(scrapeUrl) {
-    this.scrapeUrl = scrapeUrl
-  }
-
+class AbstractStatementScraper extends AbstractScraper {
   /**
-   * Process the result of an HTTP request and identify the urls
-   * to pass into the scraper pipeline.
+   * Statement scrapers are designed to extract statements from the
+   * scraped page.
    *
-   * Each scraper that extends AbstractStatementScraper needs to implement its own
-   * scrapeHandler method.
+   * Each statement scraper that extends AbstractStatementScraper needs to implement
+   * its own statementScrapeHandler method.
    *
-   * @param {String} htmlString The HTML or JSON that came from the HTTP request
-   * @return {Object[]}         the list of statements that were scraped
+   * @param {String} responseString The HTML or JSON that came from the HTTP request
+   * @return {Object[]}             The list of statements that were scraped
    */
   // (this is an abstract method and we need to define its footprint.)
   // eslint-disable-next-line no-unused-vars
-  scrapeHandler = (responseString) => {
-    throw new Error('You implemented a statement scraper but forgot to define the scrapeHandler.')
+  statementScrapeHandler = (responseString) => {
+    throw new Error('You implemented a statement scraper but forgot to define the statementScrapeHandler.')
   }
 
-  /**
-   * Runs the crawler
-   *
-   * @return {Promise} a Promise to provide a list of URLs that came fromthe crawl handler
-   */
-  async run() {
-    return rp(this.scrapeUrl)
-      .then(this.scrapeHandler)
-      .catch((err) => {
-        logger.error(err)
-      })
-  }
+  scrapeHandler = responseString => this.statementScrapeHandler(responseString)
 }
 
 export default AbstractStatementScraper
