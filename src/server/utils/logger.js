@@ -7,7 +7,7 @@ import {
 import config from '../config'
 
 const logger = createLogger({
-  level: 'info',
+  level: config.LOG_LEVEL || 'info',
   format: format.combine(
     format.timestamp({
       format: 'YYYY-MM-DD HH:mm:ss',
@@ -39,7 +39,7 @@ if (config.NODE_ENV !== 'production') {
       format.colorize(),
       format.timestamp(),
       format.align(),
-      format.printf(info => `${info.timestamp} (${info.level}): ${info.message} ${info.stack}`),
+      format.printf(info => `${info.timestamp} (${info.level}): ${info.message} ${info.stack || ''}`),
     ),
   }))
 }
