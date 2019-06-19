@@ -16,6 +16,7 @@
     "lint": "./node_modules/.bin/eslint 'src/**/*.js'",
     "test": "jest --verbose --coverage",
     "test:watch": "jest --verbose --watch",
+    "test:ci": "jest",
     "migrate": "sequelize db:migrate",
     "queue:jobs:list": "babel-node -- src/scripts/listScheduledJobs",
     "queue:jobs:schedule": "babel-node -- src/scripts/scheduleJobs",
