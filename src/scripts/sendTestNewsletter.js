@@ -1,15 +1,9 @@
-import Mailer from '../server/workers/mailer'
+import logger from '../server/utils/logger'
 
 import { HelloWorldNewsletter } from '../server/newsletters'
 
-const sendTestNewsletter = () => new Promise(() => {
-  const newsletter = new HelloWorldNewsletter()
-  return newsletter.render().then(() => {
-    const messageData = newsletter.messageData()
-    const mailer = new Mailer()
-    return Promise.resolve(mailer.send(messageData))
-  })
-})
+const sendTestNewsletter = () => (new HelloWorldNewsletter()).send()
+
 sendTestNewsletter().then(() => {
   process.exit()
-})
+}).catch(error => logger.error(error))

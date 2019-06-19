@@ -1,3 +1,5 @@
+import Mailer from '../workers/mailer'
+
 import { TEMPLATES } from './constants'
 
 class AbstractNewsletter {
@@ -36,6 +38,8 @@ class AbstractNewsletter {
     // TODO: Pass the data through a real renderererer.
     this.body = `CLAIMS:\r${claims.map(claim => claim.content).join('\r')}`
   }
+
+  send = () => this.render().then(() => (new Mailer()).send(this.messageData()))
 }
 
 export default AbstractNewsletter

@@ -29,10 +29,9 @@ class Mailer {
       text: message.body,
     }
 
-    return mailgun.messages().send(mailgunData, (error, body) => {
-      if (error) logger.error(error)
-      else if (body) logger.info(body)
-    })
+    return mailgun.messages().send(mailgunData).then((response) => {
+      if (response) logger.info(response)
+    }).catch(error => logger.error(error))
   }
 }
 
