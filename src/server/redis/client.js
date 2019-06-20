@@ -1,8 +1,7 @@
 import redis from 'redis'
+import { promisifyClient } from '../utils/redis'
 import config from '../config'
 
-const client = redis.createClient({
+export default promisifyClient(redis.createClient({
   url: config.REDIS_URL,
-})
-
-export default client
+}))
