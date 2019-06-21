@@ -1,5 +1,6 @@
 import Queue from 'bull'
 import config from '../config'
+import logger from '../utils/logger'
 
 class AbstractQueueFactory {
   /**
@@ -34,6 +35,8 @@ class AbstractQueueFactory {
       this.getQueueName(),
       config.REDIS_URL,
     )
+    queue.on('error', error => logger.error(error))
+    queue.on('failed', (job, error) => logger.warn(error))
     queue.process(this.getPathToProcessor())
     return queue
   }

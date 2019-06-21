@@ -43,6 +43,7 @@
   "dependencies": {
     "bull": "^3.9.1",
     "cheerio": "^1.0.0-rc.3",
+    "dayjs": "^1.8.14",
     "dotenv": "^8.0.0",
     "mailgun-js": "^0.22.0",
     "pg": "^7.10.0",
