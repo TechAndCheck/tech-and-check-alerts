@@ -3,10 +3,10 @@ import Handlebars from 'handlebars'
 
 import Mailer from '../workers/mailer'
 
-import { TEMPLATES } from './constants'
-
 class AbstractNewsletter {
-  getTemplate = () => TEMPLATES.DEFAULT
+  getPathToTemplate = () => {
+    throw new Error('You extended AbstractNewsletter but forgot to define getPathToTemplate()')
+  }
 
   getRecipient = () => {
     throw new Error('You extended AbstractNewsletter but forgot to define getRecipient()')
@@ -24,8 +24,6 @@ class AbstractNewsletter {
   getBodyData = () => {
     throw new Error('You extended AbstractNewsletter but forgot to define getBodyData()')
   }
-
-  getPathToTemplate = () => `${__dirname}/templates/${this.getTemplate()}`
 
   messageData = () => {
     if (!this.body) {

@@ -1,10 +1,9 @@
 import AbstractNewsletter from './AbstractNewsletter'
-import { TEMPLATES } from './constants'
 
 import models from '../models'
 
 class HelloWorldNewsletter extends AbstractNewsletter {
-  getTemplate = () => TEMPLATES.HELLO_WORLD
+  getPathToTemplate = () => `${__dirname}/templates/helloWorld.hbs`
 
   // TODO: Get a real mailing list recipient address working, as Mailgun's API complains
   //       about us using testing@sandbox757040a81dda4695bdda931f17664d01.mailgun.org.
