@@ -1,3 +1,6 @@
+import fs from 'fs'
+import Handlebars from 'handlebars'
+
 import Mailer from '../workers/mailer'
 
 import { TEMPLATES } from './constants'
@@ -18,9 +21,11 @@ class AbstractNewsletter {
   //   throw new Error('You extended AbstractNewsletter but forgot to define getSchedule()')
   // }
 
-  getCollectClaims = () => {
-    throw new Error('You extended AbstractNewsletter but forgot to define getCollectClaims()')
+  getBodyData = () => {
+    throw new Error('You extended AbstractNewsletter but forgot to define getBodyData()')
   }
+
+  getPathToTemplate = () => `${__dirname}/templates/${this.getTemplate()}`
 
   messageData = () => {
     if (!this.body) {
@@ -34,9 +39,10 @@ class AbstractNewsletter {
   }
 
   async render() {
-    const claims = await this.getCollectClaims()
-    // TODO: Pass the data through a real renderererer.
-    this.body = `CLAIMS:\r${claims.map(claim => claim.content).join('\r')}`
+    const templateSource = fs.readFileSync(this.getPathToTemplate(), 'utf8')
+    const templateFn = Handlebars.compile(templateSource)
+    const bodyData = await this.getBodyData()
+    this.body = templateFn(bodyData)
   }
 
   send = () => this.render().then(() => (new Mailer()).send(this.messageData()))

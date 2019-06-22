@@ -1,5 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 
 export const TEMPLATES = {
-  DEFAULT: './templates/default.html',
+  DEFAULT: 'default.hbs',
+  HELLO_WORLD: 'helloWorld.hbs',
 }

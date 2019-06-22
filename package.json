@@ -45,6 +45,7 @@
     "cheerio": "^1.0.0-rc.3",
     "dayjs": "^1.8.14",
     "dotenv": "^8.0.0",
+    "handlebars": "^4.1.2",
     "mailgun-js": "^0.22.0",
     "pg": "^7.10.0",
     "request": "^2.88.0",
