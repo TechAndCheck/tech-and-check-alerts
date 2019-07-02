@@ -7,7 +7,7 @@
 /**
  * @typedef {Object} Statement
  * @property {Speaker} speaker The person who made the statement.
- * @property {String}  statement What the person actually said
+ * @property {String}  text    What the person actually said
  */
 
 export const isTranscriptListUrl = url => url.startsWith('/TRANSCRIPTS/')
@@ -141,7 +141,7 @@ export const extractStatementFromChunk = (chunk) => {
       name,
       affiliation,
     },
-    statement,
+    text: statement,
   }
 }
 
