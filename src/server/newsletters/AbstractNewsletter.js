@@ -40,9 +40,17 @@ class AbstractNewsletter {
 
   async render() {
     const templateSource = fs.readFileSync(this.getPathToTemplate(), 'utf8')
-    const templateFn = Handlebars.compile(templateSource)
+    /*
+       This next line isn't entirely legible, so let's document it clearly:
+       `Handlebars.compile` receives a string of text (Handlebars-formatted markup)
+       and returns a function. You then call that function, passing in an object
+       whose properties will be made available to the template as local variables.
+       So again: `Handlebars.compile` generates a function, which we then must call
+       in order to actually receive a compiled template. (Whew.)
+    */
+    const compileTemplateWithData = Handlebars.compile(templateSource)
     const bodyData = await this.getBodyData()
-    this.body = templateFn(bodyData)
+    this.body = compileTemplateWithData(bodyData)
   }
 
   send = () => this.render()
