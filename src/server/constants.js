@@ -6,3 +6,5 @@ export const ENV_NAMES = {
   TEST: 'test',
   PRODUCTION: 'production',
 }
+
+export const CLAIMBUSTER_THRESHHOLD = 0.5
