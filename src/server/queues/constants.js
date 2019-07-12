@@ -15,4 +15,7 @@ export const QueueNames = {
   scraperQueues: {
     CNN_TRANSCRIPT_STATEMENT: 'cnnTranscriptStatementScraper',
   },
+  claimDetectorQueues: {
+    CLAIM_BUSTER: 'claimBusterClaimDetector',
+  },
 }
