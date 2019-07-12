@@ -3,6 +3,7 @@ import Handlebars from 'handlebars'
 
 import { getAddressForMailingList } from '../utils/mailer'
 import Mailer from '../workers/mailer'
+import logger from '../utils/logger'
 
 class AbstractNewsletter {
   getMailingList = () => {
@@ -44,7 +45,12 @@ class AbstractNewsletter {
     this.body = templateFn(bodyData)
   }
 
-  send = () => this.render().then(() => (new Mailer()).send(this.messageData()))
+  send = () => this.render()
+    .then(() => (new Mailer()).send(this.messageData()))
+    .catch((error) => {
+      logger.error(`Could not render the newsletter ${this.constructor.name}:`)
+      logger.error(error)
+    })
 }
 
 export default AbstractNewsletter

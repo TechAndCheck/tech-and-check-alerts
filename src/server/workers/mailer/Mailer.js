@@ -29,9 +29,15 @@ class Mailer {
       text: message.body,
     }
 
-    return mailgun.messages().send(mailgunData).then((response) => {
-      if (response) logger.info(response)
-    }).catch(error => logger.error(error))
+    const logMessage = `"${mailgunData.subject}" from "${mailgunData.from}" to "${mailgunData.to}"`
+
+    return mailgun.messages().send(mailgunData)
+      .then(() => {
+        logger.info(`Mailgun received ${logMessage} successfully.`)
+      }).catch((error) => {
+        logger.error(`Mailgun failed to send ${logMessage}.`)
+        logger.error(error)
+      })
   }
 }
 
