@@ -1,8 +1,19 @@
-/* eslint-disable import/prefer-default-export */
-/* This will eventually have more than one item, so we do not want a default export */
-
 export const ENV_NAMES = {
   DEVELOPMENT: 'development',
   TEST: 'test',
   PRODUCTION: 'production',
+}
+
+export const MAILING_LISTS = {
+  DEV: 'DEV',
+  TEST: 'TEST',
+  PRIMARY: 'PRIMARY',
+  NC: 'NC',
+}
+
+export const MAILING_LIST_ADDRESSES = {
+  DEV: 'dev',
+  TEST: 'test',
+  PRIMARY: 'alerts',
+  NC: 'northcarolina',
 }

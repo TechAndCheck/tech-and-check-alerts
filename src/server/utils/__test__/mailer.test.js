@@ -1,6 +1,8 @@
+import { MAILING_LISTS } from '../../constants'
 import {
   isValidEmailAddressFormat,
   isMessageSendable,
+  getAddressForMailingList,
 } from '../mailer'
 
 import testData from '../../workers/mailer/__test__/mailerTestData'
@@ -48,6 +50,16 @@ describe('utils/mailer', () => {
           body,
         })).toBe(false)
       })
+    })
+  })
+  describe('#getAddressForMailingList', () => {
+    it('Should return a valid email address for valid mailing list', () => {
+      expect(isValidEmailAddressFormat(
+        getAddressForMailingList(Object.keys(MAILING_LISTS)[0]),
+      )).toBe(true)
+    })
+    it('Should return null for invalid mailing list', () => {
+      expect(getAddressForMailingList('FOO')).toBe(null)
     })
   })
 })

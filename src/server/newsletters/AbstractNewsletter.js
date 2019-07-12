@@ -1,15 +1,16 @@
 import fs from 'fs'
 import Handlebars from 'handlebars'
 
+import { getAddressForMailingList } from '../utils/mailer'
 import Mailer from '../workers/mailer'
 
 class AbstractNewsletter {
-  getPathToTemplate = () => {
-    throw new Error('You extended AbstractNewsletter but forgot to define getPathToTemplate()')
+  getMailingList = () => {
+    throw new Error('You extended AbstractNewsletter but forgot to define getMailingList()')
   }
 
-  getRecipient = () => {
-    throw new Error('You extended AbstractNewsletter but forgot to define getRecipient()')
+  getPathToTemplate = () => {
+    throw new Error('You extended AbstractNewsletter but forgot to define getPathToTemplate()')
   }
 
   getSubject = () => {
@@ -30,7 +31,7 @@ class AbstractNewsletter {
       throw new Error('You have to call the render() method to render newsletter content before generating message data.')
     }
     return {
-      recipient: this.getRecipient(),
+      recipient: getAddressForMailingList(this.getMailingList()),
       subject: this.getSubject(),
       body: this.body,
     }
