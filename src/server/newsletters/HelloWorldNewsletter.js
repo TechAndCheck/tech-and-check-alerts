@@ -4,7 +4,7 @@ import AbstractNewsletter from './AbstractNewsletter'
 import models from '../models'
 
 class HelloWorldNewsletter extends AbstractNewsletter {
-  getMailingList = () => MAILING_LISTS.DEV
+  getMailingList = () => MAILING_LISTS.DEVELOPERS
 
   getPathToTemplate = () => `${__dirname}/templates/helloWorld.hbs`
 

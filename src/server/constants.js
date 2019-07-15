@@ -5,15 +5,15 @@ export const ENV_NAMES = {
 }
 
 export const MAILING_LISTS = {
-  DEV: 'DEV',
-  TEST: 'TEST',
+  DEVELOPERS: 'DEVELOPERS',
+  TESTERS: 'TESTERS',
   PRIMARY: 'PRIMARY',
-  NC: 'NC',
+  NORTH_CAROLINA: 'NORTH_CAROLINA',
 }
 
 export const MAILING_LIST_ADDRESSES = {
-  DEV: 'dev',
-  TEST: 'test',
+  DEVELOPERS: 'dev',
+  TESTERS: 'test',
   PRIMARY: 'alerts',
-  NC: 'northcarolina',
+  NORTH_CAROLINA: 'northcarolina',
 }
