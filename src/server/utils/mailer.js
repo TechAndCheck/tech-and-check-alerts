@@ -1,7 +1,3 @@
-import config from '../config'
-import { MAILING_LIST_ADDRESSES } from '../constants'
-import { hasKey } from '.'
-
 export const isValidEmailAddressFormat = (emailAddress) => {
   const re = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/
   return re.test(String(emailAddress).toLowerCase())
@@ -17,11 +13,6 @@ export const isMessageSendable = (mail) => {
     && hasValidSubject(mail.subject)
     && hasValidBody(mail.body)
   )
-}
-
-export const getAddressForMailingList = (listKey) => {
-  if (!hasKey(MAILING_LIST_ADDRESSES, listKey)) return null
-  return `${MAILING_LIST_ADDRESSES[listKey]}@${config.MAILGUN_API_DOMAIN}`
 }
 
 /**

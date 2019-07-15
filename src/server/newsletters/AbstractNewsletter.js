@@ -60,7 +60,12 @@ class AbstractNewsletter {
     throw new Error('You extended AbstractNewsletter but forgot to define getBodyData()')
   }
 
-  getMailingListAddress = () => getAddressForMailingList(this.getMailingList())
+  getMailingListAddress = () => {
+    const mailingList = this.getMailingList()
+    const mailingListAddress = MAILING_LIST_ADDRESSES[mailingList]
+    if (!mailingListAddress) throw new Error(`There is no email address associated with the mailing list ${mailingList}.`)
+    return mailingListAddress
+  }
 
   getBody = async () => {
     const templateSource = getFileContents(this.getPathToTemplate())

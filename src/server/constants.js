@@ -12,8 +12,8 @@ export const MAILING_LISTS = {
 }
 
 export const MAILING_LIST_ADDRESSES = {
-  DEVELOPERS: 'dev',
-  TESTERS: 'test',
-  PRIMARY: 'alerts',
-  NORTH_CAROLINA: 'northcarolina',
+  DEVELOPERS: 'dev@alerts.factstream.co',
+  TESTERS: 'test@alerts.factstream.co',
+  PRIMARY: 'alerts@alerts.factstream.co',
+  NORTH_CAROLINA: 'northcarolina@alerts.factstream.co',
 }
