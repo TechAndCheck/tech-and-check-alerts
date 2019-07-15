@@ -4,6 +4,8 @@ import { HelloWorldNewsletter } from '../server/newsletters'
 
 const sendTestNewsletter = () => (new HelloWorldNewsletter()).send()
 
-sendTestNewsletter().then(() => {
+sendTestNewsletter().catch((error) => {
+  logger.error(`Did not send the test newsletter. ${error}`)
+}).then(() => {
   process.exit()
-}).catch(error => logger.error(error))
+})

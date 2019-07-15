@@ -25,8 +25,8 @@ const sendTestEmail = () => new Promise(() => {
     body: 'This is the body of the email.',
   })
 })
-sendTestEmail().then(() => {
+sendTestEmail().catch((error) => {
+  logger.error(`Did not send the test email. ${error}`)
+}).then(() => {
   process.exit()
-}).catch((error) => {
-  logger.error(error)
 })

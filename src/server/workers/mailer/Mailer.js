@@ -36,6 +36,7 @@ class Mailer {
         logger.info(`Mailgun successfully received ${messageDescription}.`)
       }).catch((error) => {
         logger.warn(`Mailgun failed to send ${messageDescription}. ${error}`)
+        return Promise.reject(error)
       })
   }
 }
