@@ -10,9 +10,6 @@ class HelloWorldNewsletter extends AbstractNewsletter {
 
   getSubject = () => 'Hello World: The Newsletter'
 
-  // We aren't yet performing newsletter-specific scheduling.
-  // getSchedule = () => '0 9 * * *'
-
   getBodyData = async () => {
     const claims = await models.Claim.findAll({
       limit: 5,

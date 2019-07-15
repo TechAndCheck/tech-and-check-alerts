@@ -18,11 +18,6 @@ class AbstractNewsletter {
     throw new Error('You extended AbstractNewsletter but forgot to define getSubject()')
   }
 
-  // We aren't yet performing newsletter-specific scheduling.
-  // getSchedule = () => {
-  //   throw new Error('You extended AbstractNewsletter but forgot to define getSchedule()')
-  // }
-
   getBodyData = () => {
     throw new Error('You extended AbstractNewsletter but forgot to define getBodyData()')
   }
