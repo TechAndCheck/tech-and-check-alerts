@@ -229,7 +229,7 @@ describe('utils/cnn', () => {
             name: 'DONNA',
             affiliation: '',
           },
-          statement: 'My name is Donna.',
+          text: 'My name is Donna.',
         })
       expect(extractStatementFromChunk('DONNA, CNN ANCHOR: My name is Donna.'))
         .toEqual({
@@ -237,7 +237,7 @@ describe('utils/cnn', () => {
             name: 'DONNA',
             affiliation: 'CNN ANCHOR',
           },
-          statement: 'My name is Donna.',
+          text: 'My name is Donna.',
         })
     })
   })
@@ -253,13 +253,13 @@ describe('utils/cnn', () => {
             name: 'DONNA',
             affiliation: 'MASTER OF HIDE AND SEEK',
           },
-          statement: 'My name is Donna.',
+          text: 'My name is Donna.',
         }, {
           speaker: {
             name: 'JOHNNA',
             affiliation: 'FRIEND OF SQUIRRELS',
           },
-          statement: 'My name is... Johnna?  Who wrote this.',
+          text: 'My name is... Johnna?  Who wrote this.',
         }])
     })
   })
@@ -271,25 +271,25 @@ describe('utils/cnn', () => {
           name: 'DONNA',
           affiliation: '',
         },
-        statement: 'My name is Donna.',
+        text: 'My name is Donna.',
       }, {
         speaker: {
           name: 'JOHNNA',
           affiliation: '',
         },
-        statement: 'My name is... Johnna?  Who wrote this.',
+        text: 'My name is... Johnna?  Who wrote this.',
       }, {
         speaker: {
           name: 'DONNA',
           affiliation: '',
         },
-        statement: 'I did.',
+        text: 'I did.',
       }, {
         speaker: {
           name: 'JOHNNA',
           affiliation: 'CLONE OF JOHNNA',
         },
-        statement: 'My name is... also Johnna?',
+        text: 'My name is... also Johnna?',
       }]))
         .toEqual([{
           name: 'DONNA',
@@ -322,38 +322,38 @@ describe('utils/cnn', () => {
           name: 'REPRESENTATIVE DONNA BUTTERS',
           affiliation: '',
         },
-        statement: 'My name is Donna.',
+        text: 'My name is Donna.',
       }, {
         speaker: {
           name: 'SEN. JOHNNA',
           affiliation: '',
         },
-        statement: 'My name is... Johnna?  Who wrote this.',
+        text: 'My name is... Johnna?  Who wrote this.',
       }, {
         speaker: {
           name: 'SENATOR JOHNNA',
           affiliation: '',
         },
-        statement: 'Turns out I am a senator',
+        text: 'Turns out I am a senator',
       }]))
         .toEqual([{
           speaker: {
             name: 'DONNA BUTTERS',
             affiliation: '',
           },
-          statement: 'My name is Donna.',
+          text: 'My name is Donna.',
         }, {
           speaker: {
             name: 'JOHNNA',
             affiliation: '',
           },
-          statement: 'My name is... Johnna?  Who wrote this.',
+          text: 'My name is... Johnna?  Who wrote this.',
         }, {
           speaker: {
             name: 'JOHNNA',
             affiliation: '',
           },
-          statement: 'Turns out I am a senator',
+          text: 'Turns out I am a senator',
         }])
     })
   })
@@ -701,50 +701,50 @@ describe('utils/cnn', () => {
           name: 'DONNA BUTTERS',
           affiliation: 'CNN HOST',
         },
-        statement: 'My name is Donna.',
+        text: 'My name is Donna.',
       }, {
         speaker: {
           name: 'LANCE',
           affiliation: '',
         },
-        statement: 'My name is... Johnna?  Who wrote this.',
+        text: 'My name is... Johnna?  Who wrote this.',
       }, {
         speaker: {
           name: 'BUTTERS',
           affiliation: '',
         },
-        statement: 'lol idk.',
+        text: 'lol idk.',
       }, {
         speaker: {
           name: 'JOHNNA LANCE',
           affiliation: 'CNN TOAST',
         },
-        statement: 'does this even matter?',
+        text: 'does this even matter?',
       }]))
         .toEqual([{
           speaker: {
             name: 'DONNA BUTTERS',
             affiliation: 'CNN HOST',
           },
-          statement: 'My name is Donna.',
+          text: 'My name is Donna.',
         }, {
           speaker: {
             name: 'JOHNNA LANCE',
             affiliation: 'CNN TOAST',
           },
-          statement: 'My name is... Johnna?  Who wrote this.',
+          text: 'My name is... Johnna?  Who wrote this.',
         }, {
           speaker: {
             name: 'DONNA BUTTERS',
             affiliation: 'CNN HOST',
           },
-          statement: 'lol idk.',
+          text: 'lol idk.',
         }, {
           speaker: {
             name: 'JOHNNA LANCE',
             affiliation: 'CNN TOAST',
           },
-          statement: 'does this even matter?',
+          text: 'does this even matter?',
         }])
     })
   })
@@ -756,26 +756,26 @@ describe('utils/cnn', () => {
           name: 'DONNA BUTTERS',
           affiliation: 'CNN TALKING HEAD',
         },
-        statement: 'My name is Donna.',
+        text: 'My name is Donna.',
       }, {
         speaker: {
           name: 'JOHNNA',
           affiliation: 'CNN PANTS HIDER',
         },
-        statement: 'My name is... Johnna?  Who wrote this.',
+        text: 'My name is... Johnna?  Who wrote this.',
       }, {
         speaker: {
           name: 'DONNA',
           affiliation: 'OTHER PERSON',
         },
-        statement: 'lol idk.',
+        text: 'lol idk.',
       }]))
         .toEqual([{
           speaker: {
             name: 'DONNA',
             affiliation: 'OTHER PERSON',
           },
-          statement: 'lol idk.',
+          text: 'lol idk.',
         }])
     })
   })
@@ -787,32 +787,32 @@ describe('utils/cnn', () => {
           name: 'UNIDENTIFIED MALE',
           affiliation: '',
         },
-        statement: 'Nobody knows who I am',
+        text: 'Nobody knows who I am',
       }, {
         speaker: {
           name: 'UNIDENTIFIED FEMALE',
           affiliation: '',
         },
-        statement: 'Same here.',
+        text: 'Same here.',
       }, {
         speaker: {
           name: 'UNIDENTIFIED ANIMAL',
           affiliation: 'FARM',
         },
-        statement: 'Moo.',
+        text: 'Moo.',
       }, {
         speaker: {
           name: 'ANIMAL EXPERT',
           affiliation: '',
         },
-        statement: 'Wait I think that last one was a cow.',
+        text: 'Wait I think that last one was a cow.',
       }]))
         .toEqual([{
           speaker: {
             name: 'ANIMAL EXPERT',
             affiliation: '',
           },
-          statement: 'Wait I think that last one was a cow.',
+          text: 'Wait I think that last one was a cow.',
         }])
     })
   })
