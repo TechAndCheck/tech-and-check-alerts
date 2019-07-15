@@ -17,3 +17,5 @@ export const MAILING_LIST_ADDRESSES = {
   PRIMARY: 'alerts@alerts.factstream.co',
   NORTH_CAROLINA: 'northcarolina@alerts.factstream.co',
 }
+
+export const CLAIMBUSTER_THRESHHOLD = 0.5

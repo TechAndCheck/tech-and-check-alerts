@@ -13,7 +13,7 @@ const getRecipient = () => {
 
 const recipient = getRecipient()
 if (!recipient) {
-  logger.error('Pass in a valid and Mailgun-verified email address with the `-r` parameter.')
+  logger.error('Pass in a valid email address with the `-r` parameter.')
   process.exit()
 }
 

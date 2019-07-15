@@ -1,11 +1,6 @@
 
 class AbstractJobScheduler {
   /**
-   * The cron string representing the schedule to be run
-   *
-   * OVERRIDE WHEN EXTENDING
-   */
-  /**
    * Abstract method that provides the cron string representing the schedule to be run.
    * The schedule should ultimately be stored as a constant in queues/index.js
    *
