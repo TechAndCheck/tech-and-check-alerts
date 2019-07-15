@@ -50,7 +50,6 @@ class AbstractNewsletter {
         return Promise.reject(error)
       })
   }
-
 }
 
 export default AbstractNewsletter
