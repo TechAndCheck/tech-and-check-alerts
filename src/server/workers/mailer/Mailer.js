@@ -33,10 +33,9 @@ class Mailer {
 
     return mailgun.messages().send(mailgunData)
       .then(() => {
-        logger.info(`Mailgun received ${messageDescription} successfully.`)
+        logger.info(`Mailgun successfully received ${messageDescription}.`)
       }).catch((error) => {
-        logger.warning(`Mailgun failed to send ${messageDescription}.`)
-        logger.warning(error)
+        logger.warn(`Mailgun failed to send ${messageDescription}. ${error}`)
       })
   }
 }
