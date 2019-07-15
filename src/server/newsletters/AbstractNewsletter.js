@@ -22,12 +22,14 @@ class AbstractNewsletter {
     throw new Error('You extended AbstractNewsletter but forgot to define getBodyData()')
   }
 
+  getMailingListAddress = () => getAddressForMailingList(this.getMailingList())
+
   messageData = () => {
     if (!this.body) {
       throw new Error('You have to call the render() method to render newsletter content before generating message data.')
     }
     return {
-      recipient: getAddressForMailingList(this.getMailingList()),
+      recipient: this.getMailingListAddress(),
       subject: this.getSubject(),
       body: this.body,
     }
