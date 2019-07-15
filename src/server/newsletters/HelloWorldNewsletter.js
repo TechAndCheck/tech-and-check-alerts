@@ -3,6 +3,8 @@ import { MAILING_LISTS } from '../constants'
 import AbstractNewsletter from './AbstractNewsletter'
 import models from '../models'
 
+const { Claim } = models
+
 class HelloWorldNewsletter extends AbstractNewsletter {
   getMailingList = () => MAILING_LISTS.DEVELOPERS
 
@@ -10,14 +12,13 @@ class HelloWorldNewsletter extends AbstractNewsletter {
 
   getSubject = () => 'Hello World: The Newsletter'
 
-  getBodyData = async () => {
-    const claims = await models.Claim.findAll({
-      limit: 5,
-    }).then(c => c)
-    return {
-      claims,
-    }
-  }
+  getClaims = () => (Claim.findAll({
+    limit: 5,
+  }).then(claims => claims))
+
+  getBodyData = async () => ({
+    claims: await this.getClaims(),
+  })
 }
 
 export default HelloWorldNewsletter
