@@ -71,7 +71,11 @@ class AbstractNewsletter {
     const templateSource = getFileContents(this.getPathToTemplate())
     const handlebarsTemplate = getHandlebarsTemplate(templateSource)
     const bodyData = await this.getBodyData()
-    return handlebarsTemplate(bodyData)
+    try {
+      return handlebarsTemplate(bodyData)
+    } catch (error) {
+      throw new Error(`Unable to compile template. ${error}`)
+    }
   }
 
   getMessageData = async () => ({
