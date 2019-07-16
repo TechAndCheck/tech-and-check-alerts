@@ -5,6 +5,7 @@ import {
 } from 'winston'
 
 import config from '../config'
+import { isProductionEnv } from '.'
 
 const logger = createLogger({
   level: config.LOG_LEVEL || 'info',
@@ -30,7 +31,7 @@ const logger = createLogger({
   ],
 })
 
-if (config.NODE_ENV !== 'production') {
+if (!isProductionEnv()) {
   logger.add(new transports.Console({
     format: format.combine(
       format.timestamp({
