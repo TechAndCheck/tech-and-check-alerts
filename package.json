@@ -22,7 +22,8 @@
     "queue:jobs:schedule": "babel-node -- src/scripts/scheduleJobs",
     "queue:jobs:unschedule": "babel-node -- src/scripts/unscheduleJobs",
     "queue:jobs:run:cnn-portal-crawler": "babel-node -- src/scripts/runCrawler",
-    "mailer:send-test": "babel-node -- src/scripts/sendTestEmail"
+    "mailer:send-test": "babel-node -- src/scripts/sendTestEmail",
+    "newsletter:send-test": "babel-node -- src/scripts/sendTestNewsletter"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -45,6 +46,7 @@
     "cheerio": "^1.0.0-rc.3",
     "dayjs": "^1.8.14",
     "dotenv": "^8.0.0",
+    "handlebars": "^4.1.2",
     "mailgun-js": "^0.22.0",
     "pg": "^7.10.0",
     "redis": "^2.8.0",

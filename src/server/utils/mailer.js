@@ -15,7 +15,6 @@ export const isMessageSendable = (mail) => {
   )
 }
 
-
 /**
  * The `mailgun-js` package lets you configure it to run in "test mode", which simulates but does
  * not complete Mailgun API interactions. When this mode is enabled, however, mailgun-js runs a

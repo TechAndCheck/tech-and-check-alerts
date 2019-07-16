@@ -4,6 +4,7 @@ import config from '../../config'
 import { isMessageSendable, testModeLogger } from '../../utils/mailer'
 import logger from '../../utils/logger'
 import { isTestEnv } from '../../utils'
+import { MAILER_FROM_ADDRESS } from './constants'
 
 class Mailer {
   constructor() {
@@ -23,16 +24,21 @@ class Mailer {
     }
 
     const mailgunData = {
-      from: config.MAILER_FROM_ADDRESS,
+      from: MAILER_FROM_ADDRESS,
       to: message.recipient,
       subject: message.subject,
       text: message.body,
     }
 
-    return mailgun.messages().send(mailgunData, (error, body) => {
-      if (error) logger.error(error)
-      else if (body) logger.info(body)
-    })
+    const messageDescription = `"${mailgunData.subject}" from "${mailgunData.from}" to "${mailgunData.to}"`
+
+    return mailgun.messages().send(mailgunData)
+      .then(() => {
+        logger.info(`Mailgun successfully received ${messageDescription}.`)
+      }).catch((error) => {
+        logger.warn(`Mailgun failed to send ${messageDescription}. ${error}`)
+        return Promise.reject(error)
+      })
   }
 }
 
