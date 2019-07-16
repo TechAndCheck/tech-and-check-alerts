@@ -1,7 +1,6 @@
-import { MAILING_LISTS } from '../constants'
-
-import AbstractNewsletter from './AbstractNewsletter'
 import models from '../models'
+import AbstractNewsletter from './AbstractNewsletter'
+import { MAILING_LISTS } from './constants'
 
 const { Claim } = models
 

@@ -2,8 +2,7 @@ import { getFileContents } from '../utils'
 import { getHandlebarsTemplate } from '../utils/templates'
 import Mailer from '../workers/mailer'
 import logger from '../utils/logger'
-
-import { MAILING_LIST_ADDRESSES } from '../constants'
+import { MAILING_LIST_ADDRESSES } from './constants'
 
 class AbstractNewsletter {
   constructor() {

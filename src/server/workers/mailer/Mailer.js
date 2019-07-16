@@ -4,6 +4,7 @@ import config from '../../config'
 import { isMessageSendable, testModeLogger } from '../../utils/mailer'
 import logger from '../../utils/logger'
 import { isTestEnv } from '../../utils'
+import { MAILER_FROM_ADDRESS } from './constants'
 
 class Mailer {
   constructor() {
@@ -23,7 +24,7 @@ class Mailer {
     }
 
     const mailgunData = {
-      from: config.MAILER_FROM_ADDRESS,
+      from: MAILER_FROM_ADDRESS,
       to: message.recipient,
       subject: message.subject,
       text: message.body,
