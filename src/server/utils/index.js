@@ -10,3 +10,8 @@ export const isProductionEnv = () => config.NODE_ENV === ENV_NAMES.PRODUCTION
 export const getFileContents = path => fs.readFileSync(path, 'utf8')
 
 export const hasKey = (obj, key) => Object.prototype.hasOwnProperty.call(obj, key)
+
+export const runPromiseSequence = promiseArray => promiseArray.reduce(
+  (current, next) => current.then(next),
+  Promise.resolve(),
+)
