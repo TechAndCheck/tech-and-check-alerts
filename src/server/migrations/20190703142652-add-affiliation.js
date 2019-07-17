@@ -7,7 +7,7 @@ module.exports = {
     ),
 
   down: queryInterface => queryInterface
-    .reoveColumn(
+    .removeColumn(
       'speakers',
       'affiliation',
     ),
