@@ -1,5 +1,8 @@
 import { getFileContents } from '../utils'
-import { getHandlebarsTemplate } from '../utils/templates'
+import {
+  getHandlebarsTemplate,
+  convertClaimNewsletterToText,
+} from '../utils/templates'
 import Mailer from '../workers/mailer'
 import logger from '../utils/logger'
 import { MAILING_LIST_ADDRESSES } from './constants'
@@ -74,23 +77,42 @@ class AbstractNewsletter {
   }
 
   /**
-   * Creates the email body by reading the associated template file contents, using it to compile a
-   * Handlebars template function, generating the necessary body data, and attempting to render the
-   * template using that data. Marked async because `getBodyData()` will likely query the database,
-   * and we want to wait for its response.
+   * Creates the HTML email body by reading the associated template file contents, using it to
+   * compile a Handlebars template function, generating the necessary body data, and attempting
+   * to render the template using that data. Marked async because `getBodyData()` will likely
+   * query the database, and we want to wait for its response.
    *
    * There are several possible failure points here, so the whole thing is wrapped in a try/catch.
    *
-   * @return {String} Rendered email body
+   * @return {String} Rendered email body as HTML
    */
-  getBody = async () => {
+  getBodyHTML = async () => {
     try {
       const templateSource = getFileContents(this.getPathToTemplate())
       const handlebarsTemplate = getHandlebarsTemplate(templateSource)
-      const bodyData = await this.getBodyData()
-      return handlebarsTemplate(bodyData)
+      this.bodyData = this.bodyData || await this.getBodyData()
+      this.bodyHTML = this.bodyHTML || handlebarsTemplate(this.bodyData)
+      return this.bodyHTML
     } catch (error) {
-      throw new Error(`Unable to compile template. ${error}`)
+      throw new Error(`Unable to compile HTML template. ${error}`)
+    }
+  }
+
+  /**
+   * Creates the text email body by generating the HTML body (if necessary) then converting the HTML
+   * to text. Marked async because if we have to generate the HTML body, that call is async.
+   *
+   * There are several possible failure points here, so the whole thing is wrapped in a try/catch.
+   *
+   * @return {String} Rendered email body as text only
+   */
+  getBodyText = async () => {
+    try {
+      if (!this.bodyHTML) await this.getBodyHTML()
+      this.bodyText = convertClaimNewsletterToText(this.bodyHTML)
+      return this.bodyText
+    } catch (error) {
+      throw new Error(`Unable to compile text template. ${error}`)
     }
   }
 
@@ -103,7 +125,8 @@ class AbstractNewsletter {
   getMessageData = async () => ({
     recipient: this.getMailingListAddress(),
     subject: this.getSubject(),
-    body: await this.getBody(),
+    bodyText: await this.getBodyText(),
+    bodyHTML: await this.getBodyHTML(),
   })
 
   /**

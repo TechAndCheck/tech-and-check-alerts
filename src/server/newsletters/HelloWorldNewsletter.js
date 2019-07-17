@@ -2,7 +2,7 @@ import models from '../models'
 import AbstractNewsletter from './AbstractNewsletter'
 import { MAILING_LISTS } from './constants'
 
-const { Claim } = models
+const { Claim, Speaker } = models
 
 class HelloWorldNewsletter extends AbstractNewsletter {
   getMailingList = () => MAILING_LISTS.DEVELOPERS
@@ -13,6 +13,10 @@ class HelloWorldNewsletter extends AbstractNewsletter {
 
   getClaims = () => (Claim.findAll({
     limit: 5,
+    include: [{
+      model: Speaker,
+      as: 'speaker',
+    }],
   }).then(claims => claims))
 
   getBodyData = async () => ({

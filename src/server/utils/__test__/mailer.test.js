@@ -23,7 +23,7 @@ describe('utils/mailer', () => {
       expect(isMessageSendable({
         recipient: testData.recipient.valid[0],
         subject: testData.subject.valid[0],
-        body: testData.body.valid[0],
+        bodyText: testData.bodyText.valid[0],
       })).toBe(true)
     })
     it('Should reject invalid message data', () => {
@@ -31,17 +31,17 @@ describe('utils/mailer', () => {
         expect(isMessageSendable({
           recipient,
           subject: testData.subject.valid[0],
-          body: testData.body.valid[0],
+          bodyText: testData.bodyText.valid[0],
         })).toBe(false)
       })
       testData.subject.invalid.forEach((subject) => {
         expect(isMessageSendable({
           recipient: testData.recipient.valid[0],
           subject,
-          body: testData.body.valid[0],
+          bodyText: testData.bodyText.valid[0],
         })).toBe(false)
       })
-      testData.body.invalid.forEach((body) => {
+      testData.bodyText.invalid.forEach((body) => {
         expect(isMessageSendable({
           recipient: testData.recipient.valid[0],
           subject: testData.subject.valid[0],

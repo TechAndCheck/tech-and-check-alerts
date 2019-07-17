@@ -1,7 +1,23 @@
-This is the Hello World newsletter that plucks the five latest claims and sends them to the dev list.
+{{> head }}
 
-{{#each claims}}
-{{ content }}
-{{/each}}
+<p>This is the Hello World newsletter that plucks the five latest claims and sends them to the dev list.</p>
 
-That's all!
+<div class="claim-section">
+  <h1 class="claim-section__header">🔎 Testing Claims 🔍</h1>
+  <ul class="claims">
+  {{#each claims}}
+    <li class="claim" data-affiliation="{{ speaker.affiliation }}">
+      <div class="claim__metadata">
+        <a href="{{ sourceUrl }}" class="claim__permalink">
+          <cite class="claim__speaker">{{ speaker.fullName }}</cite>
+          <span class="claim__platform">(<b>{{ speaker.affiliation }}</b>)</span></a>:
+      </div>
+      <blockquote class="claim__content">{{ content }}</blockquote>
+    </li>
+  {{/each}}
+  </ul>
+</div>
+
+<p>You've reached the end of the email. Pat yourself on the back.</p>
+
+{{> foot }}
