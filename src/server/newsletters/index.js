@@ -1,4 +1,4 @@
-// Disabling because we plan to export more newsletters and may as well get used to it.
+// Disabling because we intend to have more exports in the future.
 /* eslint-disable import/prefer-default-export */
 
 export { default as HelloWorldNewsletter } from './HelloWorldNewsletter'

@@ -1,5 +1,5 @@
+// Disabling because we intend to have more exports in the future.
 /* eslint-disable import/prefer-default-export */
-// We may export other things some day.
 
 import { CLAIMBUSTER_THRESHHOLD } from '../constants'
 
