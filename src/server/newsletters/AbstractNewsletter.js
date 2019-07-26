@@ -1,11 +1,17 @@
-import { getFileContents } from '../utils'
+import {
+  isProductionEnv,
+  getFileContents,
+} from '../utils'
+import {
+  isInternalMailingList,
+} from '../utils/newsletters'
 import {
   getHandlebarsTemplate,
   stripHTMLTags,
 } from '../utils/templates'
 import Mailer from '../workers/mailer'
 import logger from '../utils/logger'
-import { MAILING_LIST_ADDRESSES } from './constants'
+import { MAILING_LIST_ADDRESSES, MAILING_LISTS } from './constants'
 
 class AbstractNewsletter {
   constructor() {
@@ -127,6 +133,21 @@ class AbstractNewsletter {
   }
 
   /**
+   * Provides the recipient mailing list address for the newsletter. To make sure we don't send
+   * newsletters to real mailing lists during development, this returns the developer mailing list
+   * if we're not in production mode or trying to send to one of our other interal mailing lists,
+   * like testers.
+   *
+   * @return {String} The intended newsletter recipient, or the developers mailing list
+   */
+  getRecipient = () => {
+    const mailingList = this.getMailingList()
+    return (isProductionEnv() || isInternalMailingList(mailingList))
+      ? this.getMailingListAddress()
+      : MAILING_LIST_ADDRESSES[MAILING_LISTS.DEVELOPERS]
+  }
+
+  /**
    * Renders the Handlebars template provided by reading the associated template file contents,
    * using it to compile a Handlebars template function, generating the necessary body data, and
    * attempting to render the template using that data. Marked async because `getCachedBodyData()`
@@ -180,7 +201,7 @@ class AbstractNewsletter {
    * @return {Object} Newsletter-specific message configuration for the mailer
    */
   getMessageData = async () => ({
-    recipient: this.getMailingListAddress(),
+    recipient: this.getRecipient(),
     subject: this.getSubject(),
     body: {
       text: await this.getBodyText(),
