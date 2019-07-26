@@ -6,7 +6,7 @@ export const isValidEmailAddressFormat = (emailAddress) => {
 export const isMessageSendable = (mail) => {
   const hasValidRecipient = recipient => isValidEmailAddressFormat(recipient)
   const hasValidSubject = subject => !!subject && typeof subject === 'string'
-  const hasValidBody = body => !!body && typeof body === 'string'
+  const hasValidBody = body => !!body.text && typeof body.text === 'string'
 
   return (
     hasValidRecipient(mail.recipient)

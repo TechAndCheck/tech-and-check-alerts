@@ -19,7 +19,9 @@ export default {
     invalid: ['', 1, false],
   },
   body: {
-    valid: ['You are invited by anyone to do anything, you are invited for all time. You are so needed by everyone to do everything, you are invited for all time...'],
-    invalid: ['', 1, false],
+    text: {
+      valid: ['You are invited by anyone to do anything, you are invited for all time. You are so needed by everyone to do everything, you are invited for all time...'],
+      invalid: ['', 1, false],
+    },
   },
 }
