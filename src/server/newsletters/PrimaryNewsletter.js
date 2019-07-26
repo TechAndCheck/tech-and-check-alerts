@@ -16,6 +16,11 @@ class PrimaryNewsletter extends AbstractNewsletter {
 
   getSubject = () => 'Tech & Check Alerts'
 
+  getIsNewsletterSendable = async () => {
+    const bodyData = await this.getCachedBodyData()
+    return bodyData.claims.length > 0
+  }
+
   fetchClaims = () => (Claim.findAll({
     where: {
       createdAt: {
