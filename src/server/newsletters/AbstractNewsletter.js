@@ -1,7 +1,7 @@
 import { getFileContents } from '../utils'
 import {
   getHandlebarsTemplate,
-  convertClaimNewsletterToText,
+  stripHTMLTags,
 } from '../utils/templates'
 import Mailer from '../workers/mailer'
 import logger from '../utils/logger'
@@ -37,6 +37,19 @@ class AbstractNewsletter {
   }
 
   /**
+   * Abstract method that provides the absolute path to the newsletter's text-only Handlebars
+   * template. This is the template that gets sent as the non-MIME/HTML email body, which is
+   * important as a fallback if the client can't render the HTML.
+   *
+   * OVERRIDE WHEN EXTENDING
+   *
+   * @return {String} The absolute path to the associated Handlebars template
+   */
+  getPathToTextTemplate = () => {
+    throw new Error('You extended AbstractNewsletter but forgot to define getPathToTextTemplate()')
+  }
+
+  /**
    * Abstract method that provides the email subject line for the newsletter.
    *
    * OVERRIDE WHEN EXTENDING
@@ -49,17 +62,54 @@ class AbstractNewsletter {
 
   /**
    * Abstract method that returns the data used to compose the newsletter body.
-   * The object returned will be passed to the templating function, and its
+   * The object returned will be passed to the templating functions, and its
    * properties made available to the template as local variables.
    *
    * This is an async function because it will often be querying the database.
    *
    * OVERRIDE WHEN EXTENDING
    *
-   * @return {Object} The object that will be passed to the templating function
+   * @return {Object} The object that will be passed to the templating functions
    */
   getBodyData = async () => {
     throw new Error('You extended AbstractNewsletter but forgot to define getBodyData()')
+  }
+
+  /**
+   * If the body data cache is hot, the cache is returned. Otherwise, the cache is warmed and the
+   * data returned.
+   *
+   * This behavior could be rolled into the base `getBodyData()`, except then:
+     1. We'd have to remember to add the "check and return cache if it exists" to each extended
+   *    class's version of `getBodyData()`, and
+   * 2. The cache invocation would be silent. By using this function instead, we always know when
+   *    we're hitting the cache.
+   *
+   * @return {Object} The object that will be passed to the templating functions
+   */
+  getCachedBodyData = async () => {
+    if (this.bodyData) return this.bodyData
+    await this.setCachedBodyData()
+    return this.bodyData
+  }
+
+  /**
+   * Cache the body data, less for performance than to ensure both template renders (text and HTML)
+   * use the same data.
+   *
+   * @return {undefined}
+   */
+  setCachedBodyData = async () => {
+    this.bodyData = await this.getBodyData()
+  }
+
+  /**
+   * Expire the cached the body data. We don't use this, but it's good form to provide.
+   *
+   * @return {undefined}
+   */
+  expireCachedBodyData = () => {
+    this.bodyData = null
   }
 
   /**
@@ -77,43 +127,50 @@ class AbstractNewsletter {
   }
 
   /**
-   * Creates the HTML email body by reading the associated template file contents, using it to
-   * compile a Handlebars template function, generating the necessary body data, and attempting
-   * to render the template using that data. Marked async because `getBodyData()` will likely
-   * query the database, and we want to wait for its response.
+   * Renders the Handlebars template provided by reading the associated template file contents,
+   * using it to compile a Handlebars template function, generating the necessary body data, and
+   * attempting to render the template using that data. Marked async because `getCachedBodyData()`
+   * may query the database, and we want to wait for its response.
    *
    * There are several possible failure points here, so the whole thing is wrapped in a try/catch.
    *
-   * @return {String} Rendered email body as HTML
+   * @param  {String} templatePath Path to the template to be rendered
+   * @return {String}              Rendered template
    */
-  getBodyHTML = async () => {
+  getRenderedTemplate = async (templatePath) => {
     try {
-      const templateSource = getFileContents(this.getPathToTemplate())
+      const templateSource = getFileContents(templatePath)
       const handlebarsTemplate = getHandlebarsTemplate(templateSource)
-      this.bodyData = this.bodyData || await this.getBodyData()
-      this.bodyHTML = this.bodyHTML || handlebarsTemplate(this.bodyData)
-      return this.bodyHTML
+      const bodyData = await this.getCachedBodyData()
+      const renderedTemplate = handlebarsTemplate(bodyData)
+      return renderedTemplate
     } catch (error) {
-      throw new Error(`Unable to compile HTML template. ${error}`)
+      throw new Error(`Unable to compile template. ${error}`)
     }
   }
 
   /**
-   * Creates the text email body by generating the HTML body (if necessary) then converting the HTML
-   * to text. Marked async because if we have to generate the HTML body, that call is async.
+   * Creates the HTML email body.  Marked async because `getRenderedTemplate()` may query the
+   * database, and we want to wait for its response.
    *
-   * There are several possible failure points here, so the whole thing is wrapped in a try/catch.
+   * @return {String} Rendered email body as HTML
+   */
+  getBodyHTML = async () => {
+    const renderedTemplate = await this.getRenderedTemplate(this.getPathToTemplate())
+    return renderedTemplate
+  }
+
+  /**
+   * Creates the text email body and passes it through a sanitizer, just in case HTML slipped in
+   * via partials or scraped content.  Marked async because `getRenderedTemplate()` may query the
+   * database, and we want to wait for its response.
    *
    * @return {String} Rendered email body as text only
    */
   getBodyText = async () => {
-    try {
-      if (!this.bodyHTML) await this.getBodyHTML()
-      this.bodyText = convertClaimNewsletterToText(this.bodyHTML)
-      return this.bodyText
-    } catch (error) {
-      throw new Error(`Unable to compile text template. ${error}`)
-    }
+    const renderedTemplate = await this.getRenderedTemplate(this.getPathToTextTemplate())
+    const cleanedTemplate = stripHTMLTags(renderedTemplate)
+    return cleanedTemplate
   }
 
   /**
@@ -125,8 +182,10 @@ class AbstractNewsletter {
   getMessageData = async () => ({
     recipient: this.getMailingListAddress(),
     subject: this.getSubject(),
-    bodyText: await this.getBodyText(),
-    bodyHTML: await this.getBodyHTML(),
+    body: {
+      text: await this.getBodyText(),
+      html: await this.getBodyHTML(),
+    },
   })
 
   /**

@@ -27,19 +27,20 @@ export const getHandlebarsTemplate = (templateSource) => {
   return Handlebars.compile(templateSource)
 }
 
+export const stripHTMLTags = html => sanitizeHTML(html, {
+  allowedTags: [],
+  parser: {
+    decodeEntities: true,
+  },
+})
+
 export const convertClaimNewsletterToText = (templateHTML) => {
-  const stripHTMLTags = html => sanitizeHTML(html, {
-    allowedTags: [],
-    parser: {
-      decodeEntities: true,
-    },
-  })
   const removeRepetitiveSpaces = text => text.replace(/ {2,}/g, ' ')
   const removeTrailingSpaces = text => text.replace(/ \n/g, '\n')
   const removeLeadingSpaces = text => text.replace(/\n /g, '\n')
   const reduceMultipleNewlines = text => text.replace(/\n{3,}/g, '\n\n')
   const inlinePlatform = text => text.replace(/\n\(/g, ' (')
-  const quoteContent = text => text.replace(/:\n\n/g, ':\n> ')
+  const removeNewlinesBeforeContent = text => text.replace(/\):\n\n/g, '):\n')
   // `decodeAmpersands()` should be unnecessary, but sanitizeHTML's `decodeEntities` doesn't work
   const decodeAmpersands = text => text.replace(/&amp;/g, '&')
   const trimOuter = text => text.trim()
@@ -51,7 +52,7 @@ export const convertClaimNewsletterToText = (templateHTML) => {
     removeLeadingSpaces,
     reduceMultipleNewlines,
     inlinePlatform,
-    quoteContent,
+    removeNewlinesBeforeContent,
     decodeAmpersands,
     trimOuter,
   ] // Note that order does matter here

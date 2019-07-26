@@ -6,12 +6,12 @@ export const isValidEmailAddressFormat = (emailAddress) => {
 export const isMessageSendable = (mail) => {
   const hasValidRecipient = recipient => isValidEmailAddressFormat(recipient)
   const hasValidSubject = subject => !!subject && typeof subject === 'string'
-  const hasValidBodyText = bodyText => !!bodyText && typeof bodyText === 'string'
+  const hasValidBody = body => !!body.text && typeof body.text === 'string'
 
   return (
     hasValidRecipient(mail.recipient)
     && hasValidSubject(mail.subject)
-    && hasValidBodyText(mail.bodyText)
+    && hasValidBody(mail.body)
   )
 }
 

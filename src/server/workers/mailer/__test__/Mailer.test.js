@@ -21,21 +21,27 @@ describe('Mailer', () => {
       expect(() => mailer.send({
         recipient,
         subject: testData.subject.valid[0],
-        bodyText: testData.bodyText.valid[0],
+        body: {
+          text: testData.body.text.valid[0],
+        },
       })).toThrow(Error)
     })
     testData.subject.invalid.forEach((subject) => {
       expect(() => mailer.send({
         recipient: testData.recipient.valid[0],
         subject,
-        bodyText: testData.bodyText.valid[0],
+        body: {
+          text: testData.body.text.valid[0],
+        },
       })).toThrow(Error)
     })
-    testData.bodyText.invalid.forEach((body) => {
+    testData.body.text.invalid.forEach((text) => {
       expect(() => mailer.send({
         recipient: testData.recipient.valid[0],
         subject: testData.subject.valid[0],
-        body,
+        body: {
+          text,
+        },
       })).toThrow(Error)
     })
   })
@@ -47,7 +53,9 @@ describe('Mailer', () => {
       mailer.send({
         recipient: testData.recipient.valid[0],
         subject: testData.subject.valid[0],
-        bodyText: testData.bodyText.valid[0],
+        body: {
+          text: testData.body.text.valid[0],
+        },
       })
       done()
     }

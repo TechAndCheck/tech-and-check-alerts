@@ -20,17 +20,16 @@ class Mailer {
     const { mailgun } = this
 
     if (!isMessageSendable(message)) {
-      throw new Error('Mailer requires a message object with a valid recipient, subject, and bodyText.')
+      throw new Error('Mailer requires a message object with a valid recipient, subject, and body text.')
     }
 
     const mailgunData = {
       from: MAILER_FROM_ADDRESS,
       to: message.recipient,
       subject: message.subject,
-      text: message.bodyText,
+      text: message.body.text,
     }
-    // Only include HTML if we generated some
-    if (message.bodyHTML) mailgunData.html = message.bodyHTML
+    if (message.body.html) mailgunData.html = message.body.html
 
     const messageDescription = `"${mailgunData.subject}" from "${mailgunData.from}" to "${mailgunData.to}"`
 

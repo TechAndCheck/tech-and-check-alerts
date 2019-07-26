@@ -1,27 +1,16 @@
-import models from '../models'
 import AbstractNewsletter from './AbstractNewsletter'
 import { MAILING_LISTS } from './constants'
-
-const { Claim, Speaker } = models
 
 class HelloWorldNewsletter extends AbstractNewsletter {
   getMailingList = () => MAILING_LISTS.DEVELOPERS
 
   getPathToTemplate = () => `${__dirname}/templates/helloWorld.hbs`
 
-  getSubject = () => 'Hello World: The Newsletter'
+  getPathToTextTemplate = () => `${__dirname}/templates/helloWorldText.hbs`
 
-  getClaims = () => (Claim.findAll({
-    limit: 5,
-    include: [{
-      model: Speaker,
-      as: 'speaker',
-    }],
-  }).then(claims => claims))
+  getSubject = () => '[DEV] Tech & Check Hello World'
 
-  getBodyData = async () => ({
-    claims: await this.getClaims(),
-  })
+  getBodyData = async () => ({})
 }
 
 export default HelloWorldNewsletter

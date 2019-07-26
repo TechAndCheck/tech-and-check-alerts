@@ -1,9 +1,17 @@
 import {
   convertClaimNewsletterToText,
   getHandlebarsTemplate,
+  stripHTMLTags,
 } from '../templates'
 
-const templateHTML = `
+const templateTestData = {
+  sanitizing: {
+    simple: {
+      original: '<p>This is a paragraph with some <b>bold text</b> and a <a href="#">link to something</a>.</p>',
+      sanitized: 'This is a paragraph with some bold text and a link to something.',
+    },
+    complex: {
+      original: `
 <div id="wrapper">
   <p>This is an intro!</p>
   <div class="claim-section">
@@ -29,19 +37,21 @@ const templateHTML = `
   </div>
   <p>Well that about wraps it up.</p>
 </div>
-`
-
-const templateText = `This is an intro!
+`,
+      sanitized: `This is an intro!
 
 🔎 Testing Claims 🔍
 
 RAY BOYD (CNN):
-> The human head weighs eight pounds.
+The human head weighs eight pounds.
 
 RAY BOYD (Fox):
-> The human head does not weigh eight pounds.
+The human head does not weigh eight pounds.
 
-Well that about wraps it up.`
+Well that about wraps it up.`,
+    },
+  },
+}
 
 describe('utils/templates', () => {
   describe('getHandlebarsTemplate', () => {
@@ -55,8 +65,24 @@ describe('utils/templates', () => {
   })
   describe('convertClaimNewsletterToText', () => {
     it('Should convert claim HTML to text as expected', () => {
-      const convertedText = convertClaimNewsletterToText(templateHTML)
-      expect(convertedText).toEqual(templateText)
+      const {
+        sanitizing: {
+          complex: { original, sanitized },
+        },
+      } = templateTestData
+      const convertedText = convertClaimNewsletterToText(original)
+      expect(convertedText).toEqual(sanitized)
+    })
+  })
+  describe('stripHTMLTags', () => {
+    it('Should strip HTML tags', () => {
+      const {
+        sanitizing: {
+          simple: { original, sanitized },
+        },
+      } = templateTestData
+      const convertedText = stripHTMLTags(original)
+      expect(convertedText).toEqual(sanitized)
     })
   })
 })

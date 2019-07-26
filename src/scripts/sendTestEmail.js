@@ -22,8 +22,10 @@ const sendTestEmail = () => new Promise(() => {
   return mailer.send({
     recipient,
     subject: 'This is a test email.',
-    bodyText: 'This is the text body of the email.',
-    bodyHTML: 'This is the <abbr title="HyperText Markup Language">HTML</abbr> body of the email.',
+    body: {
+      text: 'This is the text body of the email.',
+      html: 'This is the <abbr title="HyperText Markup Language">HTML</abbr> body of the email.',
+    },
   })
 })
 sendTestEmail().catch((error) => {
