@@ -5,7 +5,7 @@ import models from '../models'
 import AbstractNewsletter from './AbstractNewsletter'
 import { MAILING_LISTS } from './constants'
 
-const { Claim } = models
+const { Claim, Speaker } = models
 
 class PrimaryNewsletter extends AbstractNewsletter {
   getMailingList = () => MAILING_LISTS.PRIMARY
@@ -18,19 +18,27 @@ class PrimaryNewsletter extends AbstractNewsletter {
 
   getIsNewsletterSendable = async () => {
     const bodyData = await this.getCachedBodyData()
-    return bodyData.claims.length > 0
+    return bodyData.tvClaims.length > 0
   }
 
-  fetchClaims = () => (Claim.findAll({
+  fetchTVClaims = () => (Claim.findAll({
+    limit: 10,
     where: {
       createdAt: {
         [Sequelize.Op.gte]: dayjs().subtract(1, 'day').format(),
       },
     },
-  }).then(claims => claims))
+    order: [
+      ['claimBusterScore', 'DESC'],
+    ],
+    include: [{
+      model: Speaker,
+      as: 'speaker',
+    }],
+  }).then(tvClaims => tvClaims))
 
   getBodyData = async () => ({
-    claims: await this.fetchClaims(),
+    tvClaims: await this.fetchTVClaims(),
   })
 }
 
