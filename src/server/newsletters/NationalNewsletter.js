@@ -7,12 +7,12 @@ import { MAILING_LISTS } from './constants'
 
 const { Claim, Speaker } = models
 
-class PrimaryNewsletter extends AbstractNewsletter {
+class NationalNewsletter extends AbstractNewsletter {
   getMailingList = () => MAILING_LISTS.PRIMARY
 
-  getPathToTemplate = () => `${__dirname}/templates/primary.hbs`
+  getPathToTemplate = () => `${__dirname}/templates/national.hbs`
 
-  getPathToTextTemplate = () => `${__dirname}/templates/primaryText.hbs`
+  getPathToTextTemplate = () => `${__dirname}/templates/nationalText.hbs`
 
   getSubject = () => 'Tech & Check Alerts'
 
@@ -42,4 +42,4 @@ class PrimaryNewsletter extends AbstractNewsletter {
   })
 }
 
-export default PrimaryNewsletter
+export default NationalNewsletter

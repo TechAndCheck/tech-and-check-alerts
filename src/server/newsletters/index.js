@@ -1,2 +1,2 @@
 export { default as HelloWorldNewsletter } from './HelloWorldNewsletter'
-export { default as PrimaryNewsletter } from './PrimaryNewsletter'
+export { default as NationalNewsletter } from './NationalNewsletter'
