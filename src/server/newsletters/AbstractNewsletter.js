@@ -7,7 +7,7 @@ import {
 } from '../utils/newsletters'
 import {
   getHandlebarsTemplate,
-  stripHTMLTags,
+  cleanNewsletterTemplate,
 } from '../utils/templates'
 import Mailer from '../workers/mailer'
 import logger from '../utils/logger'
@@ -206,7 +206,7 @@ class AbstractNewsletter {
    */
   getBodyText = async () => {
     const renderedTemplate = await this.getRenderedTemplate(this.getPathToTextTemplate())
-    const cleanedTemplate = stripHTMLTags(renderedTemplate)
+    const cleanedTemplate = cleanNewsletterTemplate(renderedTemplate)
     return cleanedTemplate
   }
 
