@@ -1,3 +1,5 @@
+require("@babel/register");
+
 module.exports = {
   "config": "config/sequelize-config.js",
   "models-path": "src/server/models",
