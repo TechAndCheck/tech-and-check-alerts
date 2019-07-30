@@ -8,7 +8,7 @@ class HelloWorldNewsletter extends AbstractNewsletter {
 
   getPathToTextTemplate = () => `${__dirname}/templates/helloWorldText.hbs`
 
-  getSubject = () => '[DEV] Tech & Check Hello World'
+  getSubject = () => 'Tech & Check Hello World'
 
   getIsNewsletterSendable = async () => true
 
