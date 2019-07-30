@@ -1,5 +1,6 @@
 import Sequelize from 'sequelize'
 import dayjs from 'dayjs'
+import assert from 'assert'
 
 import models from '../models'
 import AbstractNewsletter from './AbstractNewsletter'
@@ -16,9 +17,9 @@ class NationalNewsletter extends AbstractNewsletter {
 
   getSubject = () => 'Tech & Check Alerts'
 
-  getIsNewsletterSendable = async () => {
+  assertNewsletterIsSendable = async () => {
     const bodyData = await this.getCachedBodyData()
-    return bodyData.tvClaims.length > 0
+    assert(bodyData.tvClaims.length > 0, 'There are claims to share.')
   }
 
   fetchTVClaims = () => (Claim.findAll({

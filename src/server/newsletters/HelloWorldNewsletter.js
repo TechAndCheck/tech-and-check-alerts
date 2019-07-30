@@ -10,7 +10,7 @@ class HelloWorldNewsletter extends AbstractNewsletter {
 
   getSubject = () => 'Tech & Check Hello World'
 
-  getIsNewsletterSendable = async () => true
+  assertNewsletterIsSendable = async () => true
 
   getBodyData = async () => ({})
 }
