@@ -235,10 +235,10 @@ class AbstractNewsletter {
    */
   send = async () => {
     try {
-      this.assertNewsletterIsSendable()
+      await this.assertNewsletterIsSendable()
     } catch (assertionError) {
       return Promise.reject(
-        new Error(`The newsletter did not satisfy its sendability requirements. (${assertionError.message})`),
+        new Error(`The newsletter did not satisfy its sendability requirements. (Failed assertion: ${assertionError.message})`),
       )
     }
     const messageData = await this.getMessageData()

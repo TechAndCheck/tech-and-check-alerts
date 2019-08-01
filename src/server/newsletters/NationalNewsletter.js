@@ -6,7 +6,7 @@ import models from '../models'
 import AbstractNewsletter from './AbstractNewsletter'
 import { MAILING_LISTS } from './constants'
 
-const { Claim, Speaker } = models
+const { Claim } = models
 
 class NationalNewsletter extends AbstractNewsletter {
   getMailingList = () => MAILING_LISTS.PRIMARY
@@ -32,10 +32,6 @@ class NationalNewsletter extends AbstractNewsletter {
     order: [
       ['claimBusterScore', 'DESC'],
     ],
-    include: [{
-      model: Speaker,
-      as: 'speaker',
-    }],
   }).then(tvClaims => tvClaims))
 
   getBodyData = async () => ({
