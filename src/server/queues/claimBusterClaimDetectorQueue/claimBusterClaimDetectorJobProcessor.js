@@ -7,6 +7,8 @@ const { Claim } = models
 const saveClaim = async claim => Claim.create({
   content: claim.text,
   claimBusterScore: claim.score,
+  speakerName: claim.speaker.name,
+  speakerAffiliation: claim.speaker.affiliation,
 })
 
 export default async (job) => {
