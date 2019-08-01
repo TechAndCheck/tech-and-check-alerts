@@ -15,30 +15,107 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       background-color: #eee;
     }
-
     #wrapper {
       max-width: 50em;
       background-color: white;
       box-shadow: 4px 4px 0 #aaa;
       padding: 1em;
     }
-
+    .intro {
+      margin-top: 0;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .claim-section {
+      margin: 3em 0;
+    }
+    .claim-section__header {
+      text-align: center;
+      font-size: 1.25em;
+      color: #333;
+      text-transform: uppercase;
+      margin: 0 0 1.5em;
+    }
+    .claims {
+      margin: 1.5em 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    .claim {
+      padding: 0;
+      margin: 0 0 1.5em;
+    }
+    .claim__metadata {
+      margin-bottom: 0.25em;
+      color: #444;
+    }
+    .claim__permalink {
+      color: inherit;
+      text-decoration: underline;
+    }
+    .claim__permalink:visited {
+      color: #999;
+    }
+    .claim__speaker {
+      font-weight: 600;
+      font-style: inherit;
+    }
+    .claim__platform {
+      text-decoration: underline;
+    }
+    a:hover .claim__platform {
+      text-decoration: none;
+    }
+    .claim[data-platform="CNN"] .claim__platform {
+      color: #c00;
+    }
+    .claim[data-platform="Fox"] .claim__platform {
+      color: #036;
+    }
+    .claim[data-platform="MSNBC"] .claim__platform {
+      color: #3062ff;
+    }
+    .claim[data-platform="Twitter"] .claim__platform {
+      color: #1da1f2;
+    }
+    .claim[data-platform="Facebook"] .claim__platform {
+      color: #3b5998;
+    }
+    .claim__content {
+      padding: 0 0 0 1em;
+      margin: 0;
+      border-left: 2px solid #ddd;
+    }
+    .claim__content a:link {
+      color: inherit;
+    }
+    .claim[data-platform="CNN"] .claim__content {
+      border-color: #c00;
+    }
+    .claim[data-platform="Fox"] .claim__content {
+      border-color: #036;
+    }
+    .claim[data-platform="MSNBC"] .claim__content {
+      border-color: #3062ff;
+    }
+    .claim[data-platform="Twitter"] .claim__content {
+      border-color: #1da1f2;
+    }
+    .claim[data-platform="Facebook"] .claim__content {
+      border-color: #3b5998;
+    }
     b {
       font-weight: 600;
     }
-
     a:hover {
       text-decoration: none;
     }
-
     @media only screen and (max-width: 480px) {
       body {
         padding: 0;
       }
-
       #wrapper {
         box-shadow: none;
-        padding: 0.5em;
       }
     }
   </style>

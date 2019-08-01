@@ -15,3 +15,5 @@ export const runPromiseSequence = promiseArray => promiseArray.reduce(
   (current, next) => current.then(next),
   Promise.resolve(),
 )
+
+export const runSequence = (sequence, seed) => sequence.reduce((param, fn) => fn(param), seed)

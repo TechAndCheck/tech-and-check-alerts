@@ -1,10 +1,23 @@
 import logger from '../server/utils/logger'
 
-import { HelloWorldNewsletter } from '../server/newsletters'
+import {
+  HelloWorldNewsletter,
+  NationalNewsletter,
+} from '../server/newsletters'
 
-const sendTestNewsletter = () => (new HelloWorldNewsletter()).send()
+let send = new Promise(resolve => resolve())
 
-sendTestNewsletter().catch((error) => {
+switch (process.argv[2]) {
+  case '--national':
+  case 'national':
+    send = (new NationalNewsletter()).send()
+    break
+  default:
+    send = (new HelloWorldNewsletter()).send()
+    break
+}
+
+send.catch((error) => {
   logger.error(`Did not send the test newsletter. ${error}`)
 }).then(() => {
   process.exit()

@@ -2,7 +2,10 @@ import fs from 'fs'
 import Handlebars from 'handlebars'
 import sanitizeHTML from 'sanitize-html'
 
-import { getFileContents } from '.'
+import {
+  getFileContents,
+  runSequence,
+} from '.'
 
 const TEMPLATE_PARTIALS_DIRECTORY = `${__dirname}/../newsletters/templates/partials/`
 
@@ -34,29 +37,26 @@ export const stripHTMLTags = html => sanitizeHTML(html, {
   },
 })
 
-export const convertClaimNewsletterToText = (templateHTML) => {
-  const removeRepetitiveSpaces = text => text.replace(/ {2,}/g, ' ')
-  const removeTrailingSpaces = text => text.replace(/ \n/g, '\n')
-  const removeLeadingSpaces = text => text.replace(/\n /g, '\n')
-  const reduceMultipleNewlines = text => text.replace(/\n{3,}/g, '\n\n')
-  const inlinePlatform = text => text.replace(/\n\(/g, ' (')
-  const removeNewlinesBeforeContent = text => text.replace(/\):\n\n/g, '):\n')
-  // `decodeAmpersands()` should be unnecessary, but sanitizeHTML's `decodeEntities` doesn't work
-  const decodeAmpersands = text => text.replace(/&amp;/g, '&')
-  const trimOuter = text => text.trim()
+const removeRepetitiveNewlines = text => text.replace(/\n{3,}/g, '\n')
+const removeRepetitiveSpaces = text => text.replace(/ {2,}/g, ' ')
+const removeTrailingSpaces = text => text.replace(/ \n/g, '\n')
+const removeLeadingSpaces = text => text.replace(/\n /g, '\n')
+const trimOuter = text => text.trim()
+// `decodeAmpersands()` should be unnecessary, but sanitizeHTML's `decodeEntities` doesn't work
+const decodeAmpersands = text => text.replace(/&amp;/g, '&')
 
-  const conversionSequence = [
-    stripHTMLTags,
-    removeRepetitiveSpaces,
-    removeTrailingSpaces,
-    removeLeadingSpaces,
-    reduceMultipleNewlines,
-    inlinePlatform,
-    removeNewlinesBeforeContent,
-    decodeAmpersands,
-    trimOuter,
-  ] // Note that order does matter here
-
-  const templateText = conversionSequence.reduce((string, fn) => fn(string), templateHTML)
-  return templateText
-}
+/**
+ * Cleans HTML out of the text-only version of the newsletter. This is basically so we can reuse
+ * the boilerplate, which contains HTML, but also cleans up unintended whitespace.
+ *
+ * @return {String} The text template cleaned of HTML
+ */
+export const cleanNewsletterTemplate = template => runSequence([
+  stripHTMLTags,
+  decodeAmpersands,
+  removeRepetitiveSpaces,
+  removeTrailingSpaces,
+  removeLeadingSpaces,
+  removeRepetitiveNewlines,
+  trimOuter,
+], template)

@@ -1,0 +1,22 @@
+{{> head}}
+{{> boilerplateTop}}
+
+<div class="claim-section">
+  <h1 class="claim-section__header">📺 TV Claims 📺</h1>
+  <ul class="claims">
+  {{#each tvClaims}}
+    <li class="claim">
+      <div class="claim__metadata">
+        <a href="{{canonicalUrl}}" class="claim__permalink">
+          <cite class="claim__speaker">
+            {{speakerName}}
+          </cite></a>:
+      </div>
+      <blockquote class="claim__content">{{content}}</blockquote>
+    </li>
+  {{/each}}
+  </ul>
+</div>
+
+{{> boilerplateBottom}}
+{{> foot}}
