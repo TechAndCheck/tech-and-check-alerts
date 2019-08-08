@@ -1,5 +1,7 @@
 import cheerio from 'cheerio'
 
+import { STATEMENT_SCRAPER_NAMES } from './constants'
+
 import {
   isTranscriptUrl,
   getFullCnnUrl,
@@ -37,6 +39,12 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
     return bodyTexts[2]
   }
 
+  addScraperNameToStatements = statements => statements
+    .map(statement => ({ ...statement, scraperName: STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT }))
+
+  addCanonicalUrlToStatements = statements => statements
+    .map(statement => ({ ...statement, canonicalUrl: this.scrapeUrl }))
+
   extractStatementsFromTranscript = (transcript) => {
     const stepSequence = [
       removeTimestamps,
@@ -49,6 +57,8 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
       removeUnattributableStatements,
       cleanStatementSpeakerNames,
       normalizeStatementSpeakers,
+      this.addScraperNameToStatements,
+      this.addCanonicalUrlToStatements,
     ] // Note that order does matter here
 
     const statements = stepSequence.reduce((string, fn) => fn(string), transcript)
