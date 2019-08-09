@@ -3,6 +3,12 @@ import Handlebars from 'handlebars'
 import sanitizeHTML from 'sanitize-html'
 
 import {
+  CLAIM_PLATFORM_NAMES,
+} from '../constants'
+import {
+  STATEMENT_SCRAPER_NAMES,
+} from '../workers/scrapers/constants'
+import {
   getFileContents,
   runSequence,
 } from '.'
@@ -20,12 +26,21 @@ const registerHandlebarsPartial = (fileName) => {
   Handlebars.registerPartial(partialName, templateSource)
 }
 
+const registerHandlebarsHelpers = () => {
+  Handlebars.registerHelper('convertScraperNameToPlatformName', (scraperName) => {
+    const sharedKey = Object.keys(STATEMENT_SCRAPER_NAMES)
+      .find(scraperNameKey => STATEMENT_SCRAPER_NAMES[scraperNameKey] === scraperName)
+    return CLAIM_PLATFORM_NAMES[sharedKey]
+  })
+}
+
 const registerHandlebarsPartials = () => {
   const partials = getHandlebarsPartials()
   return partials.map(registerHandlebarsPartial)
 }
 
 export const getHandlebarsTemplate = (templateSource) => {
+  registerHandlebarsHelpers()
   registerHandlebarsPartials()
   return Handlebars.compile(templateSource)
 }
