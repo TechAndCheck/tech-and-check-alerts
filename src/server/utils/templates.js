@@ -27,9 +27,9 @@ const registerHandlebarsPartial = (fileName) => {
 }
 
 const registerHandlebarsHelpers = () => {
-  Handlebars.registerHelper('convertScraperCodeToPlatformName', (scraperCode) => {
+  Handlebars.registerHelper('convertScraperNameToPlatformName', (scraperName) => {
     const sharedKey = Object.keys(STATEMENT_SCRAPER_NAMES)
-      .find(scraperNameKey => STATEMENT_SCRAPER_NAMES[scraperNameKey] === scraperCode)
+      .find(scraperNameKey => STATEMENT_SCRAPER_NAMES[scraperNameKey] === scraperName)
     return CLAIM_PLATFORM_NAMES[sharedKey]
   })
 }

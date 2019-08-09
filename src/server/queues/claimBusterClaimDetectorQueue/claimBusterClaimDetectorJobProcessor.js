@@ -10,7 +10,7 @@ const saveClaim = async claim => Claim.create({
   speakerName: claim.speaker.name,
   speakerAffiliation: claim.speaker.affiliation,
   canonicalUrl: claim.canonicalUrl,
-  scraperCode: claim.scraperCode,
+  scraperName: claim.scraperName,
 })
 
 export default async (job) => {
