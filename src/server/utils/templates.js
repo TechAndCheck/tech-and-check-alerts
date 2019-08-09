@@ -1,6 +1,7 @@
 import fs from 'fs'
 import Handlebars from 'handlebars'
 import sanitizeHTML from 'sanitize-html'
+import juice from 'juice'
 
 import {
   CLAIM_PLATFORM_NAMES,
@@ -75,3 +76,5 @@ export const cleanNewsletterTemplate = template => runSequence([
   removeRepetitiveNewlines,
   trimOuter,
 ], template)
+
+export const inlineTemplateStyles = template => juice(template)
