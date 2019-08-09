@@ -40,7 +40,7 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
   }
 
   addScraperNameToStatements = statements => statements
-    .map(statement => ({ ...statement, scraperName: STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT }))
+    .map(statement => ({ ...statement, scraperCode: STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT }))
 
   addCanonicalUrlToStatements = statements => statements
     .map(statement => ({ ...statement, canonicalUrl: this.scrapeUrl }))
