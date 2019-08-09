@@ -5,12 +5,13 @@
   <h1 class="claim-section__header">📺 TV Claims 📺</h1>
   <ul class="claims">
   {{#each tvClaims}}
-    <li class="claim">
+    <li class="claim" data-platform="{{convertScraperCodeToPlatformName scraperCode}}">
       <div class="claim__metadata">
         <a href="{{canonicalUrl}}" class="claim__permalink">
           <cite class="claim__speaker">
             {{speakerName}}
-          </cite></a>:
+          </cite>
+          <span class="claim__platform">({{convertScraperCodeToPlatformName scraperCode}})</span></a>:
       </div>
       <blockquote class="claim__content">{{content}}</blockquote>
     </li>
