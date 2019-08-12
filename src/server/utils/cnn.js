@@ -61,8 +61,9 @@ export const removeSpeakerReminders = transcript => transcript
  */
 export const removeDescriptors = transcript => transcript
   .replace(/\s?\([A-Z\s]*\)/g, '')
-  .replace(/\s?\(voice[\s-]*over\)/, '')
-  .replace(/\s?\(via telephone\)/, '')
+  .replace(/\s?\(voice[\s-]*over\)/g, '')
+  .replace(/\s?\(via telephone\)/g, '')
+  .replace(/\s?\(on[\s-]camera\)/g, '')
   .trim()
 
 /**
