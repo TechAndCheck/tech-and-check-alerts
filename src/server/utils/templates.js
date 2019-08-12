@@ -77,4 +77,4 @@ export const cleanNewsletterTemplate = template => runSequence([
   trimOuter,
 ], template)
 
-export const inlineTemplateStyles = template => juice(template)
+export const moveStylesInline = template => juice(template)

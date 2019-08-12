@@ -1,7 +1,7 @@
 import {
   getHandlebarsTemplate,
   stripHTMLTags,
-  inlineTemplateStyles,
+  moveStylesInline,
 } from '../templates'
 
 const templateTestData = {
@@ -40,14 +40,14 @@ describe('utils/templates', () => {
       expect(convertedText).toEqual(sanitized)
     })
   })
-  describe('inlineTemplateStyles', () => {
+  describe('moveStylesInline', () => {
     it('Should inline styles', () => {
       const {
         inlining: {
           simple: { original, inlined },
         },
       } = templateTestData
-      const result = inlineTemplateStyles(original)
+      const result = moveStylesInline(original)
       expect(result).toEqual(inlined)
     })
   })
