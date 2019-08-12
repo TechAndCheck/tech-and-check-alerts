@@ -172,6 +172,12 @@ describe('utils/cnn', () => {
       expect(getAttributionFromChunk('This has no attribution'))
         .toEqual('')
     })
+    it('Should not return non-attributions', () => {
+      expect(getAttributionFromChunk('ATTRIBUTION: this is: not an attribution: and neither is this.'))
+        .toEqual('ATTRIBUTION')
+      expect(getAttributionFromChunk('this is: not an attribution: and neither is this.'))
+        .toEqual('')
+    })
   })
 
   describe('getStatementFromChunk', () => {

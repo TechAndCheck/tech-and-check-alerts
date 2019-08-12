@@ -14,8 +14,8 @@
  * These expressions are used in various utility mehtods
  * to identify special portions of scraped tex.
  */
-const attributionaAffiliationRegex = /,([A-Z\d\s"(),]*)/
-const chunkAttributionRegex = /[A-Z\d\s"(),.]+[:]/
+const attributionAffiliationRegex = /,([^a-z]*)/
+const chunkAttributionRegex = /[^a-z]+[:]/
 
 export const isTranscriptListUrl = url => url.startsWith('/TRANSCRIPTS/')
   && url.endsWith('.html')
@@ -123,7 +123,7 @@ export const getNameFromAttribution = attribution => (
  *                                  the person's affiliation
  */
 export const getAffiliationFromAttribution = attribution => (
-  (attribution.match(attributionaAffiliationRegex)
+  (attribution.match(attributionAffiliationRegex)
   || [','])[0]
     .substring(1)
     .trim()
