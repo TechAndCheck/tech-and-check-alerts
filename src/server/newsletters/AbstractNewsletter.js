@@ -8,6 +8,7 @@ import {
 import {
   getHandlebarsTemplate,
   cleanNewsletterTemplate,
+  moveStylesInline,
 } from '../utils/templates'
 import Mailer from '../workers/mailer'
 import logger from '../utils/logger'
@@ -196,7 +197,7 @@ class AbstractNewsletter {
    */
   getBodyHTML = async () => {
     const renderedTemplate = await this.getRenderedTemplate(this.getPathToTemplate())
-    return renderedTemplate
+    return moveStylesInline(renderedTemplate)
   }
 
   /**
