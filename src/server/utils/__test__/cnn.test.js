@@ -172,6 +172,12 @@ describe('utils/cnn', () => {
       expect(getAttributionFromChunk('This has no attribution'))
         .toEqual('')
     })
+    it('Should not return non-attributions', () => {
+      expect(getAttributionFromChunk('ATTRIBUTION: this is: not an attribution: and neither is this.'))
+        .toEqual('ATTRIBUTION')
+      expect(getAttributionFromChunk('this is: not an attribution: and neither is this.'))
+        .toEqual('')
+    })
   })
 
   describe('getStatementFromChunk', () => {
@@ -199,6 +205,14 @@ describe('utils/cnn', () => {
     it('Should return an empty name if there is no attribution', () => {
       expect(getNameFromAttribution(''))
         .toEqual('')
+    })
+    it('Should extract names with apostrophes', () => {
+      expect(getNameFromAttribution('BETO O\'ROURKE (D), PRESIDENTIAL CANDIDATE'))
+        .toEqual('BETO O\'ROURKE (D)')
+    })
+    it('Should extract names with hyphens', () => {
+      expect(getNameFromAttribution('GOV. STEVE BULLOCK (D-MT), PRESIDENTIAL CANDIDATE'))
+        .toEqual('GOV. STEVE BULLOCK (D-MT)')
     })
   })
 
