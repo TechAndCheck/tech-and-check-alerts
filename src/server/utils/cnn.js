@@ -11,10 +11,11 @@
  */
 
 /**
- * These expressions are used in various utility mehtods
+ * These expressions are used in various utility methods
  * to identify special portions of scraped tex.
  */
 const attributionAffiliationRegex = /,([^a-z]*)/
+const attributionNameRegex = /[^a-z,]+/
 const chunkAttributionRegex = /[^a-z]+[:]/
 
 export const isTranscriptListUrl = url => url.startsWith('/TRANSCRIPTS/')
@@ -111,7 +112,7 @@ export const getStatementFromChunk = chunk => chunk
  * @return {String}             The portion of the attribution that contains the person's name
  */
 export const getNameFromAttribution = attribution => (
-  (attribution.match(/[A-Z\s.()]+/)
+  (attribution.match(attributionNameRegex)
   || [''])[0]
 )
 
