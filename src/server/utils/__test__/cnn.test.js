@@ -165,6 +165,8 @@ describe('utils/cnn', () => {
         .toEqual('DONNA, SLAYER OF CAKES')
       expect(getAttributionFromChunk('REV. AL SHARPTON (D), PRESIDENTIAL CANDIDATE: Schwarzenegger is an impostor. You will see at the end of this that I\'m the real Terminator. I want to terminate Bush.'))
         .toEqual('REV. AL SHARPTON (D), PRESIDENTIAL CANDIDATE')
+      expect(getAttributionFromChunk('BILL CLINTON, 42ND PRESIDENT OF THE UNITED STATES: Beep beep boop.'))
+        .toEqual('BILL CLINTON, 42ND PRESIDENT OF THE UNITED STATES')
     })
     it('Should return an empty attribution if none exists', () => {
       expect(getAttributionFromChunk('This has no attribution'))
@@ -191,6 +193,8 @@ describe('utils/cnn', () => {
         .toEqual('DONNA')
       expect(getNameFromAttribution('DONNA LITTLE, SLAYER OF CAKES'))
         .toEqual('DONNA LITTLE')
+      expect(getNameFromAttribution('BILL CLINTON, 42ND PRESIDENT OF THE UNITED STATES'))
+        .toEqual('BILL CLINTON')
     })
     it('Should return an empty name if there is no attribution', () => {
       expect(getNameFromAttribution(''))
@@ -208,6 +212,8 @@ describe('utils/cnn', () => {
         .toEqual('SLAYER OF "CAKES"')
       expect(getAffiliationFromAttribution('DONNA LITTLE, SLAYER OF "CAKES" (RETIRED)'))
         .toEqual('SLAYER OF "CAKES" (RETIRED)')
+      expect(getAffiliationFromAttribution('BILL CLINTON, 42ND PRESIDENT OF THE UNITED STATES'))
+        .toEqual('42ND PRESIDENT OF THE UNITED STATES')
     })
     it('Should return an empty affiliation if there is no affiliation', () => {
       expect(getAffiliationFromAttribution('DONNA'))

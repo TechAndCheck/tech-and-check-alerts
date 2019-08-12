@@ -10,6 +10,13 @@
  * @property {String}  text    What the person actually said
  */
 
+/**
+ * These expressions are used in various utility mehtods
+ * to identify special portions of scraped tex.
+ */
+const attributionaAffiliationRegex = /,([A-Z\d\s"(),]*)/
+const chunkAttributionRegex = /[A-Z\d\s"(),.]+[:]/
+
 export const isTranscriptListUrl = url => url.startsWith('/TRANSCRIPTS/')
   && url.endsWith('.html')
 
@@ -76,9 +83,6 @@ export const addBreaksOnSpeakerChange = transcript => transcript
  */
 export const splitTranscriptIntoChunks = transcript => transcript.split('\n')
 
-// Used to identify the speaker section of a chunk
-const chunkAttributionRegex = /[.,A-Z\s"()]+[:]/
-
 /**
  * Extract the speaker name / affiliation from a chunk.
  *
@@ -110,6 +114,7 @@ export const getNameFromAttribution = attribution => (
   (attribution.match(/[A-Z\s.()]+/)
   || [''])[0]
 )
+
 /**
  * Extract the person's affiliation from an attribution string.
  *
@@ -118,7 +123,7 @@ export const getNameFromAttribution = attribution => (
  *                                  the person's affiliation
  */
 export const getAffiliationFromAttribution = attribution => (
-  (attribution.match(/,([A-Z\s,"()]*)/)
+  (attribution.match(attributionaAffiliationRegex)
   || [','])[0]
     .substring(1)
     .trim()
