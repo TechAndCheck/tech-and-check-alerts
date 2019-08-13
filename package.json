@@ -41,7 +41,8 @@
     "eslint-plugin-react": "^7.12.4",
     "jest": "^24.8.0",
     "nodemon": "^1.19.0",
-    "parcel": "^1.12.3"
+    "parcel": "^1.12.3",
+    "sequelize-cli": "^5.5.0"
   },
   "dependencies": {
     "bull": "^3.9.1",
