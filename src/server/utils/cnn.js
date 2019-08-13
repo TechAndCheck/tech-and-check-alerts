@@ -102,7 +102,7 @@ export const getAttributionFromChunk = chunk => (
  * @param  {String} chunk The segment of a transcript which contains a speaker and a statement.
  * @return {String}       The portion of the chunk that contains what was said.
  */
-export const getStatementFromChunk = chunk => chunk
+export const getTextFromChunk = chunk => chunk
   .replace(chunkAttributionRegex, '').trim()
 
 /**
@@ -138,7 +138,7 @@ export const getAffiliationFromAttribution = attribution => (
  */
 export const extractStatementFromChunk = (chunk) => {
   const attribution = getAttributionFromChunk(chunk)
-  const statement = getStatementFromChunk(chunk)
+  const text = getTextFromChunk(chunk)
   const name = getNameFromAttribution(attribution)
   const affiliation = getAffiliationFromAttribution(attribution)
 
@@ -147,7 +147,7 @@ export const extractStatementFromChunk = (chunk) => {
       name,
       affiliation,
     },
-    text: statement,
+    text,
   }
 }
 
