@@ -29,6 +29,8 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
     super(getFullCnnUrl(url))
   }
 
+  getScraperName = () => STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT
+
   getTranscriptText = (html) => {
     const $bodyTextElements = $(html).find('.cnnBodyText')
     const bodyTexts = $bodyTextElements.map((i, element) => $(element).text())
@@ -40,7 +42,7 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
   }
 
   addScraperNameToStatements = statements => statements
-    .map(statement => ({ ...statement, scraperName: STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT }))
+    .map(statement => ({ ...statement, scraperName: this.getScraperName() }))
 
   addCanonicalUrlToStatements = statements => statements
     .map(statement => ({ ...statement, canonicalUrl: this.scrapeUrl }))
