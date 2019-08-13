@@ -64,6 +64,7 @@ export const removeDescriptors = transcript => transcript
   .replace(/\s?\(voice[\s-]*over\)/g, '')
   .replace(/\s?\(via telephone\)/g, '')
   .replace(/\s?\(on[\s-]camera\)/g, '')
+  .replace(/\s?\(through[\s-]translator\)/g, '')
   .trim()
 
 /**
