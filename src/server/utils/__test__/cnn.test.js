@@ -116,14 +116,23 @@ describe('utils/cnn', () => {
         .toBe('behold the largest swarm of bees in the world')
       expect(removeDescriptors('(voice- over) they turn humans into honey.'))
         .toBe('they turn humans into honey.')
+      expect(removeDescriptors('(voice-over) behold the largest swarm of bees in the world. (voice-over) Terrifying.'))
+        .toBe('behold the largest swarm of bees in the world. Terrifying.')
+      expect(removeDescriptors('(voice- over) they turn humans into honey. (voice-over) Appetizing?'))
+        .toBe('they turn humans into honey. Appetizing?')
     })
     it('Should remove telephone indicators', () => {
       expect(removeDescriptors('(via telephone) Hello? who is this? Why do you keep calling me?'))
         .toBe('Hello? who is this? Why do you keep calling me?')
       expect(removeDescriptors('Buzz buzz (via telephone)'))
         .toBe('Buzz buzz')
+      expect(removeDescriptors('Buzz buzz (via telephone) (via telephone)'))
+        .toBe('Buzz buzz')
     })
-
+    it('Should remove on camera', () => {
+      expect(removeDescriptors('BEES (on camera): WE WILL KILL ALL HUMANS!'))
+        .toBe('BEES: WE WILL KILL ALL HUMANS!')
+    })
     it('Should not remove normal parantheticals', () => {
       expect(removeDescriptors('I am sure it will all be fine (aside from all the problems of course.)'))
         .toBe('I am sure it will all be fine (aside from all the problems of course.)')
