@@ -8,7 +8,7 @@ import {
   addBreaksOnSpeakerChange,
   splitTranscriptIntoChunks,
   getAttributionFromChunk,
-  getStatementFromChunk,
+  getTextFromChunk,
   getNameFromAttribution,
   getAffiliationFromAttribution,
   extractStatementFromChunk,
@@ -189,11 +189,11 @@ describe('utils/cnn', () => {
     })
   })
 
-  describe('getStatementFromChunk', () => {
+  describe('getTextFromChunk', () => {
     it('Should extract the statement from a chunk', () => {
-      expect(getStatementFromChunk('DONNA: My name is Donna.'))
+      expect(getTextFromChunk('DONNA: My name is Donna.'))
         .toEqual('My name is Donna.')
-      expect(getStatementFromChunk('DONNA, SLAYER OF CAKES: My name is Donna.'))
+      expect(getTextFromChunk('DONNA, SLAYER OF CAKES: My name is Donna.'))
         .toEqual('My name is Donna.')
     })
   })
