@@ -142,10 +142,11 @@ class AbstractScraper {
         return result
       })
       .catch((err) => {
-        logger.debug(`Failed (${this.scrapeUrl})`)
+        logger.debug(`Failed (${this.scrapeUrl}), returning default value.`)
         logger.warn(err)
         this.registerScrapeError()
         this.storeScrapeError(err)
+        return []
       })
   }
 }
