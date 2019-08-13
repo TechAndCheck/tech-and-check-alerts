@@ -23,7 +23,7 @@ class NationalNewsletter extends AbstractNewsletter {
   }
 
   fetchTVClaims = () => (Claim.findAll({
-    limit: 10,
+    limit: 15,
     where: {
       createdAt: {
         [Sequelize.Op.gte]: dayjs().subtract(1, 'day').format(),
