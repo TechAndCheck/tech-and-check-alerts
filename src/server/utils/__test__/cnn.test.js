@@ -147,12 +147,16 @@ describe('utils/cnn', () => {
         .toBe('JANE: testing.\nELIANA JOHNSON, NATIONAL POLITICAL REPORTER, "POLITICO": Testing')
     })
     it('Should not create line breaks for one speaker', () => {
-      expect(removeTimestamps('DONNA: Whoever it is they seem to be running out of ideas.'))
+      expect(addBreaksOnSpeakerChange('DONNA: Whoever it is they seem to be running out of ideas.'))
         .toBe('DONNA: Whoever it is they seem to be running out of ideas.')
     })
     it('Should not create line breaks for all-caps words', () => {
-      expect(removeTimestamps('PROGRAMMER: LOOK. WHAT DO YOU EXPECT.'))
+      expect(addBreaksOnSpeakerChange('PROGRAMMER: LOOK. WHAT DO YOU EXPECT.'))
         .toBe('PROGRAMMER: LOOK. WHAT DO YOU EXPECT.')
+    })
+    it('Should not include quotes from previous lines', () => {
+      expect(addBreaksOnSpeakerChange('"This is a quote." DONNA: Whoever it is they seem to be running out of ideas.'))
+        .toBe('"This is a quote."\nDONNA: Whoever it is they seem to be running out of ideas.')
     })
   })
 
