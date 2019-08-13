@@ -162,6 +162,10 @@ describe('utils/cnn', () => {
       expect(addBreaksOnSpeakerChange('Testing this. SEN. ELIZABETH WARREN (D-MA), PRESIDENTIAL CANDIDATE: I do and if you know you think about the sorrow'))
         .toBe('Testing this.\nSEN. ELIZABETH WARREN (D-MA), PRESIDENTIAL CANDIDATE: I do and if you know you think about the sorrow')
     })
+    it('Should allow for apostrophes in affiliations', () => {
+      expect(addBreaksOnSpeakerChange('(BEGIN VIDEOTAPE) BETO O\'ROURKE (D-TX), PRESIDENTIAL CANDIDATE: Yes.'))
+        .toBe('(BEGIN VIDEOTAPE)\nBETO O\'ROURKE (D-TX), PRESIDENTIAL CANDIDATE: Yes.')
+    })
   })
 
   describe('splitTranscriptIntoChunks', () => {
