@@ -5,6 +5,7 @@ import {
   isTranscriptUrl,
   getFullCnnUrl,
 } from '../../../utils/cnn'
+import { CRAWLER_NAMES } from '../constants'
 
 class CnnTranscriptListCrawler extends AbstractCrawler {
   constructor(url) {
@@ -13,6 +14,8 @@ class CnnTranscriptListCrawler extends AbstractCrawler {
     }
     super(getFullCnnUrl(url))
   }
+
+  getScraperName = () => CRAWLER_NAMES.CNN_TRANSCRIPT_LIST
 
   crawlHandler = responseString => extractUrls(responseString)
     .filter(isTranscriptUrl)

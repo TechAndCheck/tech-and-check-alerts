@@ -1,11 +1,10 @@
 import rp from 'request-promise'
+import dayjs from 'dayjs'
 
 import logger from '../../utils/logger'
-import redisClient from '../../redis/client'
-import {
-  parseTime,
-  parseTimes,
-} from '../../utils/redis'
+import models from '../../models'
+
+const { ScrapeLog } = models
 
 class AbstractScraper {
   constructor(scrapeUrl) {
@@ -19,6 +18,8 @@ class AbstractScraper {
    * Each scraper that extends AbstractScraper needs to implement its own
    * scrapeHandler method.
    *
+   * OVERRIDE WHEN EXTENDING
+
    * @param {String} htmlString The HTML or JSON that came from the HTTP request
    * @return {Object}           Whatever object the scraper is intended to output
    */
@@ -29,81 +30,26 @@ class AbstractScraper {
   }
 
   /**
-   * Returns a list of keys that are used in redis to store information about
-   * the scrape.
+   * Return the registered name of this scraper implementation.
    *
-   * - latestAttemptAt: stores the most recent attempted scrape date
-   * - successTimes: stores a set of scrape dates that succeeded
-   * - failureTimes: stores a set of scrape dates that failed
-   * - results: stores a history of scrape results
-   * - errors: stores a history of scrape errors
+   * OVERRIDE WHEN EXTENDING
    *
-   * @return {[type]} [description]
+   * @return {String} The name of the scraper
    */
-  getRedisKeys = () => {
-    const keyPrefix = `scrape:${this.constructor.name}:${this.scrapeUrl}`
-    return {
-      latestAttemptAt: `${keyPrefix}:latestAttemptAt`,
-      successTimes: `${keyPrefix}:successTimes`,
-      failureTimes: `${keyPrefix}:failureTimes`,
-      results: `${keyPrefix}:results`,
-      errors: `${keyPrefix}:errors`,
-    }
+  getScraperName = () => {
+    throw new Error('You implemented a scraper but forgot to define the getScraperName.')
   }
 
   /**
-   * Register this as the most recent successful scrape in redis.
+   * Helper getter for accessing the current scrape URL.
    *
-   * @return {null}
-   */
-  registerScrapeSuccess = () => {
-    const timestamp = Date.now()
-    redisClient.lpush(
-      this.getRedisKeys().successTimes,
-      timestamp,
-    )
-    redisClient.set(
-      this.getRedisKeys().latestAttemptAt,
-      timestamp,
-    )
-  }
-
-  /**
-   * Register this as the most recent errored scrape in redis.
+   * The programmer could access this directly, but ultimately we don't want them to have
+   * to know about naming conventions for internal attributes (the scrapeUrl ought to be "private"
+   * but javascript doesn't)
    *
-   * @return {null}
+   * @return {String} The url that this scraper is going to scrape
    */
-  registerScrapeError = () => {
-    const timestamp = Date.now()
-    redisClient.lpush(
-      this.getRedisKeys().failureTimes,
-      timestamp,
-    )
-    redisClient.set(
-      this.getRedisKeys().latestAttemptAt,
-      timestamp,
-    )
-  }
-
-  /**
-   * Store the scrape results.
-   *
-   * @return {null}
-   */
-  storeScrapeResult = result => redisClient.lpush(
-    this.getRedisKeys().results,
-    JSON.stringify(result),
-  )
-
-  /**
-   * Store the scrape error.
-   *
-   * @return {null}
-   */
-  storeScrapeError = error => redisClient.lpush(
-    this.getRedisKeys().errors,
-    error.message,
-  )
+  getScrapeUrl = () => this.scrapeUrl
 
   /**
    * Look up and return the date of the most recent scrape for this URL
@@ -111,8 +57,17 @@ class AbstractScraper {
    * @return {DayJS} The dayJS representation of the scrape time
    */
   getMostRecentScrapeTime = async () => {
-    const timestamp = await redisClient.getAsync(this.getRedisKeys().latestAttemptAt)
-    return parseTime(timestamp)
+    const mostRecentScrape = await ScrapeLog.findOne({
+      attributes: ['createdAt'],
+      where: {
+        scrapeUrl: this.getScrapeUrl(),
+        scraperName: this.getScraperName(),
+      },
+      order: [['createdAt', 'DESC']],
+    })
+
+    if (mostRecentScrape == null) return null
+    return dayjs(mostRecentScrape.createdAt)
   }
 
   /**
@@ -121,10 +76,33 @@ class AbstractScraper {
    * @return {DayJS} The dayJS representation of the scrape time
    */
   getMostRecentSuccessfulScrapeTime = async () => {
-    const timestamps = await redisClient.lrangeAsync(this.getRedisKeys().successTimes, 0, 1)
-    const times = parseTimes(timestamps)
-    return times.length > 0 ? times[0] : null
+    const mostRecentSuccessfulScrape = await ScrapeLog.findOne({
+      attributes: ['createdAt'],
+      where: {
+        scrapeUrl: this.getScrapeUrl(),
+        scraperName: this.getScraperName(),
+        error: null,
+      },
+      order: [['createdAt', 'DESC']],
+    })
+
+    if (mostRecentSuccessfulScrape == null) return null
+    return dayjs(mostRecentSuccessfulScrape.createdAt)
   }
+
+  /**
+   * Generates and saves a scrape log entry
+   *
+   * @param  {String} result The stringified result of the scrape
+   * @param  {String} error  The error message, if any
+   * @return {ScrapeLog} the unsaved initial scrape log entry
+   */
+  createScrapeLog = (result, error) => ScrapeLog.create({
+    scrapeUrl: this.getScrapeUrl(),
+    scraperName: this.getScraperName(),
+    result,
+    error,
+  })
 
   /**
    * Runs the scraper
@@ -137,15 +115,13 @@ class AbstractScraper {
       .then((responseString) => {
         logger.debug(`Success (${this.scrapeUrl})`)
         const result = this.scrapeHandler(responseString)
-        this.registerScrapeSuccess()
-        this.storeScrapeResult(result)
+        this.createScrapeLog(JSON.stringify(result))
         return result
       })
       .catch((err) => {
         logger.debug(`Failed (${this.scrapeUrl}), returning default value.`)
         logger.warn(err)
-        this.registerScrapeError()
-        this.storeScrapeError(err)
+        this.createScrapeLog(null, err.message)
         return []
       })
   }
