@@ -133,6 +133,10 @@ describe('utils/cnn', () => {
       expect(removeDescriptors('BEES (on camera): WE WILL KILL ALL HUMANS!'))
         .toBe('BEES: WE WILL KILL ALL HUMANS!')
     })
+    it('Should remove through translator', () => {
+      expect(removeDescriptors('HUMAN (through translator): BZZZZzzzzzzzzzzzzzzzz'))
+        .toBe('HUMAN: BZZZZzzzzzzzzzzzzzzzz')
+    })
     it('Should not remove normal parantheticals', () => {
       expect(removeDescriptors('I am sure it will all be fine (aside from all the problems of course.)'))
         .toBe('I am sure it will all be fine (aside from all the problems of course.)')
