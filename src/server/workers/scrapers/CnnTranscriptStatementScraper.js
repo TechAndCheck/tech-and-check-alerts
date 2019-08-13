@@ -53,10 +53,10 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
       addBreaksOnSpeakerChange,
       splitTranscriptIntoChunks,
       extractStatementsFromChunks,
-      removeNetworkAffiliatedStatements,
-      removeUnattributableStatements,
       cleanStatementSpeakerNames,
       normalizeStatementSpeakers,
+      removeNetworkAffiliatedStatements,
+      removeUnattributableStatements,
       this.addScraperNameToStatements,
       this.addCanonicalUrlToStatements,
     ] // Note that order does matter here
