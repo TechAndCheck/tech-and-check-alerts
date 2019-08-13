@@ -73,7 +73,7 @@ export const removeDescriptors = transcript => transcript
  * @return {String}            The modified transcript with line breaks inserted.
  */
 export const addBreaksOnSpeakerChange = transcript => transcript
-  .replace(/([.?!\-)\]])\s*([.,A-Z\s"()]*:)/g, '$1\n$2')
+  .replace(/([".?!\-)\]]+)\s*([.,A-Z\s"()]*:)/g, '$1\n$2')
 
 
 /**
