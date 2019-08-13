@@ -73,8 +73,7 @@ export const removeDescriptors = transcript => transcript
  * @return {String}            The modified transcript with line breaks inserted.
  */
 export const addBreaksOnSpeakerChange = transcript => transcript
-  .replace(/([".?!\-)\]]+)\s*([.,A-Z\s"()]*:)/g, '$1\n$2')
-
+  .replace(/([".?!)\]-]+)\s*([.,A-Z\s"()-]*:)/g, '$1\n$2')
 
 /**
  * Converts a transcript into a bunch of smaller pieces which can later be
@@ -192,6 +191,8 @@ export const cleanSpeakerName = name => name
   .replace('SENATOR ', '')
   .replace('REPRESENTATIVE ', '')
   .replace('SEN. ', '')
+  .replace(/\s*\([^()]*\)/g, '')
+  .trim()
 
 /**
  * Cleans all speaker names in a list of statements
