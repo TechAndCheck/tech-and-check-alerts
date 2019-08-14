@@ -16,3 +16,9 @@ export const MAILING_LIST_ADDRESSES = {
   PRIMARY: 'alerts@alerts.factstream.co',
   NORTH_CAROLINA: 'northcarolina@alerts.factstream.co',
 }
+
+export const NEWSLETTER_SETTINGS = {
+  DEFAULT: {
+    CLAIM_LIMIT: 15,
+  },
+}

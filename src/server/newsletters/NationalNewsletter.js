@@ -4,7 +4,10 @@ import assert from 'assert'
 
 import models from '../models'
 import AbstractNewsletter from './AbstractNewsletter'
-import { MAILING_LISTS } from './constants'
+import {
+  NEWSLETTER_SETTINGS,
+  MAILING_LISTS,
+} from './constants'
 
 const { Claim } = models
 
@@ -23,7 +26,7 @@ class NationalNewsletter extends AbstractNewsletter {
   }
 
   fetchTVClaims = () => (Claim.findAll({
-    limit: 15,
+    limit: NEWSLETTER_SETTINGS.DEFAULT.CLAIM_LIMIT,
     where: {
       createdAt: {
         [Sequelize.Op.gte]: dayjs().subtract(1, 'day').format(),
