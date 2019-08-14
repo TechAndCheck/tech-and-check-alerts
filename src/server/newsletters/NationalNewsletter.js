@@ -12,7 +12,7 @@ import {
 const { Claim } = models
 
 class NationalNewsletter extends AbstractNewsletter {
-  getMailingList = () => MAILING_LISTS.PRIMARY
+  getMailingList = () => MAILING_LISTS.NATIONAL
 
   getPathToTemplate = () => `${__dirname}/templates/national.hbs`
 
