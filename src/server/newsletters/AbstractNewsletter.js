@@ -1,11 +1,8 @@
 import config from '../config'
+import { getFileContents } from '../utils'
 import {
-  isProductionEnv,
-  getFileContents,
-} from '../utils'
-import {
-  isInternalMailingList,
   getMailingListAddress,
+  guardMailingList,
 } from '../utils/newsletters'
 import {
   getHandlebarsTemplate,
@@ -14,7 +11,6 @@ import {
 } from '../utils/templates'
 import Mailer from '../workers/mailer'
 import logger from '../utils/logger'
-import { MAILING_LISTS } from './constants'
 
 class AbstractNewsletter {
   constructor() {
@@ -155,9 +151,7 @@ class AbstractNewsletter {
    */
   getRecipient = () => {
     const configuredMailingList = config.MAILING_LIST_OVERRIDE || this.getMailingList()
-    const guardedMailingList = (isProductionEnv() || isInternalMailingList(configuredMailingList))
-      ? configuredMailingList
-      : MAILING_LISTS.DEVELOPERS
+    const guardedMailingList = guardMailingList(configuredMailingList)
     return getMailingListAddress(guardedMailingList)
   }
 
