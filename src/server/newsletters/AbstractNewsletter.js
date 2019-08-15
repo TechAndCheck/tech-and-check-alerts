@@ -1,9 +1,8 @@
+import config from '../config'
+import { getFileContents } from '../utils'
 import {
-  isProductionEnv,
-  getFileContents,
-} from '../utils'
-import {
-  isInternalMailingList,
+  getMailingListAddress,
+  guardMailingList,
 } from '../utils/newsletters'
 import {
   getHandlebarsTemplate,
@@ -12,7 +11,6 @@ import {
 } from '../utils/templates'
 import Mailer from '../workers/mailer'
 import logger from '../utils/logger'
-import { MAILING_LIST_ADDRESSES, MAILING_LISTS } from './constants'
 
 class AbstractNewsletter {
   constructor() {
@@ -138,32 +136,23 @@ class AbstractNewsletter {
   }
 
   /**
-   * Provides the email address for the mailing list associated with the newsletter.
-   * Throws an error if there is none, because that makes the newsletter undeliverable
-   * and means we've either configured it incorrectly or setup our addresses incorrectly.
+   * Provides the recipient mailing list address for the newsletter.
    *
-   * @return {String} The email address for the associated mailing list
-   */
-  getMailingListAddress = () => {
-    const mailingList = this.getMailingList()
-    const mailingListAddress = MAILING_LIST_ADDRESSES[mailingList]
-    if (!mailingListAddress) throw new Error(`There is no email address associated with the mailing list ${mailingList}.`)
-    return mailingListAddress
-  }
-
-  /**
-   * Provides the recipient mailing list address for the newsletter. To make sure we don't send
-   * newsletters to real mailing lists during development, this returns the developer mailing list
-   * if we're not in production mode or trying to send to one of our other interal mailing lists,
-   * like testers.
+   * There are two additions to allow us to test and develop newsletters without mistakenly sending
+   * to real (i.e., production) recipient lists:
+   * 1. If there is a valid MAILING_LIST_OVERRIDE environment variable, use that. We use this almost
+   *    exclusively to test sending newsletters in otherwise production environments.
+   * 2. If we're not running in production, the mailing list must be internal, or else it defaults
+   *    to the devs list.
+   * Note that if a non-production environment has MAILING_LIST_OVERRIDE set to an external mailing
+   * list, it will get hammered into sending to the devs list.
    *
-   * @return {String} The intended newsletter recipient, or the developers mailing list
+   * @return {String} The intended newsletter recipient
    */
   getRecipient = () => {
-    const mailingList = this.getMailingList()
-    return (isProductionEnv() || isInternalMailingList(mailingList))
-      ? this.getMailingListAddress()
-      : MAILING_LIST_ADDRESSES[MAILING_LISTS.DEVELOPERS]
+    const configuredMailingList = config.MAILING_LIST_OVERRIDE || this.getMailingList()
+    const guardedMailingList = guardMailingList(configuredMailingList)
+    return getMailingListAddress(guardedMailingList)
   }
 
   /**

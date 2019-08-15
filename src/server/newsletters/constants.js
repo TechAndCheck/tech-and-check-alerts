@@ -10,6 +10,9 @@ export const INTERNAL_MAILING_LISTS = {
   TESTERS: 'TESTERS',
 }
 
+// This is the list that we will default to for safety under certain conditions
+export const GUARDED_MAILING_LIST = 'DEVELOPERS'
+
 export const MAILING_LIST_ADDRESSES = {
   DEVELOPERS: 'dev@alerts.factstream.co',
   TESTERS: 'test@alerts.factstream.co',
