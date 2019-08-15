@@ -19,4 +19,7 @@ export const QueueNames = {
   claimDetectorQueues: {
     CLAIM_BUSTER: 'claimBusterClaimDetector',
   },
+  newsletterDeliveryQueues: {
+    NATIONAL: 'nationalNewsletterDelivery',
+  },
 }
