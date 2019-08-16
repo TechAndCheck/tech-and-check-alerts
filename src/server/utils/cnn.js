@@ -36,9 +36,9 @@ export const getFullCnnUrl = (url) => {
 }
 
 /**
- * Pull out the publication date from a passed transcript url.
+ * Pull out the publication date from a passed transcript URL.
  *
- * If the url is not a valid transcript URL, throw an error.
+ * If the URL is not a valid transcript URL, throw an error.
  *
  * @param  {String} url The transcript URL to parse
  * @return {DayJs}      The extracted publication date

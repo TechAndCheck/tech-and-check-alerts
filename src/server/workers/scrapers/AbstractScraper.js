@@ -47,7 +47,7 @@ class AbstractScraper {
    * to know about naming conventions for internal attributes (the scrapeUrl ought to be "private"
    * but javascript doesn't)
    *
-   * @return {String} The url that this scraper is going to scrape
+   * @return {String} The URL that this scraper is going to scrape
    */
   getScrapeUrl = () => this.scrapeUrl
 

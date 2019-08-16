@@ -2,7 +2,7 @@ import AbstractScraper from '../scrapers/AbstractScraper'
 
 class AbstractCrawler extends AbstractScraper {
   /**
-   * Process the result of an HTTP request and identify the urls
+   * Process the result of an HTTP request and identify the URLs
    * to pass into the scraper pipeline.
    *
    * Each crawler that extends AbstractCrawler needs to implement its own
