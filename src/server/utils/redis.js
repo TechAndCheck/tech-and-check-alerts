@@ -22,11 +22,11 @@ export const promisifyClient = (client) => {
 }
 
 /**
- * The timestamp we want to convert to a DayJS object.
+ * The timestamp we want to convert to a Day.js object.
  * Returns null on an invalid format
  *
  * @param  {String} value The string we want to parse
- * @return {DayJS}        The resulting DayJS object
+ * @return {Dayjs}        The resulting Day.js object
  */
 export const parseTime = (value) => {
   if (value) {
@@ -42,6 +42,6 @@ export const parseTime = (value) => {
  * Takes a list of timestamps and runs each through parseTime.
  *
  * @param  {String[]} values The string timestamps to convert
- * @return {DayJS[]}         The DayJS versions of each object
+ * @return {Dayjs[]}         The Day.js versions of each object
  */
 export const parseTimes = values => values.map(parseTime)

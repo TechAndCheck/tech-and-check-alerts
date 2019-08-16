@@ -54,7 +54,7 @@ class AbstractScraper {
   /**
    * Look up and return the date of the most recent scrape for this URL
    *
-   * @return {DayJS} The dayJS representation of the scrape time
+   * @return {Dayjs} The Day.js representation of the scrape time
    */
   getMostRecentScrapeTime = async () => {
     const mostRecentScrape = await ScrapeLog.findOne({
@@ -73,7 +73,7 @@ class AbstractScraper {
   /**
    * Look up and return the date of the most recent successful scrape for this URL
    *
-   * @return {DayJS} The dayJS representation of the scrape time
+   * @return {Dayjs} The Day.js representation of the scrape time
    */
   getMostRecentSuccessfulScrapeTime = async () => {
     const mostRecentSuccessfulScrape = await ScrapeLog.findOne({

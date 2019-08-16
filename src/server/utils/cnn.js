@@ -41,7 +41,7 @@ export const getFullCnnUrl = (url) => {
  * If the URL is not a valid transcript URL, throw an error.
  *
  * @param  {String} url The transcript URL to parse
- * @return {DayJs}      The extracted publication date
+ * @return {Dayjs}      The extracted publication date
  */
 export const extractPublicationDateFromTranscriptUrl = (url) => {
   if (!isTranscriptUrl(url)) {
