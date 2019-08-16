@@ -1,3 +1,8 @@
+import dayjs from 'dayjs'
+import customParseFormat from 'dayjs/plugin/customParseFormat'
+
+dayjs.extend(customParseFormat)
+
 /**
  * @typedef {Object} Speaker
  * @property {String} name
@@ -28,6 +33,25 @@ export const getFullCnnUrl = (url) => {
   if (url.startsWith('http')) return url
   if (url.startsWith('/')) return `http://cnn.com${url}`
   return `http://cnn.com/${url}`
+}
+
+/**
+ * Pull out the publication date from a passed transcript url.
+ *
+ * If the url is not a valid transcript URL, throw an error.
+ *
+ * @param  {String} url The transcript URL to parse
+ * @return {DayJs}      The extracted publication date
+ */
+export const extractPublicationDateFromTranscriptUrl = (url) => {
+  if (!isTranscriptUrl(url)) {
+    throw new Error(`Passed an invalid URL to extractPublicationDateFromTranscriptUrl: ${url}`)
+  }
+  const parts = url.split('/')
+  const year = parts[2].substring(0, 2)
+  const month = parts[2].substring(2)
+  const day = parts[3]
+  return dayjs(`${month}/${day}/${year}`, 'MM/DD/YY')
 }
 
 /**

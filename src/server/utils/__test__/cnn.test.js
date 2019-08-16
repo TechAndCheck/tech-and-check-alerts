@@ -2,6 +2,7 @@ import {
   isTranscriptListUrl,
   isTranscriptUrl,
   getFullCnnUrl,
+  extractPublicationDateFromTranscriptUrl,
   removeTimestamps,
   removeSpeakerReminders,
   removeDescriptors,
@@ -65,6 +66,20 @@ describe('utils/cnn', () => {
     it('Should prepend a relative url starting with /', () => {
       expect(getFullCnnUrl('/TRANSCRIPTS'))
         .toBe('http://cnn.com/TRANSCRIPTS')
+    })
+  })
+
+  describe('extractPublicationDateFromTranscriptUrl', () => {
+    it('Should extract dates', () => {
+      const date = extractPublicationDateFromTranscriptUrl('/TRANSCRIPTS/1906/01/cnr.20.html')
+      expect(date)
+        .not.toBeNull()
+      expect(date.format('YYYY-MM-DD'))
+        .toEqual('2019-06-01')
+    })
+    it('Should throw an error on an invalid URL', () => {
+      expect(() => extractPublicationDateFromTranscriptUrl('lololol'))
+        .toThrow()
     })
   })
 
