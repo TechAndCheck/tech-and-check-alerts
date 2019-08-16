@@ -5,7 +5,7 @@ import { Schedules } from '../constants'
 const getQueueFactory = () => new CnnTranscriptListCrawlerQueueFactory()
 
 class CnnTranscriptListCrawlerJobScheduler extends AbstractJobScheduler {
-  getScheduleCron = () => Schedules.None
+  getScheduleCron = () => Schedules.NONE
 
   getQueue = () => getQueueFactory().getQueue()
 }
