@@ -1,9 +1,13 @@
+// The timezone that will govern `Schedules` cron schedules
+export const QUEUE_SCHEDULER_TIMEZONE = 'America/New_York'
+
+// Times are relative to the `QUEUE_SCHEDULER_TIMEZONE`
 export const Schedules = {
   NONE: 'none',
   EVERY_MINUTE: '* * * * *',
   EVERY_HOUR: '0 * * * *',
   EVERY_DAY: '0 0 * * *',
-  EVERY_MORNING: '0 9 * * *',
+  EVERY_MORNING: '0 8 * * *',
 }
 
 export const QueueNames = {

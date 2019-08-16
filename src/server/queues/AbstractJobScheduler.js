@@ -1,3 +1,4 @@
+import { QUEUE_SCHEDULER_TIMEZONE } from './constants'
 
 class AbstractJobScheduler {
   /**
@@ -36,6 +37,7 @@ class AbstractJobScheduler {
 
   getRepeatOptions = () => ({
     cron: this.getScheduleCron(),
+    tz: QUEUE_SCHEDULER_TIMEZONE,
   })
 
   scheduleJobs = () => this.getQueue().add(
