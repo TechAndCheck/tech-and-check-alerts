@@ -5,7 +5,7 @@ import { Schedules } from '../constants'
 const getQueueFactory = () => new HelloWorldCrawlerQueueFactory()
 
 class HelloWorldCrawlerJobScheduler extends AbstractJobScheduler {
-  getScheduleCron = () => Schedules.EVERY_MINUTE
+  getScheduleCron = () => Schedules.NONE
 
   getQueue = () => getQueueFactory().getQueue()
 }
