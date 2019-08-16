@@ -3,6 +3,15 @@
 import dayjs from 'dayjs'
 import config from '../config'
 
-export const isDateBeforeScrapeHorizon = date => dayjs()
+/**
+ * Determine if a date is within or beyond the configured horizon (i.e., a number of days ago).
+ *
+ * Since the parameter is passed straight to the `Dayjs#isAfter()` comparitor, this function
+ * accepts the same data types that `isAfter()` does.
+ *
+ * @param  {Dayjs|String} date The date you want to compare to the horizon
+ * @return {Boolean}
+ */
+export const isDateBeyondScrapeHorizon = date => dayjs()
   .subtract(config.SCRAPE_DAY_HORIZON, 'day')
   .isAfter(date)

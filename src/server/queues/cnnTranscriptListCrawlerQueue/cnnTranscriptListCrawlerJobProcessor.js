@@ -2,7 +2,7 @@ import logger from '../../utils/logger'
 import { CnnTranscriptListCrawler } from '../../workers/crawlers/CnnCrawlers'
 import CnnTranscriptStatementScraper from '../../workers/scrapers/CnnTranscriptStatementScraper'
 import cnnTranscriptStatementScraperQueueDict from '../cnnTranscriptStatementScraperQueue'
-import { isDateBeforeScrapeHorizon } from '../../utils/scraper'
+import { isDateBeyondScrapeHorizon } from '../../utils/scraper'
 import { extractPublicationDateFromTranscriptUrl } from '../../utils/cnn'
 
 const statementScraperQueue = cnnTranscriptStatementScraperQueueDict.factory.getQueue()
@@ -15,7 +15,7 @@ const processTranscriptUrl = async (url) => {
   const urlPublicationDate = extractPublicationDateFromTranscriptUrl(url)
   if (recentScrapeTime) {
     logger.debug(`Skipping: ${url} was scraped on ${recentScrapeTime.format('YYYY-MM-DD')}`)
-  } else if (isDateBeforeScrapeHorizon(urlPublicationDate)) {
+  } else if (isDateBeyondScrapeHorizon(urlPublicationDate)) {
     logger.debug(`Skipping: ${url} was published on ${urlPublicationDate} before the horizon`)
   } else {
     scrapeTranscriptUrl(url)

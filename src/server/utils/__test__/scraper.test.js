@@ -1,20 +1,24 @@
 import dayjs from 'dayjs'
 import {
-  isDateBeforeScrapeHorizon,
+  isDateBeyondScrapeHorizon,
 } from '../scraper'
 
 import config from '../../config'
 
-describe('isDateBeforeScrapeHorizon', () => {
+describe('isDateBeyondScrapeHorizon', () => {
   const day = dayjs()
-  it('Should recognize dates before the date horizon', () => {
-    const earlyDate = day.subtract(config.SCRAPE_DAY_HORIZON + 1, 'day')
-    expect(isDateBeforeScrapeHorizon(earlyDate))
+  it('Should recognize dates beyond the date horizon', () => {
+    const beyondHorizonDate = day.subtract(config.SCRAPE_DAY_HORIZON + 1, 'day')
+    expect(isDateBeyondScrapeHorizon(beyondHorizonDate))
+      .toBe(true)
+    expect(isDateBeyondScrapeHorizon(beyondHorizonDate.format()))
       .toBe(true)
   })
-  it('Should recognize dates after the date horizon', () => {
-    const earlyDate = day.add(1, 'day')
-    expect(isDateBeforeScrapeHorizon(earlyDate))
+  it('Should recognize dates within the date horizon', () => {
+    const withinHorizonDate = day.add(1, 'day')
+    expect(isDateBeyondScrapeHorizon(withinHorizonDate))
+      .toBe(false)
+    expect(isDateBeyondScrapeHorizon(withinHorizonDate.format()))
       .toBe(false)
   })
 })
