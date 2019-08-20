@@ -12,6 +12,7 @@ class ClaimBusterClaimDetector {
       text: statementText,
       canonicalUrl,
       scraperName,
+      source,
     } = this.statement
     const uri = `https://idir.uta.edu/factchecker/score_text/${statementText}`
     return rp
@@ -26,6 +27,7 @@ class ClaimBusterClaimDetector {
           score: result.score,
           canonicalUrl,
           scraperName,
+          source,
         })))
   }
 }

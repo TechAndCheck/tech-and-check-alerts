@@ -15,6 +15,7 @@ import {
   removeUnattributableStatements,
   cleanStatementSpeakerNames,
   normalizeStatementSpeakers,
+  extractSourceFromTranscriptUrl,
 } from '../../utils/cnn'
 
 import AbstractStatementScraper from './AbstractStatementScraper'
@@ -31,6 +32,8 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
 
   getScraperName = () => STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT
 
+  getSource = () => extractSourceFromTranscriptUrl(this.getScrapeUrl())
+
   getTranscriptText = (html) => {
     const $bodyTextElements = $(html).find('.cnnBodyText')
     const bodyTexts = $bodyTextElements.map((i, element) => $(element).text())
@@ -41,11 +44,13 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
     return bodyTexts[2]
   }
 
-  addScraperNameToStatements = statements => statements
-    .map(statement => ({ ...statement, scraperName: this.getScraperName() }))
-
-  addCanonicalUrlToStatements = statements => statements
-    .map(statement => ({ ...statement, canonicalUrl: this.scrapeUrl }))
+  addAdditionalPropertiesToStatements = statements => statements
+    .map(statement => ({
+      ...statement,
+      scraperName: this.getScraperName(),
+      canonicalUrl: this.getScrapeUrl(),
+      source: this.getSource(),
+    }))
 
   extractStatementsFromTranscript = (transcript) => {
     const stepSequence = [
@@ -59,8 +64,7 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
       normalizeStatementSpeakers,
       removeNetworkAffiliatedStatements,
       removeUnattributableStatements,
-      this.addScraperNameToStatements,
-      this.addCanonicalUrlToStatements,
+      this.addAdditionalPropertiesToStatements,
     ] // Note that order does matter here
 
     const statements = stepSequence.reduce((string, fn) => fn(string), transcript)
