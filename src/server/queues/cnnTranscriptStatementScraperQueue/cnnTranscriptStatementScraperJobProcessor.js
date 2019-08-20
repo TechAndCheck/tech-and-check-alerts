@@ -1,7 +1,10 @@
 import CnnTranscriptStatementScraper from '../../workers/scrapers/CnnTranscriptStatementScraper'
 import claimBusterClaimDetectorQueueDict from '../claimBusterClaimDetectorQueue'
+import { getQueueFromQueueDict } from '../../utils/queue'
 
-const claimBusterClaimDetectorQueue = claimBusterClaimDetectorQueueDict.factory.getQueue()
+const claimBusterClaimDetectorQueue = getQueueFromQueueDict(
+  claimBusterClaimDetectorQueueDict,
+)
 
 const detectClaims = statement => claimBusterClaimDetectorQueue.add({ statement })
 

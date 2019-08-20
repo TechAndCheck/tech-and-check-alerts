@@ -4,8 +4,9 @@ import CnnTranscriptStatementScraper from '../../workers/scrapers/CnnTranscriptS
 import cnnTranscriptStatementScraperQueueDict from '../cnnTranscriptStatementScraperQueue'
 import { isDateBeyondScrapeHorizon } from '../../utils/scraper'
 import { extractPublicationDateFromTranscriptUrl } from '../../utils/cnn'
+import { getQueueFromQueueDict } from '../../utils/queue'
 
-const statementScraperQueue = cnnTranscriptStatementScraperQueueDict.factory.getQueue()
+const statementScraperQueue = getQueueFromQueueDict(cnnTranscriptStatementScraperQueueDict)
 
 const scrapeTranscriptUrl = url => statementScraperQueue.add({ url })
 

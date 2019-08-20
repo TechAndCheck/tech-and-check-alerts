@@ -1,6 +1,11 @@
 import queueDicts from './queues'
-import { getQueueFromQueueDict } from './utils/queue'
+import {
+  startQueueProcessors,
+  getQueueFromQueueDict,
+} from './utils/queue'
 import logger from './utils/logger'
+
+startQueueProcessors(queueDicts)
 
 queueDicts.forEach(async (queueDict) => {
   const queue = getQueueFromQueueDict(queueDict)

@@ -37,8 +37,13 @@ class AbstractQueueFactory {
     )
     queue.on('error', error => logger.error(error))
     queue.on('failed', (job, error) => logger.warn(error))
-    queue.process(this.getPathToProcessor())
     return queue
+  }
+
+  startQueueProcessor = () => {
+    logger.debug(`Starting queue processor: ${this.getQueueName()}`)
+    const queue = this.getQueue()
+    queue.process(this.getPathToProcessor())
   }
 }
 

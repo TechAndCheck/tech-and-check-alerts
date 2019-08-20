@@ -2,12 +2,10 @@ import NationalNewsletterDeliveryQueueFactory from './NationalNewsletterDelivery
 import AbstractJobScheduler from '../AbstractJobScheduler'
 import { Schedules } from '../constants'
 
-const getQueueFactory = () => new NationalNewsletterDeliveryQueueFactory()
-
 class NationalNewsletterDeliveryJobScheduler extends AbstractJobScheduler {
   getScheduleCron = () => Schedules.EVERY_MORNING
 
-  getQueue = () => getQueueFactory().getQueue()
+  getQueueFactory = () => new NationalNewsletterDeliveryQueueFactory()
 }
 
 export default NationalNewsletterDeliveryJobScheduler
