@@ -1,4 +1,7 @@
-import { QUEUE_SCHEDULER_TIMEZONE } from './constants'
+import {
+  Schedules,
+  QUEUE_SCHEDULER_TIMEZONE,
+} from './constants'
 
 class AbstractJobScheduler {
   /**
@@ -41,15 +44,18 @@ class AbstractJobScheduler {
    */
   getJobData = () => ({})
 
+  getIsScheduled = () => this.getScheduleCron() !== Schedules.NONE
+
   getRepeatOptions = () => ({
     cron: this.getScheduleCron(),
     tz: QUEUE_SCHEDULER_TIMEZONE,
   })
 
-  scheduleJobs = () => this.getQueue().add(
-    this.getJobData(),
-    { repeat: this.getRepeatOptions() },
-  )
+  scheduleJobs = () => (this.getIsScheduled()
+    ? this.getQueue().add(
+      this.getJobData(),
+      { repeat: this.getRepeatOptions() },
+    ) : null)
 
   unscheduleJobs = () => this.getQueue().removeRepeatable(
     this.getRepeatOptions(),

@@ -3,14 +3,15 @@ import logger from '../server/utils/logger'
 
 const scheduleJobs = queueDict => queueDict.scheduler.scheduleJobs()
 
-const renderResults = (results) => {
-  results.forEach(result => logger.info(`Scheduled job: ${result.name}`))
-}
+const renderScheduledJobs = scheduledJobs => scheduledJobs
+  .filter(job => !!job)
+  .forEach(job => logger.info(`Scheduled job: ${job.toKey()}`))
 
-const promises = queueDicts.map(scheduleJobs)
+const scheduleableQueues = queueDicts.filter(queueDict => queueDict.scheduler.getIsScheduled())
+const promises = scheduleableQueues.map(scheduleJobs)
 Promise.all(promises)
-  .then((results) => {
-    renderResults(results)
+  .then((jobs) => {
+    renderScheduledJobs(jobs)
   })
   .catch(error => logger.error(`Could not schedule all jobs: ${error}`))
   .finally(() => process.exit())
