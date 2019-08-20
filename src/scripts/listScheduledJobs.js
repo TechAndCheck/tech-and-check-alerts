@@ -8,7 +8,9 @@ const renderJobList = jobList => jobList.forEach((job) => {
 })
 
 const promises = queueDicts.map(getRepeatableJobsFromQueueDict)
-Promise.all(promises).then((jobLists) => {
-  jobLists.forEach(renderJobList)
-  process.exit()
-})
+Promise.all(promises)
+  .then((jobLists) => {
+    jobLists.forEach(renderJobList)
+  })
+  .catch(error => logger.error(`Could not list all scheduled jobs: ${error}`))
+  .finally(() => process.exit())

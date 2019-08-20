@@ -20,7 +20,9 @@ const unscheduleJobs = (queueDict) => {
 }
 
 const promises = queueDicts.map(unscheduleJobs)
-Promise.all(promises).then((results) => {
-  logger.info(`Jobs ${isHardFlagSet() ? '(hard) ' : ''}unscheduled for ${results.length} queues`)
-  process.exit()
-})
+Promise.all(promises)
+  .then((results) => {
+    logger.info(`Jobs ${isHardFlagSet() ? '(hard) ' : ''}unscheduled for ${results.length} queues`)
+  })
+  .catch(error => logger.error(`Could not unschedule all jobs: ${error}`))
+  .finally(() => process.exit())
