@@ -8,7 +8,9 @@ const renderResults = (results) => {
 }
 
 const promises = queueDicts.map(scheduleJobs)
-Promise.all(promises).then((results) => {
-  renderResults(results)
-  process.exit()
-})
+Promise.all(promises)
+  .then((results) => {
+    renderResults(results)
+  })
+  .catch(error => logger.error(`Could not schedule all jobs: ${error}`))
+  .finally(() => process.exit())
