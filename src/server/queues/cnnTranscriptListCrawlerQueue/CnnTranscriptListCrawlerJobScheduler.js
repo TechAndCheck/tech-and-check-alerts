@@ -2,12 +2,10 @@ import CnnTranscriptListCrawlerQueueFactory from './CnnTranscriptListCrawlerQueu
 import AbstractJobScheduler from '../AbstractJobScheduler'
 import { Schedules } from '../constants'
 
-const getQueueFactory = () => new CnnTranscriptListCrawlerQueueFactory()
-
 class CnnTranscriptListCrawlerJobScheduler extends AbstractJobScheduler {
   getScheduleCron = () => Schedules.NONE
 
-  getQueue = () => getQueueFactory().getQueue()
+  getQueueFactory = () => new CnnTranscriptListCrawlerQueueFactory()
 }
 
 export default CnnTranscriptListCrawlerJobScheduler

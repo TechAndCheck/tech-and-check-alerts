@@ -2,12 +2,10 @@ import ClaimBusterClaimDetectorQueueFactory from './ClaimBusterClaimDetectorQueu
 import AbstractJobScheduler from '../AbstractJobScheduler'
 import { Schedules } from '../constants'
 
-const getQueueFactory = () => new ClaimBusterClaimDetectorQueueFactory()
-
 class ClaimBusterClaimDetectorJobScheduler extends AbstractJobScheduler {
   getScheduleCron = () => Schedules.NONE
 
-  getQueue = () => getQueueFactory().getQueue()
+  getQueueFactory = () => new ClaimBusterClaimDetectorQueueFactory()
 }
 
 export default ClaimBusterClaimDetectorJobScheduler

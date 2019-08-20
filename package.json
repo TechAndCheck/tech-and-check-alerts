@@ -21,7 +21,7 @@
     "queue:jobs:list": "babel-node -- src/scripts/listScheduledJobs",
     "queue:jobs:schedule": "babel-node -- src/scripts/scheduleJobs",
     "queue:jobs:unschedule": "babel-node -- src/scripts/unscheduleJobs",
-    "queue:jobs:run:cnn-portal-crawler": "babel-node -- src/scripts/runCrawler",
+    "queue:jobs:run:cnn-portal-crawler": "babel-node -- src/scripts/runCnnCrawler",
     "mailer:send-test": "babel-node -- src/scripts/sendTestEmail",
     "newsletter:send-test": "babel-node -- src/scripts/sendTestNewsletter",
     "sandbox": "babel-node -- src/scripts/_sandbox",

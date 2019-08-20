@@ -1,7 +1,8 @@
 import { CnnTranscriptPortalCrawler } from '../../workers/crawlers/CnnCrawlers'
 import cnnTranscriptListCrawlerQueueDict from '../cnnTranscriptListCrawlerQueue'
+import { getQueueFromQueueDict } from '../../utils/queue'
 
-const listCrawlerQueue = cnnTranscriptListCrawlerQueueDict.factory.getQueue()
+const listCrawlerQueue = getQueueFromQueueDict(cnnTranscriptListCrawlerQueueDict)
 
 const crawlTranscriptListUrl = url => listCrawlerQueue.add({ url })
 

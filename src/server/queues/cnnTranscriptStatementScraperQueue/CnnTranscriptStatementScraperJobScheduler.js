@@ -2,12 +2,10 @@ import CnnTranscriptStatementScraperQueueFactory from './CnnTranscriptStatementS
 import AbstractJobScheduler from '../AbstractJobScheduler'
 import { Schedules } from '../constants'
 
-const getQueueFactory = () => new CnnTranscriptStatementScraperQueueFactory()
-
 class CnnTranscriptStatementScraperJobScheduler extends AbstractJobScheduler {
   getScheduleCron = () => Schedules.NONE
 
-  getQueue = () => getQueueFactory().getQueue()
+  getQueueFactory = () => new CnnTranscriptStatementScraperQueueFactory()
 }
 
 export default CnnTranscriptStatementScraperJobScheduler

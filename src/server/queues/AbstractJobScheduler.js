@@ -14,16 +14,22 @@ class AbstractJobScheduler {
   }
 
   /**
-   * Abstract method that provides the queue object that the schedule
+   * Abstract method that provides the queue factory for the queue that the schedule
    * should be applied to.
    *
    * OVERRIDE WHEN EXTENDING
    *
-   * @return {Queue} the queue object
+   * @return {AbstractQueueFactory} The instantiated queue factory
    */
-  getQueue = () => {
-    throw new Error('You extended AbstractJobScheduler but forgot to define getQueue()')
+  getQueueFactory = () => {
+    throw new Error('You extended AbstractJobScheduler but forgot to define getQueueFactory()')
   }
+
+  /**
+   * Invokes getQueueFactory to actually get the insertion queue
+   * @return {Queue} The queue to schedule against
+   */
+  getQueue = () => this.getQueueFactory().getQueue()
 
   /**
    * Method that provides the job information that should be part of the scheduled
