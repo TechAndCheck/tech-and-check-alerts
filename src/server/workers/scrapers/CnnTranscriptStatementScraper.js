@@ -3,6 +3,9 @@ import cheerio from 'cheerio'
 import { STATEMENT_SCRAPER_NAMES } from './constants'
 
 import {
+  squishStatementsText,
+} from '../../utils/scraper'
+import {
   isTranscriptUrl,
   getFullCnnUrl,
   removeTimestamps,
@@ -59,6 +62,7 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
       normalizeStatementSpeakers,
       removeNetworkAffiliatedStatements,
       removeUnattributableStatements,
+      squishStatementsText,
       this.addScraperNameToStatements,
       this.addCanonicalUrlToStatements,
     ] // Note that order does matter here

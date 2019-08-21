@@ -1,7 +1,6 @@
-// Disabling because we intend to have more exports in the future.
-/* eslint-disable import/prefer-default-export */
 import dayjs from 'dayjs'
 import config from '../config'
+import { squish } from '.'
 
 /**
  * Determine if a date is within or beyond the configured horizon (i.e., a number of days ago).
@@ -15,3 +14,14 @@ import config from '../config'
 export const isDateBeyondScrapeHorizon = date => dayjs()
   .subtract(config.SCRAPE_DAY_HORIZON, 'day')
   .isAfter(date)
+
+/**
+ * Squish (collapse repeated whitespace to a single space) statement text.
+ *
+ * @param  {Object[]} statements Array of statement objects
+ * @return {Object[]}            Statements objects with their `text` properties squished
+ */
+export const squishStatementsText = statements => statements.map(statement => ({
+  ...statement,
+  text: squish(statement.text),
+}))

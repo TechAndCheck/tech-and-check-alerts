@@ -1,6 +1,7 @@
 import dayjs from 'dayjs'
 import {
   isDateBeyondScrapeHorizon,
+  squishStatementsText,
 } from '../scraper'
 
 import config from '../../config'
@@ -20,5 +21,19 @@ describe('isDateBeyondScrapeHorizon', () => {
       .toBe(false)
     expect(isDateBeyondScrapeHorizon(withinHorizonDate.format()))
       .toBe(false)
+  })
+})
+
+describe('squishStatementsText', () => {
+  const statements = [
+    { text: 'Hello  world!' },
+    { text: 'Hello   world!' },
+    { text: 'Hello\nworld!' },
+  ]
+  it('Should replace repeated whitespace sequences with single spaces in statement text', () => {
+    const squishedStatements = squishStatementsText(statements)
+    squishedStatements.forEach((statement) => {
+      expect(statement.text).toBe('Hello world!')
+    })
   })
 })
