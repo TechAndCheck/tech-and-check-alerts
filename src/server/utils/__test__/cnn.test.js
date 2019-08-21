@@ -26,7 +26,6 @@ import {
   normalizeStatementSpeakers,
   removeNetworkAffiliatedStatements,
   removeUnattributableStatements,
-  extractSourceFromTranscriptUrl,
 } from '../cnn'
 
 
@@ -81,21 +80,6 @@ describe('utils/cnn', () => {
     it('Should throw an error on an invalid URL', () => {
       expect(() => extractPublicationDateFromTranscriptUrl('lololol'))
         .toThrow()
-    })
-  })
-
-  describe('extractSourceFromTranscriptUrl', () => {
-    it('Should extract the source shortcode from a transcript url', () => {
-      expect(extractSourceFromTranscriptUrl('/TRANSCRIPTS/1908/13/cnr.01.html'))
-        .toBe('cnr')
-    })
-    it('Should throw an error on an invalid URL', () => {
-      expect(() => {
-        extractSourceFromTranscriptUrl('http://google.com')
-      }).toThrow()
-      expect(() => {
-        extractSourceFromTranscriptUrl('lololol')
-      }).toThrow()
     })
   })
 

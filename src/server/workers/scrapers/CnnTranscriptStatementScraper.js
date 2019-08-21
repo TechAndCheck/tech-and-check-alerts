@@ -1,4 +1,5 @@
 import cheerio from 'cheerio'
+import logger from '../../utils/logger'
 
 import { STATEMENT_SCRAPER_NAMES } from './constants'
 
@@ -15,7 +16,6 @@ import {
   removeUnattributableStatements,
   cleanStatementSpeakerNames,
   normalizeStatementSpeakers,
-  extractSourceFromTranscriptUrl,
 } from '../../utils/cnn'
 
 import AbstractStatementScraper from './AbstractStatementScraper'
@@ -32,7 +32,24 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
 
   getScraperName = () => STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT
 
-  getSource = () => extractSourceFromTranscriptUrl(this.getScrapeUrl())
+  getCanonicalUrl = () => this.getScrapeUrl()
+
+  getSource = () => this.source
+
+  setSource = (html) => {
+    this.source = this.getShowName(html)
+  }
+
+  getShowName = (html) => {
+    const $headlineElements = $(html).find('.cnnTransStoryHead')
+    const headlineTexts = $headlineElements.map((i, element) => $(element).text())
+
+    if (headlineTexts.length < 1) {
+      logger.warn(`CnnTranscriptStatementScraper could not find a show name for ${this.getScrapeUrl()}`)
+      return ''
+    }
+    return headlineTexts[0].trim()
+  }
 
   getTranscriptText = (html) => {
     const $bodyTextElements = $(html).find('.cnnBodyText')
@@ -43,14 +60,6 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
     }
     return bodyTexts[2]
   }
-
-  addAdditionalPropertiesToStatements = statements => statements
-    .map(statement => ({
-      ...statement,
-      scraperName: this.getScraperName(),
-      canonicalUrl: this.getScrapeUrl(),
-      source: this.getSource(),
-    }))
 
   extractStatementsFromTranscript = (transcript) => {
     const stepSequence = [
@@ -64,7 +73,6 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
       normalizeStatementSpeakers,
       removeNetworkAffiliatedStatements,
       removeUnattributableStatements,
-      this.addAdditionalPropertiesToStatements,
     ] // Note that order does matter here
 
     const statements = stepSequence.reduce((string, fn) => fn(string), transcript)
@@ -72,6 +80,7 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
   }
 
   statementScrapeHandler = (responseString) => {
+    this.setSource(responseString)
     const transcript = this.getTranscriptText(responseString)
     const statements = this.extractStatementsFromTranscript(transcript)
     return statements

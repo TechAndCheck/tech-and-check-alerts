@@ -5,7 +5,6 @@ import juice from 'juice'
 
 import {
   CLAIM_PLATFORM_NAMES,
-  CNN_SHOW_NAMES,
 } from '../constants'
 import {
   STATEMENT_SCRAPER_NAMES,
@@ -13,7 +12,6 @@ import {
 import {
   getFileContents,
   runSequence,
-  hasKey,
 } from '.'
 
 const TEMPLATE_PARTIALS_DIRECTORY = `${__dirname}/../newsletters/templates/partials/`
@@ -34,12 +32,6 @@ const registerHandlebarsHelpers = () => {
     const sharedKey = Object.keys(STATEMENT_SCRAPER_NAMES)
       .find(scraperNameKey => STATEMENT_SCRAPER_NAMES[scraperNameKey] === scraperName)
     return CLAIM_PLATFORM_NAMES[sharedKey]
-  })
-  Handlebars.registerHelper('humanizeSource', (source, scraperName) => {
-    if (scraperName === STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT && hasKey(CNN_SHOW_NAMES, source)) {
-      return new Handlebars.SafeString(`<span class="claim__source">on ${CNN_SHOW_NAMES[source]}</span>`)
-    }
-    return ''
   })
 }
 

@@ -23,15 +23,11 @@ const attributionAffiliationRegex = /,([^a-z]*)/
 const attributionNameRegex = /[^a-z,]+/
 const chunkAttributionRegex = /[^a-z]+[:]/
 
-export const isTranscriptListUrl = url => (url.startsWith('/TRANSCRIPTS/')
-  || url.startsWith('http://transcripts.cnn.com/TRANSCRIPTS/')
-  || url.startsWith('http://cnn.com/TRANSCRIPTS/')
-) && url.endsWith('.html')
+export const isTranscriptListUrl = url => url.startsWith('/TRANSCRIPTS/')
+  && url.endsWith('.html')
 
-export const isTranscriptUrl = url => (url.startsWith('/TRANSCRIPTS/')
-  || url.startsWith('http://transcripts.cnn.com/TRANSCRIPTS/')
-  || url.startsWith('http://cnn.com/TRANSCRIPTS/')
-) && url.endsWith('.html')
+export const isTranscriptUrl = url => url.startsWith('/TRANSCRIPTS/')
+  && url.endsWith('.html')
 
 export const getFullCnnUrl = (url) => {
   if (url.startsWith('http')) return url
@@ -57,24 +53,6 @@ export const extractPublicationDateFromTranscriptUrl = (url) => {
   const day = parts[3]
   return dayjs(`${month}/${day}/${year}`, 'MM/DD/YY')
 }
-
-/**
- * Extracts and returns the CNN show shortcode from CNN transcript URLs.
- *
- * For example, the URL `http://transcripts.cnn.com/TRANSCRIPTS/1908/13/cnr.01.html` contains the
- * shortcode `cnr`, which identifies the show as CNN Newsroom.
- *
- * @param  {String} url The transcript URL to parse
- * @return {String}     The extracted source shortcode
- */
-export const extractSourceFromTranscriptUrl = (url) => {
-  if (!isTranscriptUrl(url)) {
-    throw new Error(`Passed an invalid URL to extractSourceFromTranscriptUrl: ${url}`)
-  }
-  const source = url.substring(url.lastIndexOf('/') + 1).split('.')[0]
-  return source
-}
-
 
 /**
  * CNN Transcripts have occasional timestamps inserted.
