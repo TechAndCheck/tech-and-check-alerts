@@ -372,6 +372,8 @@ describe('utils/cnn', () => {
         .toBe('JIMMY DUST')
       expect(cleanSpeakerName('REPRESENTATIVE JIMMY DUST'))
         .toBe('JIMMY DUST')
+      expect(cleanSpeakerName('REP. JIMMY DUST'))
+        .toBe('JIMMY DUST')
     })
     it('Should remove parentheticals', () => {
       expect(cleanSpeakerName('JIMMY DUST (D-MA)'))

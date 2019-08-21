@@ -216,6 +216,7 @@ export const cleanSpeakerName = name => name
   .replace('SENATOR ', '')
   .replace('REPRESENTATIVE ', '')
   .replace('SEN. ', '')
+  .replace('REP. ', '')
   .replace(/\s*\([^()]*\)/g, '')
   .trim()
 
