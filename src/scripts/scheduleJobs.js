@@ -3,8 +3,10 @@ import logger from '../server/utils/logger'
 
 const scheduleJobs = queueDict => queueDict.scheduler.scheduleJobs()
 
+const isJob = job => (!!job && job.constructor.name === 'Job')
+
 const renderScheduledJobs = scheduledJobs => scheduledJobs
-  .filter(job => !!job)
+  .filter(isJob)
   .forEach(job => logger.info(`Scheduled job: ${job.toKey()}`))
 
 const scheduleableQueues = queueDicts.filter(queueDict => queueDict.scheduler.getIsScheduled())
