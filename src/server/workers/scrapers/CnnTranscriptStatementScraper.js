@@ -36,9 +36,7 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
 
   getSource = () => this.source
 
-  setSource = (html) => {
-    this.source = this.getShowName(html)
-  }
+  setSource = (source) => { this.source = source }
 
   getShowName = (html) => {
     const $headlineElements = $(html).find('.cnnTransStoryHead')
@@ -80,7 +78,8 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
   }
 
   statementScrapeHandler = (responseString) => {
-    this.setSource(responseString)
+    const showName = this.getShowName(responseString)
+    this.setSource(showName)
     const transcript = this.getTranscriptText(responseString)
     const statements = this.extractStatementsFromTranscript(transcript)
     return statements
