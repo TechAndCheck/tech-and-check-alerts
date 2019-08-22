@@ -30,9 +30,10 @@ export const isTranscriptUrl = url => url.startsWith('/TRANSCRIPTS/')
   && url.endsWith('.html')
 
 export const getFullCnnUrl = (url) => {
+  if (url.startsWith('/')) return `http://transcripts.cnn.com${url}`
+  if (url.startsWith('http://cnn.com')) return url.replace('//cnn.com', '//transcripts.cnn.com')
   if (url.startsWith('http')) return url
-  if (url.startsWith('/')) return `http://cnn.com${url}`
-  return `http://cnn.com/${url}`
+  return `http://transcripts.cnn.com/${url}`
 }
 
 /**
