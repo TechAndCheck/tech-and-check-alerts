@@ -1,5 +1,8 @@
 import {
-  isTestEnv, isDevelopmentEnv, isProductionEnv,
+  isTestEnv,
+  isDevelopmentEnv,
+  isProductionEnv,
+  squish,
 } from '..'
 
 describe('utils/index', () => {
@@ -16,6 +19,11 @@ describe('utils/index', () => {
   describe('#isProductionEnv', () => {
     it('Should report that we are in not in the production environment', () => {
       expect(isProductionEnv()).toBe(false)
+    })
+  })
+  describe('#squish', () => {
+    it('Should replace all whitespace with single spaces', () => {
+      expect(squish('Too  much   space.\nAmiright?')).toBe('Too much space. Amiright?')
     })
   })
 })
