@@ -19,10 +19,9 @@ export const runPromiseSequence = promiseArray => promiseArray.reduce(
 export const runSequence = (sequence, seed) => sequence.reduce((param, fn) => fn(param), seed)
 
 /**
- * Squish a string by collapsing repeated whitespace to a single space.
+ * Squish a string by replacing all whitespace sequences with a single space.
  *
- * This has the practical effect and primary purpose of reducing multiple spaces to single spaces,
- * but as a side effect it will replace tabs and newlines with a space.
+ * Note that this affects all whitespace, including tabs and newlines.
  *
  * @param  {String} string The string you want to squish
  * @return {String}        The string with all whitespace sequences collapsed to single spaces
