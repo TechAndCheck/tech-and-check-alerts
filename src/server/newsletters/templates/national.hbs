@@ -11,6 +11,7 @@
           <cite class="claim__speaker">
             {{speakerName}}
           </cite>
+          {{#if source}}<span class="claim__source">on {{ source }}</span>{{/if}}
           <span class="claim__platform">({{convertScraperNameToPlatformName scraperName}})</span></a>:
       </div>
       <blockquote class="claim__content">{{content}}</blockquote>

@@ -8,7 +8,7 @@ const { ScrapeLog } = models
 
 class AbstractScraper {
   constructor(scrapeUrl) {
-    this.scrapeUrl = scrapeUrl
+    this.setScrapeUrl(scrapeUrl)
   }
 
   /**
@@ -43,13 +43,47 @@ class AbstractScraper {
   /**
    * Helper getter for accessing the current scrape URL.
    *
-   * The programmer could access this directly, but ultimately we don't want them to have
-   * to know about naming conventions for internal attributes (the scrapeUrl ought to be "private"
-   * but javascript doesn't)
+   * Don't access `scrapeUrl` directly. If JavaScript had private attributes, this would be.
    *
    * @return {String} The URL that this scraper is going to scrape
    */
   getScrapeUrl = () => this.scrapeUrl
+
+  /**
+   * Helper setter for setting the scrape URL.
+   *
+   * `scrapeUrl` is meant to be immutable, but JavaScript doesn't support immutability. This
+   * setter simulates that by throwing an error if `scrapeUrl` is already defined/truthy.
+   * There's nothing stopping someone from changing `scrapeUrl` directly, but hopefully the
+   * presence of the method will encourage its use and draw attention to the intended immutability.
+   *
+   * @param {String} scrapeUrl The URL that this scraper should scrape
+   */
+  setScrapeUrl = (scrapeUrl) => {
+    if (this.scrapeUrl) {
+      throw new Error('scrapeUrl is immutable and cannot be redefined.')
+    }
+    this.scrapeUrl = scrapeUrl
+  }
+
+  /**
+   * Helper getter for accessing the scrape response.
+   *
+   * Don't access `scrapeResponse` directly. If JavaScript had private attributes, this would be.
+   *
+   * @return {String} The response from the last scrape
+   */
+  getScrapeResponse = () => this.scrapeResponse
+
+  /**
+   * Helper setter for storing the scrape response.
+   *
+   * By storing the scrape response on a class attribute, we make it accessible to all methods
+   * within the class, including in many where passing it in as a parameter is impractical.
+   *
+   * @param {String} scrapeResponse The text result of the scrape
+   */
+  setScrapeResponse = (scrapeResponse) => { this.scrapeResponse = scrapeResponse }
 
   /**
    * Look up and return the date of the most recent scrape for this URL
@@ -114,6 +148,7 @@ class AbstractScraper {
     return rp(this.scrapeUrl)
       .then((responseString) => {
         logger.debug(`Success (${this.scrapeUrl})`)
+        this.setScrapeResponse(responseString)
         const result = this.scrapeHandler(responseString)
         this.createScrapeLog(JSON.stringify(result))
         return result

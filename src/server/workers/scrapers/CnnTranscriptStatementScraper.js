@@ -1,4 +1,7 @@
 import cheerio from 'cheerio'
+import memoizeOne from 'memoize-one'
+
+import logger from '../../utils/logger'
 
 import { STATEMENT_SCRAPER_NAMES } from './constants'
 
@@ -34,6 +37,36 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
 
   getScraperName = () => STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT
 
+  getStatementCanonicalUrl = () => this.getScrapeUrl()
+
+  getStatementSource = () => {
+    const scrapeResponse = this.getScrapeResponse()
+    const showName = this.getShowName(scrapeResponse)
+    return showName
+  }
+
+  /**
+   * Extracts and returns the show name from the scraped transcript body.
+   *
+   * A note on the memoization: currently, CNN transcripts are organized by show, so all statements
+   * from a single transcript scrape share the same source. Rather than re-extract the show name
+   * for every statement, we memoize a single extraction function so that subsequent invocations
+   * with the same input immediately receive the already-calculated output.
+   *
+   * @param {String} html The scraped transcript HTML
+   * @return {String}     The show name or an empty fallback string
+   */
+  getShowName = memoizeOne((html) => {
+    const $headlineElements = $(html).find('.cnnTransStoryHead')
+    const headlineTexts = $headlineElements.map((i, element) => $(element).text())
+
+    if (headlineTexts.length < 1) {
+      logger.warn(`CnnTranscriptStatementScraper could not find a show name for ${this.getScrapeUrl()}`)
+      return ''
+    }
+    return headlineTexts[0].trim()
+  })
+
   getTranscriptText = (html) => {
     const $bodyTextElements = $(html).find('.cnnBodyText')
     const bodyTexts = $bodyTextElements.map((i, element) => $(element).text())
@@ -43,12 +76,6 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
     }
     return bodyTexts[2]
   }
-
-  addScraperNameToStatements = statements => statements
-    .map(statement => ({ ...statement, scraperName: this.getScraperName() }))
-
-  addCanonicalUrlToStatements = statements => statements
-    .map(statement => ({ ...statement, canonicalUrl: this.scrapeUrl }))
 
   extractStatementsFromTranscript = (transcript) => {
     const stepSequence = [
@@ -63,8 +90,6 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
       removeNetworkAffiliatedStatements,
       removeUnattributableStatements,
       squishStatementsText,
-      this.addScraperNameToStatements,
-      this.addCanonicalUrlToStatements,
     ] // Note that order does matter here
 
     const statements = stepSequence.reduce((string, fn) => fn(string), transcript)
