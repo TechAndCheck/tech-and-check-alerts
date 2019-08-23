@@ -41,11 +41,22 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
 
   getStatementSource = () => {
     const scrapeResponse = this.getScrapeResponse()
-    const showName = this.memoizedGetShowName(scrapeResponse)
+    const showName = this.getShowName(scrapeResponse)
     return showName
   }
 
-  getShowName = (html) => {
+  /**
+   * Extracts and returns the show name from the scraped transcript body.
+   *
+   * A note on the memoization: currently, CNN transcripts are organized by show, so all statements
+   * from a single transcript scrape share the same source. Rather than re-extract the show name
+   * for every statement, we memoize a single extraction function so that subsequent invocations
+   * with the same input immediately receive the already-calculated output.
+   *
+   * @param {String} html The scraped transcript HTML
+   * @return {String}     The show name or an empty fallback string
+   */
+  getShowName = memoizeOne((html) => {
     const $headlineElements = $(html).find('.cnnTransStoryHead')
     const headlineTexts = $headlineElements.map((i, element) => $(element).text())
 
@@ -54,19 +65,7 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
       return ''
     }
     return headlineTexts[0].trim()
-  }
-
-  /**
-   * Currently, CNN transcripts are organized by show, so all statements from a single transcript
-   * scrape share the same source.
-   *
-   * Rather than rerun `getShowName()` for every statement from the transcript, we re-use the first
-   * calculated value by wrapping it in a memoizer.
-   *
-   * @param {String} html The scraped transcript HTML
-   * @return {String}     The show name or an empty fallback string
-   */
-  memoizedGetShowName = memoizeOne(this.getShowName)
+  })
 
   getTranscriptText = (html) => {
     const $bodyTextElements = $(html).find('.cnnBodyText')
