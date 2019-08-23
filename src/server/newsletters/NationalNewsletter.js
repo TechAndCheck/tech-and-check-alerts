@@ -18,7 +18,11 @@ class NationalNewsletter extends AbstractNewsletter {
 
   getPathToTextTemplate = () => `${__dirname}/templates/nationalText.hbs`
 
-  getSubject = () => 'Tech & Check Alerts'
+  getSubject = () => {
+    const platforms = ['CNN']
+    const date = dayjs().format('MM/DD/YY')
+    return `Tech & Check Alerts: ${platforms.join(', ')} ${date}`
+  }
 
   assertNewsletterIsSendable = async () => {
     const bodyData = await this.getCachedBodyData()
