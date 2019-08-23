@@ -1,4 +1,6 @@
 import cheerio from 'cheerio'
+import memoizeOne from 'memoize-one'
+
 import logger from '../../utils/logger'
 
 import { STATEMENT_SCRAPER_NAMES } from './constants'
@@ -32,11 +34,13 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
 
   getScraperName = () => STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT
 
-  getCanonicalUrl = () => this.getScrapeUrl()
+  getStatementCanonicalUrl = () => this.getScrapeUrl()
 
-  getSource = () => this.source
-
-  setSource = (source) => { this.source = source }
+  getStatementSource = () => {
+    const scrapeResponse = this.getScrapeResponse()
+    const showName = this.memoizedGetShowName(scrapeResponse)
+    return showName
+  }
 
   getShowName = (html) => {
     const $headlineElements = $(html).find('.cnnTransStoryHead')
@@ -48,6 +52,18 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
     }
     return headlineTexts[0].trim()
   }
+
+  /**
+   * Currently, CNN transcripts are organized by show, so all statements from a single transcript
+   * scrape share the same source.
+   *
+   * Rather than rerun `getShowName()` for every statement from the transcript, we re-use the first
+   * calculated value by wrapping it in a memoizer.
+   *
+   * @param {String} html The scraped transcript HTML
+   * @return {String}     The show name or an empty fallback string
+   */
+  memoizedGetShowName = memoizeOne(this.getShowName)
 
   getTranscriptText = (html) => {
     const $bodyTextElements = $(html).find('.cnnBodyText')
@@ -78,8 +94,6 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
   }
 
   statementScrapeHandler = (responseString) => {
-    const showName = this.getShowName(responseString)
-    this.setSource(showName)
     const transcript = this.getTranscriptText(responseString)
     const statements = this.extractStatementsFromTranscript(transcript)
     return statements

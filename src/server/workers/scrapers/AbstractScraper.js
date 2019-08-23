@@ -67,6 +67,25 @@ class AbstractScraper {
   }
 
   /**
+   * Helper getter for accessing the scrape response.
+   *
+   * Don't access `scrapeResponse` directly. If JavaScript had private attributes, this would be.
+   *
+   * @return {String} The response from the last scrape
+   */
+  getScrapeResponse = () => this.scrapeResponse
+
+  /**
+   * Helper setter for storing the scrape response.
+   *
+   * By storing the scrape response on a class attribute, we make it accessible to all methods
+   * within the class, including in many where passing it in as a parameter is impractical.
+   *
+   * @param {String} scrapeResponse The text result of the scrape
+   */
+  setScrapeResponse = (scrapeResponse) => { this.scrapeResponse = scrapeResponse }
+
+  /**
    * Look up and return the date of the most recent scrape for this URL
    *
    * @return {Dayjs} The Day.js representation of the scrape time
@@ -129,6 +148,7 @@ class AbstractScraper {
     return rp(this.scrapeUrl)
       .then((responseString) => {
         logger.debug(`Success (${this.scrapeUrl})`)
+        this.setScrapeResponse(responseString)
         const result = this.scrapeHandler(responseString)
         this.createScrapeLog(JSON.stringify(result))
         return result

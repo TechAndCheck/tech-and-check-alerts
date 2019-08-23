@@ -8,22 +8,28 @@ class AbstractStatementScraper extends AbstractScraper {
    *
    * OVERRIDE WHEN EXTENDING
    *
-   * @return {String} The source for the statement
+   * @param {String} statement The scraped statement, which may be needed
+   * @return {String}          The source for the statement
    */
-  getSource = () => {
-    throw new Error('You implemented a statement scraper but forgot to define the getSource.')
+  // (this is an abstract method and we need to define its footprint.)
+  // eslint-disable-next-line no-unused-vars
+  getStatementSource = (statement) => {
+    throw new Error('You implemented a statement scraper but forgot to define the getStatementSource.')
   }
 
   /**
    * The canonical URL is the URL the user would consult to view the statement in context. It will
-   * sometimes differ from the scrapeUrl, such as when using an API to access the statements.
+   * sometimes differ from the scrape URL, such as when using an API to access the statements.
    *
    * OVERRIDE WHEN EXTENDING
    *
-   * @return {String} The canonical URL for the statement
+   * @param {String} statement The scraped statement, which may be needed
+   * @return {String}          The canonical URL for the statement
    */
-  getCanonicalUrl = () => {
-    throw new Error('You implemented a statement scraper but forgot to define the getCanonicalUrl.')
+  // (this is an abstract method and we need to define its footprint.)
+  // eslint-disable-next-line no-unused-vars
+  getStatementCanonicalUrl = (statement) => {
+    throw new Error('You implemented a statement scraper but forgot to define the getStatementCanonicalUrl.')
   }
 
   /**
@@ -54,8 +60,8 @@ class AbstractStatementScraper extends AbstractScraper {
     .map(statement => ({
       ...statement,
       scraperName: this.getScraperName(),
-      canonicalUrl: this.getCanonicalUrl(),
-      source: this.getSource(),
+      canonicalUrl: this.getStatementCanonicalUrl(),
+      source: this.getStatementSource(),
     }))
 
 
