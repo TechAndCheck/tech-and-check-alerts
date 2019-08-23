@@ -56,16 +56,20 @@ describe('utils/cnn', () => {
     it('Should not modify a complete URL', () => {
       expect(getFullCnnUrl('http://google.com'))
         .toBe('http://google.com')
+      expect(getFullCnnUrl('http://transcripts.cnn.com'))
+        .toBe('http://transcripts.cnn.com')
+    })
+    it('Should convert a naked cnn.com URL', () => {
       expect(getFullCnnUrl('http://cnn.com'))
-        .toBe('http://cnn.com')
+        .toBe('http://transcripts.cnn.com')
     })
     it('Should prepend a relative URL', () => {
       expect(getFullCnnUrl('TRANSCRIPTS'))
-        .toBe('http://cnn.com/TRANSCRIPTS')
+        .toBe('http://transcripts.cnn.com/TRANSCRIPTS')
     })
     it('Should prepend a relative URL starting with /', () => {
       expect(getFullCnnUrl('/TRANSCRIPTS'))
-        .toBe('http://cnn.com/TRANSCRIPTS')
+        .toBe('http://transcripts.cnn.com/TRANSCRIPTS')
     })
   })
 
@@ -371,6 +375,8 @@ describe('utils/cnn', () => {
       expect(cleanSpeakerName('SEN. JIMMY DUST'))
         .toBe('JIMMY DUST')
       expect(cleanSpeakerName('REPRESENTATIVE JIMMY DUST'))
+        .toBe('JIMMY DUST')
+      expect(cleanSpeakerName('REP. JIMMY DUST'))
         .toBe('JIMMY DUST')
     })
     it('Should remove parentheticals', () => {

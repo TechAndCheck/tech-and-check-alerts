@@ -6,6 +6,9 @@ import logger from '../../utils/logger'
 import { STATEMENT_SCRAPER_NAMES } from './constants'
 
 import {
+  squishStatementsText,
+} from '../../utils/scraper'
+import {
   isTranscriptUrl,
   getFullCnnUrl,
   removeTimestamps,
@@ -87,6 +90,7 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
       normalizeStatementSpeakers,
       removeNetworkAffiliatedStatements,
       removeUnattributableStatements,
+      squishStatementsText,
     ] // Note that order does matter here
 
     const statements = stepSequence.reduce((string, fn) => fn(string), transcript)
