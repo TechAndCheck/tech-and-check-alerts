@@ -60,8 +60,8 @@ class AbstractStatementScraper extends AbstractScraper {
     .map(statement => ({
       ...statement,
       scraperName: this.getScraperName(),
-      canonicalUrl: this.getStatementCanonicalUrl(),
-      source: this.getStatementSource(),
+      canonicalUrl: statement.canonicalUrl || this.getStatementCanonicalUrl(statement),
+      source: statement.source || this.getStatementSource(statement),
     }))
 
 
