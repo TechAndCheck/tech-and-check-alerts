@@ -25,7 +25,8 @@
     "mailer:send-test": "babel-node -- src/scripts/sendTestEmail",
     "newsletter:send-test": "babel-node -- src/scripts/sendTestNewsletter",
     "sandbox": "babel-node -- src/scripts/_sandbox",
-    "scraper:cnn": "babel-node -- src/scripts/scrapeCnnStatements"
+    "scrape:cnn": "babel-node -- src/scripts/scrapeCnnStatements",
+    "scrape:twitter": "babel-node -- src/scripts/scrapeTwitterStatements"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
