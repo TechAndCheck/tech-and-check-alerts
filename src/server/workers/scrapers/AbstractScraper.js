@@ -41,9 +41,19 @@ class AbstractScraper {
   }
 
   /**
+   * Overrideable method for generating scrape headers.
+   *
+   * By default this returns null (e.g. no headers), but this allows implementing classes
+   * to provide things like authorization headers.
+   *
+   * @return {Object} The header dict that this scraper is going to pass to the scrape request
+   */
+  generateScrapeHeaders = async () => null
+
+  /**
    * Helper getter for accessing the current scrape URL.
    *
-   * Don't access `scrapeUrl` directly. If JavaScript had private attributes, this would be.
+   * Don't access `scrapeUrl` directly.
    *
    * @return {String} The URL that this scraper is going to scrape
    */
@@ -145,7 +155,10 @@ class AbstractScraper {
    */
   async run() {
     logger.debug(`Scraping (${this.scrapeUrl})`)
-    return rp(this.scrapeUrl)
+    return rp({
+      url: this.scrapeUrl,
+      headers: await this.generateScrapeHeaders(),
+    })
       .then((responseString) => {
         logger.debug(`Success (${this.scrapeUrl})`)
         this.setScrapeResponse(responseString)
