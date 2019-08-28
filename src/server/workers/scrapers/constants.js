@@ -4,4 +4,5 @@
 // Every property of this object should have a corresponding property on `CLAIM_PLATFORM_NAMES`
 export const STATEMENT_SCRAPER_NAMES = {
   CNN_TRANSCRIPT: 'cnnTranscript',
+  TWITTER_ACCOUNT: 'twitterAccount',
 }
