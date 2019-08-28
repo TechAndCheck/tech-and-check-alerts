@@ -27,5 +27,4 @@ scrapeStatements().catch((error) => {
 }).then((statements) => {
   logger.info(`Total statements: ${statements.length}`)
   statements.forEach(statement => logger.info('%o', statement))
-  process.exit()
-})
+}).finally(() => process.exit())
