@@ -25,3 +25,8 @@ export const NEWSLETTER_SETTINGS = {
     CLAIM_LIMIT: 15,
   },
 }
+
+export const NEWSLETTER_MEDIA = {
+  TV: 'TV',
+  SOCIAL: 'SOCIAL',
+}

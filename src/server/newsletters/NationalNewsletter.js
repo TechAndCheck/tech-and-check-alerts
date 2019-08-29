@@ -3,15 +3,27 @@ import dayjs from 'dayjs'
 import assert from 'assert'
 
 import models from '../models'
+import { PLATFORM_NAMES } from '../constants'
+import { STATEMENT_SCRAPER_NAMES } from '../workers/scrapers/constants'
 import AbstractNewsletter from './AbstractNewsletter'
 import {
   NEWSLETTER_SETTINGS,
   MAILING_LISTS,
+  NEWSLETTER_MEDIA,
 } from './constants'
 
 const { Claim } = models
 
 class NationalNewsletter extends AbstractNewsletter {
+  constructor() {
+    super()
+    /**
+     * This is the date we use to scope our claim queries; by storing it instead of generating it
+     * on the fly, we can ensure all `fetchClaimsByMedium()` results share the same date scope.
+     */
+    this.createdAtHorizon = dayjs().subtract(1, 'day')
+  }
+
   getMailingList = () => MAILING_LISTS.NATIONAL
 
   getPathToTemplate = () => `${__dirname}/templates/national.hbs`
@@ -19,30 +31,50 @@ class NationalNewsletter extends AbstractNewsletter {
   getPathToTextTemplate = () => `${__dirname}/templates/nationalText.hbs`
 
   getSubject = () => {
-    const platforms = ['CNN']
+    const platformNames = [
+      PLATFORM_NAMES.CNN,
+      PLATFORM_NAMES.TWITTER,
+    ]
     const date = dayjs().format('MM/DD/YY')
-    return `Tech & Check Alerts: ${platforms.join(', ')} ${date}`
+    return `Tech & Check Alerts: ${platformNames.join(', ')} ${date}`
   }
 
   assertNewsletterIsSendable = async () => {
     const bodyData = await this.getCachedBodyData()
-    assert(bodyData.tvClaims.length > 0, 'There are claims to share.')
+    const totalClaims = Object.keys(bodyData.claims)
+      .reduce((total, medium) => (total + bodyData.claims[medium].length), 0)
+    assert(totalClaims > 0, 'There are claims to share.')
   }
 
-  fetchTVClaims = () => (Claim.findAll({
+  getScraperNamesByMedium = () => ({
+    [NEWSLETTER_MEDIA.TV]: [
+      STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT,
+    ],
+    [NEWSLETTER_MEDIA.SOCIAL]: [
+      STATEMENT_SCRAPER_NAMES.TWITTER_ACCOUNT,
+    ],
+  })
+
+  fetchClaimsByMedium = async medium => (Claim.findAll({
     limit: NEWSLETTER_SETTINGS.DEFAULT.CLAIM_LIMIT,
     where: {
+      scraperName: {
+        [Sequelize.Op.in]: this.getScraperNamesByMedium()[medium],
+      },
       createdAt: {
-        [Sequelize.Op.gte]: dayjs().subtract(1, 'day').format(),
+        [Sequelize.Op.gte]: this.createdAtHorizon.format(),
       },
     },
     order: [
       ['claimBusterScore', 'DESC'],
     ],
-  }).then(tvClaims => tvClaims))
+  }).then(claims => claims))
 
   getBodyData = async () => ({
-    tvClaims: await this.fetchTVClaims(),
+    claims: {
+      [NEWSLETTER_MEDIA.TV]: await this.fetchClaimsByMedium(NEWSLETTER_MEDIA.TV),
+      [NEWSLETTER_MEDIA.SOCIAL]: await this.fetchClaimsByMedium(NEWSLETTER_MEDIA.SOCIAL),
+    },
   })
 }
 

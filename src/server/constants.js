@@ -6,7 +6,12 @@ export const ENV_NAMES = {
 
 export const CLAIMBUSTER_THRESHHOLD = 0.5
 
-// Every property of this object should have a corresponding property on `STATEMENT_SCRAPER_NAMES`
-export const CLAIM_PLATFORM_NAMES = {
-  CNN_TRANSCRIPT: 'CNN',
+export const PLATFORMS = {
+  CNN: 'CNN',
+  TWITTER: 'TWITTER',
+}
+
+export const PLATFORM_NAMES = {
+  CNN: 'CNN',
+  TWITTER: 'Twitter',
 }
