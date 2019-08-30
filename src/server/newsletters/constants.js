@@ -16,7 +16,7 @@ export const GUARDED_MAILING_LIST = 'DEVELOPERS'
 export const MAILING_LIST_ADDRESSES = {
   DEVELOPERS: 'dev@alerts.factstream.co',
   TESTERS: 'test@alerts.factstream.co',
-  NATIONAL: 'alerts@alerts.factstream.co',
+  NATIONAL: 'national@alerts.factstream.co',
   NORTH_CAROLINA: 'northcarolina@alerts.factstream.co',
 }
 
