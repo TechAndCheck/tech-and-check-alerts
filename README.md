@@ -23,10 +23,10 @@ This project uses [redis](https://redis.io/) as a data store for queues.  You wi
 
 ### Configure the project
 
-You will need to configure your environment variables.  In production this can be done however your host recommends; in development we recommend using an `.env` file. A template for the contents of `.env` is provided in `.env.example`.
+You will need to configure your environment variables.  In production this can be done however your host recommends; in development we recommend using an `.env` file. A template for the contents of `.env` is provided in `.env.template`.
 
 ```
-> cp .env.example .env
+> cp .env.template .env
 > vi .env
 ```
 
