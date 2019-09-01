@@ -17,7 +17,7 @@ class AbstractCrawler extends AbstractScraper {
     throw new Error('You wrote a new crawler but forgot to define the crawlHandler.')
   }
 
-  scrapeHandler = responseString => this.crawlHandler(responseString)
+  scrapeHandler = async responseString => this.crawlHandler(responseString)
 }
 
 export default AbstractCrawler

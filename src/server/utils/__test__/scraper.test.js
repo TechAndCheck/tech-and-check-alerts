@@ -2,6 +2,8 @@ import dayjs from 'dayjs'
 import {
   isDateBeyondScrapeHorizon,
   squishStatementsText,
+  filterPreviouslyScrapedStatements,
+  getUniqueCanonicalUrls,
 } from '../scraper'
 
 import config from '../../config'
@@ -35,5 +37,45 @@ describe('squishStatementsText', () => {
     squishedStatements.forEach((statement) => {
       expect(statement.text).toBe('Hello world!')
     })
+  })
+})
+
+describe('filterPreviouslyScrapedStatements', () => {
+  const statements = [
+    {
+      text: 'Hello  world!',
+      wasPreviouslyScraped: false,
+    },
+    {
+      text: 'Was scraped',
+      wasPreviouslyScraped: true,
+    },
+  ]
+  it('Should remove previously scraped statements', () => {
+    const filteredStatements = filterPreviouslyScrapedStatements(statements)
+    filteredStatements.forEach((statement) => {
+      expect(statement.wasPreviouslyScraped).toBe(false)
+    })
+  })
+})
+
+describe('getUniqueCanonicalUrls', () => {
+  const statements = [
+    {
+      text: 'Hello world!',
+      canonicalUrl: 'https://pants.com',
+    },
+    {
+      text: 'Hello again world!',
+      canonicalUrl: 'https://pants.com',
+    },
+    {
+      text: 'Hello chicken!',
+      canonicalUrl: 'https://chicken.com',
+    },
+  ]
+  it('Should remove previously scraped statements', () => {
+    expect(getUniqueCanonicalUrls(statements).sort())
+      .toEqual(['https://pants.com', 'https://chicken.com'].sort())
   })
 })

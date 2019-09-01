@@ -18,6 +18,11 @@ export const runPromiseSequence = promiseArray => promiseArray.reduce(
 
 export const runSequence = (sequence, seed) => sequence.reduce((param, fn) => fn(param), seed)
 
+export const runAsyncSequence = async (sequence, seed) => sequence.reduce(
+  async (promisedParam, fn) => fn(await promisedParam),
+  seed,
+)
+
 /**
  * Squish a string by replacing all whitespace sequences with a single space.
  *

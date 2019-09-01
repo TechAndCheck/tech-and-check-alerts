@@ -25,7 +25,7 @@ class AbstractScraper {
    */
   // (this is an abstract method and we need to define its footprint.)
   // eslint-disable-next-line no-unused-vars
-  scrapeHandler = (responseString) => {
+  scrapeHandler = async (responseString) => {
     throw new Error('You implemented a scraper but forgot to define the scrapeHandler.')
   }
 
@@ -159,10 +159,10 @@ class AbstractScraper {
       url: this.scrapeUrl,
       headers: await this.generateScrapeHeaders(),
     })
-      .then((responseString) => {
+      .then(async (responseString) => {
         logger.debug(`Success (${this.scrapeUrl})`)
         this.setScrapeResponse(responseString)
-        const result = this.scrapeHandler(responseString)
+        const result = await this.scrapeHandler(responseString)
         this.createScrapeLog(JSON.stringify(result))
         return result
       })
