@@ -22,7 +22,7 @@ If you introduce a new framework or dependency, add the necessary information to
 
 ### Configurations
 
-We're using `dotenv` for general runtime configuration settings. Never hard code values that should be configurable, but instead edit the .env.example file.
+We're using `dotenv` for general runtime configuration settings. Never hard code values that should be configurable, but instead edit the .env.template file.
 
 Commits that introduce a new configurable variable should also document the configuration steps in the commit message.
 
