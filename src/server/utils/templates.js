@@ -4,10 +4,11 @@ import sanitizeHTML from 'sanitize-html'
 import juice from 'juice'
 
 import {
-  CLAIM_PLATFORM_NAMES,
+  PLATFORM_NAMES,
 } from '../constants'
 import {
   STATEMENT_SCRAPER_NAMES,
+  STATEMENT_SCRAPER_PLATFORMS,
 } from '../workers/scrapers/constants'
 import {
   getFileContents,
@@ -29,9 +30,9 @@ const registerHandlebarsPartial = (fileName) => {
 
 const registerHandlebarsHelpers = () => {
   Handlebars.registerHelper('convertScraperNameToPlatformName', (scraperName) => {
-    const sharedKey = Object.keys(STATEMENT_SCRAPER_NAMES)
+    const scraper = Object.keys(STATEMENT_SCRAPER_NAMES)
       .find(scraperNameKey => STATEMENT_SCRAPER_NAMES[scraperNameKey] === scraperName)
-    return CLAIM_PLATFORM_NAMES[sharedKey]
+    return PLATFORM_NAMES[STATEMENT_SCRAPER_PLATFORMS[scraper]]
   })
 }
 
