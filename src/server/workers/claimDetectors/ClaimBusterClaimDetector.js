@@ -1,5 +1,8 @@
 import rp from 'request-promise'
-import { filterWeakClaims } from '../../utils/claimBuster'
+import {
+  filterWeakClaims,
+  cleanTextForClaimBuster,
+} from '../../utils/claimBuster'
 
 class ClaimBusterClaimDetector {
   constructor(statement) {
@@ -14,7 +17,8 @@ class ClaimBusterClaimDetector {
       scraperName,
       source,
     } = this.statement
-    const uri = `https://idir.uta.edu/factchecker/score_text/${statementText}`
+    const urlSafeStatementText = encodeURIComponent(cleanTextForClaimBuster(statementText))
+    const uri = `https://idir.uta.edu/factchecker/score_text/${urlSafeStatementText}`
     return rp
       .get({
         uri,
