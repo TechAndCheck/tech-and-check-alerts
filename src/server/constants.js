@@ -4,8 +4,6 @@ export const ENV_NAMES = {
   PRODUCTION: 'production',
 }
 
-export const CLAIMBUSTER_THRESHHOLD = 0.5
-
 export const PLATFORMS = {
   CNN: 'CNN',
   TWITTER: 'TWITTER',

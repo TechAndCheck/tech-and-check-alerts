@@ -1,9 +1,10 @@
 import {
   filterWeakClaims,
   cleanTextForClaimBuster,
+  isValidApiVersion,
 } from '../claimBuster'
 
-import { CLAIMBUSTER_THRESHHOLD } from '../../constants'
+import { CLAIMBUSTER_THRESHHOLD } from '../../workers/claimDetectors/constants'
 
 describe('filterWeakClaims', () => {
   const dummyClaimData = [
@@ -44,5 +45,26 @@ describe('cleanTextForClaimBuster', () => {
 second sentence.
 third sentence.`))
       .toBe('first sentence second sentence. third sentence.')
+  })
+})
+
+describe('isValidApiVersion', () => {
+  const apiVersions = {
+    valid: [
+      'V1',
+      'V2',
+    ],
+    invalid: [
+      null,
+      1,
+      '1',
+      'v2',
+    ],
+  }
+  it('Should recognize valid ClaimBuster API versions', () => {
+    apiVersions.valid.forEach(version => expect(isValidApiVersion(version)).toBe(true))
+  })
+  it('Should reject invalid ClaimBuster API versions', () => {
+    apiVersions.invalid.forEach(version => expect(isValidApiVersion(version)).toBe(false))
   })
 })
