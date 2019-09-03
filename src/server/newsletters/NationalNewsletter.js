@@ -15,15 +15,6 @@ import {
 const { Claim } = models
 
 class NationalNewsletter extends AbstractNewsletter {
-  constructor() {
-    super()
-    /**
-     * This is the date we use to scope our claim queries; by storing it instead of generating it
-     * on the fly, we can ensure all `fetchClaimsByMedium()` results share the same date scope.
-     */
-    this.createdAtHorizon = dayjs().subtract(1, 'day')
-  }
-
   getMailingList = () => MAILING_LISTS.NATIONAL
 
   getPathToTemplate = () => `${__dirname}/templates/national.hbs`
@@ -62,7 +53,8 @@ class NationalNewsletter extends AbstractNewsletter {
         [Sequelize.Op.in]: this.getScraperNamesByMedium()[medium],
       },
       createdAt: {
-        [Sequelize.Op.gte]: this.createdAtHorizon.format(),
+        [Sequelize.Op.gte]: dayjs().startOf('hour').subtract(1, 'day').format(),
+        [Sequelize.Op.lt]: dayjs().startOf('hour').format(),
       },
     },
     order: [
