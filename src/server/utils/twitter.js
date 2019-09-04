@@ -1,6 +1,15 @@
+import querystring from 'querystring'
+
 export const isTwitterScreenName = screenName => /^@?(\w){1,15}$/.test(screenName)
 
-export const getTwitterApiUrlForUserTimeline = screenName => `https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=${screenName}&include_rts=false&tweet_mode=extended`
+export const getTwitterApiUrlForUserTimeline = (screenName) => {
+  const params = {
+    screen_name: screenName,
+    include_rts: false,
+    tweet_mode: 'extended',
+  }
+  return `https://api.twitter.com/1.1/statuses/user_timeline.json?${querystring.stringify(params)}`
+}
 
 export const parseJsonIntoTweets = input => JSON.parse(input)
 
