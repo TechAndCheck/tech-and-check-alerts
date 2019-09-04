@@ -12,7 +12,7 @@ import {
 
 const exampleTweet = {
   id_str: '12345',
-  text: 'Text',
+  full_text: 'Text',
   user: {
     name: 'Name',
     screen_name: 'screenName',
@@ -67,7 +67,7 @@ describe('extractStatementsFromTweets', () => {
           name: exampleTweet.user.name,
           affiliation: exampleTweet.user.description,
         },
-        text: exampleTweet.text,
+        text: exampleTweet.full_text,
         canonicalUrl: `https://twitter.com/${exampleTweet.user.screen_name}/status/${exampleTweet.id_str}`,
         source: exampleTweet.user.screen_name,
       }])
@@ -94,7 +94,7 @@ describe('getSourceFromTweet', () => {
 describe('getTextFromTweet', () => {
   it('Should pull the text from a tweet', () => {
     expect(getTextFromTweet(exampleTweet))
-      .toEqual(exampleTweet.text)
+      .toEqual(exampleTweet.full_text)
   })
 })
 describe('getSpeakerAffiliationFromTweet', () => {
