@@ -15,3 +15,8 @@ export const PLATFORM_NAMES = {
   CNN: 'CNN',
   TWITTER: 'Twitter',
 }
+
+export const TWITTER_LIST_NAMES = {
+  NATIONAL: 'national',
+  NORTH_CAROLINA: 'northCarolina',
+}

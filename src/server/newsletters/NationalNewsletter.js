@@ -3,7 +3,10 @@ import dayjs from 'dayjs'
 import assert from 'assert'
 
 import models from '../models'
-import { PLATFORM_NAMES } from '../constants'
+import {
+  PLATFORM_NAMES,
+  TWITTER_LIST_NAMES,
+} from '../constants'
 import { STATEMENT_SCRAPER_NAMES } from '../workers/scrapers/constants'
 import AbstractNewsletter from './AbstractNewsletter'
 import {
@@ -11,6 +14,7 @@ import {
   MAILING_LISTS,
   NEWSLETTER_MEDIA,
 } from './constants'
+import { fetchTwitterScreenNamesByListName } from '../utils/newsletters'
 
 const { Claim } = models
 
@@ -37,35 +41,44 @@ class NationalNewsletter extends AbstractNewsletter {
     assert(totalClaims > 0, 'There are claims to share.')
   }
 
-  getScraperNamesByMedium = () => ({
-    [NEWSLETTER_MEDIA.TV]: [
-      STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT,
-    ],
-    [NEWSLETTER_MEDIA.SOCIAL]: [
-      STATEMENT_SCRAPER_NAMES.TWITTER_ACCOUNT,
-    ],
-  })
-
-  fetchClaimsByMedium = async medium => (Claim.findAll({
-    limit: NEWSLETTER_SETTINGS.DEFAULT.CLAIM_LIMIT,
+  /**
+   * Generates the query parameters for fetching claims.
+   *
+   * Requires the additional scope (`where` conditions) in Sequelize syntax that will be merged
+   * with default scopes and other query parameters.
+   *
+   * @param {Object} scope The scope for this specific claim query, in Sequelize syntax
+   * @return {Object}      Query params ready for fetching claims with all newsletter scoping
+   */
+  generateQueryParamsWithScope = scope => ({
     where: {
-      scraperName: {
-        [Sequelize.Op.in]: this.getScraperNamesByMedium()[medium],
-      },
+      ...scope,
       createdAt: {
         [Sequelize.Op.gte]: dayjs().startOf('hour').subtract(1, 'day').format(),
         [Sequelize.Op.lt]: dayjs().startOf('hour').format(),
       },
     },
-    order: [
-      ['claimBusterScore', 'DESC'],
-    ],
-  }).then(claims => claims))
+    limit: NEWSLETTER_SETTINGS.DEFAULT.CLAIM_LIMIT,
+    order: [['claimBusterScore', 'DESC']],
+  })
+
+  fetchTvClaims = async () => (Claim.findAll(this.generateQueryParamsWithScope({
+    scraperName: {
+      [Sequelize.Op.in]: [STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT],
+    },
+  })).then(claims => claims))
+
+  fetchSocialClaims = async () => (Claim.findAll(this.generateQueryParamsWithScope({
+    scraperName: STATEMENT_SCRAPER_NAMES.TWITTER_ACCOUNT,
+    source: {
+      [Sequelize.Op.in]: await fetchTwitterScreenNamesByListName(TWITTER_LIST_NAMES.NATIONAL),
+    },
+  })).then(claims => claims))
 
   getBodyData = async () => ({
     claims: {
-      [NEWSLETTER_MEDIA.TV]: await this.fetchClaimsByMedium(NEWSLETTER_MEDIA.TV),
-      [NEWSLETTER_MEDIA.SOCIAL]: await this.fetchClaimsByMedium(NEWSLETTER_MEDIA.SOCIAL),
+      [NEWSLETTER_MEDIA.TV]: await this.fetchTvClaims(),
+      [NEWSLETTER_MEDIA.SOCIAL]: await this.fetchSocialClaims(),
     },
   })
 }
