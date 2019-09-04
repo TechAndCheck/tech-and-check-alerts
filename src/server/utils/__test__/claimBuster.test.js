@@ -1,8 +1,4 @@
-import {
-  filterWeakClaims,
-  cleanTextForClaimBuster,
-} from '../claimBuster'
-
+import { filterWeakClaims } from '../claimBuster'
 import { CLAIMBUSTER_THRESHHOLD } from '../../constants'
 
 describe('filterWeakClaims', () => {
@@ -31,18 +27,5 @@ describe('filterWeakClaims', () => {
         expect(results).toContainEqual(input)
       }
     })
-  })
-})
-
-describe('cleanTextForClaimBuster', () => {
-  it('Should remove slashes', () => {
-    expect(cleanTextForClaimBuster('this / or / that'))
-      .toBe('this or that')
-  })
-  it('Should remove newlines', () => {
-    expect(cleanTextForClaimBuster(`first sentence
-second sentence.
-third sentence.`))
-      .toBe('first sentence second sentence. third sentence.')
   })
 })
