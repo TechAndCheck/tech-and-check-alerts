@@ -8,6 +8,10 @@ export const STATEMENT_SCRAPER_NAMES = {
   TWITTER_ACCOUNT: 'twitterAccount',
 }
 
+export const SCRAPER_NAMES = {
+  GENERIC: 'generic',
+}
+
 /**
  * Maps scrapers to platforms, so that (1) our platform constants don't have to follow the same
  * taxonomy as the scraper constants, and (2) we can link multiple scrapers to a single platform
