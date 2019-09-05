@@ -1,6 +1,7 @@
 import cheerio from 'cheerio'
 import memoizeOne from 'memoize-one'
 
+import runSequence from '../../utils'
 import logger from '../../utils/logger'
 
 import { STATEMENT_SCRAPER_NAMES } from './constants'
@@ -11,6 +12,7 @@ import {
 import {
   isTranscriptUrl,
   getFullCnnUrl,
+  getTranscriptTextFromHtml,
   removeTimestamps,
   removeSpeakerReminders,
   removeDescriptors,
@@ -67,18 +69,9 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
     return headlineTexts[0].trim()
   })
 
-  getTranscriptText = (html) => {
-    const $bodyTextElements = $(html).find('.cnnBodyText')
-    const bodyTexts = $bodyTextElements.map((i, element) => $(element).text())
-
-    if (bodyTexts.length < 3) {
-      throw new Error('The CnnTranscriptStatementScraper received an unexpected transcript format.')
-    }
-    return bodyTexts[2]
-  }
-
-  extractStatementsFromTranscript = (transcript) => {
-    const stepSequence = [
+  statementScrapeHandler = responseString => runSequence(
+    [
+      getTranscriptTextFromHtml,
       removeTimestamps,
       removeSpeakerReminders,
       removeDescriptors,
@@ -90,17 +83,9 @@ class CnnTranscriptStatementScraper extends AbstractStatementScraper {
       removeNetworkAffiliatedStatements,
       removeUnattributableStatements,
       squishStatementsText,
-    ] // Note that order does matter here
-
-    const statements = stepSequence.reduce((string, fn) => fn(string), transcript)
-    return statements
-  }
-
-  statementScrapeHandler = (responseString) => {
-    const transcript = this.getTranscriptText(responseString)
-    const statements = this.extractStatementsFromTranscript(transcript)
-    return statements
-  }
+    ],
+    responseString,
+  )
 }
 
 export default CnnTranscriptStatementScraper
