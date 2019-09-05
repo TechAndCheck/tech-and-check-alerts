@@ -1,5 +1,3 @@
-import Sequelize from 'sequelize'
-
 import models from '../models'
 import {
   GUARDED_MAILING_LIST,
@@ -47,34 +45,32 @@ export const guardMailingList = list => ((isProductionEnv() || isInternalMailing
   : GUARDED_MAILING_LIST)
 
 /**
- * Fetch the screen names (not the full accounts) for a given Twitter list.
+ * Gets the screen names for a given Twitter list.
  *
  * @param  {String} listName The Twitter list we want screen names for
  * @return {Array}           The screen names for that list
  */
-export const fetchTwitterScreenNamesByListName = async listName => (TwitterAccount.findAll({
-  where: { listName },
-}).then(accounts => accounts.map(account => account.screenName)))
+export const getTwitterScreenNamesByListName = async listName => (
+  TwitterAccount.getByListName(listName)
+    .then(accounts => accounts.map(account => account.screenName))
+)
 
 /**
- * Fetch the screen names (not the full accounts) for a given array of Twitter lists.
+ * Gets the screen names for a given array of Twitter lists.
  *
  * @param  {Array<String>} listNames The Twitter lists we want screen names for
  * @return {Object}                  An array of screen names for each list, organized into an
  *                                   object keyed by list name
  */
-export const fetchTwitterScreenNamesByListNames = async listNames => (TwitterAccount.findAll({
-  where: {
-    listName: {
-      [Sequelize.Op.in]: listNames,
-    },
-  },
-}).then(accounts => accounts.reduce((lists, account) => {
-  if (hasKey(lists, account.listName)) {
-    lists[account.listName].push(account.screenName)
-  } else {
-    // eslint-disable-next-line no-param-reassign
-    lists[account.listName] = [account.screenName]
-  }
-  return lists
-}, {})))
+export const getTwitterScreenNamesByListNames = async listNames => (
+  TwitterAccount.getByListNames(listNames)
+    .then(accounts => accounts.reduce((lists, account) => {
+      if (hasKey(lists, account.listName)) {
+        lists[account.listName].push(account.screenName)
+      } else {
+        // eslint-disable-next-line no-param-reassign
+        lists[account.listName] = [account.screenName]
+      }
+      return lists
+    }, {}))
+)

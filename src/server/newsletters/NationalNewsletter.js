@@ -14,7 +14,7 @@ import {
   MAILING_LISTS,
   NEWSLETTER_MEDIA,
 } from './constants'
-import { fetchTwitterScreenNamesByListName } from '../utils/newsletters'
+import { getTwitterScreenNamesByListName } from '../utils/newsletters'
 
 const { Claim } = models
 
@@ -71,7 +71,7 @@ class NationalNewsletter extends AbstractNewsletter {
   fetchSocialClaims = async () => (Claim.findAll(this.generateQueryParamsWithScope({
     scraperName: STATEMENT_SCRAPER_NAMES.TWITTER_ACCOUNT,
     source: {
-      [Sequelize.Op.in]: await fetchTwitterScreenNamesByListName(TWITTER_LIST_NAMES.NATIONAL),
+      [Sequelize.Op.in]: await getTwitterScreenNamesByListName(TWITTER_LIST_NAMES.NATIONAL),
     },
   })).then(claims => claims))
 
