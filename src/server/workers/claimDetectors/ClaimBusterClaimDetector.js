@@ -1,8 +1,8 @@
 import rp from 'request-promise'
-import {
-  filterWeakClaims,
-  cleanTextForClaimBuster,
-} from '../../utils/claimBuster'
+
+import config from '../../config'
+import { filterWeakClaims } from '../../utils/claimBuster'
+import { CLAIMBUSTER_API_ROOT_URL } from '../../constants'
 
 class ClaimBusterClaimDetector {
   constructor(statement) {
@@ -17,11 +17,15 @@ class ClaimBusterClaimDetector {
       scraperName,
       source,
     } = this.statement
-    const urlSafeStatementText = encodeURIComponent(cleanTextForClaimBuster(statementText))
-    const uri = `https://idir.uta.edu/factchecker/score_text/${urlSafeStatementText}`
     return rp
-      .get({
-        uri,
+      .post({
+        uri: `${CLAIMBUSTER_API_ROOT_URL}/score/text/`,
+        headers: {
+          'x-api-key': config.CLAIMBUSTER_API_KEY,
+        },
+        body: {
+          input_text: statementText,
+        },
         json: true,
       })
       .then(data => filterWeakClaims(data.results)
