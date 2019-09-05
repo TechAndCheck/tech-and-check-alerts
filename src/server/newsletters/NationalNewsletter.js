@@ -44,15 +44,15 @@ class NationalNewsletter extends AbstractNewsletter {
   /**
    * Generates the query parameters for fetching claims.
    *
-   * Requires the additional scope (`where` conditions) in Sequelize syntax that will be merged
-   * with default scopes and other query parameters.
+   * Requires the additional `where` conditions in Sequelize syntax that will be merged with
+   * default conditions and other query parameters.
    *
-   * @param {Object} scope The scope for this specific claim query, in Sequelize syntax
-   * @return {Object}      Query params ready for fetching claims with all newsletter scoping
+   * @param {Object} where The where conditions for this specific claim query
+   * @return {Object}      Query params ready for fetching claims
    */
-  generateQueryParamsWithScope = scope => ({
+  generateQueryParams = where => ({
     where: {
-      ...scope,
+      ...where,
       createdAt: {
         [Sequelize.Op.gte]: dayjs().startOf('hour').subtract(1, 'day').format(),
         [Sequelize.Op.lt]: dayjs().startOf('hour').format(),
@@ -62,18 +62,18 @@ class NationalNewsletter extends AbstractNewsletter {
     order: [['claimBusterScore', 'DESC']],
   })
 
-  fetchTvClaims = async () => (Claim.findAll(this.generateQueryParamsWithScope({
+  fetchTvClaims = async () => (Claim.findAll(this.generateQueryParams({
     scraperName: {
       [Sequelize.Op.in]: [STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT],
     },
-  })).then(claims => claims))
+  })))
 
-  fetchSocialClaims = async () => (Claim.findAll(this.generateQueryParamsWithScope({
+  fetchSocialClaims = async () => (Claim.findAll(this.generateQueryParams({
     scraperName: STATEMENT_SCRAPER_NAMES.TWITTER_ACCOUNT,
     source: {
       [Sequelize.Op.in]: await getTwitterScreenNamesByListName(TWITTER_LIST_NAMES.NATIONAL),
     },
-  })).then(claims => claims))
+  })))
 
   getBodyData = async () => ({
     claims: {
