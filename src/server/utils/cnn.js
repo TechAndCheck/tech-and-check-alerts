@@ -208,16 +208,38 @@ export const getSpeakersFromStatements = (statements) => {
 }
 
 /**
+ * Removes honorifics from a speaker name.
+ *
+ * @param  {String} speakerName The name that needs to be cleaned.
+ * @return {String}             The cleaned version of the name.
+ */
+const removeHonorifics = (speakerName) => {
+  const honorifics = [
+    'SENATOR',
+    'SEN.',
+    'REPRESENTATIVE',
+    'REP.',
+    'GOVERNOR',
+    'GOV.',
+    'GENERAL',
+    'GEN.',
+    'MAYOR',
+    'FMR.',
+  ]
+  return honorifics.reduce((cleanedName, honorific) => {
+    const rooted = new RegExp(`^${honorific} `)
+    const middle = new RegExp(` ${honorific} `, 'g')
+    return cleanedName.replace(rooted, '').replace(middle, ' ')
+  }, speakerName)
+}
+
+/**
  * Removes everything that isn't an actual name from a speaker name.
  *
- * @param  {String} name The name that needs to be cleaned.
- * @return {String}      The cleaned version of the name.
+ * @param  {String} speakerName The name that needs to be cleaned.
+ * @return {String}             The cleaned version of the name.
  */
-export const cleanSpeakerName = name => name
-  .replace('SENATOR ', '')
-  .replace('REPRESENTATIVE ', '')
-  .replace('SEN. ', '')
-  .replace('REP. ', '')
+export const cleanSpeakerName = speakerName => removeHonorifics(speakerName)
   .replace(/\s*\([^()]*\)/g, '')
   .trim()
 
