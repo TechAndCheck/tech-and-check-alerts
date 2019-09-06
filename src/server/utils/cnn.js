@@ -1,7 +1,9 @@
+import cheerio from 'cheerio'
 import dayjs from 'dayjs'
 import customParseFormat from 'dayjs/plugin/customParseFormat'
 
 dayjs.extend(customParseFormat)
+const $ = cheerio
 
 /**
  * @typedef {Object} Speaker
@@ -26,7 +28,9 @@ const chunkAttributionRegex = /[^a-z]+[:]/
 export const isTranscriptListUrl = url => url.startsWith('/TRANSCRIPTS/')
   && url.endsWith('.html')
 
-export const isTranscriptUrl = url => url.startsWith('/TRANSCRIPTS/')
+export const isTranscriptUrl = url => (url.startsWith('/TRANSCRIPTS/')
+  || url.startsWith('https://transcripts.cnn.com/TRANSCRIPTS/')
+  || url.startsWith('http://transcripts.cnn.com/TRANSCRIPTS/'))
   && url.endsWith('.html')
 
 export const getFullCnnUrl = (url) => {
@@ -53,6 +57,20 @@ export const extractPublicationDateFromTranscriptUrl = (url) => {
   const month = parts[2].substring(2)
   const day = parts[3]
   return dayjs(`${month}/${day}/${year}`, 'MM/DD/YY')
+}
+
+/**
+ * Extract transcript text from HTML that has been scraped from a CNN transcript
+ * @param  {String} html The raw html that was returned from a scrape
+ * @return {String}      The transcript text from that html
+ */
+export const getTranscriptTextFromHtml = (html) => {
+  const $bodyTextElements = $(html).find('.cnnBodyText')
+  const bodyTexts = $bodyTextElements.map((i, element) => $(element).text())
+  if (bodyTexts.length < 3) {
+    throw new Error('The html provided was an unexpected transcript format.')
+  }
+  return bodyTexts[2]
 }
 
 /**

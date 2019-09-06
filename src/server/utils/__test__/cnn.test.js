@@ -2,6 +2,7 @@ import {
   isTranscriptListUrl,
   isTranscriptUrl,
   getFullCnnUrl,
+  getTranscriptTextFromHtml,
   extractPublicationDateFromTranscriptUrl,
   removeTimestamps,
   removeSpeakerReminders,
@@ -27,9 +28,36 @@ import {
   removeNetworkAffiliatedStatements,
   removeUnattributableStatements,
 } from '../cnn'
+import testSuites from './data/cnn'
 
+const runTestSuite = (fn) => {
+  if (fn.name in testSuites) {
+    testSuites[fn.name].forEach(test => it(`Should pass for ${test.filePath}`, () => {
+      expect(fn(test.data.input))
+        .toEqual(test.data.output)
+    }))
+  }
+}
+
+const runTestSuites = arr => arr.map(fn => describe(`${fn.name} (Suite)`, () => runTestSuite(fn)))
 
 describe('utils/cnn', () => {
+  describe('suites', () => {
+    runTestSuites([
+      getTranscriptTextFromHtml,
+      removeTimestamps,
+      removeSpeakerReminders,
+      removeDescriptors,
+      addBreaksOnSpeakerChange,
+      splitTranscriptIntoChunks,
+      extractStatementsFromChunks,
+      cleanStatementSpeakerNames,
+      normalizeStatementSpeakers,
+      removeNetworkAffiliatedStatements,
+      removeUnattributableStatements,
+    ])
+  })
+
   describe('isTranscriptListUrl', () => {
     it('Should not improperly identify transcript list URLs', () => {
       expect(isTranscriptListUrl('http://google.com'))
@@ -48,6 +76,10 @@ describe('utils/cnn', () => {
     })
     it('Should identify transcript list URLs', () => {
       expect(isTranscriptUrl('/TRANSCRIPTS/1906/01/cnr.20.html'))
+        .toBe(true)
+      expect(isTranscriptUrl('https://transcripts.cnn.com/TRANSCRIPTS/1906/01/cnr.20.html'))
+        .toBe(true)
+      expect(isTranscriptUrl('http://transcripts.cnn.com/TRANSCRIPTS/1906/01/cnr.20.html'))
         .toBe(true)
     })
   })
