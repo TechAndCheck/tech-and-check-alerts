@@ -49,6 +49,10 @@ describe('utils/cnn', () => {
     it('Should identify transcript list URLs', () => {
       expect(isTranscriptUrl('/TRANSCRIPTS/1906/01/cnr.20.html'))
         .toBe(true)
+      expect(isTranscriptUrl('https://transcripts.cnn.com/TRANSCRIPTS/1906/01/cnr.20.html'))
+        .toBe(true)
+      expect(isTranscriptUrl('http://transcripts.cnn.com/TRANSCRIPTS/1906/01/cnr.20.html'))
+        .toBe(true)
     })
   })
 

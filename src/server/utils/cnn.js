@@ -26,7 +26,9 @@ const chunkAttributionRegex = /[^a-z]+[:]/
 export const isTranscriptListUrl = url => url.startsWith('/TRANSCRIPTS/')
   && url.endsWith('.html')
 
-export const isTranscriptUrl = url => url.startsWith('/TRANSCRIPTS/')
+export const isTranscriptUrl = url => (url.startsWith('/TRANSCRIPTS/')
+  || url.startsWith('https://transcripts.cnn.com/TRANSCRIPTS/')
+  || url.startsWith('http://transcripts.cnn.com/TRANSCRIPTS/'))
   && url.endsWith('.html')
 
 export const getFullCnnUrl = (url) => {
