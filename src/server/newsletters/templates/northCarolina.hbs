@@ -1,0 +1,27 @@
+{{> head}}
+{{> northCarolinaBoilerplateTop}}
+
+<div class="claim-section">
+  <h1 class="claim-section__header">🎭 Social Media Claims 🎭</h1>
+  {{#if claims.SOCIAL.length}}
+    <ul class="claims">
+    {{#each claims.SOCIAL}}
+      <li class="claim" data-platform="{{convertScraperNameToPlatformName scraperName}}">
+        <div class="claim__metadata">
+          <a href="{{canonicalUrl}}" class="claim__permalink">
+            <cite class="claim__speaker">
+              {{speakerName}}
+            </cite>
+            <span class="claim__platform">({{convertScraperNameToPlatformName scraperName}})</span></a>:
+        </div>
+        <blockquote class="claim__content">{{content}}</blockquote>
+      </li>
+    {{/each}}
+    </ul>
+  {{else}}
+    <p class="no-claims">Looks like we didn't see any social media claims over the past day. 🤔🤔🤔</p>
+  {{/if}}
+</div>
+
+{{> northCarolinaBoilerplateBottom}}
+{{> foot}}
