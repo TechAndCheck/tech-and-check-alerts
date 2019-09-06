@@ -14,6 +14,11 @@ export const PLATFORM_NAMES = {
   TWITTER: 'Twitter',
 }
 
+export const TWITTER_LIST_NAMES = {
+  NATIONAL: 'national',
+  NORTH_CAROLINA: 'northCarolina',
+}
+
 export const CLAIMBUSTER_THRESHHOLD = 0.5
 
 export const CLAIMBUSTER_API_ROOT_URL = 'https://idir.uta.edu/claimbuster-dev/api/v1'
