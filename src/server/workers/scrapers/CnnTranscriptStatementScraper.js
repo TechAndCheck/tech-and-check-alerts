@@ -1,11 +1,10 @@
 import cheerio from 'cheerio'
 import memoizeOne from 'memoize-one'
-
-import runSequence from '../../utils'
 import logger from '../../utils/logger'
 
 import { STATEMENT_SCRAPER_NAMES } from './constants'
 
+import { runSequence } from '../../utils'
 import {
   squishStatementsText,
 } from '../../utils/scraper'
