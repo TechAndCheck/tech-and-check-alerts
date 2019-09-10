@@ -1,0 +1,231 @@
+{
+  "functionName": "removeUnattributableStatements",
+  "input": [
+    {
+      "speaker": {
+        "name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+      },
+      "text": "In this case, the flat curve is actually the result of a very strong Trump economy. And what we seen now is foreign capital coming to the best game on the globe, which is the Trump economy. It's going into our stock market."
+    },
+    {
+      "speaker": {
+        "name": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, NATIONAL ECONOMIC COUNCIL"
+      },
+      "text": "And well I sure don't see a recession. We had some blockbuster retail sales, consumer numbers towards the back end of last week. Really blockbuster numbers."
+    },
+    {
+      "speaker": {
+        "name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+      },
+      "text": "The tariffs are hurting China. China is bearing the entire burden of the tariffs in terms of consumer --"
+    },
+    {
+      "speaker": {
+        "name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+      },
+      "text": "Hang on."
+    },
+    {
+      "speaker": {
+        "name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+      },
+      "text": "This is -- this is what this expert says."
+    },
+    {
+      "speaker": {
+        "name": "SEAN SPICER",
+        "affiliation": "FORMER WHITE HOUSE PRESS SECRETARY (March 10, 2017)"
+      },
+      "text": "I talked to the president prior to this and he said to quote him very clearly. They may have been phony in the past, but it's very real now."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES"
+      },
+      "text": "Just in case they might have an impact on people, what we've done is we've delayed it so that they won't be relevant in the Christmas shopping season."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES"
+      },
+      "text": "Look, I'm not trusting anybody. It's a horrible situation that's going on in Afghanistan. It has been for many years. Well, look, we're there for one reason, we don't want that to be a  laboratory, OK? It can't be a laboratory for terror. And we've stopped that."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "Is success fun?"
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "Oh, sure, it's fun and it's not fun. And as my mother says, it's the price you have to pay."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "The most successful individual in the history of American fashion, Halston."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
+      },
+      "text": "Halston."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "Halston."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "I'm Halston.  I made it in New York."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
+      },
+      "text": "His clothes danced with you."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "Halston felt that he had to design everything."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "Rugs, sheets, perfume, shoes, bags, gloves."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "He came like a king."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "He now how to get publicity. The problem was he began to believe it all."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "I'm the all-time optimist."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
+      },
+      "text": "I took Halston to Studio 54."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "He fell in love with it right away."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "They lived out a lot of their fantasies."
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED MALE",
+        "affiliation": ""
+      },
+      "text": "Drugs, sex, and rock 'n' roll."
+    }
+  ],
+  "output": [
+    {
+      "speaker": {
+        "name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+      },
+      "text": "In this case, the flat curve is actually the result of a very strong Trump economy. And what we seen now is foreign capital coming to the best game on the globe, which is the Trump economy. It's going into our stock market."
+    },
+    {
+      "speaker": {
+        "name": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, NATIONAL ECONOMIC COUNCIL"
+      },
+      "text": "And well I sure don't see a recession. We had some blockbuster retail sales, consumer numbers towards the back end of last week. Really blockbuster numbers."
+    },
+    {
+      "speaker": {
+        "name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+      },
+      "text": "The tariffs are hurting China. China is bearing the entire burden of the tariffs in terms of consumer --"
+    },
+    {
+      "speaker": {
+        "name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+      },
+      "text": "Hang on."
+    },
+    {
+      "speaker": {
+        "name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+      },
+      "text": "This is -- this is what this expert says."
+    },
+    {
+      "speaker": {
+        "name": "SEAN SPICER",
+        "affiliation": "FORMER WHITE HOUSE PRESS SECRETARY (March 10, 2017)"
+      },
+      "text": "I talked to the president prior to this and he said to quote him very clearly. They may have been phony in the past, but it's very real now."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES"
+      },
+      "text": "Just in case they might have an impact on people, what we've done is we've delayed it so that they won't be relevant in the Christmas shopping season."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES"
+      },
+      "text": "Look, I'm not trusting anybody. It's a horrible situation that's going on in Afghanistan. It has been for many years. Well, look, we're there for one reason, we don't want that to be a  laboratory, OK? It can't be a laboratory for terror. And we've stopped that."
+    }
+  ]
+}

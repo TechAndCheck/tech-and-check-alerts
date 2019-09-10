@@ -21,9 +21,19 @@ const $ = cheerio
  * These expressions are used in various utility methods
  * to identify special portions of scraped tex.
  */
-const attributionAffiliationRegex = /,([^a-z]*)/
+const attributionAffiliationRegex = /,([^:]*)/
 const attributionNameRegex = /[^a-z,]+/
-const chunkAttributionRegex = /[^a-z]+[:]/
+
+// endOfStatementRegex: punctuation followed by whitespace
+const endOfStatementRegex = /([^A-Za-z0-9,\s]+)\s+/g
+// attributionRegex: capitalized word -> anything -> ending with :
+const attributionRegex = /([^a-z:\s]{2,}(\s[^.:]*)?:)/g
+
+const breakpointRegex = new RegExp(
+  `${endOfStatementRegex.source}${attributionRegex.source}`,
+  'g',
+)
+
 
 export const isTranscriptListUrl = url => url.startsWith('/TRANSCRIPTS/')
   && url.endsWith('.html')
@@ -117,7 +127,7 @@ export const removeDescriptors = transcript => transcript
  * @return {String}            The modified transcript with line breaks inserted.
  */
 export const addBreaksOnSpeakerChange = transcript => transcript
-  .replace(/([".?!)\]-]+)\s*([.,A-Z\s"'()-]*:)/g, '$1\n$2')
+  .replace(breakpointRegex, '$1\n$2')
 
 /**
  * Converts a transcript into a bunch of smaller pieces which can later be
@@ -135,7 +145,7 @@ export const splitTranscriptIntoChunks = transcript => transcript.split('\n')
  * @return {String}       The portion of the chunk that describes the person who was speaking.
  */
 export const getAttributionFromChunk = chunk => (
-  (chunk.match(chunkAttributionRegex)
+  (chunk.match(attributionRegex)
   || [':'])[0]
     .slice(0, -1).trim()
 )
@@ -147,7 +157,7 @@ export const getAttributionFromChunk = chunk => (
  * @return {String}       The portion of the chunk that contains what was said.
  */
 export const getTextFromChunk = chunk => chunk
-  .replace(chunkAttributionRegex, '').trim()
+  .replace(attributionRegex, '').trim()
 
 /**
  * Extract the person's name from an attribution string.
