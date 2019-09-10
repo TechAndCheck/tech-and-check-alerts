@@ -10,11 +10,9 @@ let send = new Promise(resolve => resolve())
 
 switch (process.argv[2]) {
   case '--national':
-  case 'national':
     send = (new NationalNewsletter()).send()
     break
-  case '--nc':
-  case 'nc':
+  case '--northcarolina':
     send = (new NorthCarolinaNewsletter()).send()
     break
   default:
