@@ -24,6 +24,9 @@ export const NEWSLETTER_SETTINGS = {
   DEFAULT: {
     CLAIM_LIMIT: 15,
   },
+  NORTH_CAROLINA: {
+    CLAIM_LIMIT: 50,
+  },
 }
 
 export const NEWSLETTER_MEDIA = {

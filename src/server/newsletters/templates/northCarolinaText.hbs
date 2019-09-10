@@ -1,0 +1,17 @@
+{{> northCarolinaBoilerplateTop}}
+
+------
+
+🎭 SOCIAL MEDIA CLAIMS 🎭
+{{#each claims.SOCIAL}}
+
+{{speakerName}} ({{convertScraperNameToPlatformName scraperName}}):
+{{ content }}
+— {{canonicalUrl}}
+{{else}}
+Looks like we didn't see any social media claims over the past day. 🤔🤔🤔
+{{/each}}
+
+------
+
+{{> northCarolinaBoilerplateBottom}}
