@@ -47,7 +47,7 @@ class NorthCarolinaNewsletter extends AbstractNewsletter {
       ...where,
       createdAt: {
         [Sequelize.Op.gte]: dayjs().startOf('hour').subtract(1, 'day').format(),
-        // [Sequelize.Op.lt]: dayjs().startOf('hour').format(),
+        [Sequelize.Op.lt]: dayjs().startOf('hour').format(),
       },
     },
     limit: NEWSLETTER_SETTINGS.NORTH_CAROLINA.CLAIM_LIMIT,
