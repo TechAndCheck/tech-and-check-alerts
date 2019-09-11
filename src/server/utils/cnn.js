@@ -27,7 +27,7 @@ const attributionNameRegex = /[^a-z,]+/
 // endOfStatementRegex: punctuation followed by whitespace
 const endOfStatementRegex = /([^A-Za-z0-9,\s]+)\s+/g
 // attributionRegex: capitalized word -> anything -> ending with :
-const attributionRegex = /([^a-z:\s]{2,}(\s[^:]*)?:)/g
+const attributionRegex = /([A-Z][^a-z:\s]+(\s[^:]*)?:)/g
 
 const breakpointRegex = new RegExp(
   `${endOfStatementRegex.source}${attributionRegex.source}`,

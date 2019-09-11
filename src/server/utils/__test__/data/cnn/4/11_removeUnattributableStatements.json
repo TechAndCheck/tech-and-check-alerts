@@ -1,0 +1,189 @@
+{
+  "functionName": "removeUnattributableStatements",
+  "input": [
+    {
+      "speaker": {
+        "name": "NARRATOR",
+        "affiliation": ""
+      },
+      "text": "We know in our bones this election is different.  The stakes are higher.  The threat more serious.  We have to beat Donald Trump.  And all the polls agree Joe Biden is the strongest Democrat to do the job.   No one is more qualified to restore the soul of the nation.  Battered by an erratic vicious bullying president, strong, steady, stable leadership.   Biden, president."
+    },
+    {
+      "speaker": {
+        "name": "JILL BIDEN",
+        "affiliation": "WIFE OF JOE BIDEN"
+      },
+      "text": "I know that not all of you are committed to my husband and I respect that.  Your candidate might be better on, I don't know, health care than Joe is.  But you've got to look at who is going to win this election and maybe you have to swallow a little bit and say, OK, I sort of personally like so-and-so better, but your bottom line has to be that we have to beat Trump."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES"
+      },
+      "text": "The United States right now has the hottest economy anywhere in the world."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "I think it's something you do want to have if the economy falters.  I'm not sure you should do it right now.  It is something we've used in the past.  And you would want to limit it by income strat so that middle- and low-income households get it more than higher-income households because that's where the bang for the dollar is.   That said, it's a little disingenuous to say the economy is fine and then be planning for a recession.  But I do think it's prudent to hedge your downside.  I don't think it's prudent to do it by hammering on the Fed and doing things like that.  That is really undermining your own potential to fight a recession down the road because you undermine the credibility of the Federal Reserve.   But what we do have right now is an economy where the consumer is sort of played out, carrying us right now.  And the question is, can that continue or are they going to collapse under the burden of that weight."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "That was certainly an extraordinary situation that was very severe.  So I would hope it's not comparable."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "People forget, it's almost the amnesia of the shock of that accident, the train wreck that we experienced in the Great Recession and the global financial crisis.  It's amazing how people forget what happened 11 years ago and 10 years ago.   But that said, where we are today, the economy is slowing.  It's not yet faltered.  It is the risk of recession that are clearly rising and it is prudent to think about how do we deal with it.  But what's most prudent is to think about, how do we deal with this globally.  One of the reasons we look better is because other economies are teetering on recession."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "Well, it's always a big deal to me.  But if you're in a recession -- I'm sorry, you just have to throw that to the sidelines."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "But right now, what's really amazing is how much we squandered to the tax cuts that were not really thought out."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "-- needed when we're not in recession.  And to put that much stimulus and not get that much bang for the dollar, which don't when you don't have a weak economy, that really was a wasted opportunity and has left us with an unfair burden going into the next recession, and less wiggle room to actually use fiscal stimulus when we're going to really need it."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "Well, we come from the same part of the country.  I'm from the Detroit area."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "Yes, the manufacturing sector is also contracting right now. They're closing steel plants in Michigan.  They've permanently closed as of the end of July a lot more vehicle plants in Michigan and Ohio.   And the manufacturing recession, although it doesn't mean what it once did, and we do have a service-sector economy that's still moving forward, but even that showing a little bit of a slowdown out there.   So the question is, how much can we take and how much does all of the effects snowball into an actual recession.  And the reality is that's why the Fed is so concerned, because we're looking at the head winds from abroad and a storm in terms of the trade war and slower growth aboard, can show up on our own shores.   And they're trying to push back against the uncertainty that this administration has created on trade policy by lowering interest rates to offset that uncertainty tax it's put on the economy and shore up the confidence of not only businesses, but the U.S. consumer.   Whether they can do that or not with the tools they've got, that will be seen."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "Thank you, Kate."
+    },
+    {
+      "speaker": {
+        "name": "MIKE POMPEO",
+        "affiliation": "SECRETARY OF STATE"
+      },
+      "text": "It's complicated.  There are certainly places where ISIS is more powerful today than they were three or four years ago.  But the caliphate is gone.  And their capacity to conduct external attacks has been made much more difficult.  We've taken down significant risk.  Not all of it."
+    }
+  ],
+  "output": [
+    {
+      "speaker": {
+        "name": "NARRATOR",
+        "affiliation": ""
+      },
+      "text": "We know in our bones this election is different.  The stakes are higher.  The threat more serious.  We have to beat Donald Trump.  And all the polls agree Joe Biden is the strongest Democrat to do the job.   No one is more qualified to restore the soul of the nation.  Battered by an erratic vicious bullying president, strong, steady, stable leadership.   Biden, president."
+    },
+    {
+      "speaker": {
+        "name": "JILL BIDEN",
+        "affiliation": "WIFE OF JOE BIDEN"
+      },
+      "text": "I know that not all of you are committed to my husband and I respect that.  Your candidate might be better on, I don't know, health care than Joe is.  But you've got to look at who is going to win this election and maybe you have to swallow a little bit and say, OK, I sort of personally like so-and-so better, but your bottom line has to be that we have to beat Trump."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES"
+      },
+      "text": "The United States right now has the hottest economy anywhere in the world."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "I think it's something you do want to have if the economy falters.  I'm not sure you should do it right now.  It is something we've used in the past.  And you would want to limit it by income strat so that middle- and low-income households get it more than higher-income households because that's where the bang for the dollar is.   That said, it's a little disingenuous to say the economy is fine and then be planning for a recession.  But I do think it's prudent to hedge your downside.  I don't think it's prudent to do it by hammering on the Fed and doing things like that.  That is really undermining your own potential to fight a recession down the road because you undermine the credibility of the Federal Reserve.   But what we do have right now is an economy where the consumer is sort of played out, carrying us right now.  And the question is, can that continue or are they going to collapse under the burden of that weight."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "That was certainly an extraordinary situation that was very severe.  So I would hope it's not comparable."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "People forget, it's almost the amnesia of the shock of that accident, the train wreck that we experienced in the Great Recession and the global financial crisis.  It's amazing how people forget what happened 11 years ago and 10 years ago.   But that said, where we are today, the economy is slowing.  It's not yet faltered.  It is the risk of recession that are clearly rising and it is prudent to think about how do we deal with it.  But what's most prudent is to think about, how do we deal with this globally.  One of the reasons we look better is because other economies are teetering on recession."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "Well, it's always a big deal to me.  But if you're in a recession -- I'm sorry, you just have to throw that to the sidelines."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "But right now, what's really amazing is how much we squandered to the tax cuts that were not really thought out."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "-- needed when we're not in recession.  And to put that much stimulus and not get that much bang for the dollar, which don't when you don't have a weak economy, that really was a wasted opportunity and has left us with an unfair burden going into the next recession, and less wiggle room to actually use fiscal stimulus when we're going to really need it."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "Well, we come from the same part of the country.  I'm from the Detroit area."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "Yes, the manufacturing sector is also contracting right now. They're closing steel plants in Michigan.  They've permanently closed as of the end of July a lot more vehicle plants in Michigan and Ohio.   And the manufacturing recession, although it doesn't mean what it once did, and we do have a service-sector economy that's still moving forward, but even that showing a little bit of a slowdown out there.   So the question is, how much can we take and how much does all of the effects snowball into an actual recession.  And the reality is that's why the Fed is so concerned, because we're looking at the head winds from abroad and a storm in terms of the trade war and slower growth aboard, can show up on our own shores.   And they're trying to push back against the uncertainty that this administration has created on trade policy by lowering interest rates to offset that uncertainty tax it's put on the economy and shore up the confidence of not only businesses, but the U.S. consumer.   Whether they can do that or not with the tools they've got, that will be seen."
+    },
+    {
+      "speaker": {
+        "name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+      },
+      "text": "Thank you, Kate."
+    },
+    {
+      "speaker": {
+        "name": "MIKE POMPEO",
+        "affiliation": "SECRETARY OF STATE"
+      },
+      "text": "It's complicated.  There are certainly places where ISIS is more powerful today than they were three or four years ago.  But the caliphate is gone.  And their capacity to conduct external attacks has been made much more difficult.  We've taken down significant risk.  Not all of it."
+    }
+  ]
+}
