@@ -27,7 +27,7 @@ const attributionNameRegex = /[^a-z,]+/
 // endOfStatementRegex: punctuation followed by whitespace
 const endOfStatementRegex = /([^A-Za-z0-9,\s]+)\s+/g
 // attributionRegex: capitalized word -> anything -> ending with :
-const attributionRegex = /([^a-z:\s]{2,}(\s[^.:]*)?:)/g
+const attributionRegex = /([^a-z:\s]{2,}(\s[^:]*)?:)/g
 
 const breakpointRegex = new RegExp(
   `${endOfStatementRegex.source}${attributionRegex.source}`,
@@ -157,7 +157,7 @@ export const getAttributionFromChunk = chunk => (
  * @return {String}       The portion of the chunk that contains what was said.
  */
 export const getTextFromChunk = chunk => chunk
-  .replace(attributionRegex, '').trim()
+  .replace(new RegExp(`^${attributionRegex.source}`), '').trim()
 
 /**
  * Extract the person's name from an attribution string.

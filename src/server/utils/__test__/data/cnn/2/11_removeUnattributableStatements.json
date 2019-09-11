@@ -1,0 +1,210 @@
+{
+  "functionName": "removeUnattributableStatements",
+  "input": [
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
+      },
+      "text": "I don't see a recession. I mean, the world is in a recession right now and although that's too big a statement."
+    },
+    {
+      "speaker": {
+        "name": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, U.S. NATIONAL ECONOMIC COUNCIL"
+      },
+      "text": "If everybody wants to talk about pessimism recession --"
+    },
+    {
+      "speaker": {
+        "name": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
+      },
+      "text": "Is that why what's wrong with a little optimism?"
+    },
+    {
+      "speaker": {
+        "name": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, U.S. NATIONAL ECONOMIC COUNCIL"
+      },
+      "text": "I don't know that anybody saw that kind of crash. But look, this is not then, this is not then."
+    },
+    {
+      "speaker": {
+        "name": "WILBUR ROSS",
+        "affiliation": "U.S. SECRETARY OF COMMERCE"
+      },
+      "text": "I very much hope that Chairman Powell goes forward and does lower the rate of this next time around."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
+      },
+      "text": "I'm also very, very concerned with the Second Amendment more so than most presidents would be. People don't realize we have very strong background checks right now."
+    },
+    {
+      "speaker": {
+        "name": "JONI ERNST",
+        "affiliation": ""
+      },
+      "text": "A lot of the incidents that we see do come back to mental illness."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
+      },
+      "text": "We are going to get the best people in the world."
+    },
+    {
+      "speaker": {
+        "name": "ANTHONY SCARAMUCCI",
+        "affiliation": "FORMER WHITE HOUSE COMMUNICATIONS DIRECTOR"
+      },
+      "text": "This is not a never Trump situation, this is not just screeching rhetoric, this is OK. The guy is unstable, everyone inside knows it, everyone outside knows it, let's see if we can find a viable alternative."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
+      },
+      "text": "Fox has changed. And my worst polls have always been from Fox, there's something going on at Fox, I'll tell you right now and I'm not happy with it."
+    },
+    {
+      "speaker": {
+        "name": "RASHIDA TLAIB",
+        "affiliation": ""
+      },
+      "text": "I think my grandmother said it beautifully when she said I'm her asfour. Asfour in Arabic means her bird. And she said I'm her dream manifested. I'm her free bird, so why would I come back and be caged and bow down when my election rose her head up high, gave her dignity for the first time.  And so, through tears at three o'clock in the morning we all decided as a family that I could not go until I was a free American United States Congresswoman, coming there not only to see my grandmother but to talk to Palestinian and Israeli organizations that believed that my grandmother deserved human dignity as much as anyone else does."
+    },
+    {
+      "speaker": {
+        "name": "ILHAN OMAR",
+        "affiliation": ""
+      },
+      "text": "But it is my belief that as legislators we have an obligation to see the reality there for ourselves. We have a responsibility to conduct oversight over our government's foreign policy and what happens with the millions of dollars we send in aid. So, I would encourage my colleagues to visit, meet with the people we were going to meet with, see the things we were going to see, hear the stories we were going to hear. We cannot, we cannot let Trump and Netanyahu succeed in hiding the cruel reality of the occupation from us."
+    },
+    {
+      "speaker": {
+        "name": "WONG YIK-MO",
+        "affiliation": "ORGANIZER, CIVIC HUMAN RIGHTS FRONT"
+      },
+      "text": "Hong Kong needs a mechanism that can ensure Democratic election so that citizens could elect a chief executive that can represent the people and also listen to voices of the people. And we do not need a platform for a dialogue in which the high officials could laugh and waste our time, waste our money. The only way to calm down the anger, the rage of the people is to really respond to our five demands. So, we would urge our chief executive to do something substantial."
+    },
+    {
+      "speaker": {
+        "name": "BORIS JOHNSON",
+        "affiliation": "BRITISH PRIME MINISTER"
+      },
+      "text": "I'm afraid it is very much up to our friends and I hope that they will compromise that they have seen that the U.K. parliament has three times rejected the withdrawal agreement, the backstop. It just doesn't work. It's not Democratic. I hope that they will see fit to compromise. But in the meantime, we get ready to come out on October 31st."
+    },
+    {
+      "speaker": {
+        "name": "JEREMY CORBYN",
+        "affiliation": "LEADER, LABOUR PARTY"
+      },
+      "text": "After failing to negotiate a Brexit deal that would protect jobs and living standards, Boris Johnson's Tories are driving the country towards a no deal cliff edge.  Let's be very clear. We will do everything necessary to stop a disastrous no deal from which this government has no mandate."
+    }
+  ],
+  "output": [
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
+      },
+      "text": "I don't see a recession. I mean, the world is in a recession right now and although that's too big a statement."
+    },
+    {
+      "speaker": {
+        "name": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, U.S. NATIONAL ECONOMIC COUNCIL"
+      },
+      "text": "If everybody wants to talk about pessimism recession --"
+    },
+    {
+      "speaker": {
+        "name": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, U.S. NATIONAL ECONOMIC COUNCIL"
+      },
+      "text": "I don't know that anybody saw that kind of crash. But look, this is not then, this is not then."
+    },
+    {
+      "speaker": {
+        "name": "WILBUR ROSS",
+        "affiliation": "U.S. SECRETARY OF COMMERCE"
+      },
+      "text": "I very much hope that Chairman Powell goes forward and does lower the rate of this next time around."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
+      },
+      "text": "I'm also very, very concerned with the Second Amendment more so than most presidents would be. People don't realize we have very strong background checks right now."
+    },
+    {
+      "speaker": {
+        "name": "JONI ERNST",
+        "affiliation": ""
+      },
+      "text": "A lot of the incidents that we see do come back to mental illness."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
+      },
+      "text": "We are going to get the best people in the world."
+    },
+    {
+      "speaker": {
+        "name": "ANTHONY SCARAMUCCI",
+        "affiliation": "FORMER WHITE HOUSE COMMUNICATIONS DIRECTOR"
+      },
+      "text": "This is not a never Trump situation, this is not just screeching rhetoric, this is OK. The guy is unstable, everyone inside knows it, everyone outside knows it, let's see if we can find a viable alternative."
+    },
+    {
+      "speaker": {
+        "name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
+      },
+      "text": "Fox has changed. And my worst polls have always been from Fox, there's something going on at Fox, I'll tell you right now and I'm not happy with it."
+    },
+    {
+      "speaker": {
+        "name": "RASHIDA TLAIB",
+        "affiliation": ""
+      },
+      "text": "I think my grandmother said it beautifully when she said I'm her asfour. Asfour in Arabic means her bird. And she said I'm her dream manifested. I'm her free bird, so why would I come back and be caged and bow down when my election rose her head up high, gave her dignity for the first time.  And so, through tears at three o'clock in the morning we all decided as a family that I could not go until I was a free American United States Congresswoman, coming there not only to see my grandmother but to talk to Palestinian and Israeli organizations that believed that my grandmother deserved human dignity as much as anyone else does."
+    },
+    {
+      "speaker": {
+        "name": "ILHAN OMAR",
+        "affiliation": ""
+      },
+      "text": "But it is my belief that as legislators we have an obligation to see the reality there for ourselves. We have a responsibility to conduct oversight over our government's foreign policy and what happens with the millions of dollars we send in aid. So, I would encourage my colleagues to visit, meet with the people we were going to meet with, see the things we were going to see, hear the stories we were going to hear. We cannot, we cannot let Trump and Netanyahu succeed in hiding the cruel reality of the occupation from us."
+    },
+    {
+      "speaker": {
+        "name": "WONG YIK-MO",
+        "affiliation": "ORGANIZER, CIVIC HUMAN RIGHTS FRONT"
+      },
+      "text": "Hong Kong needs a mechanism that can ensure Democratic election so that citizens could elect a chief executive that can represent the people and also listen to voices of the people. And we do not need a platform for a dialogue in which the high officials could laugh and waste our time, waste our money. The only way to calm down the anger, the rage of the people is to really respond to our five demands. So, we would urge our chief executive to do something substantial."
+    },
+    {
+      "speaker": {
+        "name": "BORIS JOHNSON",
+        "affiliation": "BRITISH PRIME MINISTER"
+      },
+      "text": "I'm afraid it is very much up to our friends and I hope that they will compromise that they have seen that the U.K. parliament has three times rejected the withdrawal agreement, the backstop. It just doesn't work. It's not Democratic. I hope that they will see fit to compromise. But in the meantime, we get ready to come out on October 31st."
+    },
+    {
+      "speaker": {
+        "name": "JEREMY CORBYN",
+        "affiliation": "LEADER, LABOUR PARTY"
+      },
+      "text": "After failing to negotiate a Brexit deal that would protect jobs and living standards, Boris Johnson's Tories are driving the country towards a no deal cliff edge.  Let's be very clear. We will do everything necessary to stop a disastrous no deal from which this government has no mandate."
+    }
+  ]
+}
