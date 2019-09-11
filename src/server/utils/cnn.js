@@ -268,7 +268,6 @@ const removeHonorifics = (speakerName) => {
  * @return {String}             The cleaned version of the name.
  */
 export const cleanSpeakerName = speakerName => removeHonorifics(speakerName)
-  .replace(/\s*\([^()]*\)/g, '')
   .trim()
 
 /**

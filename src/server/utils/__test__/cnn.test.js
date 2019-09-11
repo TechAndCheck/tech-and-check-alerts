@@ -423,12 +423,6 @@ describe('utils/cnn', () => {
       expect(cleanSpeakerName('SONIA SOTOMAYOR'))
         .toBe('SONIA SOTOMAYOR')
     })
-    it('Should remove parentheticals', () => {
-      expect(cleanSpeakerName('JIMMY DUST (D-MA)'))
-        .toBe('JIMMY DUST')
-      expect(cleanSpeakerName('JIMMY DUST (THE MOST NOTORIOUS BOTANIST IN THE WEST)'))
-        .toBe('JIMMY DUST')
-    })
   })
 
   describe('cleanStatementSpeakerNames', () => {
