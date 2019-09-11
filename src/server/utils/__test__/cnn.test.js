@@ -284,11 +284,11 @@ describe('utils/cnn', () => {
     })
     it('Should extract names with apostrophes', () => {
       expect(getNameFromAttribution('BETO O\'ROURKE (D), PRESIDENTIAL CANDIDATE'))
-        .toEqual('BETO O\'ROURKE (D)')
+        .toEqual('BETO O\'ROURKE')
     })
     it('Should extract names with hyphens', () => {
       expect(getNameFromAttribution('GOV. STEVE BULLOCK (D-MT), PRESIDENTIAL CANDIDATE'))
-        .toEqual('GOV. STEVE BULLOCK (D-MT)')
+        .toEqual('GOV. STEVE BULLOCK')
     })
   })
 
