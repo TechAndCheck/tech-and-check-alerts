@@ -34,7 +34,6 @@ const breakpointRegex = new RegExp(
   'g',
 )
 
-
 export const isTranscriptListUrl = url => url.startsWith('/TRANSCRIPTS/')
   && url.endsWith('.html')
 
@@ -118,6 +117,7 @@ export const removeDescriptors = transcript => transcript
   .replace(/\s?\(via telephone\)/g, '')
   .replace(/\s?\(on[\s-]camera\)/g, '')
   .replace(/\s?\(through[\s-]translator\)/g, '')
+  .replace(/(\s+):(\s+)/g, '$1$2')
   .trim()
 
 /**
