@@ -21,8 +21,8 @@ const $ = cheerio
  * These expressions are used in various utility methods
  * to identify special portions of scraped tex.
  */
-const attributionAffiliationRegex = /,([^:]*)/
-const attributionNameRegex = /[^a-z,]+/
+const attributionAffiliationRegex = /(,|\()([^:]*)/
+const attributionNameRegex = /[^a-z,(]+/
 
 // endOfStatementRegex: punctuation followed by whitespace
 const endOfStatementRegex = /([^A-Za-z0-9,\s]+)\s+/g
@@ -168,7 +168,7 @@ export const getTextFromChunk = chunk => chunk
 export const getNameFromAttribution = attribution => (
   (attribution.match(attributionNameRegex)
   || [''])[0]
-)
+).trim()
 
 /**
  * Extract the person's affiliation from an attribution string.
@@ -180,7 +180,7 @@ export const getNameFromAttribution = attribution => (
 export const getAffiliationFromAttribution = attribution => (
   (attribution.match(attributionAffiliationRegex)
   || [','])[0]
-    .substring(1)
+    .replace(/^,/, '')
     .trim()
 )
 
@@ -268,7 +268,6 @@ const removeHonorifics = (speakerName) => {
  * @return {String}             The cleaned version of the name.
  */
 export const cleanSpeakerName = speakerName => removeHonorifics(speakerName)
-  .replace(/\s*\([^()]*\)/g, '')
   .trim()
 
 /**

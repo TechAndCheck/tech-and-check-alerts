@@ -284,11 +284,11 @@ describe('utils/cnn', () => {
     })
     it('Should extract names with apostrophes', () => {
       expect(getNameFromAttribution('BETO O\'ROURKE (D), PRESIDENTIAL CANDIDATE'))
-        .toEqual('BETO O\'ROURKE (D)')
+        .toEqual('BETO O\'ROURKE')
     })
     it('Should extract names with hyphens', () => {
       expect(getNameFromAttribution('GOV. STEVE BULLOCK (D-MT), PRESIDENTIAL CANDIDATE'))
-        .toEqual('GOV. STEVE BULLOCK (D-MT)')
+        .toEqual('GOV. STEVE BULLOCK')
     })
   })
 
@@ -422,12 +422,6 @@ describe('utils/cnn', () => {
         .toBe('JIMMY DUST')
       expect(cleanSpeakerName('SONIA SOTOMAYOR'))
         .toBe('SONIA SOTOMAYOR')
-    })
-    it('Should remove parentheticals', () => {
-      expect(cleanSpeakerName('JIMMY DUST (D-MA)'))
-        .toBe('JIMMY DUST')
-      expect(cleanSpeakerName('JIMMY DUST (THE MOST NOTORIOUS BOTANIST IN THE WEST)'))
-        .toBe('JIMMY DUST')
     })
   })
 
