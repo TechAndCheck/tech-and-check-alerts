@@ -27,5 +27,6 @@ export const QueueNames = {
   },
   newsletterDeliveryQueues: {
     NATIONAL: 'nationalNewsletterDelivery',
+    NORTH_CAROLINA: 'northCarolinaNewsletterDelivery',
   },
 }
