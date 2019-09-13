@@ -252,6 +252,7 @@ const removeHonorifics = (speakerName) => {
     'GENERAL',
     'GEN.',
     'MAYOR',
+    'FORMER',
     'FMR.',
   ]
   return honorifics.reduce((cleanedName, honorific) => {
