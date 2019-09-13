@@ -422,6 +422,8 @@ describe('utils/cnn', () => {
         .toBe('JIMMY DUST')
       expect(cleanSpeakerName('SONIA SOTOMAYOR'))
         .toBe('SONIA SOTOMAYOR')
+      expect(cleanSpeakerName('FORMER SENATOR GARY FORMERPERSON'))
+        .toBe('GARY FORMERPERSON')
     })
   })
 
