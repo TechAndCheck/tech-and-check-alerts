@@ -53,7 +53,7 @@ class NationalNewsletter extends AbstractNewsletter {
   generateQueryParams = where => ({
     where: {
       ...where,
-      createdAt: {
+      claimedAt: {
         [Sequelize.Op.gte]: dayjs().startOf('hour').subtract(1, 'day').format(),
         [Sequelize.Op.lt]: dayjs().startOf('hour').format(),
       },

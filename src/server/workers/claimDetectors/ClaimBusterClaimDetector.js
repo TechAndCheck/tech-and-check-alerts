@@ -16,6 +16,7 @@ class ClaimBusterClaimDetector {
       canonicalUrl,
       scraperName,
       source,
+      claimedAt,
     } = this.statement
     return rp
       .post({
@@ -36,6 +37,7 @@ class ClaimBusterClaimDetector {
           canonicalUrl,
           scraperName,
           source,
+          claimedAt,
         })))
   }
 }
