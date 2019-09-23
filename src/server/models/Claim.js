@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
     content: DataTypes.TEXT,
     claimedAt: DataTypes.DATE,
     canonicalUrl: DataTypes.STRING(1024),
-    scraperName: DataTypes.STRING(1024), // The scraper that generated this claim
+    scraperName: DataTypes.STRING, // The scraper that generated this claim
     source: DataTypes.STRING(1024),
     speakerName: DataTypes.STRING(1024),
     speakerAffiliation: DataTypes.STRING(1024),
