@@ -23,6 +23,8 @@ export const getTextFromTweet = tweet => tweet.full_text
 
 export const getSpeakerAffiliationFromTweet = tweet => tweet.user.description
 
+export const getTimestampFromTweet = tweet => tweet.created_at
+
 export const extractStatementsFromTweets = tweets => tweets.map(tweet => ({
   speaker: {
     name: getSpeakerNameFromTweet(tweet),
@@ -31,4 +33,5 @@ export const extractStatementsFromTweets = tweets => tweets.map(tweet => ({
   text: getTextFromTweet(tweet),
   source: getSourceFromTweet(tweet),
   canonicalUrl: getCanonicalUrlFromTweet(tweet),
+  claimedAt: getTimestampFromTweet(tweet),
 }))

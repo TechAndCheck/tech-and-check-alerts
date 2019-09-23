@@ -1,3 +1,5 @@
+import dayjs from 'dayjs'
+
 import AbstractScraper from './AbstractScraper'
 import models from '../../models'
 import {
@@ -95,13 +97,16 @@ class AbstractStatementScraper extends AbstractScraper {
    * @param {Object[]} statements The statements that have been scraped
    * @return {Object[]}           Those same statements with additional schema properties added
    */
-  addSchemaPropertiesToStatements = statements => statements
-    .map(statement => ({
+  addSchemaPropertiesToStatements = (statements) => {
+    const timestamp = dayjs().format()
+    return statements.map(statement => ({
       ...statement,
       scraperName: this.getScraperName(),
       canonicalUrl: statement.canonicalUrl || this.getStatementCanonicalUrl(statement),
       source: statement.source || this.getStatementSource(statement),
+      claimedAt: statement.claimedAt || timestamp,
     }))
+  }
 
   /**
    * Statements have some properties that are not part of their schema but are
