@@ -172,4 +172,4 @@ The Tech and Check cooperative and the Corporate Overlords of Bad Idea Factory a
 
 ## Attribution
 
-This Contributing document is adapted from the work of [Open Tech Strategies](opentechstrategies.com)
+This Contributing document is adapted from the work of [Open Tech Strategies](https://opentechstrategies.com)
