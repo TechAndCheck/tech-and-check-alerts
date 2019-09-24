@@ -34,6 +34,11 @@ class AbstractQueueFactory {
     const queue = new Queue(
       this.getQueueName(),
       config.REDIS_URL,
+      {
+        defaultJobOptions: {
+          removeOnComplete: true,
+        },
+      },
     )
     queue.on('error', error => logger.error(error))
     queue.on('failed', (job, error) => logger.warn(error))
