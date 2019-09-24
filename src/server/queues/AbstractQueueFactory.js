@@ -37,6 +37,7 @@ class AbstractQueueFactory {
       {
         defaultJobOptions: {
           removeOnComplete: true,
+          removeOnFail: true,
         },
       },
     )
