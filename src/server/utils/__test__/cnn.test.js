@@ -192,6 +192,10 @@ describe('utils/cnn', () => {
       expect(removeDescriptors('I am sure it will all be fine (aside from all the problems of course.)'))
         .toBe('I am sure it will all be fine (aside from all the problems of course.)')
     })
+    it('Should remove through translated text', () => {
+      expect(removeDescriptors('HUMAN (through translated text): The bee, of course, flies anyway.'))
+        .toBe('HUMAN: The bee, of course, flies anyway.')
+    })
   })
 
   describe('addBreaksOnSpeakerChange', () => {
