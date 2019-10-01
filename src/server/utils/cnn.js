@@ -118,6 +118,7 @@ export const removeDescriptors = transcript => transcript
   .replace(/\s?\(on[\s-]camera\)/g, '')
   .replace(/\s?\(through[\s-]translator\)/g, '')
   .replace(/(\s+):(\s+)/g, '$1$2')
+  .replace(/\s?\(through[\s-]translated[\s-]text\)/g, '')
   .trim()
 
 /**
