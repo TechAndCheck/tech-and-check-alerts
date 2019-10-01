@@ -51,7 +51,7 @@ export const guardMailingList = list => ((isProductionEnv() || isInternalMailing
  * @return {Array}           The screen names for that list
  */
 export const getTwitterScreenNamesByListName = async listName => (
-  TwitterAccount.getByListName(listName)
+  TwitterAccount.getActiveByListName(listName)
     .then(accounts => accounts.map(account => account.screenName))
 )
 
@@ -63,7 +63,7 @@ export const getTwitterScreenNamesByListName = async listName => (
  *                                   object keyed by list name
  */
 export const getTwitterScreenNamesByListNames = async listNames => (
-  TwitterAccount.getByListNames(listNames)
+  TwitterAccount.getActiveByListNames(listNames)
     .then(accounts => accounts.reduce((lists, account) => {
       if (hasKey(lists, account.listName)) {
         lists[account.listName].push(account.screenName)

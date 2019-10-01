@@ -5,19 +5,28 @@ module.exports = (sequelize, DataTypes) => {
     screenName: DataTypes.STRING(128),
     preferredDisplayName: DataTypes.STRING(512),
     listName: DataTypes.STRING(128),
+    isActive: DataTypes.BOOLEAN,
   }, {})
 
-  TwitterAccount.getByListNames = async listNames => (
+  TwitterAccount.getActive = async () => TwitterAccount.findAll({
+    where: {
+      isActive: true,
+    },
+  })
+
+  TwitterAccount.getActiveByListNames = async listNames => (
     TwitterAccount.findAll({
       where: {
         listName: {
           [Sequelize.Op.in]: listNames,
         },
+        isActive: true,
       },
     })
   )
 
-  TwitterAccount.getByListName = async listName => TwitterAccount.getByListNames([listName])
+  TwitterAccount.getActiveByListName = async listName => TwitterAccount
+    .getActiveByListNames([listName])
 
   return TwitterAccount
 }

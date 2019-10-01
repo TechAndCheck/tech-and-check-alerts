@@ -12,10 +12,10 @@ const scrapeTwitterAccount = twitterAccount => twitterAccountStatementScraperQue
   screenName: twitterAccount.screenName,
 })
 
-const getAllTwitterAccounts = () => TwitterAccount.findAll()
+const getActiveTwitterAccounts = () => TwitterAccount.getActive()
 
 export default async () => {
-  const twitterAccounts = await getAllTwitterAccounts()
+  const twitterAccounts = await getActiveTwitterAccounts()
   twitterAccounts.forEach(scrapeTwitterAccount)
   return twitterAccounts
 }
