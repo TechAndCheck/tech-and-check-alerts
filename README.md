@@ -15,7 +15,7 @@ This is a node project, to set up your development environment...
 
 ### Set up postgres
 
-This project uses [postgres](https://www.postgresql.org/) to store its data.  You will need to either set up a local copy, or find a hosted solution.
+This project uses [postgres](https://www.postgresql.org/) to store its data.  You will need to either set up a local copy, or find a hosted solution. Be sure to remember the username and password you set up for this project. 
 
 ### Set up redis
 
@@ -29,6 +29,8 @@ You will need to configure your environment variables.  In production this can b
 > cp .env.template .env
 > vi .env
 ```
+
+The `DATABASE_URL_DEVELOPMENT` template should match the `username` and `databasename` that you set up when installing postgres. 
 
 ### Run Migrations
 
