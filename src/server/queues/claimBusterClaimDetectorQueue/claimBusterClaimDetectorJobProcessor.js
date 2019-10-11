@@ -7,7 +7,8 @@ const { Claim } = models
 const saveClaim = async claim => Claim.create({
   content: claim.text,
   claimBusterScore: claim.score,
-  speakerName: claim.speaker.name,
+  speakerName: claim.speaker.extracted_name,
+  cleanedName: claim.speaker.normalized_name,
   speakerAffiliation: claim.speaker.affiliation,
   canonicalUrl: claim.canonicalUrl,
   scraperName: claim.scraperName,

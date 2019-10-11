@@ -326,7 +326,7 @@ describe('utils/cnn', () => {
       expect(extractStatementFromChunk('DONNA: My name is Donna.'))
         .toEqual({
           speaker: {
-            name: 'DONNA',
+            extracted_name: 'DONNA',
             affiliation: '',
           },
           text: 'My name is Donna.',
@@ -334,7 +334,7 @@ describe('utils/cnn', () => {
       expect(extractStatementFromChunk('DONNA, CNN ANCHOR: My name is Donna.'))
         .toEqual({
           speaker: {
-            name: 'DONNA',
+            extracted_name: 'DONNA',
             affiliation: 'CNN ANCHOR',
           },
           text: 'My name is Donna.',
@@ -350,13 +350,13 @@ describe('utils/cnn', () => {
       ]))
         .toEqual([{
           speaker: {
-            name: 'DONNA',
+            extracted_name: 'DONNA',
             affiliation: 'MASTER OF HIDE AND SEEK',
           },
           text: 'My name is Donna.',
         }, {
           speaker: {
-            name: 'JOHNNA',
+            extracted_name: 'JOHNNA',
             affiliation: 'FRIEND OF SQUIRRELS',
           },
           text: 'My name is... Johnna?  Who wrote this.',
@@ -368,37 +368,37 @@ describe('utils/cnn', () => {
     it('Should return a list of unique speakers', () => {
       expect(getSpeakersFromStatements([{
         speaker: {
-          name: 'DONNA',
+          extracted_name: 'DONNA',
           affiliation: '',
         },
         text: 'My name is Donna.',
       }, {
         speaker: {
-          name: 'JOHNNA',
+          extracted_name: 'JOHNNA',
           affiliation: '',
         },
         text: 'My name is... Johnna?  Who wrote this.',
       }, {
         speaker: {
-          name: 'DONNA',
+          extracted_name: 'DONNA',
           affiliation: '',
         },
         text: 'I did.',
       }, {
         speaker: {
-          name: 'JOHNNA',
+          extracted_name: 'JOHNNA',
           affiliation: 'CLONE OF JOHNNA',
         },
         text: 'My name is... also Johnna?',
       }]))
         .toEqual([{
-          name: 'DONNA',
+          extracted_name: 'DONNA',
           affiliation: '',
         }, {
-          name: 'JOHNNA',
+          extracted_name: 'JOHNNA',
           affiliation: '',
         }, {
-          name: 'JOHNNA',
+          extracted_name: 'JOHNNA',
           affiliation: 'CLONE OF JOHNNA',
         }])
     })
@@ -435,39 +435,45 @@ describe('utils/cnn', () => {
     it('Should remove honorifics', () => {
       expect(cleanStatementSpeakerNames([{
         speaker: {
-          name: 'REPRESENTATIVE DONNA BUTTERS',
+          extracted_name: 'REPRESENTATIVE DONNA BUTTERS',
           affiliation: '',
+          normalized_name: 'DONNA BUTTERS',
         },
         text: 'My name is Donna.',
       }, {
         speaker: {
-          name: 'SEN. JOHNNA',
+          extracted_name: 'SEN. JOHNNA',
           affiliation: '',
+          normalized_name: 'JOHNNA',
         },
         text: 'My name is... Johnna?  Who wrote this.',
       }, {
         speaker: {
-          name: 'SENATOR JOHNNA',
+          extracted_name: 'SENATOR JOHNNA',
           affiliation: '',
+          normalized_name: 'JOHNNA',
         },
         text: 'Turns out I am a senator',
       }]))
         .toEqual([{
           speaker: {
-            name: 'DONNA BUTTERS',
+            extracted_name: 'REPRESENTATIVE DONNA BUTTERS',
             affiliation: '',
+            normalized_name: 'DONNA BUTTERS'
           },
           text: 'My name is Donna.',
         }, {
           speaker: {
-            name: 'JOHNNA',
+            extracted_name: 'SEN. JOHNNA',
             affiliation: '',
+            normalized_name: 'JOHNNA'
           },
           text: 'My name is... Johnna?  Who wrote this.',
         }, {
           speaker: {
-            name: 'JOHNNA',
+            extracted_name: 'SENATOR JOHNNA',
             affiliation: '',
+            normalized_name: 'JOHNNA'
           },
           text: 'Turns out I am a senator',
         }])
@@ -477,20 +483,20 @@ describe('utils/cnn', () => {
   describe('hasIdenticalName', () => {
     it('Should properly identify speakers with identical names', () => {
       expect(hasIdenticalName({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'BLORP',
       }))
         .toBe(true)
     })
     it('Should properly identify non-identical names', () => {
       expect(hasIdenticalName({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA THE SECOND',
+        normalized_name: 'DONNA THE SECOND',
         affiliation: '',
       }))
         .toBe(false)
@@ -500,44 +506,44 @@ describe('utils/cnn', () => {
   describe('improvesName', () => {
     it('Should properly identify speakers with improved names', () => {
       expect(improvesName({
-        name: 'DON DONNA',
+        normalized_name: 'DON DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'BLORP',
       }))
         .toBe(true)
       expect(improvesName({
-        name: 'DON DON DONNA',
+        normalized_name:' DON DON DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'BLORP',
       }))
         .toBe(true)
     })
     it('Should properly not identify speakers with not improved names', () => {
       expect(improvesName({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }))
         .toBe(false)
       expect(improvesName({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA DONNA',
+        normalized_name: 'DONNA DONNA',
         affiliation: '',
       }))
         .toBe(false)
       expect(improvesName({
-        name: 'JANE THE MASTER',
+        normalized_name: 'JANE THE MASTER',
         affiliation: '',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }))
         .toBe(false)
@@ -547,54 +553,54 @@ describe('utils/cnn', () => {
   describe('improvesAffiliation', () => {
     it('Should properly identify improved affiliations', () => {
       expect(improvesAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'JEANS WEARER',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }))
         .toBe(true)
       expect(improvesAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'JEANS WEARER',
       }, {
-        name: 'KIMBERLY',
+        normalized_name: 'KIMBERLY',
         affiliation: '',
       }))
         .toBe(true)
     })
     it('Should properly not identify non-improved affiliations', () => {
       expect(improvesAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA THE SECOND',
+        normalized_name: 'DONNA THE SECOND',
         affiliation: 'MOST AMAZING PERSON',
       }))
         .toBe(false)
       expect(improvesAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA THE SECOND',
+        normalized_name: 'DONNA THE SECOND',
         affiliation: '',
       }))
         .toBe(false)
       expect(improvesAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA THE SECOND',
+        normalized_name: 'DONNA THE SECOND',
         affiliation: '',
       }))
         .toBe(false)
     })
     it('Should not identify improvement if an affiliation exists', () => {
       expect(improvesAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'A COOL PERSON',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'MOST AMAZING PERSON',
       }))
         .toBe(false)
@@ -604,70 +610,70 @@ describe('utils/cnn', () => {
   describe('getBestAffiliation', () => {
     it('Should return the original affiliation when names do not improve or equal', () => {
       expect(getBestAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA JANE',
+        normalized_name: 'DONNA JANE',
         affiliation: 'JEANS WEARER',
       }))
         .toBe('JEANS WEARER')
       expect(getBestAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'PANTRY',
       }, {
-        name: 'DONNA JANE',
+        normalized_name: 'DONNA JANE',
         affiliation: 'JEANS WEARER',
       }))
         .toBe('JEANS WEARER')
     })
     it('Should return the best affiliation when names improve or equal', () => {
       expect(getBestAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'JEANS WEARER',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }))
         .toBe('JEANS WEARER')
       expect(getBestAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'JEANS WEARER',
       }))
         .toBe('JEANS WEARER')
       expect(getBestAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }, {
-        name: 'JOHN DONNA',
+        normalized_name: 'JOHN DONNA',
         affiliation: 'MOST AMAZING PERSON',
       }))
         .toBe('MOST AMAZING PERSON')
     })
     it('Should not override existing affiliation', () => {
       expect(getBestAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'A COOL PERSON',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'MOST AMAZING PERSON',
       }))
         .toBe('MOST AMAZING PERSON')
       expect(getBestAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'A COOL PERSON',
       }, {
-        name: 'DONNA DONNA',
+        normalized_name: 'DONNA DONNA',
         affiliation: 'MOST AMAZING PERSON',
       }))
         .toBe('MOST AMAZING PERSON')
       expect(getBestAffiliation({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'A COOL PERSON',
       }, {
-        name: 'JOHN JOHNNA',
+        normalized_name: 'JOHN JOHNNA',
         affiliation: 'MOST AMAZING PERSON',
       }))
         .toBe('MOST AMAZING PERSON')
@@ -677,46 +683,46 @@ describe('utils/cnn', () => {
   describe('getBestName', () => {
     it('Should return the original name when last names are not shared', () => {
       expect(getBestName({
-        name: 'DONNA JANE',
+        normalized_name: 'DONNA JANE',
         affiliation: '',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'JEANS WEARER',
       }))
         .toBe('DONNA')
       expect(getBestName({
-        name: 'DON DONDON',
+        normalized_name: 'DON DONDON',
         affiliation: 'PANTRY',
       }, {
-        name: 'DON DON',
+        normalized_name: 'DON DON',
         affiliation: 'JEANS WEARER',
       }))
         .toBe('DON DON')
     })
     it('Should return the longer name when the endings match', () => {
       expect(getBestName({
-        name: 'DONNA DONNA',
+        normalized_name: 'DONNA DONNA',
         affiliation: 'JEANS WEARER',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: '',
       }))
         .toBe('DONNA DONNA')
       expect(getBestName({
-        name: 'DON DON DONNA',
+        normalized_name: 'DON DON DONNA',
         affiliation: '',
       }, {
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'JEANS WEARER',
       }))
         .toBe('DON DON DONNA')
     })
     it('Should not return shorter names', () => {
       expect(getBestName({
-        name: 'DONNA',
+        normalized_name: 'DONNA',
         affiliation: 'A COOL PERSON',
       }, {
-        name: 'DONNA DONNA',
+        normalized_name: 'DONNA DONNA',
         affiliation: 'MOST AMAZING PERSON',
       }))
         .toBe('DONNA DONNA')
@@ -726,85 +732,85 @@ describe('utils/cnn', () => {
   describe('getNormalizedSpeaker', () => {
     it('Should use the first full name', () => {
       expect(getNormalizedSpeaker({
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: '',
       }, [{
-        name: 'JOHNNY JOHN',
+        normalized_name: 'JOHNNY JOHN',
         affiliation: 'PORTLAND',
       }, {
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: 'PHILADEPHIA',
       }, {
-        name: 'JOHN JOHN',
+        normalized_name: 'JOHN JOHN',
         affiliation: 'BORTLAND',
       }]))
         .toEqual({
-          name: 'JOHNNY JOHN',
+          normalized_name: 'JOHNNY JOHN',
           affiliation: 'PORTLAND',
         })
     })
     it('Should use the most complete name', () => {
       expect(getNormalizedSpeaker({
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: '',
       }, [{
-        name: 'JOHNNY JOHN',
+        normalized_name: 'JOHNNY JOHN',
         affiliation: 'PORTLAND',
       }, {
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: 'PHILADEPHIA',
       }, {
-        name: 'BOB JOHNNY JOHN',
+        normalized_name: 'BOB JOHNNY JOHN',
         affiliation: 'BORTLAND',
       }]))
         .toEqual({
-          name: 'BOB JOHNNY JOHN',
+          normalized_name: 'BOB JOHNNY JOHN',
           affiliation: 'BORTLAND',
         })
     })
     it('Should use the most complete affiliation', () => {
       expect(getNormalizedSpeaker({
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: '',
       }, [{
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: '',
       }, {
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: 'PHILADEPHIA',
       }]))
         .toEqual({
-          name: 'JOHN',
+          normalized_name: 'JOHN',
           affiliation: 'PHILADEPHIA',
         })
     })
     it('Should not drop affiliation', () => {
       expect(getNormalizedSpeaker({
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: 'PHILADELPHIA',
       }, [{
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: '',
       }, {
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: 'WISCONSON',
       }]))
         .toEqual({
-          name: 'JOHN',
+          normalized_name: 'JOHN',
           affiliation: 'PHILADELPHIA',
         })
       expect(getNormalizedSpeaker({
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: 'PHILADELPHIA',
       }, [{
-        name: 'JOHN',
+        normalized_name: 'JOHN',
         affiliation: '',
       }, {
-        name: 'JOHN JOHN',
+        normalized_name: 'JOHN JOHN',
         affiliation: 'WISCONSON',
       }]))
         .toEqual({
-          name: 'JOHN JOHN',
+          normalized_name: 'JOHN JOHN',
           affiliation: 'PHILADELPHIA',
         })
     })
@@ -814,50 +820,50 @@ describe('utils/cnn', () => {
     it('Should replace names with long names', () => {
       expect(normalizeStatementSpeakers([{
         speaker: {
-          name: 'DONNA BUTTERS',
+          normalized_name: 'DONNA BUTTERS',
           affiliation: 'CNN HOST',
         },
         text: 'My name is Donna.',
       }, {
         speaker: {
-          name: 'LANCE',
+          normalized_name: 'LANCE',
           affiliation: '',
         },
         text: 'My name is... Johnna?  Who wrote this.',
       }, {
         speaker: {
-          name: 'BUTTERS',
+          normalized_name: 'BUTTERS',
           affiliation: '',
         },
         text: 'lol idk.',
       }, {
         speaker: {
-          name: 'JOHNNA LANCE',
+          normalized_name: 'JOHNNA LANCE',
           affiliation: 'CNN TOAST',
         },
         text: 'does this even matter?',
       }]))
         .toEqual([{
           speaker: {
-            name: 'DONNA BUTTERS',
+            normalized_name: 'DONNA BUTTERS',
             affiliation: 'CNN HOST',
           },
           text: 'My name is Donna.',
         }, {
           speaker: {
-            name: 'JOHNNA LANCE',
+            normalized_name: 'JOHNNA LANCE',
             affiliation: 'CNN TOAST',
           },
           text: 'My name is... Johnna?  Who wrote this.',
         }, {
           speaker: {
-            name: 'DONNA BUTTERS',
+            normalized_name: 'DONNA BUTTERS',
             affiliation: 'CNN HOST',
           },
           text: 'lol idk.',
         }, {
           speaker: {
-            name: 'JOHNNA LANCE',
+            normalized_name: 'JOHNNA LANCE',
             affiliation: 'CNN TOAST',
           },
           text: 'does this even matter?',
@@ -869,27 +875,31 @@ describe('utils/cnn', () => {
     it('Should remove CNN affiliates', () => {
       expect(removeNetworkAffiliatedStatements([{
         speaker: {
-          name: 'DONNA BUTTERS',
+          extracted_name: 'DONNA BUTTERS',
           affiliation: 'CNN TALKING HEAD',
+          normalized_name: 'DONNA BUTTERS',
         },
         text: 'My name is Donna.',
       }, {
         speaker: {
-          name: 'JOHNNA',
+          extracted_name: 'JOHNNA',
           affiliation: 'CNN PANTS HIDER',
+          normalized_name: 'JOHNNA',
         },
         text: 'My name is... Johnna?  Who wrote this.',
       }, {
         speaker: {
-          name: 'DONNA',
+          extracted_name: 'DONNA',
           affiliation: 'OTHER PERSON',
+          normalized_name: 'DONNA',
         },
         text: 'lol idk.',
       }]))
         .toEqual([{
           speaker: {
-            name: 'DONNA',
+            extracted_name: 'DONNA',
             affiliation: 'OTHER PERSON',
+            normalized_name: 'DONNA',
           },
           text: 'lol idk.',
         }])
@@ -900,32 +910,32 @@ describe('utils/cnn', () => {
     it('Should remove unidentified speaker statements', () => {
       expect(removeUnattributableStatements([{
         speaker: {
-          name: 'UNIDENTIFIED MALE',
+          extracted_name: 'UNIDENTIFIED MALE',
           affiliation: '',
         },
         text: 'Nobody knows who I am',
       }, {
         speaker: {
-          name: 'UNIDENTIFIED FEMALE',
+          extracted_name: 'UNIDENTIFIED FEMALE',
           affiliation: '',
         },
         text: 'Same here.',
       }, {
         speaker: {
-          name: 'UNIDENTIFIED ANIMAL',
+          extracted_name: 'UNIDENTIFIED ANIMAL',
           affiliation: 'FARM',
         },
         text: 'Moo.',
       }, {
         speaker: {
-          name: 'ANIMAL EXPERT',
+          extracted_name: 'ANIMAL EXPERT',
           affiliation: '',
         },
         text: 'Wait I think that last one was a cow.',
       }]))
         .toEqual([{
           speaker: {
-            name: 'ANIMAL EXPERT',
+            extracted_name: 'ANIMAL EXPERT',
             affiliation: '',
           },
           text: 'Wait I think that last one was a cow.',

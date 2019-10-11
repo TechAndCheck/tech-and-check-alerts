@@ -3,540 +3,617 @@
   "input": [
     {
       "speaker": {
-        "name": "KATE BOLDUAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "KATE BOLDUAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "KATE BOLDUAN"
       },
       "text": "Hello, everyone.  I'm Kate Bolduan.  Thanks so much for joining me.   A brand-new look at the current state of the Democratic race for president.  Just out this morning, a new CNN poll shows Joe Biden is bouncing back.  Warren and Sanders are battling for second.  And Kamala Harris, where did you go?   Take a look.  Biden has regained a double-digit lead in the new national poll out from CNN that's almost double his closest rivals, Bernie Sanders and Elizabeth Warren.  Kamala Harris is down to 5 percent support right now.  That is on the national stage.   On the ground in the early state of Iowa, Joe Biden is hitting the air waves for the very first time with this TV ad."
     },
     {
       "speaker": {
-        "name": "NARRATOR",
-        "affiliation": ""
+        "extracted_name": "NARRATOR",
+        "affiliation": "",
+        "normalized_name": "NARRATOR"
       },
       "text": "We know in our bones this election is different.  The stakes are higher.  The threat more serious.  We have to beat Donald Trump.  And all the polls agree Joe Biden is the strongest Democrat to do the job.   No one is more qualified to restore the soul of the nation.  Battered by an erratic vicious bullying president, strong, steady, stable leadership.   Biden, president."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Joining me right now, CNN senior political writer and analyst, Harry Enten, who is also the co-host of the brand new and fabulous --"
     },
     {
       "speaker": {
-        "name": "HARRY ENTEN",
-        "affiliation": "CNN SENIOR POLITICAL WRITER & ANALYST"
+        "extracted_name": "HARRY ENTEN",
+        "affiliation": "CNN SENIOR POLITICAL WRITER & ANALYST",
+        "normalized_name": "HARRY ENTEN"
       },
       "text": "Yes, plug that podcast.  Plug it."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "-- \"THE FORECAST.\"  Harry, thank you for being here."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "OK, you stop it right now."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "OK."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "There has been quite a bit of movement since our last CNN poll on this.  Tell me what you see."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Yes.  Look at this.  After the first debate, we saw Biden sort of falling down.  But look at this, now compared to where he was, he's up 7 percentage points.   Look at this.  Kamala Harris had a big bump after the first debate and she got all the way up to 17.  She was in second.  Now she's back down to 5 percent and basically a tie for fourth place with Pete Buttigieg. Everyone else pretty much stable in our poll, with basically Sanders and Warren sort of in a two-way tie for second place, around 15 percent."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "I want to know where you want to take this.  I am constantly interested in the question of, what matters most to you.  Is it a candidate that agrees with you on the issues or is it a candidate that you think can beat Donald Trump?  Where do things --"
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Yes.  So basically, what we see is we see this big divide by age on this question.  And what we see is that those under the age of 45, sharing the positions on your issues is most important, 56 percent to 41 percent, on a strong chance of beating Donald Trump."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "That's so dramatically different."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Look at this.  Look how big it is among those age 45 and older.  And  66 percent say a strong chance of beating Donald Trump is more important than shared positions on the issues.   And overall, given that this edge is so much longer among the 45-plus age group, that is the more important issue.  Strong chance of beating Donald Trump is beating shares your positions on the issues and that is a clear dividing line so far in this primary."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "For folks that this is most important, who are they going for?"
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Yes.  And I think that this is sort of -- so if you look at this.  Look at this divide.  This is amazing.  So we break this down."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Explain that to me."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "So among those who say that beating Donald Trump is more important than major issue agreement, we see Joe Biden is crushing the field.  He has a 20-point lead over his nearest competitor, Elizabeth Warren.  He's getting 35 percent of the vote.   Versus if you say major issue agreement is more important than beating Donald Trump, we basically have this very, very tight race between Joe Biden and Bernie Sanders."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "That's interesting."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "So this is the key thing that is elevating Joe Biden right now.  That is why, in Iowa, in that ad, he is hitting on this issue, because beating Donald Trump is what is propelling him into the lead."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "So if I'm being asked, and I say what is most important to me right now is beating Donald Trump, most folks are also then going for Joe Biden?"
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "The plurality of folks are going for Joe Biden.  The majority of his own support is coming from this column."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Is it remaining the same that that is still the biggest priority, the most important thing is beating Joe Biden over the issues?  Is that where things stand still?"
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Yes.  That, to me, is beating Donald Trump is still the --"
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Sorry, Donald Trump."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "-- Joe Biden."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Right.  But beating Donald Trump, this has remained the constant.  As we just sort of go back, this has continuously been the number-one thing."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "It still is number one.  And 54 percent in our poll said that, overall, this was more important than this, sharing your positions on the issues.  And that is why Joe Biden has held a constant lead in this Democratic primary race so far."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "A really important national look right now. Great to see, Harry.  Thank you."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Thank you. With me now for more perspective on this, CNN political director, David Chalian, and CNN political reporter, Arlette Saenz.   It's great to see you guys. Arlette, what are you hearing from the campaign about the numbers?"
     },
     {
       "speaker": {
-        "name": "ARLETTE SAENZ",
-        "affiliation": "CNN POLITICAL REPORTER"
+        "extracted_name": "ARLETTE SAENZ",
+        "affiliation": "CNN POLITICAL REPORTER",
+        "normalized_name": "ARLETTE SAENZ"
       },
       "text": "Well, Kate, this is certainly welcome news to the Biden campaign.   And just going off the point that you and Harry were talking about, the fact that the majority of those polled in this poll think that it's important that they pick a nominee that can take on President Trump, that bolsters Joe Biden's argument that he's been making since day one of this campaign, with that first video ad that ran on digital, where he talked about this campaign is a battle for the soul of the nation.   You have that new ad today airing here in Iowa that really homes in on electability.  He's talking about President Trump -- or a narrator in the ad talking about President Trump is an erratic vicious bully and trying to paint Joe Biden as the strong stable leader.   And so these poll numbers are really backing up the central message that Biden has had throughout his campaign that what Democrats need to do is pick a nominee that can take on President Trump and they believe that it's Joe Biden for that position."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "And, David, one of the other interesting things coming out of this poll is Kamala Harris down 12.  What is the message here that you're getting from that and for her campaign?"
     },
     {
       "speaker": {
-        "name": "DAVID CHALIAN",
-        "affiliation": "CNN POLITICAL DIRECTOR"
+        "extracted_name": "DAVID CHALIAN",
+        "affiliation": "CNN POLITICAL DIRECTOR",
+        "normalized_name": "DAVID CHALIAN"
       },
       "text": "Again, national picture that we're looking at right now.  This poll, to me, shows like a snap back to where we were before the first debate.   What I think we're learning here is debates can matter to a point. That poll that we're comparing it to, Kate, was taken in the immediate aftermath when Kamala Harris delivered that punch to Joe Biden over busing.  And she got a bunch of positive press coverage out of that and he had a bunch of negative headlines about his debate performance. And that's when that snapshot was taken.   So now what we're seeing, past a couple of series of debates now, is we're returning a bit to where we were before.  Biden is back up, double-digit lead.  Kamala Harris back down to the middle single digits where she was before that moment.  It was a bit of a sugar high, I think, in that immediate aftermath of that Miami debate."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Super interesting.   And, Arlette, on the -- what I was talking about with Harry, on what Democrats say is the most important issue consistently still, at least right now, is beating Donald Trump.  Something you're talking about. Biden is far and away the candidate that they support when it comes to that issue.   Jill Biden clearly sees that, telling a group of teachers in New Hampshire -- for our viewers let me play it -- this yesterday."
     },
     {
       "speaker": {
-        "name": "JILL BIDEN",
-        "affiliation": "WIFE OF JOE BIDEN"
+        "extracted_name": "JILL BIDEN",
+        "affiliation": "WIFE OF JOE BIDEN",
+        "normalized_name": "JILL BIDEN"
       },
       "text": "I know that not all of you are committed to my husband and I respect that.  Your candidate might be better on, I don't know, health care than Joe is.  But you've got to look at who is going to win this election and maybe you have to swallow a little bit and say, OK, I sort of personally like so-and-so better, but your bottom line has to be that we have to beat Trump."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "It's a surprising statement to hear from Jill Biden that she didn't just say it once.  She really made the point a couple of times there in that statement.  Is the Biden campaign wincing at that today? What are they saying?"
     },
     {
       "speaker": {
-        "name": "SAENZ",
-        "affiliation": ""
+        "extracted_name": "SAENZ",
+        "affiliation": "",
+        "normalized_name": "SAENZ"
       },
       "text": "Well, Kate, they haven't exactly responded to those comments from Jill Biden.  But as you heard at the top of the clip, she acknowledged that she was speaking to people in that room who may not be committed to Joe Biden, maybe considering other candidates.   But she's making this explicit argument that's been central to Biden's campaign, as we talked about before, that they feel that the top message needs to be that defeating President Trump needs to be central to Democrats choices.   And it's not so often that you hear a spouse of a candidate speak so candidly, but this is the message that she is out there delivering. And you're seeing it echoed today in the campaign ad here in Iowa. They're continuing trying to frame this campaign as among Joe Biden and President Trump, they hope."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "David, what did you think seeing Jill Biden speak like that?"
     },
     {
       "speaker": {
-        "name": "CHALIAN",
-        "affiliation": ""
+        "extracted_name": "CHALIAN",
+        "affiliation": "",
+        "normalized_name": "CHALIAN"
       },
       "text": "Yes, it was shocking to hear sort of the inside voice out loud.  I think there's no doubt.  Look at what they are putting dollars behind in that Iowa ad.  They literally show poll graphs in the ad saying that he's the one --"
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "That's a good point.  I hadn't thought about that."
     },
     {
       "speaker": {
-        "name": "CHALIAN",
-        "affiliation": ""
+        "extracted_name": "CHALIAN",
+        "affiliation": "",
+        "normalized_name": "CHALIAN"
       },
       "text": "-- that can beat Trump.  Normally, you hear politicians say the only poll that matters is on Election Day.  No, that's not their argument right now.  Their argument is you can't get anything else done if Donald Trump is still sitting in the Oval Office and so go with the guy that has the best chance of defeating him.   I mean, to hear Joe Biden say it, it was so concrete, just how much they see electability as a strength that they want to lean in here, followed by this paid advertisement.  This is where they want to keep the conversation."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Look, someone else who is pushing something of a message just like that, it might not be what you want but it's what you need, I mean, we've heard that from Donald Trump in the last rally that he had.  His whole line of, when it comes to the economy, folks, like me or hate me, like it or hate it, you've got to stick with me.  It's a strange campaign strategy that's playing out on both sides."
     },
     {
       "speaker": {
-        "name": "CHALIAN",
-        "affiliation": ""
+        "extracted_name": "CHALIAN",
+        "affiliation": "",
+        "normalized_name": "CHALIAN"
       },
       "text": "Yes, Donald Trump clearly making that argument to his base in the rally, but also trying to make that to the broader general electorate --"
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Right.  Exactly."
     },
     {
       "speaker": {
-        "name": "CHALIAN",
-        "affiliation": ""
+        "extracted_name": "CHALIAN",
+        "affiliation": "",
+        "normalized_name": "CHALIAN"
       },
       "text": "-- electorate as well.   And you are right, Joe Biden leaning into the argument, if you don't like me, if you don't agree with me on all issues, put it to the side, Democrats.  You need me to beat Donald Trump."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Super interesting.   Great to see you guys.   Thanks, David. Thanks, Arlette."
     },
     {
       "speaker": {
-        "name": "CHALIAN",
-        "affiliation": ""
+        "extracted_name": "CHALIAN",
+        "affiliation": "",
+        "normalized_name": "CHALIAN"
       },
       "text": "Sure."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Coming up for us, the White House now considering new moves to stave off an economic downturn.  This, after President Trump declared there's nothing to worry about when it comes to the economy. A new report from the White House coming up.   Plus, just as the president is considering more troop withdrawals overseas, a new report says ISIS is resurging.  Secretary of State Mike Pompeo even saying, in some ways, they are stronger.   Stay with us."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Mixed messages coming from the White House. Everyone, from the president on down, all day Sunday and Monday were saying nothing to see here when it came to the economy.  The economy is better than ever."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES"
+        "extracted_name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES",
+        "normalized_name": "DONALD TRUMP"
       },
       "text": "The United States right now has the hottest economy anywhere in the world."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "But behind-the-scenes, CNN's Kaitlan Collins is reporting that the White House has been discussing a potential payroll tax cut to help stave off an economic slowdown.  Those talks were first reported by the \"Washington Post.\" Let's get over to the White House to figure out what's going on. CNN's Boris Sanchez is there.   Boris, what are you hearing this morning?  How serious are these talks?"
     },
     {
       "speaker": {
-        "name": "BORIS SANCHEZ",
-        "affiliation": "CNN CORRESPONDENT"
+        "extracted_name": "BORIS SANCHEZ",
+        "affiliation": "CNN CORRESPONDENT",
+        "normalized_name": "BORIS SANCHEZ"
       },
       "text": "Kate, from what we understand, these talks about a potential payroll tax cut are still in the early stages.  The White House publicly has denied that they're under consideration at this time.   But this belies what we've heard from White House officials over the last few days, including the sound byte you played from President Trump there, across the board.  We've heard from Wilbur Ross, Kellyanne Conway, Larry Kudlow, all saying the fundamentals of the economy are strong.   If that's the case, it really sort of contradicts this idea that they're looking for ways to stave off an economic slowdown. Larry Kudlow, for example, scheduling a series of talks this week with business leaders to get their input on the state of the economy to find out how they feel about the future of the economy moving into 2020.  That plays a big part of this.  The White House has said that those calls were scheduled before, previous to any concern about the economy becoming part of the national dialogue.   But we know that President Trump is closely watching this.  He's spoken to aides about his concerns that this trade war with China could impact his reelection chances going into 2020.   Look, U.S. steel is shedding jobs.  There are indicators in the stock market.  The sales of R.V.s are trending down.  There are all these indicators that there could be a recession going into this election year.  And it could harm the president on what he feels is his strongest argument for another four years at the White House.   We will likely hear from the president today.  He's welcoming the president of Romania to the White House for the second time since June of 2017.  Reporters will almost certainly ask him about this.  We'll see what he says -- Kate?"
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Absolutely. Great to see you, Boris.  Thank you.   Joining me now is Diane Swonk.  She is chief economist at Grant Thornton.  Diane, thanks for being here.   What do you think -- if it's something we are debating, if it would be what they are considering, what do you think of a payroll tax cut? Smart idea right now?"
     },
     {
       "speaker": {
-        "name": "DIANE SWONK",
-        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+        "extracted_name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON",
+        "normalized_name": "DIANE SWONK"
       },
       "text": "I think it's something you do want to have if the economy falters.  I'm not sure you should do it right now.  It is something we've used in the past.  And you would want to limit it by income strat so that middle- and low-income households get it more than higher-income households because that's where the bang for the dollar is.   That said, it's a little disingenuous to say the economy is fine and then be planning for a recession.  But I do think it's prudent to hedge your downside.  I don't think it's prudent to do it by hammering on the Fed and doing things like that.  That is really undermining your own potential to fight a recession down the road because you undermine the credibility of the Federal Reserve.   But what we do have right now is an economy where the consumer is sort of played out, carrying us right now.  And the question is, can that continue or are they going to collapse under the burden of that weight."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Yes.  And the last time a payroll tax cut happened was during the Obama administration.  Is that an apples-to-apples comparison to the real impact then and what it would mean today?"
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "That was certainly an extraordinary situation that was very severe.  So I would hope it's not comparable."
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "People forget, it's almost the amnesia of the shock of that accident, the train wreck that we experienced in the Great Recession and the global financial crisis.  It's amazing how people forget what happened 11 years ago and 10 years ago.   But that said, where we are today, the economy is slowing.  It's not yet faltered.  It is the risk of recession that are clearly rising and it is prudent to think about how do we deal with it.  But what's most prudent is to think about, how do we deal with this globally.  One of the reasons we look better is because other economies are teetering on recession."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Yes, it is all relative right now. The downside of the tax cut like is -- well, is the impact on the deficit and potentially an impact on Social Security.  How big of a deal -- when you look at kind of the ballooning deficits that we're looking at right now, how big of a deal is that right now?"
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "Well, it's always a big deal to me.  But if you're in a recession -- I'm sorry, you just have to throw that to the sidelines."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Right."
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "But right now, what's really amazing is how much we squandered to the tax cuts that were not really thought out."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "-- needed when we're not in recession.  And to put that much stimulus and not get that much bang for the dollar, which don't when you don't have a weak economy, that really was a wasted opportunity and has left us with an unfair burden going into the next recession, and less wiggle room to actually use fiscal stimulus when we're going to really need it."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "And there are a lot of warning signs out there.  One that grabs my attention, particularly, is the manufacturing of R.V.s.  The center of the country's R.V. industry is where I grew up.  And the \"Wall Street Journal\" is reporting that shipments of R.V.s are down 20 percent this year so far and that's on top of a drop last year.   One quote, just for our viewers, from \"The Journal\" piece, and it's from an economist at Ball State University, and he says that, \"The R.V. industry is better at calling recessions than economists are.\" Not talking about you, though, Diane.   What does this data point, if you will, what does it tell you?"
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "Well, we come from the same part of the country.  I'm from the Detroit area."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Oh."
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "Yes, the manufacturing sector is also contracting right now. They're closing steel plants in Michigan.  They've permanently closed as of the end of July a lot more vehicle plants in Michigan and Ohio.   And the manufacturing recession, although it doesn't mean what it once did, and we do have a service-sector economy that's still moving forward, but even that showing a little bit of a slowdown out there.   So the question is, how much can we take and how much does all of the effects snowball into an actual recession.  And the reality is that's why the Fed is so concerned, because we're looking at the head winds from abroad and a storm in terms of the trade war and slower growth aboard, can show up on our own shores.   And they're trying to push back against the uncertainty that this administration has created on trade policy by lowering interest rates to offset that uncertainty tax it's put on the economy and shore up the confidence of not only businesses, but the U.S. consumer.   Whether they can do that or not with the tools they've got, that will be seen."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Yes, exactly. Diane, thanks so much."
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "Thank you, Kate."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Still to come, a troubling new government report out detailing that ISIS is resurging.  Why Secretary of State Mike Pompeo says there are places the terror group may be stronger today than a few years ago."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "President Trump declared the ISIS caliphate defeated last December.  He was then talking about the physical territory under ISIS control.  And that was one reason behind his decision to dramatically pull back troops from Syria.  But now the Pentagon says the terror group is, quote, \"resurging.\"   A recent Pentagon inspector general report says ISIS is not only regaining strength, but it is also targeting a massive refugee camp for recruitment, mobilizing an estimated 15,000 fighters in Iraq and Syria and it's building up its war chest.   Secretary of State Mike Pompeo was asked about this today and here's what he said."
     },
     {
       "speaker": {
-        "name": "MIKE POMPEO",
-        "affiliation": "SECRETARY OF STATE"
+        "extracted_name": "MIKE POMPEO",
+        "affiliation": "SECRETARY OF STATE",
+        "normalized_name": "MIKE POMPEO"
       },
       "text": "It's complicated.  There are certainly places where ISIS is more powerful today than they were three or four years ago.  But the caliphate is gone.  And their capacity to conduct external attacks has been made much more difficult.  We've taken down significant risk.  Not all of it."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Joining me right now, CNN military and diplomatic analyst, retired Rear Admiral John Kirby, and CNN Pentagon correspondent, Barbara Starr.   Barbara, this is all coming from an inspector general at the Pentagon warning about the resurgence of ISIS in Syria.  Tell us more what this report says."
     },
     {
       "speaker": {
-        "name": "BARBARA STARR",
-        "affiliation": "CNN PENTAGON CORRESPONDENT"
+        "extracted_name": "BARBARA STARR",
+        "affiliation": "CNN PENTAGON CORRESPONDENT",
+        "normalized_name": "BARBARA STARR"
       },
       "text": "Well, what they're really laying out is what senior commanders have been talking about for the last several months.  Yes, that physical caliphate, the territory that ISIS once controlled across Iraq and Syria, now very largely no longer under ISIS's unilateral control.   But when you have 15,000 fighters, when you have 70,000 displaced persons in camps, this becomes very fertile recruiting ground for ISIS to regroup.   What the generals have been saying for the last several months is you are going to have guerrilla attacks, suicide bombers and ISIS migrating well beyond Syria and Iraq, into North Africa where it's been operating for some time, and, in recent years, up in Afghanistan.  So this is going to be the challenge that the U.S. faces.  Can ISIS stage a 9/11-type attack on U.S. soil?  Hopefully, not.  But they can destabilize an awful lot of territory."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "And, John, you heard what Mike Pompeo said there how about, in some ways, they're stronger in places than in years past.  And then you have an estimated 15,000 fighters in Iraq and Syria.  What does it mean to you?"
     },
     {
       "speaker": {
-        "name": "REAR ADM. JOHN KIRBY",
-        "affiliation": "CNN MILITARY & DIPLOMATIC ANALYST"
+        "extracted_name": "REAR ADM. JOHN KIRBY",
+        "affiliation": "CNN MILITARY & DIPLOMATIC ANALYST",
+        "normalized_name": "REAR ADM. JOHN KIRBY"
       },
       "text": "Well, it means that ISIS remains a viable terrorist network.  They were never just a caliphate, Kate."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Right."
     },
     {
       "speaker": {
-        "name": "KIRBY",
-        "affiliation": ""
+        "extracted_name": "KIRBY",
+        "affiliation": "",
+        "normalized_name": "KIRBY"
       },
       "text": "They were always also a network.  And we're seeing that that network is still viable and still able to metastasize it's ideology and its resources well beyond Iraq and Syria and, as Barbara said, into North Africa, Somalia and Afghanistan, as we saw over the weekend.    But the report also, if you look at it, offers some very worrisome signs for Iraq and for Syria."
     }
@@ -544,540 +621,617 @@
   "output": [
     {
       "speaker": {
-        "name": "KATE BOLDUAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "KATE BOLDUAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "KATE BOLDUAN"
       },
       "text": "Hello, everyone.  I'm Kate Bolduan.  Thanks so much for joining me.   A brand-new look at the current state of the Democratic race for president.  Just out this morning, a new CNN poll shows Joe Biden is bouncing back.  Warren and Sanders are battling for second.  And Kamala Harris, where did you go?   Take a look.  Biden has regained a double-digit lead in the new national poll out from CNN that's almost double his closest rivals, Bernie Sanders and Elizabeth Warren.  Kamala Harris is down to 5 percent support right now.  That is on the national stage.   On the ground in the early state of Iowa, Joe Biden is hitting the air waves for the very first time with this TV ad."
     },
     {
       "speaker": {
-        "name": "NARRATOR",
-        "affiliation": ""
+        "extracted_name": "NARRATOR",
+        "affiliation": "",
+        "normalized_name": "NARRATOR"
       },
       "text": "We know in our bones this election is different.  The stakes are higher.  The threat more serious.  We have to beat Donald Trump.  And all the polls agree Joe Biden is the strongest Democrat to do the job.   No one is more qualified to restore the soul of the nation.  Battered by an erratic vicious bullying president, strong, steady, stable leadership.   Biden, president."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Joining me right now, CNN senior political writer and analyst, Harry Enten, who is also the co-host of the brand new and fabulous --"
     },
     {
       "speaker": {
-        "name": "HARRY ENTEN",
-        "affiliation": "CNN SENIOR POLITICAL WRITER & ANALYST"
+        "extracted_name": "HARRY ENTEN",
+        "affiliation": "CNN SENIOR POLITICAL WRITER & ANALYST",
+        "normalized_name": "HARRY ENTEN"
       },
       "text": "Yes, plug that podcast.  Plug it."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "-- \"THE FORECAST.\"  Harry, thank you for being here."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "OK, you stop it right now."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "OK."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "There has been quite a bit of movement since our last CNN poll on this.  Tell me what you see."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Yes.  Look at this.  After the first debate, we saw Biden sort of falling down.  But look at this, now compared to where he was, he's up 7 percentage points.   Look at this.  Kamala Harris had a big bump after the first debate and she got all the way up to 17.  She was in second.  Now she's back down to 5 percent and basically a tie for fourth place with Pete Buttigieg. Everyone else pretty much stable in our poll, with basically Sanders and Warren sort of in a two-way tie for second place, around 15 percent."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "I want to know where you want to take this.  I am constantly interested in the question of, what matters most to you.  Is it a candidate that agrees with you on the issues or is it a candidate that you think can beat Donald Trump?  Where do things --"
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Yes.  So basically, what we see is we see this big divide by age on this question.  And what we see is that those under the age of 45, sharing the positions on your issues is most important, 56 percent to 41 percent, on a strong chance of beating Donald Trump."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "That's so dramatically different."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Look at this.  Look how big it is among those age 45 and older.  And  66 percent say a strong chance of beating Donald Trump is more important than shared positions on the issues.   And overall, given that this edge is so much longer among the 45-plus age group, that is the more important issue.  Strong chance of beating Donald Trump is beating shares your positions on the issues and that is a clear dividing line so far in this primary."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "For folks that this is most important, who are they going for?"
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Yes.  And I think that this is sort of -- so if you look at this.  Look at this divide.  This is amazing.  So we break this down."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Explain that to me."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "So among those who say that beating Donald Trump is more important than major issue agreement, we see Joe Biden is crushing the field.  He has a 20-point lead over his nearest competitor, Elizabeth Warren.  He's getting 35 percent of the vote.   Versus if you say major issue agreement is more important than beating Donald Trump, we basically have this very, very tight race between Joe Biden and Bernie Sanders."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "That's interesting."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "So this is the key thing that is elevating Joe Biden right now.  That is why, in Iowa, in that ad, he is hitting on this issue, because beating Donald Trump is what is propelling him into the lead."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "So if I'm being asked, and I say what is most important to me right now is beating Donald Trump, most folks are also then going for Joe Biden?"
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "The plurality of folks are going for Joe Biden.  The majority of his own support is coming from this column."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Is it remaining the same that that is still the biggest priority, the most important thing is beating Joe Biden over the issues?  Is that where things stand still?"
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Yes.  That, to me, is beating Donald Trump is still the --"
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Sorry, Donald Trump."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "-- Joe Biden."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "Right.  But beating Donald Trump, this has remained the constant.  As we just sort of go back, this has continuously been the number-one thing."
     },
     {
       "speaker": {
-        "name": "ENTEN",
-        "affiliation": ""
+        "extracted_name": "ENTEN",
+        "affiliation": "",
+        "normalized_name": "ENTEN"
       },
       "text": "It still is number one.  And 54 percent in our poll said that, overall, this was more important than this, sharing your positions on the issues.  And that is why Joe Biden has held a constant lead in this Democratic primary race so far."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "A really important national look right now. Great to see, Harry.  Thank you."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Thank you. With me now for more perspective on this, CNN political director, David Chalian, and CNN political reporter, Arlette Saenz.   It's great to see you guys. Arlette, what are you hearing from the campaign about the numbers?"
     },
     {
       "speaker": {
-        "name": "ARLETTE SAENZ",
-        "affiliation": "CNN POLITICAL REPORTER"
+        "extracted_name": "ARLETTE SAENZ",
+        "affiliation": "CNN POLITICAL REPORTER",
+        "normalized_name": "ARLETTE SAENZ"
       },
       "text": "Well, Kate, this is certainly welcome news to the Biden campaign.   And just going off the point that you and Harry were talking about, the fact that the majority of those polled in this poll think that it's important that they pick a nominee that can take on President Trump, that bolsters Joe Biden's argument that he's been making since day one of this campaign, with that first video ad that ran on digital, where he talked about this campaign is a battle for the soul of the nation.   You have that new ad today airing here in Iowa that really homes in on electability.  He's talking about President Trump -- or a narrator in the ad talking about President Trump is an erratic vicious bully and trying to paint Joe Biden as the strong stable leader.   And so these poll numbers are really backing up the central message that Biden has had throughout his campaign that what Democrats need to do is pick a nominee that can take on President Trump and they believe that it's Joe Biden for that position."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "And, David, one of the other interesting things coming out of this poll is Kamala Harris down 12.  What is the message here that you're getting from that and for her campaign?"
     },
     {
       "speaker": {
-        "name": "DAVID CHALIAN",
-        "affiliation": "CNN POLITICAL DIRECTOR"
+        "extracted_name": "DAVID CHALIAN",
+        "affiliation": "CNN POLITICAL DIRECTOR",
+        "normalized_name": "DAVID CHALIAN"
       },
       "text": "Again, national picture that we're looking at right now.  This poll, to me, shows like a snap back to where we were before the first debate.   What I think we're learning here is debates can matter to a point. That poll that we're comparing it to, Kate, was taken in the immediate aftermath when Kamala Harris delivered that punch to Joe Biden over busing.  And she got a bunch of positive press coverage out of that and he had a bunch of negative headlines about his debate performance. And that's when that snapshot was taken.   So now what we're seeing, past a couple of series of debates now, is we're returning a bit to where we were before.  Biden is back up, double-digit lead.  Kamala Harris back down to the middle single digits where she was before that moment.  It was a bit of a sugar high, I think, in that immediate aftermath of that Miami debate."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Super interesting.   And, Arlette, on the -- what I was talking about with Harry, on what Democrats say is the most important issue consistently still, at least right now, is beating Donald Trump.  Something you're talking about. Biden is far and away the candidate that they support when it comes to that issue.   Jill Biden clearly sees that, telling a group of teachers in New Hampshire -- for our viewers let me play it -- this yesterday."
     },
     {
       "speaker": {
-        "name": "JILL BIDEN",
-        "affiliation": "WIFE OF JOE BIDEN"
+        "extracted_name": "JILL BIDEN",
+        "affiliation": "WIFE OF JOE BIDEN",
+        "normalized_name": "JILL BIDEN"
       },
       "text": "I know that not all of you are committed to my husband and I respect that.  Your candidate might be better on, I don't know, health care than Joe is.  But you've got to look at who is going to win this election and maybe you have to swallow a little bit and say, OK, I sort of personally like so-and-so better, but your bottom line has to be that we have to beat Trump."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "It's a surprising statement to hear from Jill Biden that she didn't just say it once.  She really made the point a couple of times there in that statement.  Is the Biden campaign wincing at that today? What are they saying?"
     },
     {
       "speaker": {
-        "name": "SAENZ",
-        "affiliation": ""
+        "extracted_name": "SAENZ",
+        "affiliation": "",
+        "normalized_name": "SAENZ"
       },
       "text": "Well, Kate, they haven't exactly responded to those comments from Jill Biden.  But as you heard at the top of the clip, she acknowledged that she was speaking to people in that room who may not be committed to Joe Biden, maybe considering other candidates.   But she's making this explicit argument that's been central to Biden's campaign, as we talked about before, that they feel that the top message needs to be that defeating President Trump needs to be central to Democrats choices.   And it's not so often that you hear a spouse of a candidate speak so candidly, but this is the message that she is out there delivering. And you're seeing it echoed today in the campaign ad here in Iowa. They're continuing trying to frame this campaign as among Joe Biden and President Trump, they hope."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "David, what did you think seeing Jill Biden speak like that?"
     },
     {
       "speaker": {
-        "name": "CHALIAN",
-        "affiliation": ""
+        "extracted_name": "CHALIAN",
+        "affiliation": "",
+        "normalized_name": "CHALIAN"
       },
       "text": "Yes, it was shocking to hear sort of the inside voice out loud.  I think there's no doubt.  Look at what they are putting dollars behind in that Iowa ad.  They literally show poll graphs in the ad saying that he's the one --"
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "That's a good point.  I hadn't thought about that."
     },
     {
       "speaker": {
-        "name": "CHALIAN",
-        "affiliation": ""
+        "extracted_name": "CHALIAN",
+        "affiliation": "",
+        "normalized_name": "CHALIAN"
       },
       "text": "-- that can beat Trump.  Normally, you hear politicians say the only poll that matters is on Election Day.  No, that's not their argument right now.  Their argument is you can't get anything else done if Donald Trump is still sitting in the Oval Office and so go with the guy that has the best chance of defeating him.   I mean, to hear Joe Biden say it, it was so concrete, just how much they see electability as a strength that they want to lean in here, followed by this paid advertisement.  This is where they want to keep the conversation."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Look, someone else who is pushing something of a message just like that, it might not be what you want but it's what you need, I mean, we've heard that from Donald Trump in the last rally that he had.  His whole line of, when it comes to the economy, folks, like me or hate me, like it or hate it, you've got to stick with me.  It's a strange campaign strategy that's playing out on both sides."
     },
     {
       "speaker": {
-        "name": "CHALIAN",
-        "affiliation": ""
+        "extracted_name": "CHALIAN",
+        "affiliation": "",
+        "normalized_name": "CHALIAN"
       },
       "text": "Yes, Donald Trump clearly making that argument to his base in the rally, but also trying to make that to the broader general electorate --"
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Right.  Exactly."
     },
     {
       "speaker": {
-        "name": "CHALIAN",
-        "affiliation": ""
+        "extracted_name": "CHALIAN",
+        "affiliation": "",
+        "normalized_name": "CHALIAN"
       },
       "text": "-- electorate as well.   And you are right, Joe Biden leaning into the argument, if you don't like me, if you don't agree with me on all issues, put it to the side, Democrats.  You need me to beat Donald Trump."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Super interesting.   Great to see you guys.   Thanks, David. Thanks, Arlette."
     },
     {
       "speaker": {
-        "name": "CHALIAN",
-        "affiliation": ""
+        "extracted_name": "CHALIAN",
+        "affiliation": "",
+        "normalized_name": "CHALIAN"
       },
       "text": "Sure."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Coming up for us, the White House now considering new moves to stave off an economic downturn.  This, after President Trump declared there's nothing to worry about when it comes to the economy. A new report from the White House coming up.   Plus, just as the president is considering more troop withdrawals overseas, a new report says ISIS is resurging.  Secretary of State Mike Pompeo even saying, in some ways, they are stronger.   Stay with us."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Mixed messages coming from the White House. Everyone, from the president on down, all day Sunday and Monday were saying nothing to see here when it came to the economy.  The economy is better than ever."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES"
+        "extracted_name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES",
+        "normalized_name": "DONALD TRUMP"
       },
       "text": "The United States right now has the hottest economy anywhere in the world."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "But behind-the-scenes, CNN's Kaitlan Collins is reporting that the White House has been discussing a potential payroll tax cut to help stave off an economic slowdown.  Those talks were first reported by the \"Washington Post.\" Let's get over to the White House to figure out what's going on. CNN's Boris Sanchez is there.   Boris, what are you hearing this morning?  How serious are these talks?"
     },
     {
       "speaker": {
-        "name": "BORIS SANCHEZ",
-        "affiliation": "CNN CORRESPONDENT"
+        "extracted_name": "BORIS SANCHEZ",
+        "affiliation": "CNN CORRESPONDENT",
+        "normalized_name": "BORIS SANCHEZ"
       },
       "text": "Kate, from what we understand, these talks about a potential payroll tax cut are still in the early stages.  The White House publicly has denied that they're under consideration at this time.   But this belies what we've heard from White House officials over the last few days, including the sound byte you played from President Trump there, across the board.  We've heard from Wilbur Ross, Kellyanne Conway, Larry Kudlow, all saying the fundamentals of the economy are strong.   If that's the case, it really sort of contradicts this idea that they're looking for ways to stave off an economic slowdown. Larry Kudlow, for example, scheduling a series of talks this week with business leaders to get their input on the state of the economy to find out how they feel about the future of the economy moving into 2020.  That plays a big part of this.  The White House has said that those calls were scheduled before, previous to any concern about the economy becoming part of the national dialogue.   But we know that President Trump is closely watching this.  He's spoken to aides about his concerns that this trade war with China could impact his reelection chances going into 2020.   Look, U.S. steel is shedding jobs.  There are indicators in the stock market.  The sales of R.V.s are trending down.  There are all these indicators that there could be a recession going into this election year.  And it could harm the president on what he feels is his strongest argument for another four years at the White House.   We will likely hear from the president today.  He's welcoming the president of Romania to the White House for the second time since June of 2017.  Reporters will almost certainly ask him about this.  We'll see what he says -- Kate?"
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Absolutely. Great to see you, Boris.  Thank you.   Joining me now is Diane Swonk.  She is chief economist at Grant Thornton.  Diane, thanks for being here.   What do you think -- if it's something we are debating, if it would be what they are considering, what do you think of a payroll tax cut? Smart idea right now?"
     },
     {
       "speaker": {
-        "name": "DIANE SWONK",
-        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON"
+        "extracted_name": "DIANE SWONK",
+        "affiliation": "CHIEF ECONOMIST, GRANT THORNTON",
+        "normalized_name": "DIANE SWONK"
       },
       "text": "I think it's something you do want to have if the economy falters.  I'm not sure you should do it right now.  It is something we've used in the past.  And you would want to limit it by income strat so that middle- and low-income households get it more than higher-income households because that's where the bang for the dollar is.   That said, it's a little disingenuous to say the economy is fine and then be planning for a recession.  But I do think it's prudent to hedge your downside.  I don't think it's prudent to do it by hammering on the Fed and doing things like that.  That is really undermining your own potential to fight a recession down the road because you undermine the credibility of the Federal Reserve.   But what we do have right now is an economy where the consumer is sort of played out, carrying us right now.  And the question is, can that continue or are they going to collapse under the burden of that weight."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Yes.  And the last time a payroll tax cut happened was during the Obama administration.  Is that an apples-to-apples comparison to the real impact then and what it would mean today?"
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "That was certainly an extraordinary situation that was very severe.  So I would hope it's not comparable."
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "People forget, it's almost the amnesia of the shock of that accident, the train wreck that we experienced in the Great Recession and the global financial crisis.  It's amazing how people forget what happened 11 years ago and 10 years ago.   But that said, where we are today, the economy is slowing.  It's not yet faltered.  It is the risk of recession that are clearly rising and it is prudent to think about how do we deal with it.  But what's most prudent is to think about, how do we deal with this globally.  One of the reasons we look better is because other economies are teetering on recession."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Yes, it is all relative right now. The downside of the tax cut like is -- well, is the impact on the deficit and potentially an impact on Social Security.  How big of a deal -- when you look at kind of the ballooning deficits that we're looking at right now, how big of a deal is that right now?"
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "Well, it's always a big deal to me.  But if you're in a recession -- I'm sorry, you just have to throw that to the sidelines."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Right."
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "But right now, what's really amazing is how much we squandered to the tax cuts that were not really thought out."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "-- needed when we're not in recession.  And to put that much stimulus and not get that much bang for the dollar, which don't when you don't have a weak economy, that really was a wasted opportunity and has left us with an unfair burden going into the next recession, and less wiggle room to actually use fiscal stimulus when we're going to really need it."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "And there are a lot of warning signs out there.  One that grabs my attention, particularly, is the manufacturing of R.V.s.  The center of the country's R.V. industry is where I grew up.  And the \"Wall Street Journal\" is reporting that shipments of R.V.s are down 20 percent this year so far and that's on top of a drop last year.   One quote, just for our viewers, from \"The Journal\" piece, and it's from an economist at Ball State University, and he says that, \"The R.V. industry is better at calling recessions than economists are.\" Not talking about you, though, Diane.   What does this data point, if you will, what does it tell you?"
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "Well, we come from the same part of the country.  I'm from the Detroit area."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Oh."
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "Yes, the manufacturing sector is also contracting right now. They're closing steel plants in Michigan.  They've permanently closed as of the end of July a lot more vehicle plants in Michigan and Ohio.   And the manufacturing recession, although it doesn't mean what it once did, and we do have a service-sector economy that's still moving forward, but even that showing a little bit of a slowdown out there.   So the question is, how much can we take and how much does all of the effects snowball into an actual recession.  And the reality is that's why the Fed is so concerned, because we're looking at the head winds from abroad and a storm in terms of the trade war and slower growth aboard, can show up on our own shores.   And they're trying to push back against the uncertainty that this administration has created on trade policy by lowering interest rates to offset that uncertainty tax it's put on the economy and shore up the confidence of not only businesses, but the U.S. consumer.   Whether they can do that or not with the tools they've got, that will be seen."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Yes, exactly. Diane, thanks so much."
     },
     {
       "speaker": {
-        "name": "SWONK",
-        "affiliation": ""
+        "extracted_name": "SWONK",
+        "affiliation": "",
+        "normalized_name": "SWONK"
       },
       "text": "Thank you, Kate."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Still to come, a troubling new government report out detailing that ISIS is resurging.  Why Secretary of State Mike Pompeo says there are places the terror group may be stronger today than a few years ago."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "President Trump declared the ISIS caliphate defeated last December.  He was then talking about the physical territory under ISIS control.  And that was one reason behind his decision to dramatically pull back troops from Syria.  But now the Pentagon says the terror group is, quote, \"resurging.\"   A recent Pentagon inspector general report says ISIS is not only regaining strength, but it is also targeting a massive refugee camp for recruitment, mobilizing an estimated 15,000 fighters in Iraq and Syria and it's building up its war chest.   Secretary of State Mike Pompeo was asked about this today and here's what he said."
     },
     {
       "speaker": {
-        "name": "MIKE POMPEO",
-        "affiliation": "SECRETARY OF STATE"
+        "extracted_name": "MIKE POMPEO",
+        "affiliation": "SECRETARY OF STATE",
+        "normalized_name": "MIKE POMPEO"
       },
       "text": "It's complicated.  There are certainly places where ISIS is more powerful today than they were three or four years ago.  But the caliphate is gone.  And their capacity to conduct external attacks has been made much more difficult.  We've taken down significant risk.  Not all of it."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Joining me right now, CNN military and diplomatic analyst, retired Rear Admiral John Kirby, and CNN Pentagon correspondent, Barbara Starr.   Barbara, this is all coming from an inspector general at the Pentagon warning about the resurgence of ISIS in Syria.  Tell us more what this report says."
     },
     {
       "speaker": {
-        "name": "BARBARA STARR",
-        "affiliation": "CNN PENTAGON CORRESPONDENT"
+        "extracted_name": "BARBARA STARR",
+        "affiliation": "CNN PENTAGON CORRESPONDENT",
+        "normalized_name": "BARBARA STARR"
       },
       "text": "Well, what they're really laying out is what senior commanders have been talking about for the last several months.  Yes, that physical caliphate, the territory that ISIS once controlled across Iraq and Syria, now very largely no longer under ISIS's unilateral control.   But when you have 15,000 fighters, when you have 70,000 displaced persons in camps, this becomes very fertile recruiting ground for ISIS to regroup.   What the generals have been saying for the last several months is you are going to have guerrilla attacks, suicide bombers and ISIS migrating well beyond Syria and Iraq, into North Africa where it's been operating for some time, and, in recent years, up in Afghanistan.  So this is going to be the challenge that the U.S. faces.  Can ISIS stage a 9/11-type attack on U.S. soil?  Hopefully, not.  But they can destabilize an awful lot of territory."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "And, John, you heard what Mike Pompeo said there how about, in some ways, they're stronger in places than in years past.  And then you have an estimated 15,000 fighters in Iraq and Syria.  What does it mean to you?"
     },
     {
       "speaker": {
-        "name": "REAR ADM. JOHN KIRBY",
-        "affiliation": "CNN MILITARY & DIPLOMATIC ANALYST"
+        "extracted_name": "REAR ADM. JOHN KIRBY",
+        "affiliation": "CNN MILITARY & DIPLOMATIC ANALYST",
+        "normalized_name": "REAR ADM. JOHN KIRBY"
       },
       "text": "Well, it means that ISIS remains a viable terrorist network.  They were never just a caliphate, Kate."
     },
     {
       "speaker": {
-        "name": "BOLDUAN",
-        "affiliation": ""
+        "extracted_name": "BOLDUAN",
+        "affiliation": "",
+        "normalized_name": "BOLDUAN"
       },
       "text": "Right."
     },
     {
       "speaker": {
-        "name": "KIRBY",
-        "affiliation": ""
+        "extracted_name": "KIRBY",
+        "affiliation": "",
+        "normalized_name": "KIRBY"
       },
       "text": "They were always also a network.  And we're seeing that that network is still viable and still able to metastasize it's ideology and its resources well beyond Iraq and Syria and, as Barbara said, into North Africa, Somalia and Afghanistan, as we saw over the weekend.    But the report also, if you look at it, offers some very worrisome signs for Iraq and for Syria."
     }

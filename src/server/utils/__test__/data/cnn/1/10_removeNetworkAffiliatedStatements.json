@@ -3,582 +3,665 @@
   "input": [
     {
       "speaker": {
-        "name": "ANGELA RYE",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "ANGELA RYE",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "ANGELA RYE"
       },
       "text": "We see that with the two white supremacist shootings. This president's rhetoric is dangerous because it's irresponsible and he's not taking leadership of this."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "ALISYN CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "But isn't the --"
     },
     {
       "speaker": {
-        "name": "BAKARI SELLERS",
-        "affiliation": "CNN COMMENTATOR"
+        "extracted_name": "BAKARI SELLERS",
+        "affiliation": "CNN COMMENTATOR",
+        "normalized_name": "BAKARI SELLERS"
       },
       "text": "I don't disagree with any of that. It's his -- his rhetoric is --"
     },
     {
       "speaker": {
-        "name": "ANGELA RYE",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "RYE",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "ANGELA RYE"
       },
       "text": "Right."
     },
     {
       "speaker": {
-        "name": "BAKARI SELLERS",
-        "affiliation": "CNN COMMENTATOR"
+        "extracted_name": "SELLERS",
+        "affiliation": "CNN COMMENTATOR",
+        "normalized_name": "BAKARI SELLERS"
       },
       "text": "His rhetoric is irresponsible. I don't -- I don't disagree with that. However, what I'm saying is that this entire United States Congress, I know we passed HRA (ph), but for -- for decades, I mean since Democrats got --"
     },
     {
       "speaker": {
-        "name": "APRIL RYAN",
-        "affiliation": "CNN POLITICAL ANALYST"
+        "extracted_name": "APRIL RYAN",
+        "affiliation": "CNN POLITICAL ANALYST",
+        "normalized_name": "APRIL RYAN"
       },
       "text": "In the House. In the House."
     },
     {
       "speaker": {
-        "name": "BAKARI SELLERS",
-        "affiliation": "CNN COMMENTATOR"
+        "extracted_name": "SELLERS",
+        "affiliation": "CNN COMMENTATOR",
+        "normalized_name": "BAKARI SELLERS"
       },
       "text": "Destroys in those United States House races after we had the assault weapons ban and they blamed it on that. Democrats lost the backbone to fight for gun control."
     },
     {
       "speaker": {
-        "name": "ANGELA RYE",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "RYE",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "ANGELA RYE"
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "BAKARI SELLERS",
-        "affiliation": "CNN COMMENTATOR"
+        "extracted_name": "SELLERS",
+        "affiliation": "CNN COMMENTATOR",
+        "normalized_name": "BAKARI SELLERS"
       },
       "text": "And all I'm saying is that we're at a point now where -- where -- and I understand April's point about we the people having to do this. But my retort would be -- would be simply, how many more people have to die? And so we have a lot of bloodshed at this point where every single week we're numb to the fact that more people are dying. And I personally am exhausted and I simply don't believe that anything will change. Prove me wrong. But I -- I just don't believe it will."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "Well, I mean, and I also think that the point is, Bakari, probably to your point, is that the president holds a lot of sway with Senators Lindsey Graham and Mitch McConnell."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "JOHN BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "Oh, yes, that's --"
     },
     {
       "speaker": {
-        "name": "ANDREW GILLUM",
-        "affiliation": "CNN COMMENTATOR"
+        "extracted_name": "ANDREW GILLUM",
+        "affiliation": "CNN COMMENTATOR",
+        "normalized_name": "ANDREW GILLUM"
       },
       "text": "That's right. That's right."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "The president has a lot of power over them."
     },
     {
       "speaker": {
-        "name": "ANDREW GILLUM",
-        "affiliation": "CNN COMMENTATOR"
+        "extracted_name": "GILLUM",
+        "affiliation": "CNN COMMENTATOR",
+        "normalized_name": "ANDREW GILLUM"
       },
       "text": "That's right."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "So if he made his wishes known, they would probably respond."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "And that's why this is a marker this morning."
     },
     {
       "speaker": {
-        "name": "ANDREW GILLUM",
-        "affiliation": "CNN COMMENTATOR"
+        "extracted_name": "GILLUM",
+        "affiliation": "CNN COMMENTATOR",
+        "normalized_name": "ANDREW GILLUM"
       },
       "text": "Alisyn, you are a 1,000 percent right. This is --"
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "That's why the fact that he came out -- that's why the fact that he came out, mayor, and said this this weekend is a big deal. He happened to utter it under his breath."
     },
     {
       "speaker": {
-        "name": "ANDREW GILLUM",
-        "affiliation": "CNN COMMENTATOR"
+        "extracted_name": "GILLUM",
+        "affiliation": "CNN COMMENTATOR",
+        "normalized_name": "ANDREW GILLUM"
       },
       "text": "That's right."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "But had he come out firmly on that tarmac and said, I'm going to push for background checks, that's a much different deal than he --"
     },
     {
       "speaker": {
-        "name": "ANGELA RYE",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "RYE",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "ANGELA RYE"
       },
       "text": "Exactly."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "You'll have a lot more opportunity to tell us your positions --"
     },
     {
       "speaker": {
-        "name": "ANDREW GILLUM",
-        "affiliation": "CNN COMMENTATOR"
+        "extracted_name": "GILLUM",
+        "affiliation": "CNN COMMENTATOR",
+        "normalized_name": "ANDREW GILLUM"
       },
       "text": "He would have given Republicans cover."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "Mayor, and everyone, at 8:00. We'll see you guys then."
     },
     {
       "speaker": {
-        "name": "ANDREW GILLUM",
-        "affiliation": "CNN COMMENTATOR"
+        "extracted_name": "GILLUM",
+        "affiliation": "CNN COMMENTATOR",
+        "normalized_name": "ANDREW GILLUM"
       },
       "text": "Indeed. See you then."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "Thank you. thank you very much for the conversation. Meanwhile, this Iranian ship at the center of an international standoff is on the move. The promise made by Iran before this tanker was freed.  We'll tell you that, next."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "The Iranian oil tanker at the center of an international standoff is back on the move after being detained in the British territory of Gibraltar for more than a month. British marines seized this ship thinking it was taking oil to Syria in violation of EU sanctions. The U.S. tried but failed to block the ship's release.  CNN's Clarissa Ward is live near the Strait of Hormuz in Iran we the latest.  Clarissa."
     },
     {
       "speaker": {
-        "name": "CLARISSA WARD",
-        "affiliation": "CNN CHIEF INTERNATIONAL CORRESPONDENT"
+        "extracted_name": "CLARISSA WARD",
+        "affiliation": "CNN CHIEF INTERNATIONAL CORRESPONDENT",
+        "normalized_name": "CLARISSA WARD"
       },
       "text": "Alisyn, that's right.  So the Grace 1 has finally departed from the shores of Gibraltar, leaving last night after a seemingly inexplicable three-day delay. It is believed, according to the tracker, as well as Iranian press TV, to be heading towards Greece, though we don't know exactly what will happen after that.  But this was after several days of concern, really, the U.S. had launched, as you mentioned, a last-minute petition from the Justice Department to try to prevent that ship from being released. Then U.S. claiming that it had nearly a million dollars in cash, as well as a substantial amount of oil on board that was being used by the Iranian Revolutionary Guard Corps, or the IRGC, which has been designated a terrorist organization by the U.S. since April to be deployed to help the regime of Bashar al Assad in Syria. The Gibraltarian authorities ultimately deciding not to honor that request from the U.S., explaining their logic, basically saying that EU law does not view the IRGC as a terrorist organization.  So the question now becomes, what happens to the British tanker that is being held here in the port of Bander Abbas in Iran? Will the Iranians now release it as is expected today? The Iranians saying that it will require a court order before they are willing to do that.  John."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "You're there watching is very closely. Keep us posted when something happens. Clarissa Ward, thank you very much. So the White House says what is happening to U.S. farmers and small businesses is not happening to farmers and small businesses. The new war on the data, next."
     },
     {
       "speaker": {
-        "name": "PETER NAVARRO",
-        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+        "extracted_name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY",
+        "normalized_name": "PETER NAVARRO"
       },
       "text": "In this case, the flat curve is actually the result of a very strong Trump economy. And what we seen now is foreign capital coming to the best game on the globe, which is the Trump economy. It's going into our stock market."
     },
     {
       "speaker": {
-        "name": "LARRY KUDLOW",
-        "affiliation": "DIRECTOR, NATIONAL ECONOMIC COUNCIL"
+        "extracted_name": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, NATIONAL ECONOMIC COUNCIL",
+        "normalized_name": "LARRY KUDLOW"
       },
       "text": "And well I sure don't see a recession. We had some blockbuster retail sales, consumer numbers towards the back end of last week. Really blockbuster numbers."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "President Trump and his economic team pushing back against the indicators that show a potential recession may be on the horizon.  Joining me now is Catherine Rampell, \"Washington Post\" opinion columnist and CNN political commentator. And, look, if the White House economic team wants to be glass half full on the economy, go ahead. Have at it. What I think the bigger issue here is when they deny the data."
     },
     {
       "speaker": {
-        "name": "CATHERINE RAMPELL",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "CATHERINE RAMPELL",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "CATHERINE RAMPELL"
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "When they deny the facts.  First of all, Peter Navarro was lying when he says the yield curve's not inverted. It is.  The second thing, though, is, listen to what he says about the economic impact of the president's trade war is having on farmers and U.S. manufacturers. He talked to Jake about this just yesterday."
     },
     {
       "speaker": {
-        "name": "PETER NAVARRO",
-        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+        "extracted_name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY",
+        "normalized_name": "PETER NAVARRO"
       },
       "text": "The tariffs are hurting China. China is bearing the entire burden of the tariffs in terms of consumer --"
     },
     {
       "speaker": {
-        "name": "JAKE TAPPER",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "JAKE TAPPER",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JAKE TAPPER"
       },
       "text": "That's not --"
     },
     {
       "speaker": {
-        "name": "PETER NAVARRO",
-        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+        "extracted_name": "NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY",
+        "normalized_name": "PETER NAVARRO"
       },
       "text": "Hang on."
     },
     {
       "speaker": {
-        "name": "JAKE TAPPER",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "TAPPER",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JAKE TAPPER"
       },
       "text": "What a lot of experts say."
     },
     {
       "speaker": {
-        "name": "PETER NAVARRO",
-        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+        "extracted_name": "NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY",
+        "normalized_name": "PETER NAVARRO"
       },
       "text": "This is -- this is what this expert says."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "This expert is wrong, Kathryn."
     },
     {
       "speaker": {
-        "name": "CATHERINE RAMPELL",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "RAMPELL",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "CATHERINE RAMPELL"
       },
       "text": "Yes. We now have four studies from reputable economists, people at Harvard, Princeton, Yale, Columbia, UCLA, the New York Fed, et cetera, who all show that either 100 percent or almost 100 percent of the burden of the tariffs is being passed along to Americans.  You know, I -- what I think is interesting is that when Obama was president and the economic numbers were good, Trump said they were fake. When Trump became president and inherited virtually the same economic numbers, suddenly they were real. And now that they're turning south, they're fake again.  You know, I remember when Sean Spicer --"
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "Let's play that."
     },
     {
       "speaker": {
-        "name": "CATHERINE RAMPELL",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "RAMPELL",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "CATHERINE RAMPELL"
       },
       "text": "Yes, sure."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "Because we -- we actually have this sound. And you can see it in Sean Spicer's face, that he knows what's going on here. Listen."
     },
     {
       "speaker": {
-        "name": "CATHERINE RAMPELL",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "RAMPELL",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "CATHERINE RAMPELL"
       },
       "text": "I know what's coming."
     },
     {
       "speaker": {
-        "name": "SEAN SPICER",
-        "affiliation": "FORMER WHITE HOUSE PRESS SECRETARY (March 10, 2017)"
+        "extracted_name": "SEAN SPICER",
+        "affiliation": "FORMER WHITE HOUSE PRESS SECRETARY (March 10, 2017)",
+        "normalized_name": "SEAN SPICER"
       },
       "text": "I talked to the president prior to this and he said to quote him very clearly. They may have been phony in the past, but it's very real now."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "So job numbers were -- you know, economic numbers were phony in the past. Now they're real. Now they're going back to being phony. You could see it in Sean's face. He knows it's B.S."
     },
     {
       "speaker": {
-        "name": "CATHERINE RAMPELL",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "RAMPELL",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "CATHERINE RAMPELL"
       },
       "text": "Yes, of course he does.  And what's interesting is that If Trump actually thinks that there is a conspiracy happening to fake these numbers or to, you know, to fake forecasts, which a number of reporters, including Maggie Haberman and colleagues of mine at \"The Washington Post\" have reported, you know, the real question is, does he really think that nine other country statisticians are in on the conspiracy too because nine other countries are also -- are either in recession or on the verge of recession, and that's one of the major risks here. It's not just the trade wars. It's all of these global risks.  And the fact that the administration is sort of denying the reality of what -- of what's happening is very troubling. The question is, are they trying to shield the public from these concerns about recession or are they trying to shield their boss? Because there is really a concern that they -- if the numbers turn really bad, if things go really bad, they won't tell him, right? And that's quite troubling."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "Well, the actions, the actual developments from inside the administration on the economy over the last ten days indicates they think there might be a problem ahead. They backed off on some of the tariffs on China. And, listen, the president -- let's play the sound right there, Trump on tariffs and Christmas, he was worried about the impact on the American consumer for Christmas. Listen."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES"
+        "extracted_name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES",
+        "normalized_name": "DONALD TRUMP"
       },
       "text": "Just in case they might have an impact on people, what we've done is we've delayed it so that they won't be relevant in the Christmas shopping season."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "He knows they have an impact."
     },
     {
       "speaker": {
-        "name": "CATHERINE RAMPELL",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "RAMPELL",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "CATHERINE RAMPELL"
       },
       "text": "Right. Of course he does. And Peter Navarro, in that interview with Jake, suggested that it was news to him that anyone would believe that the tariffs were having an impact, that they were being passed along to American consumers.  And, again, it's hard to know, does he actually -- is he actually not aware of all of this research that is contradictory to his very dogmatic views of the value of these tariffs? Or is he aware of it and he's just dismissing it and he thinks he's the only lone genius against, you know, the entire profession that clearly disagrees with him."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "Very quickly. The Michigan study came out Friday on consumer confidence, and it's at its lowest point of the year according to that index. Very quickly, why is that significant?"
     },
     {
       "speaker": {
-        "name": "CATHERINE RAMPELL",
-        "affiliation": "CNN POLITICAL COMMENTATOR"
+        "extracted_name": "RAMPELL",
+        "affiliation": "CNN POLITICAL COMMENTATOR",
+        "normalized_name": "CATHERINE RAMPELL"
       },
       "text": "It's significant because up until now the narrative has been, while manufacturer may be facing some trouble, the consumer is still bullish, strong and it's going to drive the economy. They will keep us from falling into any sort of trouble.  And, look, this is one data point, so I don't want to, you know, put too much emphasis on it. But because this consumer sentiment number was disappointing, it suggests that maybe that story isn't quite right."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "Catherine Rampell, thanks for coming here. Throwing down the facts, Appreciate you being here. Alisyn."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "OK, John, there was this terror attack at a wedding in Afghanistan. What it means as the U.S. tries to bring American troops home. That's next."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "ISIS is claiming responsibility for a bombing at a wedding in Afghanistan that killed 63 people and injured nearly 200. This comes as the U.S. negotiates a deal with the Taliban to bring American troops home.  CNN's Nick Paton Walsh is live in London with more.  This is such a horrible story, Nick."
     },
     {
       "speaker": {
-        "name": "NICK PATON WALSH",
-        "affiliation": "CNN SENIOR INTERNATIONAL CORRESPONDENT"
+        "extracted_name": "NICK PATON WALSH",
+        "affiliation": "CNN SENIOR INTERNATIONAL CORRESPONDENT",
+        "normalized_name": "NICK PATON WALSH"
       },
       "text": "Yes, Alisyn, I mean you have to pause for a moment to think about 63 lives lost and over a hundred people still in hospital.  This Pakistani suicide bomber, working for ISIS, walking into the crowded part of a wedding celebration. Weddings are a key part of the social calendar. The only real moment of joy, frankly, in a Kabul capital city which is seeing suicide bombings on a daily basis, but nothing quite as ghastly as this.  Now, the devastating scenes that many working on the talks with the Taliban to say this is a reason why we need the peace deal with the Taliban, with the United States, so they can focus on fighting ISIS. Some say, though, that's pretty complicated because you're essentially getting into bed or learning to trust the Taliban, who originally sheltered al Qaeda and are still pretty chummy with him, asked if he trust his negotiators here. This is what President Donald Trump had to say."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES"
+        "extracted_name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES",
+        "normalized_name": "DONALD TRUMP"
       },
       "text": "Look, I'm not trusting anybody. It's a horrible situation that's going on in Afghanistan. It has been for many years. Well, look, we're there for one reason, we don't want that to be a  laboratory, OK? It can't be a laboratory for terror. And we've stopped that."
     },
     {
       "speaker": {
-        "name": "NICK PATON WALSH",
-        "affiliation": "CNN SENIOR INTERNATIONAL CORRESPONDENT"
+        "extracted_name": "WALSH",
+        "affiliation": "CNN SENIOR INTERNATIONAL CORRESPONDENT",
+        "normalized_name": "NICK PATON WALSH"
       },
       "text": "That's the reason why the United States first went in after 9/11. Obviously to tackle al Qaeda. But al Qaeda are a part of the Taliban now. There's no real dispute about that. So much of the discussions are about what kind of U.S. presence would be allowed.  There's a huge sticking point, though, in this deal, which we're told by sources close to it is 99 percent complete. And that is between the Americans and the Taliban. And it involves a cease-fire between just the Americans and the Taliban, allowing critics of the deal saying potentially the Taliban to continue targeting the Afghan government and army there. That's a recipe for more loss of life in Afghanistan, but the talk -- the clock is certainly ticking now on Donald Trump and when he makes this announcement about a deal, if he can agree to it.  John."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "Yes, it could come this week. And the issue that a lot of Republicans and Democrats here say it's all based on a promise by the Taliban. How much can you trust that? We'll see what we hear from the White House in the coming days. Nick Paton Walsh, thank you very much. So a 12-year-old girl making her pitch at the Little League World Series. And you can see right there, the boys having a lot of trouble hitting it. The \"Bleacher Report\" is next."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "But first, a preview of a CNN film's premiere. He was a fashion icon with a fascinating ascent and downfall. Watch \"Halston\" this Sunday at 9:00 p.m."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Is success fun?"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Oh, sure, it's fun and it's not fun. And as my mother says, it's the price you have to pay."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "The most successful individual in the history of American fashion, Halston."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED FEMALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED FEMALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED FEMALE"
       },
       "text": "Halston."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Halston."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "I'm Halston.  I made it in New York."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED FEMALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED FEMALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED FEMALE"
       },
       "text": "His clothes danced with you."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Halston felt that he had to design everything."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Rugs, sheets, perfume, shoes, bags, gloves."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "He came like a king."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "He now how to get publicity. The problem was he began to believe it all."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "I'm the all-time optimist."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED FEMALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED FEMALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED FEMALE"
       },
       "text": "I took Halston to Studio 54."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "He fell in love with it right away."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "They lived out a lot of their fantasies."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Drugs, sex, and rock 'n' roll."
     },
     {
       "speaker": {
-        "name": "JOHN BERMAN",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "BERMAN",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "JOHN BERMAN"
       },
       "text": "For the third straight year, the major leaguers took over Williamsport, Pennsylvania, putting on a show for the little leaguers. Andy Scholes has more in the \"Bleacher Report.\"  Good morning, Andy."
     },
     {
       "speaker": {
-        "name": "ANDY SCHOLES",
-        "affiliation": "CNN SPORTS CORRESPONDENT"
+        "extracted_name": "ANDY SCHOLES",
+        "affiliation": "CNN SPORTS CORRESPONDENT",
+        "normalized_name": "ANDY SCHOLES"
       },
       "text": "Yes, good morning, John. You know, it's nearly every little leaguer's dream to make it to the majors. And for one night, all the participants at the Little League World Series getting to see those big leaguers up close. The Cubs and Pirates moving the finale of their series to Williamsport, playing in front of just 2,500 fans. And Cubs first baseman Anthony Rizzo taking in all the fun. You see him doing some sledding before the game.  Then Rizzo showing the little guys how it's done with a huge blast in the fifth inning. He ended up getting this ball back because it bounced off the scoreboard for a home run. And then he told his teammate, Yu Darvish, he wanted to give it to the shortstop from Japan because he thought he was going to be a really good player. Well, Yu helped him translate that and make it happen. A fun night for all of those involved. The Cubs would get the win 7-1. Now earlier in the day Maddy Freking becoming the first girl to play in the Little League World Series since Mo'ne Davis back in 2014. Freking entered in the second inning, got a batter looking. She's just the sixth girl to pitch at Williamsport. The 12-year-old also making a great play in that inning. Virginia ended up winning that game 11 to nothing, ending Freking and Minnesota's run at the Little League World Series.  You know, Mo'ne Davis, Alisyn, has moved on to play college softball. But Freking says she's sticking with baseball. She's got no plans switching to softball."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "I think that's a good decision based upon what we just saw.  Andy, thank you very much."
     },
     {
       "speaker": {
-        "name": "ANDY SCHOLES",
-        "affiliation": "CNN SPORTS CORRESPONDENT"
+        "extracted_name": "SCHOLES",
+        "affiliation": "CNN SPORTS CORRESPONDENT",
+        "normalized_name": "ANDY SCHOLES"
       },
       "text": "All right."
     },
     {
       "speaker": {
-        "name": "ALISYN CAMEROTA",
-        "affiliation": "CNN ANCHOR"
+        "extracted_name": "CAMEROTA",
+        "affiliation": "CNN ANCHOR",
+        "normalized_name": "ALISYN CAMEROTA"
       },
       "text": "So a week after he. END"
     }
@@ -586,169 +669,193 @@
   "output": [
     {
       "speaker": {
-        "name": "PETER NAVARRO",
-        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+        "extracted_name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY",
+        "normalized_name": "PETER NAVARRO"
       },
       "text": "In this case, the flat curve is actually the result of a very strong Trump economy. And what we seen now is foreign capital coming to the best game on the globe, which is the Trump economy. It's going into our stock market."
     },
     {
       "speaker": {
-        "name": "LARRY KUDLOW",
-        "affiliation": "DIRECTOR, NATIONAL ECONOMIC COUNCIL"
+        "extracted_name": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, NATIONAL ECONOMIC COUNCIL",
+        "normalized_name": "LARRY KUDLOW"
       },
       "text": "And well I sure don't see a recession. We had some blockbuster retail sales, consumer numbers towards the back end of last week. Really blockbuster numbers."
     },
     {
       "speaker": {
-        "name": "PETER NAVARRO",
-        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+        "extracted_name": "PETER NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY",
+        "normalized_name": "PETER NAVARRO"
       },
       "text": "The tariffs are hurting China. China is bearing the entire burden of the tariffs in terms of consumer --"
     },
     {
       "speaker": {
-        "name": "PETER NAVARRO",
-        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+        "extracted_name": "NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY",
+        "normalized_name": "PETER NAVARRO"
       },
       "text": "Hang on."
     },
     {
       "speaker": {
-        "name": "PETER NAVARRO",
-        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY"
+        "extracted_name": "NAVARRO",
+        "affiliation": "DIRECTOR, WHITE HOUSE OFFICE OF TRADE AND MANUFACTURING POLICY",
+        "normalized_name": "PETER NAVARRO"
       },
       "text": "This is -- this is what this expert says."
     },
     {
       "speaker": {
-        "name": "SEAN SPICER",
-        "affiliation": "FORMER WHITE HOUSE PRESS SECRETARY (March 10, 2017)"
+        "extracted_name": "SEAN SPICER",
+        "affiliation": "FORMER WHITE HOUSE PRESS SECRETARY (March 10, 2017)",
+        "normalized_name": "SEAN SPICER"
       },
       "text": "I talked to the president prior to this and he said to quote him very clearly. They may have been phony in the past, but it's very real now."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES"
+        "extracted_name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES",
+        "normalized_name": "DONALD TRUMP"
       },
       "text": "Just in case they might have an impact on people, what we've done is we've delayed it so that they won't be relevant in the Christmas shopping season."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES"
+        "extracted_name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES",
+        "normalized_name": "DONALD TRUMP"
       },
       "text": "Look, I'm not trusting anybody. It's a horrible situation that's going on in Afghanistan. It has been for many years. Well, look, we're there for one reason, we don't want that to be a  laboratory, OK? It can't be a laboratory for terror. And we've stopped that."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Is success fun?"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Oh, sure, it's fun and it's not fun. And as my mother says, it's the price you have to pay."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "The most successful individual in the history of American fashion, Halston."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED FEMALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED FEMALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED FEMALE"
       },
       "text": "Halston."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Halston."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "I'm Halston.  I made it in New York."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED FEMALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED FEMALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED FEMALE"
       },
       "text": "His clothes danced with you."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Halston felt that he had to design everything."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Rugs, sheets, perfume, shoes, bags, gloves."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "He came like a king."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "He now how to get publicity. The problem was he began to believe it all."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "I'm the all-time optimist."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED FEMALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED FEMALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED FEMALE"
       },
       "text": "I took Halston to Studio 54."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "He fell in love with it right away."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "They lived out a lot of their fantasies."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Drugs, sex, and rock 'n' roll."
     }

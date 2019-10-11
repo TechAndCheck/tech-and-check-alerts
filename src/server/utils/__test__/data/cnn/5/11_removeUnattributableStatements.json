@@ -3,225 +3,289 @@
   "input": [
     {
       "speaker": {
-        "name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES"
+        "extracted_name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES",
+        "normalized_name": "DONALD TRUMP"
       },
       "text": "We are in touch.  We're talking to various representatives of Venezuela.  We're helping Venezuela   as much as we can.  We're staying out of it but we are helping it."
     },
     {
       "speaker": {
-        "name": "NICOLAS MADURO",
-        "affiliation": "VENEZUELAN PRESIDENT"
+        "extracted_name": "NICOLAS MADURO",
+        "affiliation": "VENEZUELAN PRESIDENT",
+        "normalized_name": "NICOLAS MADURO"
       },
       "text": "As I have sought dialogue in Venezuela, I sought for a way for President Donald Trump   to really listen for real to Venezuela and understand the truth that his officials and collaborators cover up."
     },
     {
       "speaker": {
-        "name": "DARWIN ROJAS",
-        "affiliation": "MINER"
+        "extracted_name": "DARWIN ROJAS",
+        "affiliation": "MINER",
+        "normalized_name": "DARWIN ROJAS"
       },
       "text": "The gold comes out of here, from the earth."
     },
     {
       "speaker": {
-        "name": "DARWIN ROJAS",
-        "affiliation": "MINER"
+        "extracted_name": "ROJAS",
+        "affiliation": "",
+        "normalized_name": "DARWIN ROJAS"
       },
       "text": "When you're working a large section of the mine, we could dig as many as 50 or 60 bags."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "SOARES",
+        "affiliation": "",
+        "normalized_name": "ISA SOARES"
+      },
+      "text": "Do you have to pay anyone else?"
+    },
+    {
+      "speaker": {
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "No one else.  No, no one else."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "Right?  It's like that."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "SOARES",
+        "affiliation": "",
+        "normalized_name": "ISA SOARES"
+      },
+      "text": "It's like that?"
+    },
+    {
+      "speaker": {
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "It's like that."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "SOARES",
+        "affiliation": "",
+        "normalized_name": "ISA SOARES"
+      },
+      "text": "Is it more or less like that?"
+    },
+    {
+      "speaker": {
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "More or less like that."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "SOARES",
+        "affiliation": "",
+        "normalized_name": "ISA SOARES"
+      },
+      "text": "What kind of pressure, they kill people?:  A local miner to scare too scared to speak out about the gang's close to the mines opens up once his identity is hidden."
+    },
+    {
+      "speaker": {
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "They mutilate people.  They cut them and torture them and the ones that speak are also tortured and   mutilated.  They killed them and throw them down those holes."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "I think the government has the capacity to put an end to the pranes, if he wants to do it.  But they are   not going to do it because they benefit from it."
     },
     {
       "speaker": {
-        "name": "MANUEL CRISTOPHER FIGUERA",
-        "affiliation": "MADURO'S FORMER SPY CHIEF"
+        "extracted_name": "GENERAL MANUEL CRISTOPHER FIGUERA",
+        "affiliation": "MADURO'S FORMER SPY CHIEF",
+        "normalized_name": "MANUEL CRISTOPHER FIGUERA"
       },
       "text": "Maduro has knowledgeable of all of this.  And has done very   little, if anything."
     },
     {
       "speaker": {
-        "name": "MANUEL CRISTOPHER FIGUERA",
-        "affiliation": "MADURO'S FORMER SPY CHIEF"
+        "extracted_name": "FIGUERA",
+        "affiliation": "MADURO'S FORMER SPY CHIEF",
+        "normalized_name": "MANUEL CRISTOPHER FIGUERA"
       },
       "text": "There are companies linked to Maduro's family circle that buy the gold and negotiate the extraction of the gold in   the south of the country.  They sold one part of it to the Central Bank and the other part they take out of the country without any kind of control."
     },
     {
       "speaker": {
-        "name": "MANUEL CRISTOPHER FIGUERA",
-        "affiliation": "MADURO'S FORMER SPY CHIEF"
+        "extracted_name": "FIGUERA",
+        "affiliation": "MADURO'S FORMER SPY CHIEF",
+        "normalized_name": "MANUEL CRISTOPHER FIGUERA"
       },
       "text": "Maduro is at the helm of a criminal enterprise.  He has hijacked all the states institutions to work in his   service.  This has allowed him to corrupt public servants and military official and all the power structures in order to perpetuate his rule."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
-        "affiliation": ""
+        "extracted_name": "UNIDENTIFIED MALE",
+        "affiliation": "",
+        "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "What we hear, is that everything is completely controlled by the government.  Directly or   indirectly, we're all working for them."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "No, absolutely not.  The Maduro regime is more fractured now than it was 16 months ago, and the social uprising to which you refer to as the   failed coup."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "He is weaker because they are negotiating behind his back with him and without him.  The entire administration is fractured.  They are, as   Bolton says, scorpions in a bottle.  People reject them.  More than 84 percent of people want Maduro out as soon as possible.  He is using food   and medicine and starving them for social control.  While he blocks food and medicine coming into the country, we are having moderate success   getting them in with the help of patriotic Venezuelans and delivering it to local communities for the past 18 weeks, every weekend."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Nothing has hurt the Venezuelan people more than the sanctions imposed by expropriations from the Chavez administration on down.  They   threw businesspeople into prison.  Took farm producing lands, took the factories, took the things that make the food.  The banking system, the   agriculture, took over everything and absolutely destroyed it.  There is no greater sanction than the economic plan of the Chavez and the Maduro   regime.  They destroyed the economy.   The sanctions imposed by the U.S. government allows in food and medicine.  Who is blocking food and medicine?  Maduro."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "No, absolutely not.  Absolutely not.  Because they are allowing humanitarian aid in that is being blocked by the Maduro administration that   is purposely starving and torturing my people in order to remain in power.  We have food, we have medicine, they block it.  We smuggle it in with the   help of our patriotic citizens.  And we had a phenomenal economy.  They destroyed it with their greed and by taking it over.  There is no greater   sanction than the destruction of the productive capacity of a country."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Which is why in negotiations that we talked of, and the Guaido government will go anywhere, meet with anyone and have any conversation   that promises to end the suffering of our people."
     },
     {
       "speaker": {
-        "name": "OK.  B",
-        "affiliation": "we   have something called the Frente Amplio, which is the broad front.  And we are getting the support of a lot of former what we call Chavistas   dissidents who want to join us and do not like the absolute destruction of the country.  We are politically inclusive as long as they are pro-  democracy.   ANDERSON"
+        "extracted_name": "OK.  B",
+        "affiliation": "we   have something called the Frente Amplio, which is the broad front.  And we are getting the support of a lot of former what we call Chavistas   dissidents who want to join us and do not like the absolute destruction of the country.  We are politically inclusive as long as they are pro-  democracy.   ANDERSON",
+        "normalized_name": "OK.  B"
       },
       "text": "Are you still offering deals for amnesty to the regime?  A regime you called a transnational criminal organization fronting as a   government."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "That's right.  Yes.  I say that very frequently.  That is sort of my tagline."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "You always offer -- depending --"
     },
     {
       "speaker": {
-        "name": "OK.  S",
-        "affiliation": "I worked on reintegration of paramilitaries in Colombia.  So this is not my   first rodeo.  In 2008 and 2009 in the field.  So I have seen traditional justice firsthand.  I have interviewed the people who are the victims and   the perpetrators of violence.   There is a very particular process that's very complicated, where you fess up to what you did.  Where you offer up information and you assist in the   transition.  And depending your level of cooperation, you can become part of the new regime, and that happens everywhere, all over the world in all   transitions.   ANDERSON"
+        "extracted_name": "OK.  S",
+        "affiliation": "I worked on reintegration of paramilitaries in Colombia.  So this is not my   first rodeo.  In 2008 and 2009 in the field.  So I have seen traditional justice firsthand.  I have interviewed the people who are the victims and   the perpetrators of violence.   There is a very particular process that's very complicated, where you fess up to what you did.  Where you offer up information and you assist in the   transition.  And depending your level of cooperation, you can become part of the new regime, and that happens everywhere, all over the world in all   transitions.   ANDERSON",
+        "normalized_name": "OK.  S"
       },
       "text": "Why Guaido?  Let me ask you that."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "I wept."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Well, he is the man, he is the man who has the legitimacy, who has the constitution behind him.  To put this into context, he is one of   the leaders of the generation of 2007.  What we call the generation of 2007.  Which is when you got a student uprising.  It was after they close   the old TV channel.  When the students had been pro-Chavez suddenly said, all my God, this is a dictatorship and you had this new leadership come up   organically of student leaders."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "It is true.  It is true that we are stronger than we were 16 weeks ago because the coalition is stronger.  And we are launching -- there   is yet much to be done, I agree.  And as you may know, we have launched a very specific focus and targeted strategy of growing the coalition of   support for our democracy, which means for Juan Guaido to change the strategic environment in which the Maduro administration, the Maduro   regime, recalculate its sense of time.  We must and we will make it clear to the Maduro regime what we and the rest of Venezuela knows, that time is   not on their side."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Administration."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Thank you very much for having me."
     },
     {
       "speaker": {
-        "name": "METTE FREDERIKSEN",
-        "affiliation": "DANISH PRIME MINISTER"
+        "extracted_name": "METTE FREDERIKSEN",
+        "affiliation": "DANISH PRIME MINISTER",
+        "normalized_name": "METTE FREDERIKSEN"
       },
       "text": "It is with regret and surprise that I received the news that President Trump has cancelled his state visit   to Denmark on the 2nd and 3rd of September.  I had been looking forward to the visit.  Our preparations were well under way.  It was an opportunity I   think to celebrate Denmark's close relationship to U.S., and who remains one of Denmark's closest allies.  I was looking forward to having a   dialogue on the many shared interests Denmark has with the U.S."
     },
     {
       "speaker": {
-        "name": "STEWART",
-        "affiliation": ""
+        "extracted_name": "STEWART",
+        "affiliation": "",
+        "normalized_name": "STEWART"
       },
       "text": "Not only is Denmark and the U.S. important trading partners, but of course you got to look at the military as well.  You know, Danish troops   fight alongside American troops in Iraq and Afghanistan.  They fought in Syria in the war against ISIS.  They are a small but very strong and   powerful ally for the United States.  The Prime Minister of course with that statement will hopefully or at least will be hoping a line is drawn   under this."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES"
+        "extracted_name": "TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES",
+        "normalized_name": "DONALD TRUMP"
       },
       "text": "Democratic Party gone.  Where have they gone where they're defending these two people over the state of Israel?  And I think any   Jewish people that vote for a Democrat, I think it shows either a total lack of knowledge or great disloyalty."
     }
@@ -229,176 +293,233 @@
   "output": [
     {
       "speaker": {
-        "name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES"
+        "extracted_name": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES",
+        "normalized_name": "DONALD TRUMP"
       },
       "text": "We are in touch.  We're talking to various representatives of Venezuela.  We're helping Venezuela   as much as we can.  We're staying out of it but we are helping it."
     },
     {
       "speaker": {
-        "name": "NICOLAS MADURO",
-        "affiliation": "VENEZUELAN PRESIDENT"
+        "extracted_name": "NICOLAS MADURO",
+        "affiliation": "VENEZUELAN PRESIDENT",
+        "normalized_name": "NICOLAS MADURO"
       },
       "text": "As I have sought dialogue in Venezuela, I sought for a way for President Donald Trump   to really listen for real to Venezuela and understand the truth that his officials and collaborators cover up."
     },
     {
       "speaker": {
-        "name": "DARWIN ROJAS",
-        "affiliation": "MINER"
+        "extracted_name": "DARWIN ROJAS",
+        "affiliation": "MINER",
+        "normalized_name": "DARWIN ROJAS"
       },
       "text": "The gold comes out of here, from the earth."
     },
     {
       "speaker": {
-        "name": "DARWIN ROJAS",
-        "affiliation": "MINER"
+        "extracted_name": "ROJAS",
+        "affiliation": "",
+        "normalized_name": "DARWIN ROJAS"
       },
       "text": "When you're working a large section of the mine, we could dig as many as 50 or 60 bags."
     },
     {
       "speaker": {
-        "name": "MANUEL CRISTOPHER FIGUERA",
-        "affiliation": "MADURO'S FORMER SPY CHIEF"
+        "extracted_name": "SOARES",
+        "affiliation": "",
+        "normalized_name": "ISA SOARES"
+      },
+      "text": "Do you have to pay anyone else?"
+    },
+    {
+      "speaker": {
+        "extracted_name": "SOARES",
+        "affiliation": "",
+        "normalized_name": "ISA SOARES"
+      },
+      "text": "It's like that?"
+    },
+    {
+      "speaker": {
+        "extracted_name": "SOARES",
+        "affiliation": "",
+        "normalized_name": "ISA SOARES"
+      },
+      "text": "Is it more or less like that?"
+    },
+    {
+      "speaker": {
+        "extracted_name": "SOARES",
+        "affiliation": "",
+        "normalized_name": "ISA SOARES"
+      },
+      "text": "What kind of pressure, they kill people?:  A local miner to scare too scared to speak out about the gang's close to the mines opens up once his identity is hidden."
+    },
+    {
+      "speaker": {
+        "extracted_name": "GENERAL MANUEL CRISTOPHER FIGUERA",
+        "affiliation": "MADURO'S FORMER SPY CHIEF",
+        "normalized_name": "MANUEL CRISTOPHER FIGUERA"
       },
       "text": "Maduro has knowledgeable of all of this.  And has done very   little, if anything."
     },
     {
       "speaker": {
-        "name": "MANUEL CRISTOPHER FIGUERA",
-        "affiliation": "MADURO'S FORMER SPY CHIEF"
+        "extracted_name": "FIGUERA",
+        "affiliation": "MADURO'S FORMER SPY CHIEF",
+        "normalized_name": "MANUEL CRISTOPHER FIGUERA"
       },
       "text": "There are companies linked to Maduro's family circle that buy the gold and negotiate the extraction of the gold in   the south of the country.  They sold one part of it to the Central Bank and the other part they take out of the country without any kind of control."
     },
     {
       "speaker": {
-        "name": "MANUEL CRISTOPHER FIGUERA",
-        "affiliation": "MADURO'S FORMER SPY CHIEF"
+        "extracted_name": "FIGUERA",
+        "affiliation": "MADURO'S FORMER SPY CHIEF",
+        "normalized_name": "MANUEL CRISTOPHER FIGUERA"
       },
       "text": "Maduro is at the helm of a criminal enterprise.  He has hijacked all the states institutions to work in his   service.  This has allowed him to corrupt public servants and military official and all the power structures in order to perpetuate his rule."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "No, absolutely not.  The Maduro regime is more fractured now than it was 16 months ago, and the social uprising to which you refer to as the   failed coup."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "He is weaker because they are negotiating behind his back with him and without him.  The entire administration is fractured.  They are, as   Bolton says, scorpions in a bottle.  People reject them.  More than 84 percent of people want Maduro out as soon as possible.  He is using food   and medicine and starving them for social control.  While he blocks food and medicine coming into the country, we are having moderate success   getting them in with the help of patriotic Venezuelans and delivering it to local communities for the past 18 weeks, every weekend."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Nothing has hurt the Venezuelan people more than the sanctions imposed by expropriations from the Chavez administration on down.  They   threw businesspeople into prison.  Took farm producing lands, took the factories, took the things that make the food.  The banking system, the   agriculture, took over everything and absolutely destroyed it.  There is no greater sanction than the economic plan of the Chavez and the Maduro   regime.  They destroyed the economy.   The sanctions imposed by the U.S. government allows in food and medicine.  Who is blocking food and medicine?  Maduro."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "No, absolutely not.  Absolutely not.  Because they are allowing humanitarian aid in that is being blocked by the Maduro administration that   is purposely starving and torturing my people in order to remain in power.  We have food, we have medicine, they block it.  We smuggle it in with the   help of our patriotic citizens.  And we had a phenomenal economy.  They destroyed it with their greed and by taking it over.  There is no greater   sanction than the destruction of the productive capacity of a country."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Which is why in negotiations that we talked of, and the Guaido government will go anywhere, meet with anyone and have any conversation   that promises to end the suffering of our people."
     },
     {
       "speaker": {
-        "name": "OK.  B",
-        "affiliation": "we   have something called the Frente Amplio, which is the broad front.  And we are getting the support of a lot of former what we call Chavistas   dissidents who want to join us and do not like the absolute destruction of the country.  We are politically inclusive as long as they are pro-  democracy.   ANDERSON"
+        "extracted_name": "OK.  B",
+        "affiliation": "we   have something called the Frente Amplio, which is the broad front.  And we are getting the support of a lot of former what we call Chavistas   dissidents who want to join us and do not like the absolute destruction of the country.  We are politically inclusive as long as they are pro-  democracy.   ANDERSON",
+        "normalized_name": "OK.  B"
       },
       "text": "Are you still offering deals for amnesty to the regime?  A regime you called a transnational criminal organization fronting as a   government."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "That's right.  Yes.  I say that very frequently.  That is sort of my tagline."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "You always offer -- depending --"
     },
     {
       "speaker": {
-        "name": "OK.  S",
-        "affiliation": "I worked on reintegration of paramilitaries in Colombia.  So this is not my   first rodeo.  In 2008 and 2009 in the field.  So I have seen traditional justice firsthand.  I have interviewed the people who are the victims and   the perpetrators of violence.   There is a very particular process that's very complicated, where you fess up to what you did.  Where you offer up information and you assist in the   transition.  And depending your level of cooperation, you can become part of the new regime, and that happens everywhere, all over the world in all   transitions.   ANDERSON"
+        "extracted_name": "OK.  S",
+        "affiliation": "I worked on reintegration of paramilitaries in Colombia.  So this is not my   first rodeo.  In 2008 and 2009 in the field.  So I have seen traditional justice firsthand.  I have interviewed the people who are the victims and   the perpetrators of violence.   There is a very particular process that's very complicated, where you fess up to what you did.  Where you offer up information and you assist in the   transition.  And depending your level of cooperation, you can become part of the new regime, and that happens everywhere, all over the world in all   transitions.   ANDERSON",
+        "normalized_name": "OK.  S"
       },
       "text": "Why Guaido?  Let me ask you that."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "I wept."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Well, he is the man, he is the man who has the legitimacy, who has the constitution behind him.  To put this into context, he is one of   the leaders of the generation of 2007.  What we call the generation of 2007.  Which is when you got a student uprising.  It was after they close   the old TV channel.  When the students had been pro-Chavez suddenly said, all my God, this is a dictatorship and you had this new leadership come up   organically of student leaders."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "It is true.  It is true that we are stronger than we were 16 weeks ago because the coalition is stronger.  And we are launching -- there   is yet much to be done, I agree.  And as you may know, we have launched a very specific focus and targeted strategy of growing the coalition of   support for our democracy, which means for Juan Guaido to change the strategic environment in which the Maduro administration, the Maduro   regime, recalculate its sense of time.  We must and we will make it clear to the Maduro regime what we and the rest of Venezuela knows, that time is   not on their side."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Administration."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
-        "affiliation": ""
+        "extracted_name": "NEUMANN",
+        "affiliation": "",
+        "normalized_name": "NEUMANN"
       },
       "text": "Thank you very much for having me."
     },
     {
       "speaker": {
-        "name": "METTE FREDERIKSEN",
-        "affiliation": "DANISH PRIME MINISTER"
+        "extracted_name": "METTE FREDERIKSEN",
+        "affiliation": "DANISH PRIME MINISTER",
+        "normalized_name": "METTE FREDERIKSEN"
       },
       "text": "It is with regret and surprise that I received the news that President Trump has cancelled his state visit   to Denmark on the 2nd and 3rd of September.  I had been looking forward to the visit.  Our preparations were well under way.  It was an opportunity I   think to celebrate Denmark's close relationship to U.S., and who remains one of Denmark's closest allies.  I was looking forward to having a   dialogue on the many shared interests Denmark has with the U.S."
     },
     {
       "speaker": {
-        "name": "STEWART",
-        "affiliation": ""
+        "extracted_name": "STEWART",
+        "affiliation": "",
+        "normalized_name": "STEWART"
       },
       "text": "Not only is Denmark and the U.S. important trading partners, but of course you got to look at the military as well.  You know, Danish troops   fight alongside American troops in Iraq and Afghanistan.  They fought in Syria in the war against ISIS.  They are a small but very strong and   powerful ally for the United States.  The Prime Minister of course with that statement will hopefully or at least will be hoping a line is drawn   under this."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES"
+        "extracted_name": "TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES",
+        "normalized_name": "DONALD TRUMP"
       },
       "text": "Democratic Party gone.  Where have they gone where they're defending these two people over the state of Israel?  And I think any   Jewish people that vote for a Democrat, I think it shows either a total lack of knowledge or great disloyalty."
     }
