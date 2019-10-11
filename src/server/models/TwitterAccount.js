@@ -8,6 +8,17 @@ module.exports = (sequelize, DataTypes) => {
     isActive: DataTypes.BOOLEAN,
   }, {})
 
+  TwitterAccount.getByScreenNames = async screenNames => (TwitterAccount.findAll({
+    where: {
+      screenName: {
+        [Sequelize.Op.in]: screenNames,
+      },
+    },
+    order: [['createdAt', 'DESC']],
+  }))
+
+  TwitterAccount.getByScreenName = async screenName => TwitterAccount.getByScreenNames([screenName])
+
   TwitterAccount.getActive = async () => TwitterAccount.findAll({
     where: {
       isActive: true,

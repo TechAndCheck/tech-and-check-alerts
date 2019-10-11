@@ -32,3 +32,11 @@ export const runAsyncSequence = async (sequence, seed) => sequence.reduce(
  * @return {String}        The string with all whitespace sequences collapsed to single spaces
  */
 export const squish = string => string.replace(/\s+/g, ' ')
+
+/**
+ * Validates that the string has non-whitespace content.
+ *
+ * @param  {String} text The text you are curious about, o curious one
+ * @return {Boolean}     True if it has non-whitespace content, else false
+ */
+export const hasVisibleContent = text => !!text && text.replace(/\s/g, '').length > 0

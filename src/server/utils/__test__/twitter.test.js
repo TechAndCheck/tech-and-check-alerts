@@ -8,7 +8,18 @@ import {
   getSourceFromTweet,
   getTextFromTweet,
   getSpeakerAffiliationFromTweet,
+  getScreenNameHash,
+  getBestName,
+  getScreenNamesFromStatements,
+  normalizeStatementSpeaker,
 } from '../twitter'
+
+import {
+  statement,
+  statements,
+  normalizedStatement,
+  screenNameHashes,
+} from './twitterTestData'
 
 const exampleTweet = {
   id_str: '12345',
@@ -101,5 +112,34 @@ describe('getSpeakerAffiliationFromTweet', () => {
   it('Should pull the user description from a tweet', () => {
     expect(getSpeakerAffiliationFromTweet(exampleTweet))
       .toEqual(exampleTweet.user.description)
+  })
+})
+describe('getScreenNameHash', () => {
+  it('Should correctly hash screen names', () => {
+    screenNameHashes.forEach((screenName) => {
+      expect(getScreenNameHash(screenName.unhashed)).toEqual(screenName.hashed)
+    })
+  })
+})
+describe('getBestName', () => {
+  it('Should choose the best name of the bunch', () => {
+    expect(getBestName('John', 'Paul')).toEqual('Paul')
+    expect(getBestName('John', '')).toEqual('John')
+    expect(getBestName('John')).toEqual('John')
+  })
+})
+describe('getScreenNamesFromStatements', () => {
+  it('Should extract screen names from array of statements', () => {
+    expect(getScreenNamesFromStatements(statements)).toEqual(['reefdog'])
+  })
+})
+describe('normalizeStatementSpeaker', () => {
+  it('Should apply valid display name to speaker', () => {
+    expect(normalizeStatementSpeaker(statement, {
+      reefdog: 'Justin Reese',
+    })).toEqual(normalizedStatement)
+  })
+  it('Should not apply invalid display name to speaker', () => {
+    expect(normalizeStatementSpeaker(statement, '')).toEqual(statement)
   })
 })
