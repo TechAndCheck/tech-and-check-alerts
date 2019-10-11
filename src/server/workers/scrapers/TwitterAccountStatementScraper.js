@@ -1,12 +1,15 @@
 import OAuth from 'oauth'
+
 import config from '../../config'
 import { STATEMENT_SCRAPER_NAMES } from './constants'
 
+import { runAsyncSequence } from '../../utils'
 import {
   isTwitterScreenName,
   getTwitterApiUrlForUserTimeline,
   parseJsonIntoTweets,
   extractStatementsFromTweets,
+  normalizeStatementSpeakers,
 } from '../../utils/twitter'
 
 import AbstractStatementScraper from './AbstractStatementScraper'
@@ -44,20 +47,11 @@ class TwitterAccountStatementScraper extends AbstractStatementScraper {
     )
   }
 
-  extractStatementsFromTwitterApiResponse = (responseString) => {
-    const stepSequence = [
-      parseJsonIntoTweets,
-      extractStatementsFromTweets,
-    ] // Note that order does matter here
-
-    const statements = stepSequence.reduce((string, fn) => fn(string), responseString)
-    return statements
-  }
-
-  statementScrapeHandler = (responseString) => {
-    const statements = this.extractStatementsFromTwitterApiResponse(responseString)
-    return statements
-  }
+  statementScrapeHandler = async responseString => runAsyncSequence([
+    parseJsonIntoTweets,
+    extractStatementsFromTweets,
+    normalizeStatementSpeakers,
+  ], responseString)
 }
 
 export default TwitterAccountStatementScraper
