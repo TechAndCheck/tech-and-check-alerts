@@ -677,14 +677,6 @@
     },
     {
       "speaker": {
-        "extracted_name": "SOARES",
-        "affiliation": "",
-        "normalized_name": "ISA SOARES"
-      },
-      "text": "Do you have to pay anyone else?"
-    },
-    {
-      "speaker": {
         "extracted_name": "UNIDENTIFIED MALE",
         "affiliation": "",
         "normalized_name": "UNIDENTIFIED MALE"
@@ -701,14 +693,6 @@
     },
     {
       "speaker": {
-        "extracted_name": "SOARES",
-        "affiliation": "",
-        "normalized_name": "ISA SOARES"
-      },
-      "text": "It's like that?"
-    },
-    {
-      "speaker": {
         "extracted_name": "UNIDENTIFIED MALE",
         "affiliation": "",
         "normalized_name": "UNIDENTIFIED MALE"
@@ -717,27 +701,11 @@
     },
     {
       "speaker": {
-        "extracted_name": "SOARES",
-        "affiliation": "",
-        "normalized_name": "ISA SOARES"
-      },
-      "text": "Is it more or less like that?"
-    },
-    {
-      "speaker": {
         "extracted_name": "UNIDENTIFIED MALE",
         "affiliation": "",
         "normalized_name": "UNIDENTIFIED MALE"
       },
       "text": "More or less like that."
-    },
-    {
-      "speaker": {
-        "extracted_name": "SOARES",
-        "affiliation": "",
-        "normalized_name": "ISA SOARES"
-      },
-      "text": "What kind of pressure, they kill people?:  A local miner to scare too scared to speak out about the gang's close to the mines opens up once his identity is hidden."
     },
     {
       "speaker": {
