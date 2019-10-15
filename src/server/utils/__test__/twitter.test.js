@@ -15,41 +15,29 @@ import {
 } from '../twitter'
 
 import {
+  tweet,
+  tweets,
   statement,
   statements,
+  extractedStatements,
   normalizedStatement,
   screenNameHashes,
+  validScreenNames,
+  invalidScreenNames,
 } from './twitterTestData'
-
-const exampleTweet = {
-  id_str: '12345',
-  full_text: 'Text',
-  user: {
-    name: 'Name',
-    screen_name: 'screenName',
-    description: 'Bio',
-  },
-}
-const exampleTweets = [exampleTweet]
 
 describe('isTwitterScreenName', () => {
   it('Should accept valid twitter screen names', () => {
-    expect(isTwitterScreenName('slifty'))
-      .toBe(true)
-    expect(isTwitterScreenName('sLiFtY'))
-      .toBe(true)
-    expect(isTwitterScreenName('@slifty'))
-      .toBe(true)
-    expect(isTwitterScreenName('justin_is_lame'))
-      .toBe(true)
-    expect(isTwitterScreenName('justin_is_lame2'))
-      .toBe(true)
+    validScreenNames.forEach((screenName) => {
+      expect(isTwitterScreenName(screenName))
+        .toBe(true)
+    })
   })
   it('Should reject invalid twitter handles', () => {
-    expect(isTwitterScreenName('this is not a handle'))
-      .toBe(false)
-    expect(isTwitterScreenName('longlonglonglonglonglonglonglonglongtwitterhandle'))
-      .toBe(false)
+    invalidScreenNames.forEach((screenName) => {
+      expect(isTwitterScreenName(screenName))
+        .toBe(false)
+    })
   })
 })
 describe('getTwitterApiUrlForUserTimeline', () => {
@@ -72,46 +60,38 @@ describe('parseJsonIntoTweets', () => {
 })
 describe('extractStatementsFromTweets', () => {
   it('Should properly convert a list of tweets into a list of statements', () => {
-    expect(extractStatementsFromTweets(exampleTweets))
-      .toEqual([{
-        speaker: {
-          name: exampleTweet.user.name,
-          affiliation: exampleTweet.user.description,
-        },
-        text: exampleTweet.full_text,
-        canonicalUrl: `https://twitter.com/${exampleTweet.user.screen_name}/status/${exampleTweet.id_str}`,
-        source: exampleTweet.user.screen_name,
-      }])
+    expect(extractStatementsFromTweets(tweets))
+      .toEqual(extractedStatements)
   })
 })
 describe('getCanonicalUrlFromTweet', () => {
   it('Should properly generate canonical URLs for a tweet', () => {
-    expect(getCanonicalUrlFromTweet(exampleTweet))
-      .toEqual(`https://twitter.com/${exampleTweet.user.screen_name}/status/${exampleTweet.id_str}`)
+    expect(getCanonicalUrlFromTweet(tweet))
+      .toEqual(`https://twitter.com/${tweet.user.screen_name}/status/${tweet.id_str}`)
   })
 })
 describe('getSpeakerNameFromTweet', () => {
   it('Should pull the user display name from a tweet', () => {
-    expect(getSpeakerNameFromTweet(exampleTweet))
-      .toEqual(exampleTweet.user.name)
+    expect(getSpeakerNameFromTweet(tweet))
+      .toEqual(tweet.user.name)
   })
 })
 describe('getSourceFromTweet', () => {
   it('Should pull the user screen name from a tweet', () => {
-    expect(getSourceFromTweet(exampleTweet))
-      .toEqual(exampleTweet.user.screen_name)
+    expect(getSourceFromTweet(tweet))
+      .toEqual(tweet.user.screen_name)
   })
 })
 describe('getTextFromTweet', () => {
   it('Should pull the text from a tweet', () => {
-    expect(getTextFromTweet(exampleTweet))
-      .toEqual(exampleTweet.full_text)
+    expect(getTextFromTweet(tweet))
+      .toEqual(tweet.full_text)
   })
 })
 describe('getSpeakerAffiliationFromTweet', () => {
   it('Should pull the user description from a tweet', () => {
-    expect(getSpeakerAffiliationFromTweet(exampleTweet))
-      .toEqual(exampleTweet.user.description)
+    expect(getSpeakerAffiliationFromTweet(tweet))
+      .toEqual(tweet.user.description)
   })
 })
 describe('getScreenNameHash', () => {
