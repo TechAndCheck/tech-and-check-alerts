@@ -3,1217 +3,1217 @@
   "input": [
     {
       "speaker": {
-        "extracted_name": "CHRISTIANE AMANPOUR",
-        "affiliation": "CHIEF INTERNATIONAL CORRESPONDENT",
-        "normalized_name": "CHRISTIANE AMANPOUR"
+        "extractedName": "CHRISTIANE AMANPOUR",
+        "normalizedName": "CHRISTIANE AMANPOUR",
+        "affiliation": "CHIEF INTERNATIONAL CORRESPONDENT"
       },
       "text": "Hello, everyone, and welcome to \"Amanpour.\"  Today, we`re looking back at some of   our favorite interview from this year.  So, here`s what`s coming up. The Democrats challenging Trump in 2020, one of the most diverse fields ever.  And one of the biggest outsiders, Pete Buttigieg, the small city   mayor from the Midwest on why he should be the youngest and the first millennial president. Then --"
     },
     {
       "speaker": {
-        "extracted_name": "JERRY SIENFELD",
-        "affiliation": "ACTOR",
-        "normalized_name": "JERRY SIENFELD"
+        "extractedName": "JERRY SIENFELD",
+        "normalizedName": "JERRY SIENFELD",
+        "affiliation": "ACTOR"
       },
       "text": "But you have changed sex for America."
     },
     {
       "speaker": {
-        "extracted_name": "RUTH WESTHEIMER",
-        "affiliation": "SEX THERAPIST",
-        "normalized_name": "RUTH WESTHEIMER"
+        "extractedName": "RUTH WESTHEIMER",
+        "normalizedName": "RUTH WESTHEIMER",
+        "affiliation": "SEX THERAPIST"
       },
       "text": "I do."
     },
     {
       "speaker": {
-        "extracted_name": "SIENFELD",
-        "affiliation": "",
-        "normalized_name": "SIENFELD"
+        "extractedName": "SIENFELD",
+        "normalizedName": "SIENFELD",
+        "affiliation": ""
       },
       "text": "You have changed sex.  It`s not the same thing anymore."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I think I do."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Seinfeld is right, Ruth Westheimer, known as Dr. Ruth did change sex for America.  The 91-year-old petite powerhouse join me on set here in   New York. Plus --"
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED MALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED MALE"
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
+        "affiliation": ""
       },
       "text": "Deep in my heart, when I see this landscape, I think there`s a problem."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "In the wake of the tragic climbing deaths in the Himalayas, we look at the effect of climate change there.  Our Hari Sreenivasan sits down   with the veteran filmmaker and mountaineer, David Breashears. Welcome to the program, everyone.  I`m Christiane Amanpour in London. Plenty of Democrats are throwing their names forward to challenge President Trump for the 2020 presidency.  Among them is Pete Buttigieg. He`s known   around town in South Bend, Indiana as Mayor Pete.  He is the quintessential long shot and would be a president of firsts.  The first to be elected in   his 30s, the first millennial, the first openly gay commander in chief and the first mayor. And on that point, that was a transition that many thought could be made by the former New York Mayor, Michael Bloomberg.  Although, the billionaire   has now ruled himself out of the race. Buttigieg brings a new generation approach, vowing huge structural changes in order to get the U.S. working for a majority of the people.  And if that   sounds ambitious and grand, he says it`s meant to.  And it`s worth considering that this year, millennials will overtake baby boomers as the   largest voting bloc in America. Pete Buttigieg is only 37 years old, but he`s been a business consultant, an officer in the Navy Reserve and he`s served in Afghanistan in 2014 and   he`s joining me now from South Bend, Indiana. Mr. Mayor, welcome to the program."
     },
     {
       "speaker": {
-        "extracted_name": "MAYOR PETE BUTTIGIEG",
-        "affiliation": "(D-SOUTH BEND, IN) PRESIDENTIAL CANDIDATE",
-        "normalized_name": "PETE BUTTIGIEG"
+        "extractedName": "MAYOR PETE BUTTIGIEG",
+        "normalizedName": "PETE BUTTIGIEG",
+        "affiliation": "(D-SOUTH BEND, IN) PRESIDENTIAL CANDIDATE"
       },
       "text": "Thank you.  Thanks for having me on."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Well, you know what, it is a small town in the Midwest, perhaps it`s one of those small towns that we were all accused of forgetting and   sort of a flyover and one of these towns that made itself felt in the previous election. So, how is it that you, in a very short period of time, managed to turn around, you know, the collapse of a whole auto industry, huge sort of   unemployment houses that were falling into disrepair, what did you find and how did you do it?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, the very first thing we had to do was have an honest conversation about change.  I didn`t go around saying that I alone can fix   it, I didn`t beat my chest and say we`re going to make South Bend great again.  I believe you cannot have an honest politics that revolves around   the word again. And so, my very first task at the beginning of this decade when I became mayor was to have a dialogue with the community about how we could still   succeed and thrive without pretending that we could turn back to the 1960s. when so many people were employed here in auto factories. We still have advanced manufacturing, we`re proud of it.  But we also recognize that it`s less labor intensive than it used to be and has to be   augmented with other sources of economic growth, including things like data analytics and industries that didn`t even exist when the last car rolled   off the line here in 1963.  And I`m afraid that my party really has failed to engage the industrial Midwest and other smaller communities. I think we learned to do a better job of that in 2018 in the midterm elections.  Now, it`s time to do that at the highest level in this   presidential nominating process in 2020."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "I mean, you are talking about big ideas, big projects is different than an incremental approach, perhaps, we hear from others.  But   again, you know, your unemployment level is now on a par with the national average, it`s low, it`s like 4 percent or so.  You did turn it around,   including you had this project to revitalize, rebuild or do something with what you called a thousand useless homes, a thousand, you know, derelict   homes. Again, how did you --"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Evicted and abandoned, yes."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes.  How did you get people back to work and in such a short period of time, replace one economy with another?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, look, the reality is you can`t just invent a new economic future out of whole cloth, you have to take the elements you already have   and be creative about how to work with them in new ways.  For example, it turned out that power substations that were almost irrelevant around here   had new utility, not powering factories, they had nothing left to power, but powering data centers, which is how some of the new jobs   were created. When it came to our neighborhoods in resolving the issue of vacant abandoned homes, an issue that plagues so many, rural and industrial   communities, especially in my part of the country, the American Midwest, we had to mobilize resources, get creative about different options, engage   with federal partners and above all, reassure people in the neighborhoods impacted that this was going to be done with them and not to them. There`s a great many people and this is true whether we`re talking about people`s relationship to their local city government or to the national   government.  There`s a great many people who have given up on the idea that the government has their best interests at hear.  We found ways to rebuild   trust through both technological means, gathering more data about what was happening in our city to serve residents better, but also low-tech means,   simple engagement and trust building that I believe now needs to be restored at the national level. I get that it`s unconventional for somebody with a mayoral background to talk about the highest office in the land when a more typical background   would be having been in Washington, kind of marinating it in that environment, maybe in the Congress for many years."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Well, you --"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "But I believe we are running out of time to make sure that our national politics and the Congress starts looking more like our best run   cities and towns instead of the other way around."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "So, you brought up your local level election and presumably, a little bit your age.  You`re obviously anticipating that you`re going to   get pushback from the opposition and also from within your own, you know, Democratic primary candidates on age, on being a neophyte, on all of that. Are you anticipating and are you gearing up for growing some Teflon on those particular issues?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Look, if the president wants to challenge my experience, I would just point out that I have more years of government experience than   the president himself.  And if that`s a low bar, I also have more years of executive experience in government than the vice president and more   military experience than anybody who has arrived in that office on day one since George H.W. Bush. So, it may sound a little cheeky as the youngest person in the conversation, but I would say experience is one of the main reasons that I   belong at the table.  I would also say that generational change is something that can help us appeal to more people of every generation.  You   know, three out of the last four presidents are exactly the same age.  Presidents Bush, Clinton and Trump were all born within a few weeks of each   other in the summer of 1946. Now, I don`t mean to say that you need to be a certain age or not be a certain age in order to serve but I do think that a lot of people are   emerging from my generation, you see some of them some of them changing the character of the United States Congress right now and I think we need to   that in executive leadership because I belong to the generation that experienced school shootings as the norm.  I was in high school when the   Columbine shooting happened.  I belong to the generation that provided most of the troops, including myself, in the conflicts after 9/11 and is bearing   the burden of the forever war and I belong to the generation that is going to be on the business end of issues like climate change for the rest of our   lives. We can even statistically be on track to be the first generation in American history to make less than our parents if something isn`t done."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes.  I mean, clearly --"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "I think it`s time for our generation to put forward leaders."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Clearly, there`s a lot wrong and people are trying to kind of bring big picture, bold solutions to the floor.  But on the generational   issue, you know, you`ve talked about, and others are saying, particularly given the sweep by Democrats of Congress that there is a much more sort of   progressive, more left-wing, some people even might say socialist character to the Democratic party, driven in part by the millennial generation who   are comfortable with those labels and don`t find them to be pejorative. Are you -- tell me about where the majority of the voters are going to come from in the next election.  But also, you talk about generational.  Are you   saying that, for instance, Senator Sanders and Warren, are maybe too old for this race now?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "It`s not my place to assess any of the others.  I do think that it is time for the generation that has so much on the line to step forward   and have a different kind of voice.  You know, I think about these issues as personal ones.  I think about what the world will look like when I reach   the current age of the current president, which is the year 2054. And I think if you regard the condition of the country or the world in that year not as somebody else`s problem but as something you`re personally   preparing for, it gives you a different kind of voice to speak about these issues. Look, we definitely need these bold reforms and we need people who aren`t afraid to speak with conviction.  Even as I think the traditional left   center spectrum for assessing the Democratic party has, if anything, become a little bit less useful than before, I do think that a lot of voters,   including voters here in the industrial Midwest who might be considered independent or even conservative leaning, will pay more attention   to voices from my party if we`re talking about addressing the fundamental problems that made a presidency like this one and an election   like to 2016 election even possible. I would argue that this is a symptom.  And the causes have to do with structural problems, deep problems in our economy and in our democracy that   have left far too many, especially in communities like mine in the American interior, feeling like the system wasn`t working for them, which is why I   get a great many of them, mostly or at least largely, with no illusions about the character of the current president, still deciding to go into   that voting booth and vote effectively to burn the House down, which unfortunately is what we got."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Right.  Having voted for him after previously having voted for Barack Obama as president.  So, I mean, you`re pretty much summing up the   political dysfunction that`s underway in terms of what people feel that they`re missing and lacking. But to that point, then let me ask you to comment on what Tim Wu, a Columbia law professor and a real sort of analyst of these times, wrote   today in \"The New York Times.\"  He`s talking about on issues of higher taxes, paid maternity leave and Medicare, all the things that many are now   talking about, \"The defining political fact of our time is not polarization, it`s the inability of even large bipartisan majorities to get   what they want on issues like these.  Call it the oppression of the super majority, ignoring what most of the country wants, such as demagoguery and   political divisiveness, is what is making the public so angry.\"  Is he right?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Yes, I very much agree with what Professor Wu wrote there.  And he`s really identifying the problem with our democracy before we attend to   any of the other issues that we care about from economic issues to things like climate change. We in America have to ask whether our democratic republic is as democratic as we think.  I`s one of the reasons I`ve called for some straight forward   but perhaps bold solutions like doing away with the Electoral College that twice in my lifetime has overruled the American people. I mean, when you have -- take universal background checks, a commonsense gun policy, that`s something like 80 or 90 percent of Americans agree on.    If the U.S. Congress can`t deliver something that that many Americans, including most Republicans believe is the right thing to do, is evidence   that money and the drawing of constituency lines so that politicians are choosing their voters instead of the other way around, it`s evidence that   our democracy has become warped almost beyond recognition and needs to be reformed immediately."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "I mean, on issues of reform, are you talking about fixing the engine of democracy?  You`ve talked just now about the Electoral College,   you`ve also talked about the Supreme Court, huge big issue in the United States, you talked about reforming it even adding more justices, more than   nine.  What would that solve and what do you envision?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, the problem that we have to solve is that the Supreme Court is on a trajectory toward coming to be viewed as a nakedly political   body by many Americans, we need to stop that before it`s too late.  And so, I think we need to entertain a range of reforms that would make the Supreme   Court less political so that each vacancy didn`t become another apocalyptic ideological battle. For example, it may be possible, without even amending the Constitution, to adjust the structure of the Supreme Court so that it had 15 members but   only 10 of them were appointed politically, the other were rotated up from the appellate bench and could only be seated by unanimous consensus among   the other 10.  That`s just one of a number of reforms that have been proposed and I don`t presume to know what the exact right answer is.  I do   believe that something that may be in the past was considered off limits because it`s too deep or too structural.  These kinds of things need to be   entertained because our democracy is very much in danger of slipping away from us. You know, Freedom House did its assessment of freedom and democracy around the world and the United States rankings are slipping, some say that we`re   in a democracy recession globally.  And here at home, I`m very much worried that democracy is in retreat unless we repair our institutions, something   that we used to be willing to do through statute and constitutional change, every generation would see some range of reforms take place. And for some reason, that`s just stopped short.  And if anything, we`re growing less democratic in my lifetime with measures to make it more   difficult for many Americans to vote and increasing distortion with the role of money in our politics too."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "You know, to that point, some would say trace it, at least, President Trump maybe before, maybe -- you know, maybe it`s been going on   for longer, this erosion of democracy in the United States, this erosion in the belief of the institutions.  But you almost never mention the president   by name, you don`t sort of go out there and define your stump speech or in opposition to him and you even just sort of alluded to him slightly by   saying, \"I don`t think talking about -- again, like making America great again is the kind of thing that we need to do for the future.\" What is your policy?  What is your tactic about taking on the current president?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, one thing I`ve noticed is that pretty much any attention directed his way is something that he absorbs and uses to grow bigger, even   if it`s critical attention.  And I think fundamentally, this election isn`t about him. Look, an election against a candidate as flawed as he was in 2016, that should never have even come within cheating distance, so to speak, it   should never have been close.  I believe that for an election result like that, for a presidency like this even to be possible there must be more   profound issues in our economy and democracy such that the problem, if it weren`t him, could very well be somebody else causing similar damage. Of course, he needs to be defeated, when he says something false it needs to be corrected, when he does something wrong it needs to be confronted.    But fundamentally, this election can`t be simply about him.  If the message is all about him, I can tell you that once again a lot of people,   especially in the industrial regions where I live, will say that nobody`s talking about me.  We have to talk about lived every day experience of   people in their lives across America and how our values and the policies that flow from those values will make every day of life better.  It can`t   be all about him, that`s the show and he`s very good at making that show all about him. But when I talk about -- when I talk to neighbors about what`s really impacting our lives and will ultimately drive our political choices, it`s   not what`s going on in Washington, it`s what`s going on in our neighborhoods, in our communities.  And part of the purpose of coming from   local office trying to enter a national conversation is to remind everybody of what`s really at stake so that we can build a message that will make   sense even when this presidency comes and goes, we`ll have as much to say to the world in 2040, in 2050 as we do in 2020."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "You know, obviously, President Trump is banking on the economy continuing to do well and believing that he`s delivered it as his campaign   has promised.  Let me ask you though about yourself, you openly gave or you did not come out until your 30s.  You are -- I believe you`re a male when   you actually officially and openly came out. What took you so long and what was the reason for coming out then?  How is this all played out?  And I guess, do you think America is ready for, you   know, a major candidate, openly gay and an openly gay president?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, what I`ll say is that, you know, at a personal level, I think everybody finds their way to coming out when they`re ready, you`re   just ready when you are.  And the thing that made me realize I needed to come out was after my deployment to Afghanistan, I really was forced to   confront the fact that I only had one life, that it was limited, that I wanted to get on with the personal life, begin dating. And so, I made the decision that I needed to come out for personal reasons at an inconvenient time.  I was running for reelection, Mike Pence was the   governor of my state at the time, but I knew that it was something I had to do.  My community is socially conservative and we didn`t know what the   response would be.  But when I explain myself and continued going about doing my job, I wound up getting reelected with 80 percent of the vote. So, I think what we`ve learned is that more than anything, people want to know what you care about, what your values are, what your ideas are and   what kind of jobs you can do for them.  That`s how I`m evaluated by my constituents here at home in South Bend. And of course, I`m proud of my marriage.  I married a teacher and that marriage is one of the most important things in my life.  It`s also, by the   way, something that exists only by the grace of a single vote on the U.S. Supreme Court, which is why people like me can never forget why politics   matters and how it can affect our everyday lives in so many ways. As to the question of whether America is ready for that, the best answer I can give is that there`s only one way to find out for sure."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Interesting also that mention about, you know, Mike Pence, the vice president, who is governor and have some very, very extreme views on   homosexuality and he believes that gay marriage will lead to social collapse.  Interesting that your own constituents, who you say are socially   conservative, actually, you know, didn`t use that as a litmus test for you."
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "People here really, I think, see the humanity in one another, and that`s been a struggle for a lot of people who has seen almost a   dizzying pace of change in the way this issue is understood.  But one thing I have observed on, everything from LGBTQ equality, to the treatment of   immigrants is -- were always a lot better toward people we actually know. When we begin to concretize these stories and make sure that people understand, we`re not talking about some group out there but real human   beings, many of whom you might be related to or crossed paths with in your community, it`s just harder to hate from up close and it`s one of the   antidote that I think a locally oriented political style can bring to a national conversation that is leaving far too many marginalized groups   behind."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "I just want to mention though or I asked you to just comment because you sort of glossed over it, but it`s a big deal, I mean, you took   unpaid leave as mayor, you did a seven-month tour in Afghanistan.  It`s a really dangerous place, it`s really where, you know -- I mean., you know,   separates the men from the boys going out there.  What did you learn about yourself, about what was going on, about the current, you know, foreign   policy when it comes to threatening to withdraw troops from either Syria or Afghanistan?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, you know, it was one thing to learn about foreign policy when I was a student at Oxford, it`s another thing to learn about foreign   policy when sent to a war zone on the orders of a president, you understand in a very deep and personal way what`s at stake. Maybe the most important thing I took from it was a better sense of what it was to be an American, because the people that I served with,   especially when I was responsible for driving or guarding vehicles on convoys movements, which is a big part of my job when I was posted in   Kabul, was that, you know, we would learn to trust each other with our lives regardless of our backgrounds.  People getting into my vehicle didn`t   care if I was going home to a girlfriend or a boyfriend or what country my father had immigrated from or whether I was a Democrat or Republican, we   simply learn to trust each other with our lives. And in a broader sense, I think that`s what has to happen in America but you shouldn`t have to go to war in order to have that experience.  I   believe that national service is something we need to create more opportunities for here at home and we really need to learn from all of the   ways in which for prior generations. Military service was often a leveler, an equalizer, something that made it possible for people like a young John F. Kennedy or George H.W. Bush to   learn how to relate on more or less equal terms with the sons of factory workers and farmers in places like Indiana.  And it`s unfortunate that   we`ve lost that to some degree, but I think there`s a chance, certainly not now led by a president who is credibly accused of faking a disability in   order to avoid service when it was his turn. But I do think there`s an opportunity to restore a culture of service to the heart of what it means to be in this country."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "National service is something that many people have talked about and it would be really interesting to see it in some way brought back. Mayor Buttigieg, thank you so much indeed for joining me."
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "It`s a pleasure.  Thanks for having me."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "From that which divides to that which unites us, it`s something we all have in common, the human search for love, partnership and yes, of   course, intimacy.  But all too often, we are too timid to talk about it in public, even with our families and friends, especially when it comes to   sex. Enter Ruth Westheimer, the German-born sex therapist who has been endearing herself to Americans for decades as Dr. Ruth, the woman who uses good humor   and incredible honesty to broach what needs to be broached. At age 90 now, yes, 90, she is still going strong and also opening up about her own tragic past. She is the subject of a new documentary, \"Ask Dr.   Ruth.\" Here`s a clip from the trailer."
     },
     {
       "speaker": {
-        "extracted_name": "RUTH WESTHEIMER",
-        "affiliation": "SEX THERAPIST",
-        "normalized_name": "RUTH WESTHEIMER"
+        "extractedName": "RUTH WESTHEIMER",
+        "normalizedName": "RUTH WESTHEIMER",
+        "affiliation": "SEX THERAPIST"
       },
       "text": "Hello."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED MALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED MALE"
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
+        "affiliation": ""
       },
       "text": "You`re not going to believe this woman.  She has a deep German accent and she talks about sex.  And I think we should do something   with her."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "In the early `80s, people did not talk about sexuality."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED MALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED MALE"
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
+        "affiliation": ""
       },
       "text": "You have a certain list of words you can`t say.  Well, we said them."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "And then, let him insert his [bleep] into the [bleep] from behind."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED MALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED MALE"
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
+        "affiliation": ""
       },
       "text": "We didn`t think it would explode like it did."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED MALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED MALE"
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
+        "affiliation": ""
       },
       "text": "And then, of course, she got her own television shows."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Before I started to do television, the most important thing for me was education.  While I was studying, I was a single mother.  I got   a position at Planned Parenthood and I loved it.  I never compromised, even when it was not popular."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Always bleepable, Dr. Ruth joins me now here in New York.  Welcome to the program."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Thank you, Christiane.  This is very interesting, not once in my entire career on radio did they bleep me out."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes. Well, we live in a different universe now."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I know, I know. I have no problems with it because everybody who listens to you and me knows what those words meant."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "They do."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "You can bleep it out. It`s OK."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes. Maybe it`s a conversation though, for another day. It`s a good conversation to have because it goes to the very heart of what you`re   saying.  We shouldn`t be too embarrassed or prudish to talk about the most important things.  Where do you get the energy to still, you know, go   gangbusters on this?"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I`m getting asked that very often and I tell you what, Christiane, that it has to do with my loving what I`m doing.  So, I`m not   retiring.  I`m rewiring.  I`m talking to you.  And I don`t get the energy because I also know what not to do.  So, I get driven, I don`t drive   anymore.  I don`t ski anymore.  And so, I know what not to do. But on the other hand, I`m so fortunate that I`m healthy, I`m going to be 91 and I`m healthy and I love what I`m doing.  And I love talking to you."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Well, I love talking to you about this because I also had a series but, I mean, very different but it`s called \"Sex and Love Around the   World\".  And I was absolutely fascinated to talk to people and hear them being so eager to talk back and to explain and ask questions and all the   rest of it."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I saw it."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "So, I wonder where did you get your desire to discuss and be the expert on this topic?"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Right.  So, I did not know I would be Dr. Ruth.  I was an orphan of the Holocaust.  I was sent with a Kindertransport to   Switzerland, otherwise, I would not be here.  I would be exterminated with one million and a half other children.  And I did -- I knew that I`m doing   something in education.  I remember my grandmother saying, \"You should be a Kindergarten teacher, you are so short.  You fit in those little chairs.\" So, I became a Kindergarten teacher in Israel, in Palestine, first when I fought in the Haganah.  I was badly wounded but that`s not why I`m short.    I would have been short anyway.  But I then was fortunate to get to the Sorbonne in Paris and to get a good education in psychology and came to   this country on a visit.  And I said, I`m here, let me pick up a master`s, New School of Social Research, a master`s in sociology."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "So you are Dr. Ruth."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "That`s why I`m the doctor, is a real doctor.  It`s not just something that I made up."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "And you`re a fighter.  I hadn`t realized about Haganah, how you were really a fighter in the resistance against the British mandate from   the beginning."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Now, I have never killed anybody.  However, I was trained as a sniper and I was very badly wounded.  On my 20th birthday, June 4, 1948, a   cannonball came into the girl`s residence in Jerusalem where I lived.  And I did show that in the documentary and wounded me very badly on both legs   but that`s not why I`m short.  I would have been short anyway. And I was able to get fixed by a surgeon in Jerusalem who came from Germany, was well trained.  So I became a super good skier at Black   Diamond.  And I can dance.  I can still dance a whole night if I find somebody to dance with."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Well, we`re going to talk about all of this, including a future dancing partner.  But let me just remind people and play some clips of some   of your early shows.  Let`s take a listen."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "I`m 18."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "And I`m a virgin and I want to wait until I`m married.  But I`ve just gotten started in a career and I want to be stable   in that career before I get married."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Right, right."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "And I don`t think that I can really wait that long."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Hold it."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "I don`t mean to -- yes."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Hold it.  Even if the career, let`s say, takes 10 years, let`s say, where`s it written that you can`t get married during your career? I   got my doctorate at the age of 40. Now, I don`t talk about my sex life as you can imagine, but I can assure you that I already had two children, so something must have happened,   right?"
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "I have recently become very serious with this man and we may be getting married.  And I`m just a little afraid that he might ask   me how many men I have been sexually active with.  And I feel embarrassed to tell him the truth because I`m afraid he`ll think differently of me.    So, do you think I should fib or tell him the truth?"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I tell you, from the way I listen to you, I would say to you, do not tell the truth.  Do not."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Well, there`s some strategic holding back there.  Why do you think people opened up to you so much from the beginning?"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "First of all, I was very well trained.  Helen Singer Kaplan was the first sex therapist at Cornell Medical School and I worked with her   for seven years, two years being trained, five years training others so I`m very fortunate. Also, I`m very Jewish.  And in the Jewish tradition, in the Talmud, it says a lesson taught with humor is a lesson retained.  Not a joke.  I couldn`t   tell you a joke but I can hear some question and answer with humor like what I told that woman, keep your mouth shut.  Don`t tell about your past.    That`s the past.  Live right now and make the best of it. So, it`s a little bit the combination of being very well trained, psychology from the Sorbonne, Masters in Sociology, Doctorate Columbia   University Teachers College where I`m now teaching and I`m also teaching at Hunter.  So, that combination helped.  And what helped is that I loved what   I`m doing.  I love that people, because of the accent, what has happened to me, like Ruth Bader Ginsburg, in my case, could have only happened in New   York because New Yorkers were very generous with people with accents.  Then, it went nationwide and even into your Britain."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes.  You know, you talk about the humor and it really is, because that makes it accessible, it makes people feel that they can talk   to you and talk to anybody who listens to them with this kind of empathy that you do. I mean, but it`s been quite -- you know, there`s been people who say that you saved them in their most desperate times, even from suicide, they would   be so worried."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "That was because at the time, I spoke up - I don`t talk about politics.  I leave that up to you, Christiane. I speak up about family planning, about contraception, and I certainly spoke up about the dreadful disease of AIDS.  And right now, I have to tell   you, Christiane, I am again worried about that.  Because people think - thought nothing about it.  There is medication.  And I`m worried we`re   going to have a rise in syphilis, gonorrhea and AIDS.  And I`m very concerned  I don`t do politics, but I speak up about Planned Parenthood.  We have to keep Planned Parenthood alive."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Do you think that your sympathy and empathy for - in the `80s, of course, when the AIDS epidemic was devastating New York and other places,   and gay men were vilified and shunned - do you think your own experience as having been Jewish, having, you know, the story you have - and we`re going   to talk about it in a little bit -- being a minority, being persecuted --"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "No question. Because I was saved where one and a half millions Jewish children were killed, I have an obligation to help someplace.  I   didn`t know it would be about sex but that I have to stand up to all.  I`m only 4`7\" and to be counted to help. And that has certainly driven me by my saying my parents didn`t survive, my grandparents didn`t survive, I was an only child, I was in an orphanage in   Switzerland in a Kindertransport from Frankfurt, from Germany to Switzerland.  That`s the only way I survived."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "We see you here with your parents.  And again, it`s so heartbreaking just to know this story and to know that you were 10 the last   time you ever saw them.  And you escaped for your life and it was your father who told you to get on this train."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "My father was taken by the Nazis in 1938.  And he wrote a postcard.  I was 10-years-old. And he wrote a postcard that I have to join the group of Orthodox Jewish Children from Frankfurt to Switzerland so that he can come back to   Frankfurt.  I had no choice. I didn`t want to leave.  An only child, a grandmother who had nothing else to do but take care of me, another set of grandparents, farmers, in a   village in Wiesenfeld.  I had no choice. What`s very interesting, these days, I talk a lot about loneliness and in the documentary, it shows beautifully.  And the animation -- I was worried   about animation.  I thought they`re going to make me look like Pinocchio. It shows beautifully at the railroad station, it didn`t show lots of mothers and grandmothers.  It showed my mother and grandmother and me on   the train."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "It was beautifully illustrated, actually."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Beautifully illustrated and the color was a little red, which really kind of made more emphasis about the loneliness."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "I want to -- because that`s really important.  Loneliness today is one of the big issues that so many people, particularly after a certain   age, but even young people feel very, very acutely.  I want to play another clip from the documentary and it`s about your discussing having discovered   that your parents were killed."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "For many years, I really didn`t want to see in black and white what happened to my parents.  But as difficult as it is for me, I have an   obligation to learn about the fate of my family."
     },
     {
       "speaker": {
-        "extracted_name": "JOEL WESTHEIMER",
-        "affiliation": "DR.  RUTH WESTHEIMER`S SON",
-        "normalized_name": "JOEL WESTHEIMER"
+        "extractedName": "JOEL WESTHEIMER",
+        "normalizedName": "JOEL WESTHEIMER",
+        "affiliation": "DR.  RUTH WESTHEIMER`S SON"
       },
       "text": "I`ve thought about, you know, when did my parents tell me about the Holocaust or, like, what -- when did   my mother tell me that she never saw her parents after she was 10-years- old?  And I don`t have any recollection of some moment."
     },
     {
       "speaker": {
-        "extracted_name": "MIRIAM WESTHEIMER",
-        "affiliation": "DR.  RUTH WESTHEIMER`S DAUGHTER",
-        "normalized_name": "MIRIAM WESTHEIMER"
+        "extractedName": "MIRIAM WESTHEIMER",
+        "normalizedName": "MIRIAM WESTHEIMER",
+        "affiliation": "DR.  RUTH WESTHEIMER`S DAUGHTER"
       },
       "text": "As I grew up, I realized I didn`t have grandparents on my mother`s side.  So I would ask   about that and she would answer the questions but my mother didn`t offer information."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "So it`s really interesting, you didn`t talk about it like so many war survivors.  But I want to ask you because right after this very   poignant moment that we just saw, you discovered, in writing, the date that your father died.  And you also saw your mother`s entry, but that didn`t   have a date.  It just said, disappeared."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Oh, you did your homework."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes, we watched."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I have to tell you something important.  I`m on the board of the Museum of Jewish Heritage.  And right now, please come with me, we have   an exhibit that`s very upsetting but we have to have it on Auschwitz.  And we have the freight car that took Jews to go there. So when I see -- that`s the obligation.  What you just saw there is yet a shame in Jerusalem and it`s true, the Nazis kept dates and they kept papers   and they kept everything like --"
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "They were incredible catalogers weren`t they, documented everything?  Yes."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "People will do.  Next to my mother, it has the word, Christiane, verschwinden.  Verschwinden in German means disappeared. I don`t know where she is.  So this documentary and the exhibit right now as we speak at the Museum of Jewish Heritage is really a gravestone for   people like my mother who don`t have a grave or the rest of the family and the rest of the people."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "It`s really an important marker, as you say.  But I wonder also whether that experience for you, particularly at the age of 10 and you talk   about never having been hugged again, at least as a kid, is that also something that sort of propelled you into wanting to give everybody else a   big hug?"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "No question.  Not only that, that`s why I got married three times, but only the father -- only one was the real marriage, almost 40   years. But no question that the art of loving and it had something to do with my interpersonal relationships which were so missing and it was missing in the   orphanage that was like not a happy place, but we made the best of it.  The other children, we became brothers and sisters.  No question that that has   formed me. On the other hand, I do have to stand up for those people that you know, Christiane, that are Holocaust deniers and I have to say, look at my story.    And then I have to stand up for those people who have Holocaust fatigue. They say, stop already talking about it.  It`s so long ago, it`s like the Civil War.  Not so.  We have to stand up to be counted so that it can never   happen again. I would like to invite you to the museum and I`ll go with you."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "I`ll come."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "And then I want to meet you in London because I`m doing --"
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "We`re now doing our social calendar.  But let me ask you something.  These are really important historical things that you`re   talking about and we must remember and we mustn`t forget and we must be alert. But I want to ask you about your topic again, to end off.  Why is it that people are having less sex, do you think, these days? What is responsible -- \"The Atlantic\" Magazine did a huge amount of research.  From the late `90s to 2014, the average adult went from having   sex 62 times a year to 54 times a year."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Terrible.  Now, I have to tell you something.  Part of it has to do with something that I`m very interested in, the art of conversation   is being lost. And you can`t just hop into bed.  You really have to have a relationship.  And the other thing is what you and I just talked about the loneliness and   some people always thinking there`s something better coming down the street. So I don`t know about the statistics if that`s what they did.  It proves what I`m talking about.  People, put your iPhone aside and talk to each   other. And make sure that when you`re in a restaurant, the world is not going to fall.  Even watch Christiane later.  You don`t have to watch her right now   on your iPhone."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "In intimate moments, OK.  I hope people are listening to you, Dr.  Ruth. That`s all we have time for.  That was really wonderful.  Thank you so much indeed.  Thank you for joining me."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Thank you so much."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "We turn now to a great American mountaineer and filmmaker David Breashears.  He`s made his career climbing Mt. Everest, the world`s highest   mountain and he worries about what he`s seeing and in the wake of the tragic climbing deaths as climbers push the limits of their bodies, David   Breashears says we are now testing the very limits of our earth.  And he tells our Hari Sreenivasan it is the glaciers that are telling this story."
     },
     {
       "speaker": {
-        "extracted_name": "HARI SREENIVASAN",
-        "affiliation": "CNNI CONTRIBUTOR",
-        "normalized_name": "HARI SREENIVASAN"
+        "extractedName": "HARI SREENIVASAN",
+        "normalizedName": "HARI SREENIVASAN",
+        "affiliation": "CNNI CONTRIBUTOR"
       },
       "text": "So you have been to the top of the world five times and now you`re focused on helping us figure out that the   view is changing from the top.  What`s different?"
     },
     {
       "speaker": {
-        "extracted_name": "DAVID BREASHEARS",
-        "affiliation": "MOUNTAINEER AND FILMMAKER",
-        "normalized_name": "DAVID BREASHEARS"
+        "extractedName": "DAVID BREASHEARS",
+        "normalizedName": "DAVID BREASHEARS",
+        "affiliation": "MOUNTAINEER AND FILMMAKER"
       },
       "text": "Everything`s different when it comes to the glaciers and the ice up high in the mountain and the snow   cover.  It`s -- I first went to the Himalaya, I was 23-years-old in 1979 and climbed a 22,500-foot peak.  And if I was to go back and   climb that peak again today, I would see a dramatically different snow and ice cover."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Now, you`re focusing on something called \"Match photography\".  What is that?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Match photography is where I find an old photo point, say from an early explorer, mapmaker, cartographer and they were the first to   capture images of the glaciers.  Say George Mallory in 1921 or another photographer, Vittorio Sella, in 1899. I find that photograph in an archive, I make a print of it.  I go to the spot, the photo point, at least try to find it and capture the same image   with that time span in between."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Is it easy to get to that same spot that that photographer stood at?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Sometimes it`s -- sometimes we can find it fairly quickly.  One photo point took us multiple efforts.  It`s a photo point near K2 in   the Karakoram range of Pakistan. And we were absolutely astonished at the difficulty of the terrain the photographer, Vittorio Sella, and his team of porters had climbed on.  Not   only did we have the problem with the terrain, we had problems with the weather, and we waited in camp after we found the location for 13 days on   the glacier to capture the same image he had captured in 1909 and we were there in 2009."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "How significant is the change that you are able to see from the picture that was taken 50 years ago, 100 years ago, to what we`re   seeing today?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "The change is dramatic.  When you see the match photos of Cho Oyu and the north side of Everest and the south side of Everest, anyone   looking at these photos can see the change. What we`re really thinking about is the future change and what a recent report from ICIMOD, an organization in Nepal that studies these types of   things said that by 2100, we expect to lose 80 percent to 90 percent of the mass of the 19,000 glaciers in the Hindu Kush Himalayan Region."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "So what are the consequences of losing 80 percent to 90 percent of the mass of glaciers?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Well, this is an imperiled ecosystem.  The high mountain Alpine ecosystems are fragile.  The glaciers are telling us something. They`re under tremendous stress.  They`re under tremendous pressure.  They`re not getting enough snow.  The temperature is warming, and there`s   black carbon being deposited on the snow. So what affects that ecosystem affects the livelihoods of over 230 million people who inhabit the region and there are manifold reasons how this   effect plays out to hearty mountain people.  They are very adaptable and resilient by their nature but this is -- and they tend to be somewhat   poorer than the rest of the people down the river.  And they`re going to suffer the consequences of this stress on the ecosystem first."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "We`re going to take a look at a video that you have.  It`s a compilation of different images around Everest.  Tell us what we`re taking   a look at."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "We`re flying right towards Mt.  Everest.  That`s the black pyramid on the left.  We`re passing Mt.  Pumori on the right and we are   about to cross this ridge and fly right over base camp. The peak on the right is Nuptse.  The peak in the middle is Lhotse.  We`re looking down on the Khumbu Icefall and we`re working our way up into the   Western Cwm. The route to the top of Everest goes straight up the middle of the ice field in the middle and traverses to the left in that saddle, the cold   between Everest and Lhotse.  So we`re looking at it right now.  That would be the high camp at 26,000 feet. And now we`re going to turn around.  We`re looking at the route now from -- on the right-hand skyline, from the high camp to the top and now we`re   flying back down the Western Cwm, the route of our ascent. Right now, many hundreds of climbers are gathered there for the spring climbing season and we`re flying back out over the Icefall.  In the   distance is Cho Oyu, the world`s sixth highest mountain.  And so we`ve just seen four of the world`s highest mountains."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Nobody`s ever seen that video before.  How did you get that? How did you make that video?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "That was a lot of work."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "It was.  And it was quite expensive.  What it was, was we flew six cameras, still cameras in the nose of a helicopter, mounted   outside of the nose of the helicopter."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "It`s hard to do.  Helicopters don`t usually get --"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Well, we took time.  We flew the helicopter quite high, let`s just say, a lot higher than we were supposed to and in the winter. But those six cameras cover 230 degrees and I was firing those cameras every second to two seconds and that compilation of thousands of images can   be -- can produce something like that.  And therefore, we can create our own flight path and fly through it."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "If I`m looking at that and say, well, what`s the problem with what he`s describing here? Everything looks fine.  There`s a big old   glacier with a tongue right there.  There`s ice fields that people are still walking up the mountain."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Oh, the mountain`s changed a lot since I first climbed it --"
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "How so?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "-- myself in 1983.  Well, what we can`t see from that elevated position and what you can see from glacier works oblique ground base   photography, the wasting of the glaciers, the vertical wasting of the glacier, the horizontal wasting of the glacier. It`s a different -- much different place from what I climbed on in 1983.  Most of what we look at, most of the accumulations of glaciers are from,   really, 22,000, 21,000 feet on down.  That`s where we`re seeing most of the effects of warming and deposits of black carbon on the glaciers."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "People are going to look at some of these photos and say, listen, where`s the science behind this?"
     },
     {
       "speaker": {
-        "extracted_name": "OK",
-        "affiliation": "there`s a photo here and   there`s a photo at the same place 50 years later. Is it the same season? Is it the same climate at the same time? How do we know that these changes are long-term and are happening? BREASHEARS",
-        "normalized_name": "OK"
+        "extractedName": "OK",
+        "normalizedName": "OK",
+        "affiliation": "there`s a photo here and   there`s a photo at the same place 50 years later. Is it the same season? Is it the same climate at the same time? How do we know that these changes are long-term and are happening? BREASHEARS"
       },
       "text": "That`s for the scientists to decide.  And I follow the science very closely, and over 350 researchers at ICIMOD.  International Center for   Integrated Mountain Development in Katmandu published a recent report and their science is very good. I use the images around the world for a Glacierworks exhibit called \"Rivers of Ice, Vanishing Glaciers of the Greater Himalaya\".  And that starts a   conversation, the big gap, from, say, 1899 to when I re-photographed the same place 110 years later. Now, let`s carry the conversation further.  The glaciers are melting.  Some of the melt rate years ago was through more natural causes. Now, it`s greatly accelerated and what does that tell us about the future? Glacierworks and the work I do is mostly used for education and exhibits   and to help start a conversation about adaptability and resilience."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "You probably made, in my opinion, the greatest IMAX film that I`ve ever seen and it was about Everest.  But you also ended up documenting   one of the biggest tragedies that have ever happened on that mountain.  What did you learn about, just, people as you were watching this happen in   front of you?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "That was a very difficult year for everyone, 1996.  And we ended up with this film that really we hadn`t expected it to be so   successful.  But what you saw was the best and the worst of people, and you also saw -- I saw the best and worst in myself."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "People who might not remember, what happened then?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Well, it`s the year that`s known as \"Into Thin Air\" based on Jon Krakauer`s book.  And what happened were a couple of teams climbing   very high on the mountain got caught out late, climbing too late. And at that same moment when they were very vulnerable, they were overcome by a fast-moving storm that was not forecasted, that was -- came out of a   different direction than we normally expect. And in that night, eight people froze to death and some were severely frostbitten.  One gentleman lost both of his hands to frostbite eventually.    And it was just complete chaos on the mountain during the storm. And it was something that we had never really seen on Everest, a mix of guiding, a mix of professional climbers, a mix of clients who are less   experienced, all within a couple of hours -- within an hour, really, in the dramatic fight for their lives."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "It was basically a traffic jam up there."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "It was a traffic jam.  Nonetheless, they -- this was above the south summit at 28,750 feet.  Nonetheless, the guides could have   turned people around at their 1:00 turnaround time."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "But everybody is too close.  They want to get to the top.  They`ve put so much effort."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "It`s very hard to do.  But three people turned around of their own volition and they all lived. At one point, you got to look at the tug that mountain exerts on you and all that -- all the time, effort, pride, money, training, and then --   because this causes us to engage in something very interesting.  I happened to teach this in leadership lectures, presentations, and it`s the willful   disregard of negative information. Where, at that moment, where you are close to being in extreme peril, you`re high on a mountain, you`re vulnerable, you have 300 feet left to go,   you`re tired, you`re dehydrated, you`re exhausted, you`re hypoxic, perhaps. That`s when you open your mind to negative information.  Meaning, negative information says this is not going to work out well.  Let`s turn around and   go down. And there`s also hope springs eternal, right? We`re going to get to the top.  Everything`s going to be OK."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "I`ll win the lottery ticket.  It will happen for me."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Yes, yes.  But as I like to say, hope is not a plan, you know?"
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Are there systems in place now to prevent that kind of tragedy from happening again?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "On Everest?"
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "No.  None at all.  It`s all up to the quality of the guiding.  It`s up to the quality and experience of the clients. You know, there`s climbing skills, but also how they perceive success versus failure.  I`ve known people who have turned around 300 feet from the   top and you might not get that feather in your cap but that was a true success."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "But you get to keep wearing a cap."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Yes, that`s right.  And you keep all your fingers and toes."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "It gets to a point where it seems like, if I write a check, people will practically carry me up that mountain.  I mean most of the   folks don`t recognize that mountaineering at that stage, huge amounts of equipment are being hauled by other people on your behalf.  It`s not just   you and a backpack anymore, right?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "It hasn`t been that way for a long time.  The early British expeditions had hundreds of porters.  The successful British expedition in   1953, it was run by Colonel Hunt.  It was almost a military operation. I think what changed the most -- for me, I was on the mountain in 2014, I was at base camp, near base camp, when a collapse above the Icefall killed   16 people.  And then I was there during the earthquake. And so I`ve been on the glacier doing work for Glacierworks when there`s 1,400 people arrayed on that glacier.  When I was there in 1985, we were   one team.  We were 38 people. And I`ve been able to go to the mountain many times and fulfill something I wanted to do in life and to make films.  I don`t know what to say about   people who have the same feelings.  They just want to get to the top. What I would say is it`s the hard work of having the skills to look after yourself without a guide that really make that climb worthwhile.  At least   for me."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "How much have your films done to increase the level of interest in the number of people that go climb this mountain now?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "I didn`t need to see an IMAX film.  I saw a photograph to go to Everest.  And what I think is that the tug of Everest is so strong and   there`s this ineffable kind of calling from this mountain that people really can`t describe, but you see them there. You see people from all walks of life.  And it`s just astonishing that that word \"Everest\" lights up their eyes, brightens their face with excitement. And when -- there are 15,000 trekkers headed to the region this spring, and many of them are going to the Khumbu Region for one reason.  They`re not   going to climb Everest.  They just want to see it."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Because it`s there."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Because it`s there and it`s the highest mountain on earth, 29,028 feet high.  So I`ve had my role in it.  And -- but I   don`t think I created Everest."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "David Breashears, thank you so much."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Thank you."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "And that`s it for now.  Remember, you can always listen to our podcast, see us online at amanpour.com, and you can follow me on Instagram   and Twitter. Thanks for watching.  And goodbye from London. END"
     }
@@ -1221,1217 +1221,1217 @@
   "output": [
     {
       "speaker": {
-        "extracted_name": "CHRISTIANE AMANPOUR",
-        "affiliation": "CHIEF INTERNATIONAL CORRESPONDENT",
-        "normalized_name": "CHRISTIANE AMANPOUR"
+        "extractedName": "CHRISTIANE AMANPOUR",
+        "normalizedName": "CHRISTIANE AMANPOUR",
+        "affiliation": "CHIEF INTERNATIONAL CORRESPONDENT"
       },
       "text": "Hello, everyone, and welcome to \"Amanpour.\"  Today, we`re looking back at some of   our favorite interview from this year.  So, here`s what`s coming up. The Democrats challenging Trump in 2020, one of the most diverse fields ever.  And one of the biggest outsiders, Pete Buttigieg, the small city   mayor from the Midwest on why he should be the youngest and the first millennial president. Then --"
     },
     {
       "speaker": {
-        "extracted_name": "JERRY SIENFELD",
-        "affiliation": "ACTOR",
-        "normalized_name": "JERRY SIENFELD"
+        "extractedName": "JERRY SIENFELD",
+        "normalizedName": "JERRY SIENFELD",
+        "affiliation": "ACTOR"
       },
       "text": "But you have changed sex for America."
     },
     {
       "speaker": {
-        "extracted_name": "RUTH WESTHEIMER",
-        "affiliation": "SEX THERAPIST",
-        "normalized_name": "RUTH WESTHEIMER"
+        "extractedName": "RUTH WESTHEIMER",
+        "normalizedName": "RUTH WESTHEIMER",
+        "affiliation": "SEX THERAPIST"
       },
       "text": "I do."
     },
     {
       "speaker": {
-        "extracted_name": "SIENFELD",
-        "affiliation": "",
-        "normalized_name": "SIENFELD"
+        "extractedName": "SIENFELD",
+        "normalizedName": "SIENFELD",
+        "affiliation": ""
       },
       "text": "You have changed sex.  It`s not the same thing anymore."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I think I do."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Seinfeld is right, Ruth Westheimer, known as Dr. Ruth did change sex for America.  The 91-year-old petite powerhouse join me on set here in   New York. Plus --"
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED MALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED MALE"
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
+        "affiliation": ""
       },
       "text": "Deep in my heart, when I see this landscape, I think there`s a problem."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "In the wake of the tragic climbing deaths in the Himalayas, we look at the effect of climate change there.  Our Hari Sreenivasan sits down   with the veteran filmmaker and mountaineer, David Breashears. Welcome to the program, everyone.  I`m Christiane Amanpour in London. Plenty of Democrats are throwing their names forward to challenge President Trump for the 2020 presidency.  Among them is Pete Buttigieg. He`s known   around town in South Bend, Indiana as Mayor Pete.  He is the quintessential long shot and would be a president of firsts.  The first to be elected in   his 30s, the first millennial, the first openly gay commander in chief and the first mayor. And on that point, that was a transition that many thought could be made by the former New York Mayor, Michael Bloomberg.  Although, the billionaire   has now ruled himself out of the race. Buttigieg brings a new generation approach, vowing huge structural changes in order to get the U.S. working for a majority of the people.  And if that   sounds ambitious and grand, he says it`s meant to.  And it`s worth considering that this year, millennials will overtake baby boomers as the   largest voting bloc in America. Pete Buttigieg is only 37 years old, but he`s been a business consultant, an officer in the Navy Reserve and he`s served in Afghanistan in 2014 and   he`s joining me now from South Bend, Indiana. Mr. Mayor, welcome to the program."
     },
     {
       "speaker": {
-        "extracted_name": "MAYOR PETE BUTTIGIEG",
-        "affiliation": "(D-SOUTH BEND, IN) PRESIDENTIAL CANDIDATE",
-        "normalized_name": "PETE BUTTIGIEG"
+        "extractedName": "MAYOR PETE BUTTIGIEG",
+        "normalizedName": "PETE BUTTIGIEG",
+        "affiliation": "(D-SOUTH BEND, IN) PRESIDENTIAL CANDIDATE"
       },
       "text": "Thank you.  Thanks for having me on."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Well, you know what, it is a small town in the Midwest, perhaps it`s one of those small towns that we were all accused of forgetting and   sort of a flyover and one of these towns that made itself felt in the previous election. So, how is it that you, in a very short period of time, managed to turn around, you know, the collapse of a whole auto industry, huge sort of   unemployment houses that were falling into disrepair, what did you find and how did you do it?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, the very first thing we had to do was have an honest conversation about change.  I didn`t go around saying that I alone can fix   it, I didn`t beat my chest and say we`re going to make South Bend great again.  I believe you cannot have an honest politics that revolves around   the word again. And so, my very first task at the beginning of this decade when I became mayor was to have a dialogue with the community about how we could still   succeed and thrive without pretending that we could turn back to the 1960s. when so many people were employed here in auto factories. We still have advanced manufacturing, we`re proud of it.  But we also recognize that it`s less labor intensive than it used to be and has to be   augmented with other sources of economic growth, including things like data analytics and industries that didn`t even exist when the last car rolled   off the line here in 1963.  And I`m afraid that my party really has failed to engage the industrial Midwest and other smaller communities. I think we learned to do a better job of that in 2018 in the midterm elections.  Now, it`s time to do that at the highest level in this   presidential nominating process in 2020."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "I mean, you are talking about big ideas, big projects is different than an incremental approach, perhaps, we hear from others.  But   again, you know, your unemployment level is now on a par with the national average, it`s low, it`s like 4 percent or so.  You did turn it around,   including you had this project to revitalize, rebuild or do something with what you called a thousand useless homes, a thousand, you know, derelict   homes. Again, how did you --"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Evicted and abandoned, yes."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes.  How did you get people back to work and in such a short period of time, replace one economy with another?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, look, the reality is you can`t just invent a new economic future out of whole cloth, you have to take the elements you already have   and be creative about how to work with them in new ways.  For example, it turned out that power substations that were almost irrelevant around here   had new utility, not powering factories, they had nothing left to power, but powering data centers, which is how some of the new jobs   were created. When it came to our neighborhoods in resolving the issue of vacant abandoned homes, an issue that plagues so many, rural and industrial   communities, especially in my part of the country, the American Midwest, we had to mobilize resources, get creative about different options, engage   with federal partners and above all, reassure people in the neighborhoods impacted that this was going to be done with them and not to them. There`s a great many people and this is true whether we`re talking about people`s relationship to their local city government or to the national   government.  There`s a great many people who have given up on the idea that the government has their best interests at hear.  We found ways to rebuild   trust through both technological means, gathering more data about what was happening in our city to serve residents better, but also low-tech means,   simple engagement and trust building that I believe now needs to be restored at the national level. I get that it`s unconventional for somebody with a mayoral background to talk about the highest office in the land when a more typical background   would be having been in Washington, kind of marinating it in that environment, maybe in the Congress for many years."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Well, you --"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "But I believe we are running out of time to make sure that our national politics and the Congress starts looking more like our best run   cities and towns instead of the other way around."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "So, you brought up your local level election and presumably, a little bit your age.  You`re obviously anticipating that you`re going to   get pushback from the opposition and also from within your own, you know, Democratic primary candidates on age, on being a neophyte, on all of that. Are you anticipating and are you gearing up for growing some Teflon on those particular issues?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Look, if the president wants to challenge my experience, I would just point out that I have more years of government experience than   the president himself.  And if that`s a low bar, I also have more years of executive experience in government than the vice president and more   military experience than anybody who has arrived in that office on day one since George H.W. Bush. So, it may sound a little cheeky as the youngest person in the conversation, but I would say experience is one of the main reasons that I   belong at the table.  I would also say that generational change is something that can help us appeal to more people of every generation.  You   know, three out of the last four presidents are exactly the same age.  Presidents Bush, Clinton and Trump were all born within a few weeks of each   other in the summer of 1946. Now, I don`t mean to say that you need to be a certain age or not be a certain age in order to serve but I do think that a lot of people are   emerging from my generation, you see some of them some of them changing the character of the United States Congress right now and I think we need to   that in executive leadership because I belong to the generation that experienced school shootings as the norm.  I was in high school when the   Columbine shooting happened.  I belong to the generation that provided most of the troops, including myself, in the conflicts after 9/11 and is bearing   the burden of the forever war and I belong to the generation that is going to be on the business end of issues like climate change for the rest of our   lives. We can even statistically be on track to be the first generation in American history to make less than our parents if something isn`t done."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes.  I mean, clearly --"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "I think it`s time for our generation to put forward leaders."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Clearly, there`s a lot wrong and people are trying to kind of bring big picture, bold solutions to the floor.  But on the generational   issue, you know, you`ve talked about, and others are saying, particularly given the sweep by Democrats of Congress that there is a much more sort of   progressive, more left-wing, some people even might say socialist character to the Democratic party, driven in part by the millennial generation who   are comfortable with those labels and don`t find them to be pejorative. Are you -- tell me about where the majority of the voters are going to come from in the next election.  But also, you talk about generational.  Are you   saying that, for instance, Senator Sanders and Warren, are maybe too old for this race now?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "It`s not my place to assess any of the others.  I do think that it is time for the generation that has so much on the line to step forward   and have a different kind of voice.  You know, I think about these issues as personal ones.  I think about what the world will look like when I reach   the current age of the current president, which is the year 2054. And I think if you regard the condition of the country or the world in that year not as somebody else`s problem but as something you`re personally   preparing for, it gives you a different kind of voice to speak about these issues. Look, we definitely need these bold reforms and we need people who aren`t afraid to speak with conviction.  Even as I think the traditional left   center spectrum for assessing the Democratic party has, if anything, become a little bit less useful than before, I do think that a lot of voters,   including voters here in the industrial Midwest who might be considered independent or even conservative leaning, will pay more attention   to voices from my party if we`re talking about addressing the fundamental problems that made a presidency like this one and an election   like to 2016 election even possible. I would argue that this is a symptom.  And the causes have to do with structural problems, deep problems in our economy and in our democracy that   have left far too many, especially in communities like mine in the American interior, feeling like the system wasn`t working for them, which is why I   get a great many of them, mostly or at least largely, with no illusions about the character of the current president, still deciding to go into   that voting booth and vote effectively to burn the House down, which unfortunately is what we got."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Right.  Having voted for him after previously having voted for Barack Obama as president.  So, I mean, you`re pretty much summing up the   political dysfunction that`s underway in terms of what people feel that they`re missing and lacking. But to that point, then let me ask you to comment on what Tim Wu, a Columbia law professor and a real sort of analyst of these times, wrote   today in \"The New York Times.\"  He`s talking about on issues of higher taxes, paid maternity leave and Medicare, all the things that many are now   talking about, \"The defining political fact of our time is not polarization, it`s the inability of even large bipartisan majorities to get   what they want on issues like these.  Call it the oppression of the super majority, ignoring what most of the country wants, such as demagoguery and   political divisiveness, is what is making the public so angry.\"  Is he right?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Yes, I very much agree with what Professor Wu wrote there.  And he`s really identifying the problem with our democracy before we attend to   any of the other issues that we care about from economic issues to things like climate change. We in America have to ask whether our democratic republic is as democratic as we think.  I`s one of the reasons I`ve called for some straight forward   but perhaps bold solutions like doing away with the Electoral College that twice in my lifetime has overruled the American people. I mean, when you have -- take universal background checks, a commonsense gun policy, that`s something like 80 or 90 percent of Americans agree on.    If the U.S. Congress can`t deliver something that that many Americans, including most Republicans believe is the right thing to do, is evidence   that money and the drawing of constituency lines so that politicians are choosing their voters instead of the other way around, it`s evidence that   our democracy has become warped almost beyond recognition and needs to be reformed immediately."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "I mean, on issues of reform, are you talking about fixing the engine of democracy?  You`ve talked just now about the Electoral College,   you`ve also talked about the Supreme Court, huge big issue in the United States, you talked about reforming it even adding more justices, more than   nine.  What would that solve and what do you envision?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, the problem that we have to solve is that the Supreme Court is on a trajectory toward coming to be viewed as a nakedly political   body by many Americans, we need to stop that before it`s too late.  And so, I think we need to entertain a range of reforms that would make the Supreme   Court less political so that each vacancy didn`t become another apocalyptic ideological battle. For example, it may be possible, without even amending the Constitution, to adjust the structure of the Supreme Court so that it had 15 members but   only 10 of them were appointed politically, the other were rotated up from the appellate bench and could only be seated by unanimous consensus among   the other 10.  That`s just one of a number of reforms that have been proposed and I don`t presume to know what the exact right answer is.  I do   believe that something that may be in the past was considered off limits because it`s too deep or too structural.  These kinds of things need to be   entertained because our democracy is very much in danger of slipping away from us. You know, Freedom House did its assessment of freedom and democracy around the world and the United States rankings are slipping, some say that we`re   in a democracy recession globally.  And here at home, I`m very much worried that democracy is in retreat unless we repair our institutions, something   that we used to be willing to do through statute and constitutional change, every generation would see some range of reforms take place. And for some reason, that`s just stopped short.  And if anything, we`re growing less democratic in my lifetime with measures to make it more   difficult for many Americans to vote and increasing distortion with the role of money in our politics too."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "You know, to that point, some would say trace it, at least, President Trump maybe before, maybe -- you know, maybe it`s been going on   for longer, this erosion of democracy in the United States, this erosion in the belief of the institutions.  But you almost never mention the president   by name, you don`t sort of go out there and define your stump speech or in opposition to him and you even just sort of alluded to him slightly by   saying, \"I don`t think talking about -- again, like making America great again is the kind of thing that we need to do for the future.\" What is your policy?  What is your tactic about taking on the current president?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, one thing I`ve noticed is that pretty much any attention directed his way is something that he absorbs and uses to grow bigger, even   if it`s critical attention.  And I think fundamentally, this election isn`t about him. Look, an election against a candidate as flawed as he was in 2016, that should never have even come within cheating distance, so to speak, it   should never have been close.  I believe that for an election result like that, for a presidency like this even to be possible there must be more   profound issues in our economy and democracy such that the problem, if it weren`t him, could very well be somebody else causing similar damage. Of course, he needs to be defeated, when he says something false it needs to be corrected, when he does something wrong it needs to be confronted.    But fundamentally, this election can`t be simply about him.  If the message is all about him, I can tell you that once again a lot of people,   especially in the industrial regions where I live, will say that nobody`s talking about me.  We have to talk about lived every day experience of   people in their lives across America and how our values and the policies that flow from those values will make every day of life better.  It can`t   be all about him, that`s the show and he`s very good at making that show all about him. But when I talk about -- when I talk to neighbors about what`s really impacting our lives and will ultimately drive our political choices, it`s   not what`s going on in Washington, it`s what`s going on in our neighborhoods, in our communities.  And part of the purpose of coming from   local office trying to enter a national conversation is to remind everybody of what`s really at stake so that we can build a message that will make   sense even when this presidency comes and goes, we`ll have as much to say to the world in 2040, in 2050 as we do in 2020."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "You know, obviously, President Trump is banking on the economy continuing to do well and believing that he`s delivered it as his campaign   has promised.  Let me ask you though about yourself, you openly gave or you did not come out until your 30s.  You are -- I believe you`re a male when   you actually officially and openly came out. What took you so long and what was the reason for coming out then?  How is this all played out?  And I guess, do you think America is ready for, you   know, a major candidate, openly gay and an openly gay president?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, what I`ll say is that, you know, at a personal level, I think everybody finds their way to coming out when they`re ready, you`re   just ready when you are.  And the thing that made me realize I needed to come out was after my deployment to Afghanistan, I really was forced to   confront the fact that I only had one life, that it was limited, that I wanted to get on with the personal life, begin dating. And so, I made the decision that I needed to come out for personal reasons at an inconvenient time.  I was running for reelection, Mike Pence was the   governor of my state at the time, but I knew that it was something I had to do.  My community is socially conservative and we didn`t know what the   response would be.  But when I explain myself and continued going about doing my job, I wound up getting reelected with 80 percent of the vote. So, I think what we`ve learned is that more than anything, people want to know what you care about, what your values are, what your ideas are and   what kind of jobs you can do for them.  That`s how I`m evaluated by my constituents here at home in South Bend. And of course, I`m proud of my marriage.  I married a teacher and that marriage is one of the most important things in my life.  It`s also, by the   way, something that exists only by the grace of a single vote on the U.S. Supreme Court, which is why people like me can never forget why politics   matters and how it can affect our everyday lives in so many ways. As to the question of whether America is ready for that, the best answer I can give is that there`s only one way to find out for sure."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Interesting also that mention about, you know, Mike Pence, the vice president, who is governor and have some very, very extreme views on   homosexuality and he believes that gay marriage will lead to social collapse.  Interesting that your own constituents, who you say are socially   conservative, actually, you know, didn`t use that as a litmus test for you."
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "People here really, I think, see the humanity in one another, and that`s been a struggle for a lot of people who has seen almost a   dizzying pace of change in the way this issue is understood.  But one thing I have observed on, everything from LGBTQ equality, to the treatment of   immigrants is -- were always a lot better toward people we actually know. When we begin to concretize these stories and make sure that people understand, we`re not talking about some group out there but real human   beings, many of whom you might be related to or crossed paths with in your community, it`s just harder to hate from up close and it`s one of the   antidote that I think a locally oriented political style can bring to a national conversation that is leaving far too many marginalized groups   behind."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "I just want to mention though or I asked you to just comment because you sort of glossed over it, but it`s a big deal, I mean, you took   unpaid leave as mayor, you did a seven-month tour in Afghanistan.  It`s a really dangerous place, it`s really where, you know -- I mean., you know,   separates the men from the boys going out there.  What did you learn about yourself, about what was going on, about the current, you know, foreign   policy when it comes to threatening to withdraw troops from either Syria or Afghanistan?"
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "Well, you know, it was one thing to learn about foreign policy when I was a student at Oxford, it`s another thing to learn about foreign   policy when sent to a war zone on the orders of a president, you understand in a very deep and personal way what`s at stake. Maybe the most important thing I took from it was a better sense of what it was to be an American, because the people that I served with,   especially when I was responsible for driving or guarding vehicles on convoys movements, which is a big part of my job when I was posted in   Kabul, was that, you know, we would learn to trust each other with our lives regardless of our backgrounds.  People getting into my vehicle didn`t   care if I was going home to a girlfriend or a boyfriend or what country my father had immigrated from or whether I was a Democrat or Republican, we   simply learn to trust each other with our lives. And in a broader sense, I think that`s what has to happen in America but you shouldn`t have to go to war in order to have that experience.  I   believe that national service is something we need to create more opportunities for here at home and we really need to learn from all of the   ways in which for prior generations. Military service was often a leveler, an equalizer, something that made it possible for people like a young John F. Kennedy or George H.W. Bush to   learn how to relate on more or less equal terms with the sons of factory workers and farmers in places like Indiana.  And it`s unfortunate that   we`ve lost that to some degree, but I think there`s a chance, certainly not now led by a president who is credibly accused of faking a disability in   order to avoid service when it was his turn. But I do think there`s an opportunity to restore a culture of service to the heart of what it means to be in this country."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "National service is something that many people have talked about and it would be really interesting to see it in some way brought back. Mayor Buttigieg, thank you so much indeed for joining me."
     },
     {
       "speaker": {
-        "extracted_name": "BUTTIGIEG",
-        "affiliation": "",
-        "normalized_name": "BUTTIGIEG"
+        "extractedName": "BUTTIGIEG",
+        "normalizedName": "BUTTIGIEG",
+        "affiliation": ""
       },
       "text": "It`s a pleasure.  Thanks for having me."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "From that which divides to that which unites us, it`s something we all have in common, the human search for love, partnership and yes, of   course, intimacy.  But all too often, we are too timid to talk about it in public, even with our families and friends, especially when it comes to   sex. Enter Ruth Westheimer, the German-born sex therapist who has been endearing herself to Americans for decades as Dr. Ruth, the woman who uses good humor   and incredible honesty to broach what needs to be broached. At age 90 now, yes, 90, she is still going strong and also opening up about her own tragic past. She is the subject of a new documentary, \"Ask Dr.   Ruth.\" Here`s a clip from the trailer."
     },
     {
       "speaker": {
-        "extracted_name": "RUTH WESTHEIMER",
-        "affiliation": "SEX THERAPIST",
-        "normalized_name": "RUTH WESTHEIMER"
+        "extractedName": "RUTH WESTHEIMER",
+        "normalizedName": "RUTH WESTHEIMER",
+        "affiliation": "SEX THERAPIST"
       },
       "text": "Hello."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED MALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED MALE"
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
+        "affiliation": ""
       },
       "text": "You`re not going to believe this woman.  She has a deep German accent and she talks about sex.  And I think we should do something   with her."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "In the early `80s, people did not talk about sexuality."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED MALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED MALE"
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
+        "affiliation": ""
       },
       "text": "You have a certain list of words you can`t say.  Well, we said them."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "And then, let him insert his [bleep] into the [bleep] from behind."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED MALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED MALE"
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
+        "affiliation": ""
       },
       "text": "We didn`t think it would explode like it did."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED MALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED MALE"
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
+        "affiliation": ""
       },
       "text": "And then, of course, she got her own television shows."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Before I started to do television, the most important thing for me was education.  While I was studying, I was a single mother.  I got   a position at Planned Parenthood and I loved it.  I never compromised, even when it was not popular."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Always bleepable, Dr. Ruth joins me now here in New York.  Welcome to the program."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Thank you, Christiane.  This is very interesting, not once in my entire career on radio did they bleep me out."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes. Well, we live in a different universe now."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I know, I know. I have no problems with it because everybody who listens to you and me knows what those words meant."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "They do."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "You can bleep it out. It`s OK."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes. Maybe it`s a conversation though, for another day. It`s a good conversation to have because it goes to the very heart of what you`re   saying.  We shouldn`t be too embarrassed or prudish to talk about the most important things.  Where do you get the energy to still, you know, go   gangbusters on this?"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I`m getting asked that very often and I tell you what, Christiane, that it has to do with my loving what I`m doing.  So, I`m not   retiring.  I`m rewiring.  I`m talking to you.  And I don`t get the energy because I also know what not to do.  So, I get driven, I don`t drive   anymore.  I don`t ski anymore.  And so, I know what not to do. But on the other hand, I`m so fortunate that I`m healthy, I`m going to be 91 and I`m healthy and I love what I`m doing.  And I love talking to you."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Well, I love talking to you about this because I also had a series but, I mean, very different but it`s called \"Sex and Love Around the   World\".  And I was absolutely fascinated to talk to people and hear them being so eager to talk back and to explain and ask questions and all the   rest of it."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I saw it."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "So, I wonder where did you get your desire to discuss and be the expert on this topic?"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Right.  So, I did not know I would be Dr. Ruth.  I was an orphan of the Holocaust.  I was sent with a Kindertransport to   Switzerland, otherwise, I would not be here.  I would be exterminated with one million and a half other children.  And I did -- I knew that I`m doing   something in education.  I remember my grandmother saying, \"You should be a Kindergarten teacher, you are so short.  You fit in those little chairs.\" So, I became a Kindergarten teacher in Israel, in Palestine, first when I fought in the Haganah.  I was badly wounded but that`s not why I`m short.    I would have been short anyway.  But I then was fortunate to get to the Sorbonne in Paris and to get a good education in psychology and came to   this country on a visit.  And I said, I`m here, let me pick up a master`s, New School of Social Research, a master`s in sociology."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "So you are Dr. Ruth."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "That`s why I`m the doctor, is a real doctor.  It`s not just something that I made up."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "And you`re a fighter.  I hadn`t realized about Haganah, how you were really a fighter in the resistance against the British mandate from   the beginning."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Now, I have never killed anybody.  However, I was trained as a sniper and I was very badly wounded.  On my 20th birthday, June 4, 1948, a   cannonball came into the girl`s residence in Jerusalem where I lived.  And I did show that in the documentary and wounded me very badly on both legs   but that`s not why I`m short.  I would have been short anyway. And I was able to get fixed by a surgeon in Jerusalem who came from Germany, was well trained.  So I became a super good skier at Black   Diamond.  And I can dance.  I can still dance a whole night if I find somebody to dance with."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Well, we`re going to talk about all of this, including a future dancing partner.  But let me just remind people and play some clips of some   of your early shows.  Let`s take a listen."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "I`m 18."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "And I`m a virgin and I want to wait until I`m married.  But I`ve just gotten started in a career and I want to be stable   in that career before I get married."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Right, right."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "And I don`t think that I can really wait that long."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Hold it."
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "I don`t mean to -- yes."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Hold it.  Even if the career, let`s say, takes 10 years, let`s say, where`s it written that you can`t get married during your career? I   got my doctorate at the age of 40. Now, I don`t talk about my sex life as you can imagine, but I can assure you that I already had two children, so something must have happened,   right?"
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "I have recently become very serious with this man and we may be getting married.  And I`m just a little afraid that he might ask   me how many men I have been sexually active with.  And I feel embarrassed to tell him the truth because I`m afraid he`ll think differently of me.    So, do you think I should fib or tell him the truth?"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I tell you, from the way I listen to you, I would say to you, do not tell the truth.  Do not."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Well, there`s some strategic holding back there.  Why do you think people opened up to you so much from the beginning?"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "First of all, I was very well trained.  Helen Singer Kaplan was the first sex therapist at Cornell Medical School and I worked with her   for seven years, two years being trained, five years training others so I`m very fortunate. Also, I`m very Jewish.  And in the Jewish tradition, in the Talmud, it says a lesson taught with humor is a lesson retained.  Not a joke.  I couldn`t   tell you a joke but I can hear some question and answer with humor like what I told that woman, keep your mouth shut.  Don`t tell about your past.    That`s the past.  Live right now and make the best of it. So, it`s a little bit the combination of being very well trained, psychology from the Sorbonne, Masters in Sociology, Doctorate Columbia   University Teachers College where I`m now teaching and I`m also teaching at Hunter.  So, that combination helped.  And what helped is that I loved what   I`m doing.  I love that people, because of the accent, what has happened to me, like Ruth Bader Ginsburg, in my case, could have only happened in New   York because New Yorkers were very generous with people with accents.  Then, it went nationwide and even into your Britain."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes.  You know, you talk about the humor and it really is, because that makes it accessible, it makes people feel that they can talk   to you and talk to anybody who listens to them with this kind of empathy that you do. I mean, but it`s been quite -- you know, there`s been people who say that you saved them in their most desperate times, even from suicide, they would   be so worried."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "That was because at the time, I spoke up - I don`t talk about politics.  I leave that up to you, Christiane. I speak up about family planning, about contraception, and I certainly spoke up about the dreadful disease of AIDS.  And right now, I have to tell   you, Christiane, I am again worried about that.  Because people think - thought nothing about it.  There is medication.  And I`m worried we`re   going to have a rise in syphilis, gonorrhea and AIDS.  And I`m very concerned  I don`t do politics, but I speak up about Planned Parenthood.  We have to keep Planned Parenthood alive."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Do you think that your sympathy and empathy for - in the `80s, of course, when the AIDS epidemic was devastating New York and other places,   and gay men were vilified and shunned - do you think your own experience as having been Jewish, having, you know, the story you have - and we`re going   to talk about it in a little bit -- being a minority, being persecuted --"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "No question. Because I was saved where one and a half millions Jewish children were killed, I have an obligation to help someplace.  I   didn`t know it would be about sex but that I have to stand up to all.  I`m only 4`7\" and to be counted to help. And that has certainly driven me by my saying my parents didn`t survive, my grandparents didn`t survive, I was an only child, I was in an orphanage in   Switzerland in a Kindertransport from Frankfurt, from Germany to Switzerland.  That`s the only way I survived."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "We see you here with your parents.  And again, it`s so heartbreaking just to know this story and to know that you were 10 the last   time you ever saw them.  And you escaped for your life and it was your father who told you to get on this train."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "My father was taken by the Nazis in 1938.  And he wrote a postcard.  I was 10-years-old. And he wrote a postcard that I have to join the group of Orthodox Jewish Children from Frankfurt to Switzerland so that he can come back to   Frankfurt.  I had no choice. I didn`t want to leave.  An only child, a grandmother who had nothing else to do but take care of me, another set of grandparents, farmers, in a   village in Wiesenfeld.  I had no choice. What`s very interesting, these days, I talk a lot about loneliness and in the documentary, it shows beautifully.  And the animation -- I was worried   about animation.  I thought they`re going to make me look like Pinocchio. It shows beautifully at the railroad station, it didn`t show lots of mothers and grandmothers.  It showed my mother and grandmother and me on   the train."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "It was beautifully illustrated, actually."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Beautifully illustrated and the color was a little red, which really kind of made more emphasis about the loneliness."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "I want to -- because that`s really important.  Loneliness today is one of the big issues that so many people, particularly after a certain   age, but even young people feel very, very acutely.  I want to play another clip from the documentary and it`s about your discussing having discovered   that your parents were killed."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "For many years, I really didn`t want to see in black and white what happened to my parents.  But as difficult as it is for me, I have an   obligation to learn about the fate of my family."
     },
     {
       "speaker": {
-        "extracted_name": "JOEL WESTHEIMER",
-        "affiliation": "DR.  RUTH WESTHEIMER`S SON",
-        "normalized_name": "JOEL WESTHEIMER"
+        "extractedName": "JOEL WESTHEIMER",
+        "normalizedName": "JOEL WESTHEIMER",
+        "affiliation": "DR.  RUTH WESTHEIMER`S SON"
       },
       "text": "I`ve thought about, you know, when did my parents tell me about the Holocaust or, like, what -- when did   my mother tell me that she never saw her parents after she was 10-years- old?  And I don`t have any recollection of some moment."
     },
     {
       "speaker": {
-        "extracted_name": "MIRIAM WESTHEIMER",
-        "affiliation": "DR.  RUTH WESTHEIMER`S DAUGHTER",
-        "normalized_name": "MIRIAM WESTHEIMER"
+        "extractedName": "MIRIAM WESTHEIMER",
+        "normalizedName": "MIRIAM WESTHEIMER",
+        "affiliation": "DR.  RUTH WESTHEIMER`S DAUGHTER"
       },
       "text": "As I grew up, I realized I didn`t have grandparents on my mother`s side.  So I would ask   about that and she would answer the questions but my mother didn`t offer information."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "So it`s really interesting, you didn`t talk about it like so many war survivors.  But I want to ask you because right after this very   poignant moment that we just saw, you discovered, in writing, the date that your father died.  And you also saw your mother`s entry, but that didn`t   have a date.  It just said, disappeared."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Oh, you did your homework."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "Yes, we watched."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "I have to tell you something important.  I`m on the board of the Museum of Jewish Heritage.  And right now, please come with me, we have   an exhibit that`s very upsetting but we have to have it on Auschwitz.  And we have the freight car that took Jews to go there. So when I see -- that`s the obligation.  What you just saw there is yet a shame in Jerusalem and it`s true, the Nazis kept dates and they kept papers   and they kept everything like --"
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "They were incredible catalogers weren`t they, documented everything?  Yes."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "People will do.  Next to my mother, it has the word, Christiane, verschwinden.  Verschwinden in German means disappeared. I don`t know where she is.  So this documentary and the exhibit right now as we speak at the Museum of Jewish Heritage is really a gravestone for   people like my mother who don`t have a grave or the rest of the family and the rest of the people."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "It`s really an important marker, as you say.  But I wonder also whether that experience for you, particularly at the age of 10 and you talk   about never having been hugged again, at least as a kid, is that also something that sort of propelled you into wanting to give everybody else a   big hug?"
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "No question.  Not only that, that`s why I got married three times, but only the father -- only one was the real marriage, almost 40   years. But no question that the art of loving and it had something to do with my interpersonal relationships which were so missing and it was missing in the   orphanage that was like not a happy place, but we made the best of it.  The other children, we became brothers and sisters.  No question that that has   formed me. On the other hand, I do have to stand up for those people that you know, Christiane, that are Holocaust deniers and I have to say, look at my story.    And then I have to stand up for those people who have Holocaust fatigue. They say, stop already talking about it.  It`s so long ago, it`s like the Civil War.  Not so.  We have to stand up to be counted so that it can never   happen again. I would like to invite you to the museum and I`ll go with you."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "I`ll come."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "And then I want to meet you in London because I`m doing --"
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "We`re now doing our social calendar.  But let me ask you something.  These are really important historical things that you`re   talking about and we must remember and we mustn`t forget and we must be alert. But I want to ask you about your topic again, to end off.  Why is it that people are having less sex, do you think, these days? What is responsible -- \"The Atlantic\" Magazine did a huge amount of research.  From the late `90s to 2014, the average adult went from having   sex 62 times a year to 54 times a year."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Terrible.  Now, I have to tell you something.  Part of it has to do with something that I`m very interested in, the art of conversation   is being lost. And you can`t just hop into bed.  You really have to have a relationship.  And the other thing is what you and I just talked about the loneliness and   some people always thinking there`s something better coming down the street. So I don`t know about the statistics if that`s what they did.  It proves what I`m talking about.  People, put your iPhone aside and talk to each   other. And make sure that when you`re in a restaurant, the world is not going to fall.  Even watch Christiane later.  You don`t have to watch her right now   on your iPhone."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "In intimate moments, OK.  I hope people are listening to you, Dr.  Ruth. That`s all we have time for.  That was really wonderful.  Thank you so much indeed.  Thank you for joining me."
     },
     {
       "speaker": {
-        "extracted_name": "WESTHEIMER",
-        "affiliation": "",
-        "normalized_name": "WESTHEIMER"
+        "extractedName": "WESTHEIMER",
+        "normalizedName": "WESTHEIMER",
+        "affiliation": ""
       },
       "text": "Thank you so much."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "We turn now to a great American mountaineer and filmmaker David Breashears.  He`s made his career climbing Mt. Everest, the world`s highest   mountain and he worries about what he`s seeing and in the wake of the tragic climbing deaths as climbers push the limits of their bodies, David   Breashears says we are now testing the very limits of our earth.  And he tells our Hari Sreenivasan it is the glaciers that are telling this story."
     },
     {
       "speaker": {
-        "extracted_name": "HARI SREENIVASAN",
-        "affiliation": "CNNI CONTRIBUTOR",
-        "normalized_name": "HARI SREENIVASAN"
+        "extractedName": "HARI SREENIVASAN",
+        "normalizedName": "HARI SREENIVASAN",
+        "affiliation": "CNNI CONTRIBUTOR"
       },
       "text": "So you have been to the top of the world five times and now you`re focused on helping us figure out that the   view is changing from the top.  What`s different?"
     },
     {
       "speaker": {
-        "extracted_name": "DAVID BREASHEARS",
-        "affiliation": "MOUNTAINEER AND FILMMAKER",
-        "normalized_name": "DAVID BREASHEARS"
+        "extractedName": "DAVID BREASHEARS",
+        "normalizedName": "DAVID BREASHEARS",
+        "affiliation": "MOUNTAINEER AND FILMMAKER"
       },
       "text": "Everything`s different when it comes to the glaciers and the ice up high in the mountain and the snow   cover.  It`s -- I first went to the Himalaya, I was 23-years-old in 1979 and climbed a 22,500-foot peak.  And if I was to go back and   climb that peak again today, I would see a dramatically different snow and ice cover."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Now, you`re focusing on something called \"Match photography\".  What is that?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Match photography is where I find an old photo point, say from an early explorer, mapmaker, cartographer and they were the first to   capture images of the glaciers.  Say George Mallory in 1921 or another photographer, Vittorio Sella, in 1899. I find that photograph in an archive, I make a print of it.  I go to the spot, the photo point, at least try to find it and capture the same image   with that time span in between."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Is it easy to get to that same spot that that photographer stood at?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Sometimes it`s -- sometimes we can find it fairly quickly.  One photo point took us multiple efforts.  It`s a photo point near K2 in   the Karakoram range of Pakistan. And we were absolutely astonished at the difficulty of the terrain the photographer, Vittorio Sella, and his team of porters had climbed on.  Not   only did we have the problem with the terrain, we had problems with the weather, and we waited in camp after we found the location for 13 days on   the glacier to capture the same image he had captured in 1909 and we were there in 2009."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "How significant is the change that you are able to see from the picture that was taken 50 years ago, 100 years ago, to what we`re   seeing today?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "The change is dramatic.  When you see the match photos of Cho Oyu and the north side of Everest and the south side of Everest, anyone   looking at these photos can see the change. What we`re really thinking about is the future change and what a recent report from ICIMOD, an organization in Nepal that studies these types of   things said that by 2100, we expect to lose 80 percent to 90 percent of the mass of the 19,000 glaciers in the Hindu Kush Himalayan Region."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "So what are the consequences of losing 80 percent to 90 percent of the mass of glaciers?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Well, this is an imperiled ecosystem.  The high mountain Alpine ecosystems are fragile.  The glaciers are telling us something. They`re under tremendous stress.  They`re under tremendous pressure.  They`re not getting enough snow.  The temperature is warming, and there`s   black carbon being deposited on the snow. So what affects that ecosystem affects the livelihoods of over 230 million people who inhabit the region and there are manifold reasons how this   effect plays out to hearty mountain people.  They are very adaptable and resilient by their nature but this is -- and they tend to be somewhat   poorer than the rest of the people down the river.  And they`re going to suffer the consequences of this stress on the ecosystem first."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "We`re going to take a look at a video that you have.  It`s a compilation of different images around Everest.  Tell us what we`re taking   a look at."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "We`re flying right towards Mt.  Everest.  That`s the black pyramid on the left.  We`re passing Mt.  Pumori on the right and we are   about to cross this ridge and fly right over base camp. The peak on the right is Nuptse.  The peak in the middle is Lhotse.  We`re looking down on the Khumbu Icefall and we`re working our way up into the   Western Cwm. The route to the top of Everest goes straight up the middle of the ice field in the middle and traverses to the left in that saddle, the cold   between Everest and Lhotse.  So we`re looking at it right now.  That would be the high camp at 26,000 feet. And now we`re going to turn around.  We`re looking at the route now from -- on the right-hand skyline, from the high camp to the top and now we`re   flying back down the Western Cwm, the route of our ascent. Right now, many hundreds of climbers are gathered there for the spring climbing season and we`re flying back out over the Icefall.  In the   distance is Cho Oyu, the world`s sixth highest mountain.  And so we`ve just seen four of the world`s highest mountains."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Nobody`s ever seen that video before.  How did you get that? How did you make that video?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "That was a lot of work."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "It was.  And it was quite expensive.  What it was, was we flew six cameras, still cameras in the nose of a helicopter, mounted   outside of the nose of the helicopter."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "It`s hard to do.  Helicopters don`t usually get --"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Well, we took time.  We flew the helicopter quite high, let`s just say, a lot higher than we were supposed to and in the winter. But those six cameras cover 230 degrees and I was firing those cameras every second to two seconds and that compilation of thousands of images can   be -- can produce something like that.  And therefore, we can create our own flight path and fly through it."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "If I`m looking at that and say, well, what`s the problem with what he`s describing here? Everything looks fine.  There`s a big old   glacier with a tongue right there.  There`s ice fields that people are still walking up the mountain."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Oh, the mountain`s changed a lot since I first climbed it --"
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "How so?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "-- myself in 1983.  Well, what we can`t see from that elevated position and what you can see from glacier works oblique ground base   photography, the wasting of the glaciers, the vertical wasting of the glacier, the horizontal wasting of the glacier. It`s a different -- much different place from what I climbed on in 1983.  Most of what we look at, most of the accumulations of glaciers are from,   really, 22,000, 21,000 feet on down.  That`s where we`re seeing most of the effects of warming and deposits of black carbon on the glaciers."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "People are going to look at some of these photos and say, listen, where`s the science behind this?"
     },
     {
       "speaker": {
-        "extracted_name": "OK",
-        "affiliation": "there`s a photo here and   there`s a photo at the same place 50 years later. Is it the same season? Is it the same climate at the same time? How do we know that these changes are long-term and are happening? BREASHEARS",
-        "normalized_name": "OK"
+        "extractedName": "OK",
+        "normalizedName": "OK",
+        "affiliation": "there`s a photo here and   there`s a photo at the same place 50 years later. Is it the same season? Is it the same climate at the same time? How do we know that these changes are long-term and are happening? BREASHEARS"
       },
       "text": "That`s for the scientists to decide.  And I follow the science very closely, and over 350 researchers at ICIMOD.  International Center for   Integrated Mountain Development in Katmandu published a recent report and their science is very good. I use the images around the world for a Glacierworks exhibit called \"Rivers of Ice, Vanishing Glaciers of the Greater Himalaya\".  And that starts a   conversation, the big gap, from, say, 1899 to when I re-photographed the same place 110 years later. Now, let`s carry the conversation further.  The glaciers are melting.  Some of the melt rate years ago was through more natural causes. Now, it`s greatly accelerated and what does that tell us about the future? Glacierworks and the work I do is mostly used for education and exhibits   and to help start a conversation about adaptability and resilience."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "You probably made, in my opinion, the greatest IMAX film that I`ve ever seen and it was about Everest.  But you also ended up documenting   one of the biggest tragedies that have ever happened on that mountain.  What did you learn about, just, people as you were watching this happen in   front of you?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "That was a very difficult year for everyone, 1996.  And we ended up with this film that really we hadn`t expected it to be so   successful.  But what you saw was the best and the worst of people, and you also saw -- I saw the best and worst in myself."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "People who might not remember, what happened then?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Well, it`s the year that`s known as \"Into Thin Air\" based on Jon Krakauer`s book.  And what happened were a couple of teams climbing   very high on the mountain got caught out late, climbing too late. And at that same moment when they were very vulnerable, they were overcome by a fast-moving storm that was not forecasted, that was -- came out of a   different direction than we normally expect. And in that night, eight people froze to death and some were severely frostbitten.  One gentleman lost both of his hands to frostbite eventually.    And it was just complete chaos on the mountain during the storm. And it was something that we had never really seen on Everest, a mix of guiding, a mix of professional climbers, a mix of clients who are less   experienced, all within a couple of hours -- within an hour, really, in the dramatic fight for their lives."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "It was basically a traffic jam up there."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "It was a traffic jam.  Nonetheless, they -- this was above the south summit at 28,750 feet.  Nonetheless, the guides could have   turned people around at their 1:00 turnaround time."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "But everybody is too close.  They want to get to the top.  They`ve put so much effort."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "It`s very hard to do.  But three people turned around of their own volition and they all lived. At one point, you got to look at the tug that mountain exerts on you and all that -- all the time, effort, pride, money, training, and then --   because this causes us to engage in something very interesting.  I happened to teach this in leadership lectures, presentations, and it`s the willful   disregard of negative information. Where, at that moment, where you are close to being in extreme peril, you`re high on a mountain, you`re vulnerable, you have 300 feet left to go,   you`re tired, you`re dehydrated, you`re exhausted, you`re hypoxic, perhaps. That`s when you open your mind to negative information.  Meaning, negative information says this is not going to work out well.  Let`s turn around and   go down. And there`s also hope springs eternal, right? We`re going to get to the top.  Everything`s going to be OK."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "I`ll win the lottery ticket.  It will happen for me."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Yes, yes.  But as I like to say, hope is not a plan, you know?"
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Are there systems in place now to prevent that kind of tragedy from happening again?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "On Everest?"
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "No.  None at all.  It`s all up to the quality of the guiding.  It`s up to the quality and experience of the clients. You know, there`s climbing skills, but also how they perceive success versus failure.  I`ve known people who have turned around 300 feet from the   top and you might not get that feather in your cap but that was a true success."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "But you get to keep wearing a cap."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Yes, that`s right.  And you keep all your fingers and toes."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "It gets to a point where it seems like, if I write a check, people will practically carry me up that mountain.  I mean most of the   folks don`t recognize that mountaineering at that stage, huge amounts of equipment are being hauled by other people on your behalf.  It`s not just   you and a backpack anymore, right?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "It hasn`t been that way for a long time.  The early British expeditions had hundreds of porters.  The successful British expedition in   1953, it was run by Colonel Hunt.  It was almost a military operation. I think what changed the most -- for me, I was on the mountain in 2014, I was at base camp, near base camp, when a collapse above the Icefall killed   16 people.  And then I was there during the earthquake. And so I`ve been on the glacier doing work for Glacierworks when there`s 1,400 people arrayed on that glacier.  When I was there in 1985, we were   one team.  We were 38 people. And I`ve been able to go to the mountain many times and fulfill something I wanted to do in life and to make films.  I don`t know what to say about   people who have the same feelings.  They just want to get to the top. What I would say is it`s the hard work of having the skills to look after yourself without a guide that really make that climb worthwhile.  At least   for me."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "How much have your films done to increase the level of interest in the number of people that go climb this mountain now?"
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "I didn`t need to see an IMAX film.  I saw a photograph to go to Everest.  And what I think is that the tug of Everest is so strong and   there`s this ineffable kind of calling from this mountain that people really can`t describe, but you see them there. You see people from all walks of life.  And it`s just astonishing that that word \"Everest\" lights up their eyes, brightens their face with excitement. And when -- there are 15,000 trekkers headed to the region this spring, and many of them are going to the Khumbu Region for one reason.  They`re not   going to climb Everest.  They just want to see it."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "Because it`s there."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Because it`s there and it`s the highest mountain on earth, 29,028 feet high.  So I`ve had my role in it.  And -- but I   don`t think I created Everest."
     },
     {
       "speaker": {
-        "extracted_name": "SREENIVASAN",
-        "affiliation": "",
-        "normalized_name": "SREENIVASAN"
+        "extractedName": "SREENIVASAN",
+        "normalizedName": "SREENIVASAN",
+        "affiliation": ""
       },
       "text": "David Breashears, thank you so much."
     },
     {
       "speaker": {
-        "extracted_name": "BREASHEARS",
-        "affiliation": "",
-        "normalized_name": "BREASHEARS"
+        "extractedName": "BREASHEARS",
+        "normalizedName": "BREASHEARS",
+        "affiliation": ""
       },
       "text": "Thank you."
     },
     {
       "speaker": {
-        "extracted_name": "AMANPOUR",
-        "affiliation": "",
-        "normalized_name": "AMANPOUR"
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
+        "affiliation": ""
       },
       "text": "And that`s it for now.  Remember, you can always listen to our podcast, see us online at amanpour.com, and you can follow me on Instagram   and Twitter. Thanks for watching.  And goodbye from London. END"
     }

@@ -7,8 +7,8 @@ const $ = cheerio
 
 /**
  * @typedef {Object} Speaker
- * @property {String} extracted_name
- * @property {String} normalized_name
+ * @property {String} extractedName
+ * @property {String} normalizedName
  * @property {String} affiliation
  */
 
@@ -195,12 +195,13 @@ export const getAffiliationFromAttribution = attribution => (
 export const extractStatementFromChunk = (chunk) => {
   const attribution = getAttributionFromChunk(chunk)
   const text = getTextFromChunk(chunk)
-  const extracted_name = getNameFromAttribution(attribution)
+  const extractedName = getNameFromAttribution(attribution)
   const affiliation = getAffiliationFromAttribution(attribution)
 
   return {
     speaker: {
-      extracted_name,
+      extractedName,
+      normalizedName: extractedName,
       affiliation,
     },
     text,
@@ -227,7 +228,7 @@ export const getSpeakersFromStatements = (statements) => {
   const speakers = statements.map(statement => statement.speaker)
   return speakers.reduce((unique, a) => {
     const isUnique = !unique.find(
-      b => (a.extracted_name === b.extracted_name
+      b => (a.normalizedName === b.normalizedName
         && a.affiliation === b.affiliation),
     )
     if (isUnique) {
@@ -282,12 +283,12 @@ export const cleanSpeakerName = speakerName => removeHonorifics(speakerName)
 export const cleanStatementSpeakerNames = statements => statements.map(
   (statement) => {
     const newStatement = Object.assign({}, statement)
-    newStatement.speaker.normalized_name = cleanSpeakerName(statement.speaker.extracted_name)
+    newStatement.speaker.normalizedName = cleanSpeakerName(statement.speaker.normalizedName)
     return newStatement
   },
 )
 
-export const hasIdenticalName = (a, b) => a.normalized_name === b.normalized_name
+export const hasIdenticalName = (a, b) => a.normalizedName === b.normalizedName
 
 /**
  * This method compares a candidate name with a starting name.
@@ -303,7 +304,7 @@ export const hasIdenticalName = (a, b) => a.normalized_name === b.normalized_nam
  * @return {bool}     True if the candidate name is an improvement
  */
 export const improvesName = (a, b) => !hasIdenticalName(a, b)
-  && a.normalized_name.endsWith(` ${b.normalized_name}`)
+  && a.normalizedName.endsWith(` ${b.normalizedName}`)
 
 
 /**
@@ -343,7 +344,7 @@ export const getBestAffiliation = (a, b) => (
  * @return {String}    The best name
  */
 export const getBestName = (a, b) => (
-  improvesName(a, b) ? a.normalized_name : b.normalized_name
+  improvesName(a, b) ? a.normalizedName : b.normalizedName
 )
 
 /**
@@ -358,7 +359,7 @@ export const getNormalizedSpeaker = (speaker, allSpeakers) => allSpeakers
   .reduce((best, next) => {
     const newBest = Object.assign({}, best)
     if (improvesName(next, best)) {
-      newBest.normalized_name = getBestName(next, speaker)
+      newBest.normalizedName = getBestName(next, speaker)
     }
     if (improvesName(next, best)
     || hasIdenticalName(next, best)) {
@@ -387,5 +388,5 @@ export const removeNetworkAffiliatedStatements = statements => statements.filter
 )
 
 export const removeUnattributableStatements = statements => statements.filter(
-  statement => !statement.speaker.extracted_name.includes('UNIDENTIFIED'),
+  statement => !statement.speaker.extractedName.includes('UNIDENTIFIED'),
 )

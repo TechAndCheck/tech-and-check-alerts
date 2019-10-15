@@ -3,385 +3,385 @@
   "input": [
     {
       "speaker": {
-        "extracted_name": "ROSEMARY CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "ROSEMARY CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "A recession, fears grow in the U.S., President Trump deflects and distracts using false claims and conspiracy theories. Hong Kong pro-democracy leaders react to their chief executive asking her to stop wasting their time and meet their demands. And later, new details on the Jeffrey Epstein scandal including leaked connections to a member of the British royal family.  Hello and welcome to our viewers joining us from all around the world. I'm Rosemary Church, and this is CNN Newsroom. Well, the U.S. president is peddling another conspiracy theory in what may be an effort to distract from ominous economic signals. Donald Trump tweeted that Google manipulated numbers in the 2016 election, he claimed his victory was even bigger than he thought but there is no basis in fact for this.  The president's theory comes from disputed congressional testimony given last month. Hillary Clinton responded by tweeting \"the debunked study you're referring to was based on 21 undecided voters. For context, that's about half the number of people associated with your campaign who have been indicted.\" Well, meanwhile, President Trump and his top advisers are trying to tap down economic fears by insisting there is no recession on the horizon, that's despite warnings from economist of a significant risk. Jim Acosta has the details now from the White House."
     },
     {
       "speaker": {
-        "extracted_name": "JIM ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "JIM ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "Amid growing concerns about a looming economic downturn President Trump and his top aides are busy swatting away the R word, recession."
     },
     {
       "speaker": {
-        "extracted_name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA",
-        "normalized_name": "DONALD TRUMP"
+        "extractedName": "DONALD TRUMP",
+        "normalizedName": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
       },
       "text": "I don't see a recession. I mean, the world is in a recession right now and although that's too big a statement."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "",
-        "normalized_name": "ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "ACOSTA",
+        "affiliation": ""
       },
       "text": "A new survey of the nation's fiscal help finds most economists do expect a recession by the end of 2021."
     },
     {
       "speaker": {
-        "extracted_name": "LARRY KUDLOW",
-        "affiliation": "DIRECTOR, U.S. NATIONAL ECONOMIC COUNCIL",
-        "normalized_name": "LARRY KUDLOW"
+        "extractedName": "LARRY KUDLOW",
+        "normalizedName": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, U.S. NATIONAL ECONOMIC COUNCIL"
       },
       "text": "If everybody wants to talk about pessimism recession --"
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "Is that why what's wrong with a little optimism?"
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "",
-        "normalized_name": "ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "ACOSTA",
+        "affiliation": ""
       },
       "text": "One of the president's top advisers Larry Kudlow insists there is no recession to fear but Kudlow is defending his own record of economic predictions, busted one year after the 2008 financial crisis Kudlow wrote in the National Review \"you can't call it a recession. This sort of fiscal and monetary coordination will continue the Bush boom for years to come."
     },
     {
       "speaker": {
-        "extracted_name": "KUDLOW",
-        "affiliation": "",
-        "normalized_name": "KUDLOW"
+        "extractedName": "KUDLOW",
+        "normalizedName": "KUDLOW",
+        "affiliation": ""
       },
       "text": "I don't know that anybody saw that kind of crash. But look, this is not then, this is not then."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "",
-        "normalized_name": "ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "ACOSTA",
+        "affiliation": ""
       },
       "text": "The president and administration officials are blaming the Federal Reserve."
     },
     {
       "speaker": {
-        "extracted_name": "WILBUR ROSS",
-        "affiliation": "U.S. SECRETARY OF COMMERCE",
-        "normalized_name": "WILBUR ROSS"
+        "extractedName": "WILBUR ROSS",
+        "normalizedName": "WILBUR ROSS",
+        "affiliation": "U.S. SECRETARY OF COMMERCE"
       },
       "text": "I very much hope that Chairman Powell goes forward and does lower the rate of this next time around."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "",
-        "normalized_name": "ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "ACOSTA",
+        "affiliation": ""
       },
       "text": "The president is also suddenly downplaying talk of gun control."
     },
     {
       "speaker": {
-        "extracted_name": "TRUMP",
-        "affiliation": "",
-        "normalized_name": "TRUMP"
+        "extractedName": "TRUMP",
+        "normalizedName": "TRUMP",
+        "affiliation": ""
       },
       "text": "I'm also very, very concerned with the Second Amendment more so than most presidents would be. People don't realize we have very strong background checks right now."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "",
-        "normalized_name": "ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "ACOSTA",
+        "affiliation": ""
       },
       "text": "The momentum for gun control may be slowing as new GOP talking points are emerging, coaching Republican lawmakers on how to answer questions about the gun show loophole, high capacity magazines and whether white nationalism is driving mass shootings. Iowa GOP Senator Joni Ernst face a testy town hall when she tried to blames the shootings on mental illness."
     },
     {
       "speaker": {
-        "extracted_name": "SEN. JONI ERNST",
-        "affiliation": "(R-IA)",
-        "normalized_name": "JONI ERNST"
+        "extractedName": "SEN. JONI ERNST",
+        "normalizedName": "JONI ERNST",
+        "affiliation": "(R-IA)"
       },
       "text": "A lot of the incidents that we see do come back to mental illness."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "",
-        "normalized_name": "ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "ACOSTA",
+        "affiliation": ""
       },
       "text": "The president is still fighting with his former communications director Anthony Scaramucci, tweeting, \"He's a highly unstable nut job. I barely knew him until his 11 days of gross incompetence\" despite bragging that he only hires the best people."
     },
     {
       "speaker": {
-        "extracted_name": "TRUMP",
-        "affiliation": "",
-        "normalized_name": "TRUMP"
+        "extractedName": "TRUMP",
+        "normalizedName": "TRUMP",
+        "affiliation": ""
       },
       "text": "We are going to get the best people in the world."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "",
-        "normalized_name": "ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "ACOSTA",
+        "affiliation": ""
       },
       "text": "Scaramucci is talking of the idea of a GOP challenger for Mr. Trump in 2020."
     },
     {
       "speaker": {
-        "extracted_name": "ANTHONY SCARAMUCCI",
-        "affiliation": "FORMER WHITE HOUSE COMMUNICATIONS DIRECTOR",
-        "normalized_name": "ANTHONY SCARAMUCCI"
+        "extractedName": "ANTHONY SCARAMUCCI",
+        "normalizedName": "ANTHONY SCARAMUCCI",
+        "affiliation": "FORMER WHITE HOUSE COMMUNICATIONS DIRECTOR"
       },
       "text": "This is not a never Trump situation, this is not just screeching rhetoric, this is OK. The guy is unstable, everyone inside knows it, everyone outside knows it, let's see if we can find a viable alternative."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "",
-        "normalized_name": "ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "ACOSTA",
+        "affiliation": ""
       },
       "text": "The president is out with a new unproven conspiracy theory accusing Google of manipulating more than two million votes in 2016, adding, his victory was even bigger than thought. But that's not true. There is no evidence of a Google conspiracy to change votes and the search engine is denying any manipulation of its data. The president also thinks that Fox News maybe out to get him too after one of the network's polls found Mr. Trump's approval rating sagging."
     },
     {
       "speaker": {
-        "extracted_name": "TRUMP",
-        "affiliation": "",
-        "normalized_name": "TRUMP"
+        "extractedName": "TRUMP",
+        "normalizedName": "TRUMP",
+        "affiliation": ""
       },
       "text": "Fox has changed. And my worst polls have always been from Fox, there's something going on at Fox, I'll tell you right now and I'm not happy with it."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "",
-        "normalized_name": "ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "ACOSTA",
+        "affiliation": ""
       },
       "text": "As for the president's bogus conspiracy theory that Google manipulated votes in the 2016 election, Hillary Clinton has responded on Twitter noting the claim has been debunked. Jim Acosta, CNN, the White House."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "The first two Muslim women in the U.S. Congress blasted President Trump and Israeli Prime Minister Benjamin Netanyahu after their trip to Israel and the Palestinian territories was blocked. Congresswoman Ilhan Omar described the travel ban as an assault on their responsibility as lawmakers, while her colleague, Rashida Tlaib told reporters on Monday that visiting her grandmother in the West Bank under Israel's strict conditions would violate human dignity. Last week, Tlaib was granted entry to visit her grandmother but declined, citing Israel's restrictions."
     },
     {
       "speaker": {
-        "extracted_name": "REP. RASHIDA TLAIB",
-        "affiliation": "(D-MI)",
-        "normalized_name": "RASHIDA TLAIB"
+        "extractedName": "REP. RASHIDA TLAIB",
+        "normalizedName": "RASHIDA TLAIB",
+        "affiliation": "(D-MI)"
       },
       "text": "I think my grandmother said it beautifully when she said I'm her asfour. Asfour in Arabic means her bird. And she said I'm her dream manifested. I'm her free bird, so why would I come back and be caged and bow down when my election rose her head up high, gave her dignity for the first time.  And so, through tears at three o'clock in the morning we all decided as a family that I could not go until I was a free American United States Congresswoman, coming there not only to see my grandmother but to talk to Palestinian and Israeli organizations that believed that my grandmother deserved human dignity as much as anyone else does."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "CNN's Oren Liebermann is live this hour in Jerusalem. He joins us now. So, Oren, what has been the reaction to all of this in Israel, and what's the likely fallout?"
     },
     {
       "speaker": {
-        "extracted_name": "OREN LIEBERMANN",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "OREN LIEBERMANN"
+        "extractedName": "OREN LIEBERMANN",
+        "normalizedName": "OREN LIEBERMANN",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "There hasn't been much reaction at this point from Israel and perhaps that's because Prime Minister Benjamin Netanyahu is on an official trip to Ukraine.  This story it seems is one Netanyahu would rather have behind him, he hasn't said all that much to this point except making his view clear that though Israel respects Republicans and Democrats, Israel will not allow and or at least examine the request of entry of those who support boycotting Israel, which is the initial reason that Congresswomen Rashida Tlaib and Ilhan Omar were barred entry in the first place. But it's worth noting that instead of calling for a boycott of Israel when Congresswomen Omar spoke, she instead said go see the occupation for yourself, see what I couldn't see."
     },
     {
       "speaker": {
-        "extracted_name": "REP. ILHAN OMAR",
-        "affiliation": "(D-MN)",
-        "normalized_name": "ILHAN OMAR"
+        "extractedName": "REP. ILHAN OMAR",
+        "normalizedName": "ILHAN OMAR",
+        "affiliation": "(D-MN)"
       },
       "text": "But it is my belief that as legislators we have an obligation to see the reality there for ourselves. We have a responsibility to conduct oversight over our government's foreign policy and what happens with the millions of dollars we send in aid. So, I would encourage my colleagues to visit, meet with the people we were going to meet with, see the things we were going to see, hear the stories we were going to hear. We cannot, we cannot let Trump and Netanyahu succeed in hiding the cruel reality of the occupation from us."
     },
     {
       "speaker": {
-        "extracted_name": "LIEBERMANN",
-        "affiliation": "",
-        "normalized_name": "LIEBERMANN"
+        "extractedName": "LIEBERMANN",
+        "normalizedName": "LIEBERMANN",
+        "affiliation": ""
       },
       "text": "There is no doubt here there was short term political game for both President Trump and Netanyahu. The real question and she hinted this right at the end, Congresswoman Omar, is that there may be a growing rift and the signals perhaps are the growing rift between the Democratic Party and the state of Israel. Rosemary?"
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "And of course, we're yet to see if other lawmakers will do as these two lawmakers are suggesting and go and visit. But talk to us about how Israel is likely to respond to these sorts of things going forward, whether given the opportunity to do this again, whether they would follow the same steps."
     },
     {
       "speaker": {
-        "extracted_name": "LIEBERMANN",
-        "affiliation": "",
-        "normalized_name": "LIEBERMANN"
+        "extractedName": "LIEBERMANN",
+        "normalizedName": "LIEBERMANN",
+        "affiliation": ""
       },
       "text": "Well, one of the points that Israel keeps on making and especially Netanyahu is that just before these two were scheduled to visit there was a bipartisan group of lawmakers. Seventy-one if I'm not mistaken, Republican and Democratic lawmakers were all here visiting Israel, some visited Palestinian territories and that with Palestinian officials as well. But that is one of the points that Israel has tried to -- to try to bring the light here the idea that there still is bipartisan support for Israel.  How does Israel move forward from this point? Well, it seems like Israel had -- Israel's hand was forced when trump suggested in the tweet that Israel would show great weakness by letting them in and that left Netanyahu very little wiggle room as he has tried to justify or explain his actions in this case. One other thing worth noting is that in Netanyahu's statement on Sunday night before he left for Ukraine, he also tried to explain the actions of Israeli Ambassador to the U.S. Ron Dermer who is considered very close to Netanyahu.  He had promised last month that these two would be allowed in because of Israel's respect for the U.S. Congress, and he essentially had to back tracked which may be a major blow to his credibility with the Democratic Party moving forward. Netanyahu tried to explain that, saying at the time there was no concrete plan or itinerary for a visit so he was promising in broad terms. And once Israel saw the specific itinerary of the trip that's when they decided to bar entry to these two congresswomen.  But, Rosemary, again, it has to be remembered that Israel didn't put out its final decision until shortly after that Trump tweet."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "Yes, indeed. Oren Liebermann bringing us the very latest on this story from Jerusalem. Many thanks.  Well, a stunning sight in Sudan that many never expected to see. The country's iron-fisted president, Omar al-Bashir sitting in a court cage dressed in white as he faces corruption-related charges.  And CNN has learned about a failed jailbreak ahead of Bashir's first day in court. Loyalist to the 75-year-old tried to free him in June, that's according to a police statement seen by CNN. Nima Elbagir has more."
     },
     {
       "speaker": {
-        "extracted_name": "NIMA ELBAGIR",
-        "affiliation": "CNN INTERNATIONAL CORRESPONDENT",
-        "normalized_name": "NIMA ELBAGIR"
+        "extractedName": "NIMA ELBAGIR",
+        "normalizedName": "NIMA ELBAGIR",
+        "affiliation": "CNN INTERNATIONAL CORRESPONDENT"
       },
       "text": "It was a day of extraordinary symbolism, a day many Sudanese believed would never come. A day in which their former leader stood in court and answered Omar Hassan al-Bashir when asked his name, and when asked his current residence, Kobar Prison, one of the country's most notorious prisons where the former president had sentenced many of his former political opponents. It was also a day of startling revelation including the revelation that tens of millions of dollars in hard currency had been found in many of al-Bashir's palaces.  The defense told CNN that this was simply a gift from the heir to the Saudi throne, among others, Mohammad bin Salman, a gift that could not have been turned down, they say, without causing a diplomatic incident.  And so, they tell us the president chose to hold on to these gifts and distribute them amongst the poor. The court also heard that a member of the Abu Dhabi ruling family also gave Omar al-Bashir a so-called gift.  The defense says that they have witnesses to all of these gifts and that these witnesses will be brought in front of the court in due time.  For many Sudanese this has been an extraordinary few days, the weekend saw a deal between those of the military apparatus that helped al- Bashir rule the country and civilian protesters to bring about a new government in a new era.  But if this was big on symbolism Sudanese are waiting to see if it actually matters on the ground. There are still three years and three months of a proposed transition period to go before they will be allowed to experience free and fair elections. And for many Sudanese they say that can't come soon enough. Nima Elbagir, CNN, London."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "We are receiving conflicting accounts about an air strike in Syria that reportedly killed three civilians and injured 12 others. Turkey's defense ministry says Monday strike was launched at a Turkish convoy.  A Syrian opposition military commander told CNN the strike hit a Syrian opposition vehicle traveling with that Turkish convoy. Well, the attack happened in Idlib, Syria's last remaining opposition held province. The U.N. has warned escalating military operations in the province are creating a humanitarian disaster costing hundreds of lives and displacing thousands of residents.  Well, China has been holding drills near Hong Kong but it may also be launching a secret campaign online. How it's allegedly using social media to undermine protests, that is coming up. Plus, Boris Johnson sends his Brexit wish lists to Brussels nearly one month after becoming Britain's prime minister. The E.U.'s reply, that's next."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "Hong Kong's embattled leader says she wants dialogue after another weekend of mass demonstrations. Chief executive Carrie Lam says she hopes Sunday's largely nonviolent protests can lead to peace in a city rocked by unrest.  She also says there are no plans to revive the extradition bill that triggered the upheaval. But she has said that before and demonstrators want the bill completely withdrawn. They also want Lam's resignation. And for now, it looks like she is staying put.  While Carrie Lam wants to talk to protesters Beijing it seems wants to undermine them on social media.  Our Donie O'Sullivan explains."
     },
     {
       "speaker": {
-        "extracted_name": "DONIE O'SULLIVAN",
-        "affiliation": "CNN REPORTER",
-        "normalized_name": "DONIE O'SULLIVAN"
+        "extractedName": "DONIE O'SULLIVAN",
+        "normalizedName": "DONIE O'SULLIVAN",
+        "affiliation": "CNN REPORTER"
       },
       "text": "A covert social media campaign design to undermine protesters in Hong Kong was revealed on Monday by Facebook and Twitter. Both companies were moving accounts that were attacking the demonstrators in Hong Kong and some of those accounts were comparing demonstrators to Islamic state terrorists and calling them cockroaches. The accounts were run covertly and they were designed to look like that they were run by independent individuals with no ties to the Chinese government and some even pose as news organizations. These tactics have been used in the past, Russia in 2016, for instance, ran a covert social media campaign posing as Americans in the lead up to the 2016 election. Both Facebook and Twitter said they will continue to monitor activity on social media around the Hong Kong protest and may find more accounts in the coming weeks. Donie O'Sullivan, CNN, New York."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "So, let's bring in CNN's Paula Hancocks for more on all of this. So, Paula, what exactly does Carrie Lam mean when she says she wants dialog with protesters?"
     },
     {
       "speaker": {
-        "extracted_name": "PAULA HANCOCKS",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "PAULA HANCOCKS"
+        "extractedName": "PAULA HANCOCKS",
+        "normalizedName": "PAULA HANCOCKS",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "Well, Rosemary, although she's told us this Tuesday morning at that press conference where she wants some kind of platform for dialog, that she wants to talk to the people. But it was very low on details so we don't know exactly what kind of format this is going to take.  She said she will start by talking to those who have given her suggestions over the past weekend. She has people advising her. But it's very difficult to know whether this means she will be sitting down with protesters or whether it is more vague at this point. She was also talking about a fact-finding study, now protesters have been calling for an independent inquiry into police action, she said the fact-finding study will have overseas experts but it is still tied to the police and the government although she says that it is independent. Now we have heard from one protest organizer to see what they think of what she has suggested."
     },
     {
       "speaker": {
-        "extracted_name": "WONG YIK-MO",
-        "affiliation": "ORGANIZER, CIVIC HUMAN RIGHTS FRONT",
-        "normalized_name": "WONG YIK-MO"
+        "extractedName": "WONG YIK-MO",
+        "normalizedName": "WONG YIK-MO",
+        "affiliation": "ORGANIZER, CIVIC HUMAN RIGHTS FRONT"
       },
       "text": "Hong Kong needs a mechanism that can ensure Democratic election so that citizens could elect a chief executive that can represent the people and also listen to voices of the people. And we do not need a platform for a dialogue in which the high officials could laugh and waste our time, waste our money. The only way to calm down the anger, the rage of the people is to really respond to our five demands. So, we would urge our chief executive to do something substantial."
     },
     {
       "speaker": {
-        "extracted_name": "HANCOCKS",
-        "affiliation": "",
-        "normalized_name": "HANCOCKS"
+        "extractedName": "HANCOCKS",
+        "normalizedName": "HANCOCKS",
+        "affiliation": ""
       },
       "text": "So, a reminder, Rosemary, of what those five demands are. They want the controversial extradition bill to be completely withdraw, not just put on hold although Carrie Lam has said that the bill is dead. They want those that have been arrested already, protesters to be released. They want that the government to stop referring to what has happened in the past as riots. They want the word riots to be taken out.  They have been demanding the resignation of Carrie Lam, that's fallen by the wayside at this point, and they want an independent inquiry into exactly what the police have been doing. Protesters believe that the police have used executive force. The police and Carrie Lam have denied that but they want a far more independent inquiry as opposed to this study that Carrie Lam has been suggesting."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "And many thanks to our Paula Hancocks bringing in the very latest from Hong Kong. Well, British Prime Minister Boris Johnson is laying out his position on the Brexit deal in no uncertain terms ahead of meetings this week with the French and German leaders.  He wrote a letter to the E.U. council president saying the current provision on the Northern Ireland border known as the backstop is anti-Democratic.  CNN's Nina dos Santos has more."
     },
     {
       "speaker": {
-        "extracted_name": "NINA DOS SANTOS",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "NINA DOS SANTOS"
+        "extractedName": "NINA DOS SANTOS",
+        "normalizedName": "NINA DOS SANTOS",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "One day after an embarrassing leak of a confidential government memo highlighting the risks of a no deal Brexit, Boris Johnson was back on the road this time into southwest of England where he used the opportunity of talking to news crews to send a message to Brussels. And that was namely, that his predecessor Theresa May's withdrawal deal was out of the window, it was time for a fresh approach otherwise the U.K. would be leaving either way on October the 31st."
     },
     {
       "speaker": {
-        "extracted_name": "BORIS JOHNSON",
-        "affiliation": "BRITISH PRIME MINISTER",
-        "normalized_name": "BORIS JOHNSON"
+        "extractedName": "BORIS JOHNSON",
+        "normalizedName": "BORIS JOHNSON",
+        "affiliation": "BRITISH PRIME MINISTER"
       },
       "text": "I'm afraid it is very much up to our friends and I hope that they will compromise that they have seen that the U.K. parliament has three times rejected the withdrawal agreement, the backstop. It just doesn't work. It's not Democratic. I hope that they will see fit to compromise. But in the meantime, we get ready to come out on October 31st."
     },
     {
       "speaker": {
-        "extracted_name": "DOS SANTOS",
-        "affiliation": "",
-        "normalized_name": "DOS SANTOS"
+        "extractedName": "DOS SANTOS",
+        "normalizedName": "DOS SANTOS",
+        "affiliation": ""
       },
       "text": "Well, the Labour leader Jeremy Corbyn has wasted no time even though parliament is on reset on its summer holidays, he has been campaigning for a new general election, saying that this is the only way to get past the current Brexit impasse. In the meantime, what he says he is proposing is a vote of no confidence in Boris Johnson's tenure and he is encouraging members of other parties, and rebels even from the conservative party to support him as a caretaker government before calling a snap election and then eventually a second referendum on Brexit."
     },
     {
       "speaker": {
-        "extracted_name": "JEREMY CORBYN",
-        "affiliation": "LEADER, LABOUR PARTY",
-        "normalized_name": "JEREMY CORBYN"
+        "extractedName": "JEREMY CORBYN",
+        "normalizedName": "JEREMY CORBYN",
+        "affiliation": "LEADER, LABOUR PARTY"
       },
       "text": "After failing to negotiate a Brexit deal that would protect jobs and living standards, Boris Johnson's Tories are driving the country towards a no deal cliff edge.  Let's be very clear. We will do everything necessary to stop a disastrous no deal from which this government has no mandate."
     },
     {
       "speaker": {
-        "extracted_name": "DOS SANTOS",
-        "affiliation": "",
-        "normalized_name": "DOS SANTOS"
+        "extractedName": "DOS SANTOS",
+        "normalizedName": "DOS SANTOS",
+        "affiliation": ""
       },
       "text": "Well, either way, a group of 100 members of parliament from various different parties who are determined to try and stop a no deal Brexit have written to the speaker of the house of commons urging him to recall members of parliament from their summer recess to try and find some way through the current Brexit impasse. But there are less than 80 days to go before the U.K. does leave the E.U. and number 10 in his current tenure has made it very clear that they are ready for a no deal Brexit.  Nina Dos Santos, CNN, outside Downing Street."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "Well, Britain's Prince Andrew is under pressure and facing fresh questions about his ties to convicted sex offender Jeffrey Epstein after a video surfaced over the weekend. We'll have more of that, next."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "Parts of northern India remain on high alert due to the threat of more deadly weather. Government official say at least 38 people have died since Saturday in monsoon triggered flooding and landslides.  Disaster management officials in the state of Punjab say at least 65 villages have been evacuated. Another 23,000 people are being told to leave the area.  The second major fire this month has forced thousands to flee their homes in Spain's Canary Islands. More than 600 firefighters have been deployed but strong gusting winds and high temperatures are making the situation even more difficult. The fire started over the weekend and so far, has left more than 10,000 hectares blackened.  In New York, Jeffrey Epstein signed a will declaring he was worth about $577 million just two days before his death. His brother Mark appears to be the only heir, that is according to the New York Post. The report says among Epstein's assets was $56 million in cash and another $14 million in fixed income investments. He had been awaiting trial for sex trafficking of underage girls when he was found dead inside his prison cell in New York earlier this month. He pleaded not guilty to the charges and was set to go on trial next year.  While meanwhile, Britain's Prince Andrew is facing fresh questions over his relationship with Jeffrey Epstein.  Hadas Gold has more now from London."
     },
     {
       "speaker": {
-        "extracted_name": "HADAS GOLD",
-        "affiliation": "CNN REPORTER",
-        "normalized_name": "HADAS GOLD"
+        "extractedName": "HADAS GOLD",
+        "normalizedName": "HADAS GOLD",
+        "affiliation": "CNN REPORTER"
       },
       "text": "For years, Prince Andrew has been tangled up with Jeffrey Epstein. But this new footage puts Prince Andrew literally inside Jeffrey Epstein's home after Epstein had already spent time in prison on sex crime charges.  The footage obtained by the Mail on Monday was allegedly shot in December of 2010. The video starts with Epstein who is shown leaving a town house and getting into a car accompanied by a woman who returns to the home.  In a separate clip Prince Andrew is seen opening the door and waving goodbye to a different woman. Prince Andrew had already been photographed with Epstein around the same time but they were seen walking together in Central Park.  This new footage adds to the image that Prince Andrew continued his associations with Epstein long after Epstein was a convicted pedophile.  Now CNN has not independently verified the video but in his statement, Buckingham Palace said, \"The Duke of York has been appalled by the recent reports of Jeffrey Epstein's alleged crimes. His Royal Highness deplores the exploitation of any human being and the suggestion that he would condone, participate in or encourage any such behavior is abhorrent.\"  The palace did not respond to specific questions as to why Prince Andrew was with Epstein in 201. Saying only referring to a statement from last month that \"The Duke of York accepts it was unwise to have met Mr. Epstein in December 201. The Duke has not met with Mr. Epstein since.\" Now the footage only further complicates the current situation for Prince Andrew who was named in court papers connected to Epstein's case this month. A woman claimed that she was forced to have sex with Prince Andrew when she was 17, a claim that the prince and Buckingham Palace have strenuously and repeatedly denied. In what is likely an important support though, Prince Andrew was pictured clearly riding in the same car as his mother Queen Elizabeth on the way to church last week. A clear message that the queen is standing by her son. Hadas Gold, CNN, London."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "",
-        "normalized_name": "CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "CHURCH",
+        "affiliation": ""
       },
       "text": "And thank you so much for your company. I'm Rosemary Church. Inside Africa and your world headlines coming up next.  END"
     }
@@ -389,385 +389,385 @@
   "output": [
     {
       "speaker": {
-        "extracted_name": "ROSEMARY CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "ROSEMARY CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "A recession, fears grow in the U.S., President Trump deflects and distracts using false claims and conspiracy theories. Hong Kong pro-democracy leaders react to their chief executive asking her to stop wasting their time and meet their demands. And later, new details on the Jeffrey Epstein scandal including leaked connections to a member of the British royal family.  Hello and welcome to our viewers joining us from all around the world. I'm Rosemary Church, and this is CNN Newsroom. Well, the U.S. president is peddling another conspiracy theory in what may be an effort to distract from ominous economic signals. Donald Trump tweeted that Google manipulated numbers in the 2016 election, he claimed his victory was even bigger than he thought but there is no basis in fact for this.  The president's theory comes from disputed congressional testimony given last month. Hillary Clinton responded by tweeting \"the debunked study you're referring to was based on 21 undecided voters. For context, that's about half the number of people associated with your campaign who have been indicted.\" Well, meanwhile, President Trump and his top advisers are trying to tap down economic fears by insisting there is no recession on the horizon, that's despite warnings from economist of a significant risk. Jim Acosta has the details now from the White House."
     },
     {
       "speaker": {
-        "extracted_name": "JIM ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "JIM ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "Amid growing concerns about a looming economic downturn President Trump and his top aides are busy swatting away the R word, recession."
     },
     {
       "speaker": {
-        "extracted_name": "DONALD TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA",
-        "normalized_name": "DONALD TRUMP"
+        "extractedName": "DONALD TRUMP",
+        "normalizedName": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
       },
       "text": "I don't see a recession. I mean, the world is in a recession right now and although that's too big a statement."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "A new survey of the nation's fiscal help finds most economists do expect a recession by the end of 2021."
     },
     {
       "speaker": {
-        "extracted_name": "LARRY KUDLOW",
-        "affiliation": "DIRECTOR, U.S. NATIONAL ECONOMIC COUNCIL",
-        "normalized_name": "LARRY KUDLOW"
+        "extractedName": "LARRY KUDLOW",
+        "normalizedName": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, U.S. NATIONAL ECONOMIC COUNCIL"
       },
       "text": "If everybody wants to talk about pessimism recession --"
     },
     {
       "speaker": {
-        "extracted_name": "UNIDENTIFIED FEMALE",
-        "affiliation": "",
-        "normalized_name": "UNIDENTIFIED FEMALE"
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
+        "affiliation": ""
       },
       "text": "Is that why what's wrong with a little optimism?"
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "One of the president's top advisers Larry Kudlow insists there is no recession to fear but Kudlow is defending his own record of economic predictions, busted one year after the 2008 financial crisis Kudlow wrote in the National Review \"you can't call it a recession. This sort of fiscal and monetary coordination will continue the Bush boom for years to come."
     },
     {
       "speaker": {
-        "extracted_name": "KUDLOW",
-        "affiliation": "DIRECTOR, U.S. NATIONAL ECONOMIC COUNCIL",
-        "normalized_name": "LARRY KUDLOW"
+        "extractedName": "KUDLOW",
+        "normalizedName": "LARRY KUDLOW",
+        "affiliation": "DIRECTOR, U.S. NATIONAL ECONOMIC COUNCIL"
       },
       "text": "I don't know that anybody saw that kind of crash. But look, this is not then, this is not then."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "The president and administration officials are blaming the Federal Reserve."
     },
     {
       "speaker": {
-        "extracted_name": "WILBUR ROSS",
-        "affiliation": "U.S. SECRETARY OF COMMERCE",
-        "normalized_name": "WILBUR ROSS"
+        "extractedName": "WILBUR ROSS",
+        "normalizedName": "WILBUR ROSS",
+        "affiliation": "U.S. SECRETARY OF COMMERCE"
       },
       "text": "I very much hope that Chairman Powell goes forward and does lower the rate of this next time around."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "The president is also suddenly downplaying talk of gun control."
     },
     {
       "speaker": {
-        "extracted_name": "TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA",
-        "normalized_name": "DONALD TRUMP"
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
       },
       "text": "I'm also very, very concerned with the Second Amendment more so than most presidents would be. People don't realize we have very strong background checks right now."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "The momentum for gun control may be slowing as new GOP talking points are emerging, coaching Republican lawmakers on how to answer questions about the gun show loophole, high capacity magazines and whether white nationalism is driving mass shootings. Iowa GOP Senator Joni Ernst face a testy town hall when she tried to blames the shootings on mental illness."
     },
     {
       "speaker": {
-        "extracted_name": "SEN. JONI ERNST",
-        "affiliation": "(R-IA)",
-        "normalized_name": "JONI ERNST"
+        "extractedName": "SEN. JONI ERNST",
+        "normalizedName": "JONI ERNST",
+        "affiliation": "(R-IA)"
       },
       "text": "A lot of the incidents that we see do come back to mental illness."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "The president is still fighting with his former communications director Anthony Scaramucci, tweeting, \"He's a highly unstable nut job. I barely knew him until his 11 days of gross incompetence\" despite bragging that he only hires the best people."
     },
     {
       "speaker": {
-        "extracted_name": "TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA",
-        "normalized_name": "DONALD TRUMP"
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
       },
       "text": "We are going to get the best people in the world."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "Scaramucci is talking of the idea of a GOP challenger for Mr. Trump in 2020."
     },
     {
       "speaker": {
-        "extracted_name": "ANTHONY SCARAMUCCI",
-        "affiliation": "FORMER WHITE HOUSE COMMUNICATIONS DIRECTOR",
-        "normalized_name": "ANTHONY SCARAMUCCI"
+        "extractedName": "ANTHONY SCARAMUCCI",
+        "normalizedName": "ANTHONY SCARAMUCCI",
+        "affiliation": "FORMER WHITE HOUSE COMMUNICATIONS DIRECTOR"
       },
       "text": "This is not a never Trump situation, this is not just screeching rhetoric, this is OK. The guy is unstable, everyone inside knows it, everyone outside knows it, let's see if we can find a viable alternative."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "The president is out with a new unproven conspiracy theory accusing Google of manipulating more than two million votes in 2016, adding, his victory was even bigger than thought. But that's not true. There is no evidence of a Google conspiracy to change votes and the search engine is denying any manipulation of its data. The president also thinks that Fox News maybe out to get him too after one of the network's polls found Mr. Trump's approval rating sagging."
     },
     {
       "speaker": {
-        "extracted_name": "TRUMP",
-        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA",
-        "normalized_name": "DONALD TRUMP"
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
+        "affiliation": "PRESIDENT OF THE UNITED STATES OF AMERICA"
       },
       "text": "Fox has changed. And my worst polls have always been from Fox, there's something going on at Fox, I'll tell you right now and I'm not happy with it."
     },
     {
       "speaker": {
-        "extracted_name": "ACOSTA",
-        "affiliation": "CNN CHIEF White House CORRESPONDENT",
-        "normalized_name": "JIM ACOSTA"
+        "extractedName": "ACOSTA",
+        "normalizedName": "JIM ACOSTA",
+        "affiliation": "CNN CHIEF White House CORRESPONDENT"
       },
       "text": "As for the president's bogus conspiracy theory that Google manipulated votes in the 2016 election, Hillary Clinton has responded on Twitter noting the claim has been debunked. Jim Acosta, CNN, the White House."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "The first two Muslim women in the U.S. Congress blasted President Trump and Israeli Prime Minister Benjamin Netanyahu after their trip to Israel and the Palestinian territories was blocked. Congresswoman Ilhan Omar described the travel ban as an assault on their responsibility as lawmakers, while her colleague, Rashida Tlaib told reporters on Monday that visiting her grandmother in the West Bank under Israel's strict conditions would violate human dignity. Last week, Tlaib was granted entry to visit her grandmother but declined, citing Israel's restrictions."
     },
     {
       "speaker": {
-        "extracted_name": "REP. RASHIDA TLAIB",
-        "affiliation": "(D-MI)",
-        "normalized_name": "RASHIDA TLAIB"
+        "extractedName": "REP. RASHIDA TLAIB",
+        "normalizedName": "RASHIDA TLAIB",
+        "affiliation": "(D-MI)"
       },
       "text": "I think my grandmother said it beautifully when she said I'm her asfour. Asfour in Arabic means her bird. And she said I'm her dream manifested. I'm her free bird, so why would I come back and be caged and bow down when my election rose her head up high, gave her dignity for the first time.  And so, through tears at three o'clock in the morning we all decided as a family that I could not go until I was a free American United States Congresswoman, coming there not only to see my grandmother but to talk to Palestinian and Israeli organizations that believed that my grandmother deserved human dignity as much as anyone else does."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "CNN's Oren Liebermann is live this hour in Jerusalem. He joins us now. So, Oren, what has been the reaction to all of this in Israel, and what's the likely fallout?"
     },
     {
       "speaker": {
-        "extracted_name": "OREN LIEBERMANN",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "OREN LIEBERMANN"
+        "extractedName": "OREN LIEBERMANN",
+        "normalizedName": "OREN LIEBERMANN",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "There hasn't been much reaction at this point from Israel and perhaps that's because Prime Minister Benjamin Netanyahu is on an official trip to Ukraine.  This story it seems is one Netanyahu would rather have behind him, he hasn't said all that much to this point except making his view clear that though Israel respects Republicans and Democrats, Israel will not allow and or at least examine the request of entry of those who support boycotting Israel, which is the initial reason that Congresswomen Rashida Tlaib and Ilhan Omar were barred entry in the first place. But it's worth noting that instead of calling for a boycott of Israel when Congresswomen Omar spoke, she instead said go see the occupation for yourself, see what I couldn't see."
     },
     {
       "speaker": {
-        "extracted_name": "REP. ILHAN OMAR",
-        "affiliation": "(D-MN)",
-        "normalized_name": "ILHAN OMAR"
+        "extractedName": "REP. ILHAN OMAR",
+        "normalizedName": "ILHAN OMAR",
+        "affiliation": "(D-MN)"
       },
       "text": "But it is my belief that as legislators we have an obligation to see the reality there for ourselves. We have a responsibility to conduct oversight over our government's foreign policy and what happens with the millions of dollars we send in aid. So, I would encourage my colleagues to visit, meet with the people we were going to meet with, see the things we were going to see, hear the stories we were going to hear. We cannot, we cannot let Trump and Netanyahu succeed in hiding the cruel reality of the occupation from us."
     },
     {
       "speaker": {
-        "extracted_name": "LIEBERMANN",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "OREN LIEBERMANN"
+        "extractedName": "LIEBERMANN",
+        "normalizedName": "OREN LIEBERMANN",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "There is no doubt here there was short term political game for both President Trump and Netanyahu. The real question and she hinted this right at the end, Congresswoman Omar, is that there may be a growing rift and the signals perhaps are the growing rift between the Democratic Party and the state of Israel. Rosemary?"
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "And of course, we're yet to see if other lawmakers will do as these two lawmakers are suggesting and go and visit. But talk to us about how Israel is likely to respond to these sorts of things going forward, whether given the opportunity to do this again, whether they would follow the same steps."
     },
     {
       "speaker": {
-        "extracted_name": "LIEBERMANN",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "OREN LIEBERMANN"
+        "extractedName": "LIEBERMANN",
+        "normalizedName": "OREN LIEBERMANN",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "Well, one of the points that Israel keeps on making and especially Netanyahu is that just before these two were scheduled to visit there was a bipartisan group of lawmakers. Seventy-one if I'm not mistaken, Republican and Democratic lawmakers were all here visiting Israel, some visited Palestinian territories and that with Palestinian officials as well. But that is one of the points that Israel has tried to -- to try to bring the light here the idea that there still is bipartisan support for Israel.  How does Israel move forward from this point? Well, it seems like Israel had -- Israel's hand was forced when trump suggested in the tweet that Israel would show great weakness by letting them in and that left Netanyahu very little wiggle room as he has tried to justify or explain his actions in this case. One other thing worth noting is that in Netanyahu's statement on Sunday night before he left for Ukraine, he also tried to explain the actions of Israeli Ambassador to the U.S. Ron Dermer who is considered very close to Netanyahu.  He had promised last month that these two would be allowed in because of Israel's respect for the U.S. Congress, and he essentially had to back tracked which may be a major blow to his credibility with the Democratic Party moving forward. Netanyahu tried to explain that, saying at the time there was no concrete plan or itinerary for a visit so he was promising in broad terms. And once Israel saw the specific itinerary of the trip that's when they decided to bar entry to these two congresswomen.  But, Rosemary, again, it has to be remembered that Israel didn't put out its final decision until shortly after that Trump tweet."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "Yes, indeed. Oren Liebermann bringing us the very latest on this story from Jerusalem. Many thanks.  Well, a stunning sight in Sudan that many never expected to see. The country's iron-fisted president, Omar al-Bashir sitting in a court cage dressed in white as he faces corruption-related charges.  And CNN has learned about a failed jailbreak ahead of Bashir's first day in court. Loyalist to the 75-year-old tried to free him in June, that's according to a police statement seen by CNN. Nima Elbagir has more."
     },
     {
       "speaker": {
-        "extracted_name": "NIMA ELBAGIR",
-        "affiliation": "CNN INTERNATIONAL CORRESPONDENT",
-        "normalized_name": "NIMA ELBAGIR"
+        "extractedName": "NIMA ELBAGIR",
+        "normalizedName": "NIMA ELBAGIR",
+        "affiliation": "CNN INTERNATIONAL CORRESPONDENT"
       },
       "text": "It was a day of extraordinary symbolism, a day many Sudanese believed would never come. A day in which their former leader stood in court and answered Omar Hassan al-Bashir when asked his name, and when asked his current residence, Kobar Prison, one of the country's most notorious prisons where the former president had sentenced many of his former political opponents. It was also a day of startling revelation including the revelation that tens of millions of dollars in hard currency had been found in many of al-Bashir's palaces.  The defense told CNN that this was simply a gift from the heir to the Saudi throne, among others, Mohammad bin Salman, a gift that could not have been turned down, they say, without causing a diplomatic incident.  And so, they tell us the president chose to hold on to these gifts and distribute them amongst the poor. The court also heard that a member of the Abu Dhabi ruling family also gave Omar al-Bashir a so-called gift.  The defense says that they have witnesses to all of these gifts and that these witnesses will be brought in front of the court in due time.  For many Sudanese this has been an extraordinary few days, the weekend saw a deal between those of the military apparatus that helped al- Bashir rule the country and civilian protesters to bring about a new government in a new era.  But if this was big on symbolism Sudanese are waiting to see if it actually matters on the ground. There are still three years and three months of a proposed transition period to go before they will be allowed to experience free and fair elections. And for many Sudanese they say that can't come soon enough. Nima Elbagir, CNN, London."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "We are receiving conflicting accounts about an air strike in Syria that reportedly killed three civilians and injured 12 others. Turkey's defense ministry says Monday strike was launched at a Turkish convoy.  A Syrian opposition military commander told CNN the strike hit a Syrian opposition vehicle traveling with that Turkish convoy. Well, the attack happened in Idlib, Syria's last remaining opposition held province. The U.N. has warned escalating military operations in the province are creating a humanitarian disaster costing hundreds of lives and displacing thousands of residents.  Well, China has been holding drills near Hong Kong but it may also be launching a secret campaign online. How it's allegedly using social media to undermine protests, that is coming up. Plus, Boris Johnson sends his Brexit wish lists to Brussels nearly one month after becoming Britain's prime minister. The E.U.'s reply, that's next."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "Hong Kong's embattled leader says she wants dialogue after another weekend of mass demonstrations. Chief executive Carrie Lam says she hopes Sunday's largely nonviolent protests can lead to peace in a city rocked by unrest.  She also says there are no plans to revive the extradition bill that triggered the upheaval. But she has said that before and demonstrators want the bill completely withdrawn. They also want Lam's resignation. And for now, it looks like she is staying put.  While Carrie Lam wants to talk to protesters Beijing it seems wants to undermine them on social media.  Our Donie O'Sullivan explains."
     },
     {
       "speaker": {
-        "extracted_name": "DONIE O'SULLIVAN",
-        "affiliation": "CNN REPORTER",
-        "normalized_name": "DONIE O'SULLIVAN"
+        "extractedName": "DONIE O'SULLIVAN",
+        "normalizedName": "DONIE O'SULLIVAN",
+        "affiliation": "CNN REPORTER"
       },
       "text": "A covert social media campaign design to undermine protesters in Hong Kong was revealed on Monday by Facebook and Twitter. Both companies were moving accounts that were attacking the demonstrators in Hong Kong and some of those accounts were comparing demonstrators to Islamic state terrorists and calling them cockroaches. The accounts were run covertly and they were designed to look like that they were run by independent individuals with no ties to the Chinese government and some even pose as news organizations. These tactics have been used in the past, Russia in 2016, for instance, ran a covert social media campaign posing as Americans in the lead up to the 2016 election. Both Facebook and Twitter said they will continue to monitor activity on social media around the Hong Kong protest and may find more accounts in the coming weeks. Donie O'Sullivan, CNN, New York."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "So, let's bring in CNN's Paula Hancocks for more on all of this. So, Paula, what exactly does Carrie Lam mean when she says she wants dialog with protesters?"
     },
     {
       "speaker": {
-        "extracted_name": "PAULA HANCOCKS",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "PAULA HANCOCKS"
+        "extractedName": "PAULA HANCOCKS",
+        "normalizedName": "PAULA HANCOCKS",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "Well, Rosemary, although she's told us this Tuesday morning at that press conference where she wants some kind of platform for dialog, that she wants to talk to the people. But it was very low on details so we don't know exactly what kind of format this is going to take.  She said she will start by talking to those who have given her suggestions over the past weekend. She has people advising her. But it's very difficult to know whether this means she will be sitting down with protesters or whether it is more vague at this point. She was also talking about a fact-finding study, now protesters have been calling for an independent inquiry into police action, she said the fact-finding study will have overseas experts but it is still tied to the police and the government although she says that it is independent. Now we have heard from one protest organizer to see what they think of what she has suggested."
     },
     {
       "speaker": {
-        "extracted_name": "WONG YIK-MO",
-        "affiliation": "ORGANIZER, CIVIC HUMAN RIGHTS FRONT",
-        "normalized_name": "WONG YIK-MO"
+        "extractedName": "WONG YIK-MO",
+        "normalizedName": "WONG YIK-MO",
+        "affiliation": "ORGANIZER, CIVIC HUMAN RIGHTS FRONT"
       },
       "text": "Hong Kong needs a mechanism that can ensure Democratic election so that citizens could elect a chief executive that can represent the people and also listen to voices of the people. And we do not need a platform for a dialogue in which the high officials could laugh and waste our time, waste our money. The only way to calm down the anger, the rage of the people is to really respond to our five demands. So, we would urge our chief executive to do something substantial."
     },
     {
       "speaker": {
-        "extracted_name": "HANCOCKS",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "PAULA HANCOCKS"
+        "extractedName": "HANCOCKS",
+        "normalizedName": "PAULA HANCOCKS",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "So, a reminder, Rosemary, of what those five demands are. They want the controversial extradition bill to be completely withdraw, not just put on hold although Carrie Lam has said that the bill is dead. They want those that have been arrested already, protesters to be released. They want that the government to stop referring to what has happened in the past as riots. They want the word riots to be taken out.  They have been demanding the resignation of Carrie Lam, that's fallen by the wayside at this point, and they want an independent inquiry into exactly what the police have been doing. Protesters believe that the police have used executive force. The police and Carrie Lam have denied that but they want a far more independent inquiry as opposed to this study that Carrie Lam has been suggesting."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "And many thanks to our Paula Hancocks bringing in the very latest from Hong Kong. Well, British Prime Minister Boris Johnson is laying out his position on the Brexit deal in no uncertain terms ahead of meetings this week with the French and German leaders.  He wrote a letter to the E.U. council president saying the current provision on the Northern Ireland border known as the backstop is anti-Democratic.  CNN's Nina dos Santos has more."
     },
     {
       "speaker": {
-        "extracted_name": "NINA DOS SANTOS",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "NINA DOS SANTOS"
+        "extractedName": "NINA DOS SANTOS",
+        "normalizedName": "NINA DOS SANTOS",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "One day after an embarrassing leak of a confidential government memo highlighting the risks of a no deal Brexit, Boris Johnson was back on the road this time into southwest of England where he used the opportunity of talking to news crews to send a message to Brussels. And that was namely, that his predecessor Theresa May's withdrawal deal was out of the window, it was time for a fresh approach otherwise the U.K. would be leaving either way on October the 31st."
     },
     {
       "speaker": {
-        "extracted_name": "BORIS JOHNSON",
-        "affiliation": "BRITISH PRIME MINISTER",
-        "normalized_name": "BORIS JOHNSON"
+        "extractedName": "BORIS JOHNSON",
+        "normalizedName": "BORIS JOHNSON",
+        "affiliation": "BRITISH PRIME MINISTER"
       },
       "text": "I'm afraid it is very much up to our friends and I hope that they will compromise that they have seen that the U.K. parliament has three times rejected the withdrawal agreement, the backstop. It just doesn't work. It's not Democratic. I hope that they will see fit to compromise. But in the meantime, we get ready to come out on October 31st."
     },
     {
       "speaker": {
-        "extracted_name": "DOS SANTOS",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "NINA DOS SANTOS"
+        "extractedName": "DOS SANTOS",
+        "normalizedName": "NINA DOS SANTOS",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "Well, the Labour leader Jeremy Corbyn has wasted no time even though parliament is on reset on its summer holidays, he has been campaigning for a new general election, saying that this is the only way to get past the current Brexit impasse. In the meantime, what he says he is proposing is a vote of no confidence in Boris Johnson's tenure and he is encouraging members of other parties, and rebels even from the conservative party to support him as a caretaker government before calling a snap election and then eventually a second referendum on Brexit."
     },
     {
       "speaker": {
-        "extracted_name": "JEREMY CORBYN",
-        "affiliation": "LEADER, LABOUR PARTY",
-        "normalized_name": "JEREMY CORBYN"
+        "extractedName": "JEREMY CORBYN",
+        "normalizedName": "JEREMY CORBYN",
+        "affiliation": "LEADER, LABOUR PARTY"
       },
       "text": "After failing to negotiate a Brexit deal that would protect jobs and living standards, Boris Johnson's Tories are driving the country towards a no deal cliff edge.  Let's be very clear. We will do everything necessary to stop a disastrous no deal from which this government has no mandate."
     },
     {
       "speaker": {
-        "extracted_name": "DOS SANTOS",
-        "affiliation": "CNN CORRESPONDENT",
-        "normalized_name": "NINA DOS SANTOS"
+        "extractedName": "DOS SANTOS",
+        "normalizedName": "NINA DOS SANTOS",
+        "affiliation": "CNN CORRESPONDENT"
       },
       "text": "Well, either way, a group of 100 members of parliament from various different parties who are determined to try and stop a no deal Brexit have written to the speaker of the house of commons urging him to recall members of parliament from their summer recess to try and find some way through the current Brexit impasse. But there are less than 80 days to go before the U.K. does leave the E.U. and number 10 in his current tenure has made it very clear that they are ready for a no deal Brexit.  Nina Dos Santos, CNN, outside Downing Street."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "Well, Britain's Prince Andrew is under pressure and facing fresh questions about his ties to convicted sex offender Jeffrey Epstein after a video surfaced over the weekend. We'll have more of that, next."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "Parts of northern India remain on high alert due to the threat of more deadly weather. Government official say at least 38 people have died since Saturday in monsoon triggered flooding and landslides.  Disaster management officials in the state of Punjab say at least 65 villages have been evacuated. Another 23,000 people are being told to leave the area.  The second major fire this month has forced thousands to flee their homes in Spain's Canary Islands. More than 600 firefighters have been deployed but strong gusting winds and high temperatures are making the situation even more difficult. The fire started over the weekend and so far, has left more than 10,000 hectares blackened.  In New York, Jeffrey Epstein signed a will declaring he was worth about $577 million just two days before his death. His brother Mark appears to be the only heir, that is according to the New York Post. The report says among Epstein's assets was $56 million in cash and another $14 million in fixed income investments. He had been awaiting trial for sex trafficking of underage girls when he was found dead inside his prison cell in New York earlier this month. He pleaded not guilty to the charges and was set to go on trial next year.  While meanwhile, Britain's Prince Andrew is facing fresh questions over his relationship with Jeffrey Epstein.  Hadas Gold has more now from London."
     },
     {
       "speaker": {
-        "extracted_name": "HADAS GOLD",
-        "affiliation": "CNN REPORTER",
-        "normalized_name": "HADAS GOLD"
+        "extractedName": "HADAS GOLD",
+        "normalizedName": "HADAS GOLD",
+        "affiliation": "CNN REPORTER"
       },
       "text": "For years, Prince Andrew has been tangled up with Jeffrey Epstein. But this new footage puts Prince Andrew literally inside Jeffrey Epstein's home after Epstein had already spent time in prison on sex crime charges.  The footage obtained by the Mail on Monday was allegedly shot in December of 2010. The video starts with Epstein who is shown leaving a town house and getting into a car accompanied by a woman who returns to the home.  In a separate clip Prince Andrew is seen opening the door and waving goodbye to a different woman. Prince Andrew had already been photographed with Epstein around the same time but they were seen walking together in Central Park.  This new footage adds to the image that Prince Andrew continued his associations with Epstein long after Epstein was a convicted pedophile.  Now CNN has not independently verified the video but in his statement, Buckingham Palace said, \"The Duke of York has been appalled by the recent reports of Jeffrey Epstein's alleged crimes. His Royal Highness deplores the exploitation of any human being and the suggestion that he would condone, participate in or encourage any such behavior is abhorrent.\"  The palace did not respond to specific questions as to why Prince Andrew was with Epstein in 201. Saying only referring to a statement from last month that \"The Duke of York accepts it was unwise to have met Mr. Epstein in December 201. The Duke has not met with Mr. Epstein since.\" Now the footage only further complicates the current situation for Prince Andrew who was named in court papers connected to Epstein's case this month. A woman claimed that she was forced to have sex with Prince Andrew when she was 17, a claim that the prince and Buckingham Palace have strenuously and repeatedly denied. In what is likely an important support though, Prince Andrew was pictured clearly riding in the same car as his mother Queen Elizabeth on the way to church last week. A clear message that the queen is standing by her son. Hadas Gold, CNN, London."
     },
     {
       "speaker": {
-        "extracted_name": "CHURCH",
-        "affiliation": "CNN ANCHOR",
-        "normalized_name": "ROSEMARY CHURCH"
+        "extractedName": "CHURCH",
+        "normalizedName": "ROSEMARY CHURCH",
+        "affiliation": "CNN ANCHOR"
       },
       "text": "And thank you so much for your company. I'm Rosemary Church. Inside Africa and your world headlines coming up next.  END"
     }
