@@ -1,14 +1,14 @@
 import logger from '../../utils/logger'
 import models from '../../models'
 import { ClaimBusterClaimDetector } from '../../workers/claimDetectors'
+import { getBestSpeakerName } from '../../utils/speaker'
 
 const { Claim } = models
 
 const saveClaim = async claim => Claim.create({
   content: claim.text,
   claimBusterScore: claim.score,
-  speakerExtractedName: claim.speaker.extractedName,
-  speakerNormalizedName: claim.speaker.normalizedName,
+  speakerName: getBestSpeakerName(claim.speaker),
   speakerAffiliation: claim.speaker.affiliation,
   canonicalUrl: claim.canonicalUrl,
   scraperName: claim.scraperName,
