@@ -43,7 +43,7 @@ fi
 
 # Copy everything over to the server in question
 echo "Delivering files to $u@$h:/var/www/tech-and-check-alerts"
-ssh -p22 $u@$h  -i $i "mkdir -p /var/www/tech-and-check-alerts" &&
+ssh -p22 $u@$h -i $i "mkdir -p /var/www/tech-and-check-alerts" &&
 rsync -rav -e "ssh -i $i" --exclude-from='.deployignore' --exclude-from='.gitignore' ./ $u@$h:/var/www/tech-and-check-alerts
 echo -e "Delivered."
 echo -e "${GREEN}Please remember to manually populate any required configuration files.${NC}"
