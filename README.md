@@ -68,6 +68,15 @@ Creating a new queue involves making a new directory in the `server/queues` fold
 
 The best thing to do is look at an existing implemented queue and work from there.
 
+## Continuous integration
+
+This project uses [Travis CI](https://travis-ci.org/TechAndCheck/tech-and-check-alerts) for continuous integration.  This takes the form of:
+
+1. Automated testing which is run on all pull requests.
+2. Continuous deployment to our staging server for any commit that is merged into the `master` branch.
+
+For more information about our continuous deployment setup read our [CD documentation](docs/CONTINUOUS_DEPLOYMENT.md).
+
 ## Contributing
 
 If you're interested in contributing to this project: thank you! Contributions are made via pull request. Please be sure to review our [contribution guidelines](CONTRIBUTING.md) and [code of conduct](docs/CODE_OF_CONDUCT.md).

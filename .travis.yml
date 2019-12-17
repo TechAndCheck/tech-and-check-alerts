@@ -1,8 +1,35 @@
 language: node_js
-node_js:
-  - 10
-  - node
+
+addons:
+  ssh_known_hosts:
+  - "$STAGING_SERVER"
+
+before_script:
+  - echo "Host $STAGING_SERVER" >> ~/.ssh/config
+  - echo "StrictHostKeyChecking no" >> ~/.ssh/config
 
 script:
   - npm run lint
   - npm run test:ci
+
+before_deploy:
+  - openssl aes-256-cbc -K $encrypted_fb9daac17ce1_key -iv $encrypted_fb9daac17ce1_iv
+    -in deploy_key.enc -out ./deploy_key -d
+  - eval "$(ssh-agent -s)"
+  - chmod 600 ./deploy_key
+  - ssh-add ./deploy_key
+
+node_js:
+  - 10
+  - node
+
+deploy:
+  - provider: script
+    script:
+      bash scripts/deliver.sh -h $STAGING_SERVER -u $STAGING_SERVER_USER bash &&
+      ssh $STAGING_SERVER_USER@$STAGING_SERVER '
+        cd /var/www/tech-and-check-alerts &&
+        ./scripts/build.sh &&
+        ./scripts/start.sh'
+    on:
+      branch: "$STAGING_BRANCH"
