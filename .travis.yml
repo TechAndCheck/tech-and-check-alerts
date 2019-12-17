@@ -27,7 +27,9 @@ deploy:
   - provider: script
     script:
       bash scripts/deliver.sh -h $STAGING_SERVER -u $STAGING_SERVER_USER bash &&
-      ssh $STAGING_SERVER_USER@$STAGING_SERVER 'cd /var/www/tech-and-check-alerts &&
-      ./scripts/buildAndStart.sh'
+      ssh $STAGING_SERVER_USER@$STAGING_SERVER '
+        cd /var/www/tech-and-check-alerts &&
+        ./scripts/build.sh &&
+        ./scripts/start.sh'
     on:
       branch: "$STAGING_BRANCH"

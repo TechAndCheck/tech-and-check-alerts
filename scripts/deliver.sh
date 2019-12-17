@@ -1,5 +1,14 @@
 #!/bin/bash
+# This script will deliver a (slight subset) of the local file contents for this project
+# to a remote server.  It is primarily used by Travis as part of our continuous integration
+# process, but in theory it could be invoked by a developer directly to do a hot patch.
+#
+# The script takes in the hostname and username, and invokes SSH to deliver the relevant
+# file set.  It does NOT take an identity file, so the relevant key must be explicitly
+# ssh-add`d before invoking this script.
+#
 # This code is modified / borrowed from https://stackoverflow.com/a/29754866/159522
+
 # saner programming env: these switches turn some bugs into errors
 set -o errexit -o pipefail -o noclobber -o nounset
 
