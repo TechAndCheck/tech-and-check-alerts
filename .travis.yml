@@ -28,6 +28,6 @@ deploy:
     script:
       bash scripts/deliver.sh -h $STAGING_SERVER -u $STAGING_SERVER_USER bash &&
       ssh $STAGING_SERVER_USER@$STAGING_SERVER 'cd /var/www/tech-and-check-alerts &&
-      ./scripts/deploy.sh'
+      ./scripts/buildAndStart.sh'
     on:
       branch: "$STAGING_BRANCH"
