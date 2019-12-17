@@ -26,7 +26,7 @@ node_js:
 deploy:
   - provider: script
     script:
-      bash scripts/deliver.sh -i deploy_key -h $STAGING_SERVER -u $STAGING_SERVER_USER bash &&
+      bash scripts/deliver.sh -h $STAGING_SERVER -u $STAGING_SERVER_USER bash &&
       ssh $STAGING_SERVER_USER@$STAGING_SERVER 'cd /var/www/tech-and-check-alerts &&
       ./scripts/deploy.sh'
     on:
