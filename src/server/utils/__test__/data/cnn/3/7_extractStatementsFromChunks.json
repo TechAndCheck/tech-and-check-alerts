@@ -119,798 +119,912 @@
   "output": [
     {
       "speaker": {
-        "name": "CHRISTIANE AMANPOUR",
+        "extractedName": "CHRISTIANE AMANPOUR",
+        "normalizedName": "CHRISTIANE AMANPOUR",
         "affiliation": "CHIEF INTERNATIONAL CORRESPONDENT"
       },
       "text": "Hello, everyone, and welcome to \"Amanpour.\"  Here's what's coming up."
     },
     {
       "speaker": {
-        "name": "KEN CUCCINELLI",
+        "extractedName": "KEN CUCCINELLI",
+        "normalizedName": "KEN CUCCINELLI",
         "affiliation": "ACTING DIRECTOR OF U.S. CITIZENSHIP AND IMMIGRATION SERVICES"
       },
       "text": "When you're tired and you're poor who can stand on their own two   feet and who will not become a public charge."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Is the Trump administration rewriting the rules on legal immigration too?  I ask Cesar Vargas, the first undocumented immigrant   admitted to the New York State Bar. Then --"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "We hope someday to get this good."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Watch Chinese worker as they crash into American worker's rights in American Factory.  We get a peek at the first film project picked for   Netflix by the Obamas. Plus --"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "I think tipping feels queasy in any setting."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Restaurateur, Danny Meyer, tells our Walter Isaacson why he's going to war with tipping. Welcome to the program, everyone.  I'm Christiane Amanpour in London. President Trump has focused on limiting immigration from the very start.  And now, he's setting his sights on legal immigrants.  In just over a   month, people applying for a green card could be turned down if they've ever received certain benefits or even if they are deemed likely to use   them in the future.  It's called the public charge rule which Congress legislated decades ago, but it's complicated.  And opponents argue that the   move now is just an attempt to scare away low-income immigrants and people of color. Ken Cuccinelli, the acting director of Citizenship and Immigration Services, stepped into this heated issue with a dramatic reinterpretation   of the Emma Lazarus poem, which is affixed to the Statue of Liberty and says, \" Give me your tired, your poor, your huddled masses yearning to   breathe free.\"  And for more than a century, these words have inspired countless immigrants. Cuccinelli's, \"Give your tired and you're poor who can stand on their own two feet and who will not become on a public charge,\" is arguably less   welcoming.  And here is doubling down."
     },
     {
       "speaker": {
-        "name": "CUCCINELLI",
+        "extractedName": "CUCCINELLI",
+        "normalizedName": "CUCCINELLI",
         "affiliation": ""
       },
       "text": "Well, of course, that poem was referring back to people coming from Europe where they had class-based societies, where people were   considered wretched if they weren't in the right class."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Already, two California counties have files suit against the White House over the incoming rule.  Among their arguments that it could   endanger public health by discouraging immigrants from seeking care for contagious diseases. Joining us is Cesar Vargas.  He became famous as the first undocumented immigrant admitted to the New York State Bar.  He now is a U.S. citizen and   he's working for Immigration Reform. So, welcome back to the program, Cesar."
     },
     {
       "speaker": {
-        "name": "CESAR VARGAS",
+        "extractedName": "CESAR VARGAS",
+        "normalizedName": "CESAR VARGAS",
         "affiliation": "NEW YORK'S FIRST UNDOCUMENTED LAWYER"
       },
       "text": "Christiane, thank you so much for having me."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "OK.  So, let's start first with Ken Cuccinelli's words.  How do you interpret what he has amended from the Emma Lazarus welcome and what he   states in terms of defining what wretched meant when that poem was written?"
     },
     {
       "speaker": {
-        "name": "VARGAS",
+        "extractedName": "VARGAS",
+        "normalizedName": "VARGAS",
         "affiliation": ""
       },
       "text": "Well, let's be clear about the facts especially of what this administration is doing.  You know, they are saying they are trying to make   immigrants self-sufficient.  And the reality is that we know that undocumented immigrations don't receive any type of government benefits, we   know very well that immigrants are actually mostly off the books. And I think when -- your question about the Statue of Liberty, you know, frankly, this is un-American, when we are literally trying to rip out those   words, those words that have meant so much for so many immigrants for generations, it's very clear that this is another attempt of the   administrations attack on legal immigrants, on undocumented immigrants and really to reshape our immigration system to, once again, target immigrants   of color. The public charge rule has been in the books since the 1880s and it actually came in the picture during the Chinese Exclusion Act when the U.S.   sought to criminalize and sought to blame Chinese immigrants for log wages, for economic turmoil.  Again, we're seeing that once again where the people   are blaming Latinos, blaming immigrants from Central America because of problems in the U.S. So, you know, we are seeing this once again that it's an un-American attempt to target immigrants and to really the base of what this nation is   about, which is a nation of immigrants.  And immigrants are working, immigrants are paying taxes, $11.2 billion in taxes, state tax, in local   taxes and even more in federal taxes.  So, you know, we are seeing that the numbers don't add up.  We are seeing very clear another attempt of this   administration target immigrants of color."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Tell me why you think it will just be as the critics point out or as they claim it will target, as you just said, immigrants of color and   maybe low-income and maybe that's a certain demographic that, I don't know, wants to, needs -- the administration wants to target. But my question is this.  You are working with a lot of immigrants, people who are trying to, you know, get their papers in order.  You are also   working for Immigration Reform.  What kind of individuals, what kind of benefits put these individuals at risk?  I mean, you said that most of them   don't go on benefits.  So, what is the -- I mean, where's the meat there, so to speak?"
     },
     {
       "speaker": {
-        "name": "VARGAS",
+        "extractedName": "VARGAS",
+        "normalizedName": "VARGAS",
         "affiliation": ""
       },
       "text": "Yes.  Just to see how it was implemented.  So, prior to what this rule did, anyone who receive cash benefits, cash assistance, who receive   loan institutional care would be subject to this public charge rule.  That was a very narrow interpretation of what we saw prior to this   administration. Now, we're seeing that anyone who has received food, nutritional assistance, housing, Medicaid or even type of -- looking into factors like   credit score, looking at whether you speak English, looking where you come from, age, education.  So, as you can see, you know, it looks very   objective once you just see it on its face.  But once you start implementing, you see very clearly that these targets and actually, goes   against many immigrants who are coming from Central America, who don't have large estates, who don't have -- don't speak much English who are coming   here for a better opportunity. This targets immigrants from Central American, immigrants from Africa, immigrants from the Middle East and so on, whereas it does benefit someone,   an English speaker, like someone in England, someone who perhaps has more education like in France or -- and so on.  So, implemented all this, you   know, as a legal permanent resident, you know, fortunately, you know, I am a legal permanency, not a citizen yet, but, you know, we are seeing now   that the chilling effect that it's causing our immigrant communities. And even though it's not going to apply to those who are already legal permanent residents like myself, but it will send a chilling effect on   those immigrants who don't receive any type of benefit but their U.S. citizens children do receive those benefits.  And what we're seeing now is   people really taking -- stepping back from chemotherapy, stepping back from any type of medical care, reproductive care because they feel that if they   receive this benefits then -- or their children receive their benefits in which they're legally entitled to because they're U.S. citizen, then   they're going to lose a chance to adjust the immigration status and become legal permanent residents or citizens."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "I said that -- and we've noted that at least two California counties are filing suit against this.  They have cited amongst their   other, you know, complaints that it could be a public health menace, stopping people not just from getting the kind of care you've been talking   about but care that could actually affect the rest of the community in terms of communicable diseases and things. They've also said, one of the attorney generals said, that it could have a big impact on the economy, including of a big state like California.  Let's   just play what he said."
     },
     {
       "speaker": {
-        "name": "XAVIER BECERRA",
+        "extractedName": "XAVIER BECERRA",
+        "normalizedName": "XAVIER BECERRA",
         "affiliation": "CALIFORNIA ATTORNEY GENERAL"
       },
       "text": "We're preparing to file, as well.  We think it's un-American, we think it's unlawful and we believe it   would destroy good portions of our economy if we were to allow a rule like this to take effect because we rely on the hard work of people who   understand what it means to toil and to somehow overcome.  To be able to have a state like California that has become a number one state   economically for this country and the fourth largest -- fifth largest economy in the world.  We need people who want to show they've earned a   place in America."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "So, what is -- that is the attorney general of the State of California, saying that it could get an even bigger in terms of a lawsuit   against this ruling.  Just break down a little bit his argument in terms of the economic impact for the United States right now."
     },
     {
       "speaker": {
-        "name": "VARGAS",
+        "extractedName": "VARGAS",
+        "normalizedName": "VARGAS",
         "affiliation": ""
       },
       "text": "Yes, no question about it.  We know very well that the Migration Policy Institute and Institute of Taxation have shown that undocumented   immigrants pay taxes in the billions.  In state and local taxes, approximately $11 billion.  They're paying to the payroll taxes. So, when you are -- when this rule is sending the chilling effect or even when it's implemented and people are either afraid to get some type of care   or are afraid to even go shopping, even afraid of going to drop off their children to school, you know, you see the chilling effect of people leaving   the cities, people not going shopping, people who are not going to spend their resources when it comes to, you know, really generating a revenue for   the city and for states. So, you know, the impact is very clear.  So, what Californians and other states like are doing is they are demonstrating that they're   going to be injured by this new rule and ultimately, to really argue the legal grounds that what the U.S. areas and what Ken Cuccinelli and what   Trump administration is doing is that they don't have authority and they're going out of bounds of what Congress intended to do when it enacted the   public charge rule."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Well, it seems --"
     },
     {
       "speaker": {
-        "name": "VARGAS",
+        "extractedName": "VARGAS",
+        "normalizedName": "VARGAS",
         "affiliation": ""
       },
       "text": "What they are doing --"
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Sorry to interrupt you, but it seems that Congress -- the complaint is that when it legislated all those many years ago, it didn't   want to touch the most, you know, difficult and politically, you know, political inflammatory parts of this because it is so complicated.  So, let   me ask you, Cuccinelli has said that this is an attempt, you know, to encourage self-reliance and less dependency on the state, which is a, you   know, a Republican ideal.  And here is what President Trump said about this move.  He said a this yesterday."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "DONALD TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "U.S. PRESIDENT"
       },
       "text": "I don't think it's fair to have the American taxpayer paying for people to come in to the United States.  So, what we've   done is institute what took place many, many years ago that our founders were doing, that we are just reinstituting it and I think it's long   overdue.  I am tired of seeing our taxpayers paying for people to come into the country and immediately go into welfare and various other things.  So,   I think we're doing it right."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "So, that's the president sort of bolstering the argument that he has and his administration has for this.  I mean, some people will say what   is wrong with, you know, wanting to encourage less dependency on the state?"
     },
     {
       "speaker": {
-        "name": "VARGAS",
+        "extractedName": "VARGAS",
+        "normalizedName": "VARGAS",
         "affiliation": ""
       },
       "text": "You know, no one is disputing that people should be able to be self-reliant.  Of course.  But, you know, very well, the American people   and -- have benefitted from some anti-poverty program.  Trump's own ancestors, they came from Germany, and many immigrants have, at some point,   used those anti-poverty programs, have used some type of assistance to get on their feet and eventually, to create a massive and amazing enterprises   like real estate empires, you know, tech companies. So, what this administration is essentially doing is targeting communities of color.  And what we see now very well is that, you know, when we're   talking about immigrants taking away jobs, immigrants not paying taxes or immigrants, you know, taking welfare out of Americans, how about all those   times where big corporations are not paying taxes?  How about all the tax breaks that Donald Trump's own real estate companies benefitted from our   taxes to help him create the fortune he has now.  How about all those billions who still have offshore accounts and not paying taxes? Instead of blaming the immigrant who is working hard and paying taxes, whether it's sales tax, property taxes or income taxes, why don't we   actually put the problem, which is an economic system that benefits just a few, prevents the very wealthy from paying taxes and actually help the   American people elevate on us. This is really what the attorney general, Xavier Becerra said, this is un- American.  And instead of reshaping policy to target not just undocumented immigrants and legal immigrants, we should create and talk about a   conversation about reforming our immigration system where people can come out of the shadows, pay taxes and contribute to the country they call home. My family came here working hard like many immigrants throughout the whole country and throughout generations.  And the only thing we're asking for is   an opportunity to contribute back.  And I think this is what is at stake.  What is at stake is not necessarily just a political discussion, what is at   stake really is what the Statue of Liberty stands for, \"Give me your tired, your huddled masses yearning to be free.\"  And -- you know, and that word   poor is not just people who are just asking for free things, it's just people who are asking for an opportunity to give back, an opportunity to   live the American dream."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "So, it's been estimated that this could affect nearly 400,000 people, and I know you work with, you know, many thousands of people who   are probably facing the same problem.  And your own mother is in a sort of a limbo, isn't she?  How does this affect -- you are, as you've just said,   a legal resident awaiting citizenship having been an undocumented immigrant.  Your mom, though, doesn't even have that status, does she yet?"
     },
     {
       "speaker": {
-        "name": "VARGAS",
+        "extractedName": "VARGAS",
+        "normalizedName": "VARGAS",
         "affiliation": ""
       },
       "text": "No.  And, you know, I think, you know, for me, it's not just I'm a legal permanent resident but I'm also a U.S. soldier.  I recently enlisted   in the U.S. military because I do believe that my service in uniform is about defending the nation that I call home.  But also, it's about   defending the values of what this nation stands for, a nation that welcomes and opens the gates up for immigrants to come and live the American dream. And for my mom, you know, this could likely impact her because she's 74 years old.  She, at this moment, is unemployed but at the same   time, she has given me so much.  And now, I'm an attorney and I can provide for and support her.  But even that under the new regulations, even my   support for my own mother might not be enough to help her stay here. You know, even though I'm a U.S. soldier, even though I'm a service-member, even though I'm putting my life on the line to defend this country, to   defend the president, to defend, you know, countless Americans, even my own mother cannot stay here in the U.S. and live the American dream.  And, you   know, that's something that we need to be ensure that we are changing and that's something we need to ensure that we are mobilizing to really keep   what is at stake here.  It's not just an individual policy, it's about the values of what we are as a nation and it's a nation that we continue to   welcome immigrants from across the country and really give words and give fire to that beautiful phrase and poem that is on the Statue of Liberty."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "You talked about the politics surrounding just earlier.  It is quite political, though, and President Trump himself two months before the   election, three years ago, nearly now, he talked to the Christian Broadcasting Network and he talked about immigration and demographics and   when it meant for the Republican Party.  Let's just listen."
     },
     {
       "speaker": {
-        "name": "TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "TRUMP",
         "affiliation": ""
       },
       "text": "I think this will be the last election that the Republicans have a chance of winning because you're going to have people flowing across the   borders, you're going to have illegal immigrants coming in and they''re going to be legalized and they're going to be able to vote.  And once that   all happens, you can forget it.  If we don't win this election, you'll never see another Republican and you'll have a whole different church   structure, you're going to have a whole different Supreme Court structure."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "So, we've just got a few seconds left, Cesar.  This is potentially, perhaps, critics say about President Trump's base."
     },
     {
       "speaker": {
-        "name": "VARGAS",
+        "extractedName": "VARGAS",
+        "normalizedName": "VARGAS",
         "affiliation": ""
       },
       "text": "Absolutely.  You know, that's a to really, you know, racial and racist remarks by the president.  You know, people say, you   know, the president is not racist or questioning whether the president is racist.  But at the very least, we can agree that his statements are overly   racist.  When he talks about, you know, Democrats wanting to give a path to citizenship for immigrants, what he's saying pretty much and what   Republicans are saying is that, \"We -- brown people, black people and just immigrants who are going to actually exercise their vote and vote for   progress, vote for liberty.\""
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "OK."
     },
     {
       "speaker": {
-        "name": "VARGAS",
+        "extractedName": "VARGAS",
+        "normalizedName": "VARGAS",
         "affiliation": ""
       },
       "text": "That's what this administration is targeting."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Cesar Vargas, thank you very much indeed for joining us tonight."
     },
     {
       "speaker": {
-        "name": "VARGAS",
+        "extractedName": "VARGAS",
+        "normalizedName": "VARGAS",
         "affiliation": ""
       },
       "text": "Thank you so much for having me again."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Now, that dramatic story and the story of America's manufacturing decline powered President Trump to the White House.  And yet   China, the so-called job draining culprit is, in fact, investing heavily in American manufacturing.  But managing the melting pot on the factory floor   can be enormously difficult.  It's something a new documentary, \"American Factory\" explores.  And it's also the first production picked for Netflix   by President and Mrs. Obama and their new company Higher Ground Productions. It takes us inside the Chinese Fuyao plant based in Dayton, Ohio as Chinese and American workers and their bosses struggle to build an efficient,   modern business amid the inevitable clash of culture and workplace ethics.  Directors Julia Reichert and Steven Bognar told me what lead them to this   incredible story. Julia and Steven, welcome to the program."
     },
     {
       "speaker": {
-        "name": "JULIA REICHERT",
+        "extractedName": "JULIA REICHERT",
+        "normalizedName": "JULIA REICHERT",
         "affiliation": "DIRECTOR, \"AMERICAN FACTORY\""
       },
       "text": "Thank you."
     },
     {
       "speaker": {
-        "name": "STEVEN BOGNAR",
+        "extractedName": "STEVEN BOGNAR",
+        "normalizedName": "STEVEN BOGNAR",
         "affiliation": "DIRECTOR, \"AMERICAN FACTORY\""
       },
       "text": "Thank you, Christiane."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Why did you choose to do this story of \"American Factory\"?  It is a remarkable story and we'll get into it.  But why did you choose to do   this?"
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Well, you know, we live in Dayton, Ohio where the American factory is located.  And we could see -- you know, we all know that the   rivalry between China and the U.S. has been like a big story of the 21st century.  And here it turns out that a Chinese entrepreneur billionaire   bought an abandoned general motors plant right in our hometown.  You know, a general motors plant that had provided jobs for thousands of Americans in   our town, that helped create the blue-collar middle class of our town.  Diverse, thriving, that plant closed.  And it was -- you know, it was a   terrible blow on our community there in Dayton. So, if you fast forward, you know, about eight years, we get the news, the plant is going to be manufacturing again.  And but a Chinese billionaire   bought it.  So, we could see that this was going to be, you know, a big global story that was going to take place right in our hometown, where we   know people, where we know people in the plant.  And we thought this could be an amazing story where you see on a human level what kind of   globalization looks like."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "But it's also, Steven, to me, watching the whole thing, it looked like a really dramatic arc of a film and a story of two   cultures.  You saw the human angle, you saw the culture clash and then you saw the difference in work ethic and workers' rights, as they clashed, as   well, between China and the United States. There were also kind of funny elements to it.  For instance, early on where you show you get access to the Chinese officials talking to their employees   who they brought over about what they should expect from the American workers.  Describe a little bit about that part of the film."
     },
     {
       "speaker": {
-        "name": "BOGNAR",
+        "extractedName": "BOGNAR",
+        "normalizedName": "BOGNAR",
         "affiliation": ""
       },
       "text": "It's always funny to hear a different culture explain what Americans are like.  And so, when this -- during this sort of cultural   orientation session, the leader, Andrew Ma (ph) is explaining that you can always spot an American walking down the street in Europe because they're   the one wearing the baggy pants and the sloppy shoes.  And that kind of thing -- you know, we just appreciated that they were letting us in to hear   how they talk about us."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "And he also said, \"Well, you know, you're allowed to criticize the president.  Nobody will do anything to you.\""
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "You know, I was just about to say that."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "And that was -- it was interesting."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Yes.  I thought it was very interesting."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "And you can see the rapt somewhat bemused look on the faces of the Chinese workers like, \"Really?\"  But then, let's go into the plant.    So, the GM car plant closed, then this guy, Chairman Cao, he buys this plant and turns it into the glass factory, and that is for windshields and   all the other glass that goes into making cars. Talk to me a little bit about the culture clash because at first, there's a lot of happiness and relief from the Americans that actually, \"Whoa, we are   getting these jobs back.\"  But then they sort of rub up against, \"Well, you know, we just have different ethics on certain things.\""
     },
     {
       "speaker": {
-        "name": "BOGNAR",
+        "extractedName": "BOGNAR",
+        "normalizedName": "BOGNAR",
         "affiliation": ""
       },
       "text": "Different perceptions of what is normal.  So, right now, in -- you know, in China, people are working long hours.  They might work 12 hours a   day, six days a week.  American workers work hard in that factory and in other factories.  That is a very challenging environment in which to work.    It's hot.  The work is intense.  It's a cacophony of intensely loud sounds.  And at eight hours, you're exhausted. So, we have great respect for anyone who can do that kind of work, but there was definitely different expectations and that honeymoon phase, as   you described, Christiane, it kind of gave way to pressure on the Americans as the factory was not going into profit, was not making profit.  And that   sort of ended the honeymoon phase."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Well, we also realized, you know, we did get to China and it really helped us understand the huge cultural differences and also, just   the historic differences.  If you think about it, and I think it's important that we keep this in mind, especially on the heartland of America   where we live.  In the U.S. in the past, not -- you know, a few decades and certainly in the last decade or so, there's been a gradual beaten down --   beatening down of workers' wages, of workers' possibility in the -- throughout the entire working class, you could say. We've lost and lost and lost.  We've lost support, we've lost money, we've lost our homes.  You know, we've lost a lot as a country.  Even our stature   in the world recently has been questioned.  But look at China.  China has gone from rural poverty and starvation to now has a booming middle class.    And you really feel being in China a sense of mission, a sense of, \"I'm going work hard.\"  And we saw this in the U.S., too, in our factory.  \"I'm   going to work hard.  Extra hard.  Not just for the company but for the country.\"  And those were very linked. I think there was a sense of, you know, if you're Chinese, you know, we're all from the same homeland.  The kind of nationalism was appealed to keep   workers working really hard.  So, there was that sense of mission and there was a sense of kind of disenfranchisement on the Americans.  So, it was   going into different directions."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Yes.  And you were able to tell that story very clearly and, again, very humanly through these workers and their bosses and all the way   up to the chairman of the Chinese company.  But I was struck, also, how the Chinese and the chairman himself, Cao, who said, \"This is not just about   manufacturing.  This is about us trying to show to America what China and the Chinese are about.  Trying to improve what America thinks about us.\"  I   thought that was really interesting."
     },
     {
       "speaker": {
-        "name": "BOGNAR",
+        "extractedName": "BOGNAR",
+        "normalizedName": "BOGNAR",
         "affiliation": ""
       },
       "text": "The chairman is a very complex person, and the more time we spent with him over the three years that we've filmed the more layers we saw in   him.  You know, he's a driven businessman and he always looks at the profit line, you know, the bottom line, and he's also practicing   Buddhist. And at times, his instinct to like say, \"We're going to drive this factory to success and it's going to take all of our will power to do it,\" even   comes into conflict with his own sort of spiritual beliefs and his Buddhist practices."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Well, I was going to get to that sort of more further along because that's one of your ending sequences where you see him in China at a   Buddhist temple praying and you get the incredible access to him in a car where he's driving or his being driven, he's a billionaire, and he's   reflecting.  Tell me about -- he's reflecting on whether he's become too much a master of the universe."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Well, what he said to us -- and this was -- the interview was done sitting in his office, sitting on a couch, just an audio interview, no   cameras there, a very quiet moment of reflection.  And we asked him to think back about his life, and he talks about how he realized he's harmed   the environment, the things he loved as a child, the flowers, the birds chirping, and so forth.  He's been part of destroying that. He asked himself, \"Am I contributor or am I a sinner?\"  And I think as a Buddhist, he considers that, has all this, you know, creation of jobs, like   creation of 15 factories in China, has that contributed to society or has he sinned against, in some ways, his own belief.  It's very interesting."
     },
     {
       "speaker": {
-        "name": "BOGNAR",
+        "extractedName": "BOGNAR",
+        "normalizedName": "BOGNAR",
         "affiliation": ""
       },
       "text": "You know, one of our goals with the film was to create rich characterizations of both Americans and Chinese folks, and to present   multiple points of view that don't necessarily agree with each other but are treated with respect.  You know, all this what is happening with   globalization, automation, the increasing pressure on working people all over the world, it's a crucible in which we find ourselves.  And we hope   the film can spark conversations about the future of work.  Is all this sustainable?  This sort of the incredible like drive to just have a   productivity.  We hope that conversation starts."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "I want to play a clip which shows a little bit of the culture clash and it's when the clients, in this case, Honda, is coming to the   factory to inspect the glassware that perhaps they'll buy for their cars.  So, let's just play this bit."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "The glass is going to run through the furnace basically the same as the other furnace over here.  This one is just a little bit   faster.  So, it comes down the line, it comes.  Down here is another one of those three liners that puts the glass in.  This   is an automatic."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "There must be some flaws if the glass exploded.  The overall quality of the glass is not good enough, but   there's no way to improve it now.  We still want to achieve our targets.  One is output.  The second is speed.  We need one more person.  Transfer   someone from China here."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED FEMALE",
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
         "affiliation": ""
       },
       "text": "We have the Chinese who want numbers on this side, you have quality who want customer satisfaction on this side and we're in   the middle."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "So much packed into that and it is at the heart of not just the scene of manufacturing but the heart of globalization, reverse   globalization, workers' rights versus efficiency and all the rest of it."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Yes, Jane is absolutely right.  The workers are squeezed in the middle of the drive for profit, which you see there and also the need for   quality because, you know, if you send glass to BMW or one of the big three and it has flaws, you're not going to have that customer for very long.    And also, the question of safety, and the workers really are kind of squeezed in the middle of that."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "I want to play another clip now which is in the factory in China.  And again, it's sort of like your view of the American workers from   the Chinese perspective."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "What is our slogan?"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "We hope someday to get this good."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "Keep training them."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "So that's, obviously, from the trailer.  It's a little bit of clips pushed together.  But it does show two sorts of different and   contrasting views of what the future and what manufacturing looks like.  It leads to the more dark part of this story, and that is when in the U.S. the   workers start to want to lobby to have the union in there because they feel that there's safety issues, there's workers' rights issues, wage issues. And Cao, the chairman, said, you know, \"Forget about it.  If they bring the union in, I close the factory.\"  Walk us through that part of the story."
     },
     {
       "speaker": {
-        "name": "BOGNAR",
+        "extractedName": "BOGNAR",
+        "normalizedName": "BOGNAR",
         "affiliation": ""
       },
       "text": "Well, it becomes a major conflict during the years we were filming.  Because in the early days, there was sort of rumors there might   be a union vote or a union campaign but it really picked up in 2017. 2016, it was picking up speed but in 2017, there was an actual call for a union vote.  And that became a very dramatic situation.  It led to more   polarization within the factory and between the cultures. You had, you know, the Chinese team was definitely opposed and the management was opposed to the union coming in as would be any American   company.  And the workers were -- there were some who were very much in favor, there were some who definitely didn't want it, and then there were a   lot of people undecided. But as the pressure mounted, things happened like the company brought in these consultants.  Union avoidance consultants to do a very intensive   messaging campaign against the union.  And we got to see how the idea of workers organizing for their rights can be turned against them, you know,   against the --"
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "It can be really thwarted as people became kind of intimidated and confused.  And actually, some workers were fired because they were   union supporters.  It's illegal to fire them because they're union supporters but they found ways to fire them."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Yes.  And in fact, even the Chinese said I will find a way to do it.  I mean they knew that as well."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "And I guess --"
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Exactly right."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "-- the fact of the matter is, that these workers, at least significant numbers of them say they're getting paid less per hour, less   per year than they were when they worked for the American firm GM.  And yet others say well, thank God we've got a job after the GM plant closed."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "So you have all that tension and then you have this idea that at the end you write a very clear and stark graphics at the end where you say   something like by 2030, 375 million people around the world will lose their jobs to automation.  And you show at the end of your story how even in this   factory, the glass factory, the Chinese officials are bringing in robots to take the place of one, two, three, and eventually four workers on a certain   line."
     },
     {
       "speaker": {
-        "name": "BOGNAR",
+        "extractedName": "BOGNAR",
+        "normalizedName": "BOGNAR",
         "affiliation": ""
       },
       "text": "Automation is coming.  And we hope that -- you know, we put that scene in there because we want to spark conversation about it. What are we going to do about AI?  What are we going to do about automation?  And how does that allow people to have decent lives, decent   working lives?"
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Well, you know, automation has been with us since the cotton gin.  It's not like it's a new thing for American workers or American   companies. It's more, to me, the question is, OK, automation can help workers not have bad backs, cannot have repetitive stress injuries.  That's a good thing. It's more how do we then deal with as a country, as Americans?  Who is at the table as we discuss the future of work?  Is it just corporations,   corporate leaders?  Maybe with the help from the government or should somehow workers have a say through their organizations in how automation is   going to be dealt with. Are we going to have a shorter workweek?  Are workers going to be retrained?  What is going to happen with this? I don't think we should view it as a threat but really rather as an opportunity.  But the question is, who has power in that decision making?    And where does the voice of workers come in?"
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "I mean I think that's really important because much of the populist position is not about automation.  It's about foreigners taking   your jobs.  Of course, the Americans have said, oh, the Chinese are taking your jobs or Mexicans are taking your jobs. But automation is one of the biggest culprits, as you say.  We're very interested that this is the first film that the Obamas have chosen with   their higher ground productions to feature and to put on their slate of what they're offering to Netflix. They, obviously, saw it after it premiered at Sun Dance.  So you had done it without them.  But reflect on that."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Well, you know, I love the name that they chose.  The president and the first lady \"Higher Ground.\"  Higher Ground Productions. When we made the film, especially as we edited the film, we realized that the best we could to do to present to an audience, the best way we could   help an audience understand what is going on in the world today for workers, for working people to be was to listen to all voices and honor all   voices, whether it's the owner, whether it's the management, whether it's the blue-collar workers. We really try to present you what we saw happening.  And I think the president and the first lady liked that and wanted to elevate that."
     },
     {
       "speaker": {
-        "name": "BOGNAR",
+        "extractedName": "BOGNAR",
+        "normalizedName": "BOGNAR",
         "affiliation": ""
       },
       "text": "Well, we don't see on our movie screens and our T.V. screens that many stories about working people.  And so it's a way to sort of bring   stories that people don't get to see and also to try to build bridges. We live in a very polarized time where it's hard to have conversations now.   And we're trying to make a film here that allows for conversations."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "And, you know, the president and the first lady, they did say this to us.  They come from very humble beginnings. The first lady said my dad, at the opening of the film, in that cold weather, those workers, that was my dad.  And I think the president felt   that. He's from humble beginnings, also, felt like they were embedded in this human intimate stories from our hometown and from the small city in China,   embedded in that are policy questions, policy issues, that he is kind of a policy wonk. He could see could be a springboard for deep discussion, not just about sort of you know what kind of -- what does it look like in the trade war   but what does it look like for human beings? What does it look like for people?"
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "Well, it is a remarkable story.  Thank you very much, indeed, Julia Reichert and Steven Bognar, thank you very much."
     },
     {
       "speaker": {
-        "name": "BOGNAR",
+        "extractedName": "BOGNAR",
+        "normalizedName": "BOGNAR",
         "affiliation": ""
       },
       "text": "Thank you."
     },
     {
       "speaker": {
-        "name": "REICHERT",
+        "extractedName": "REICHERT",
+        "normalizedName": "REICHERT",
         "affiliation": ""
       },
       "text": "Thank you."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "And despite the extraordinary access they had to the factory floor and the executive suite, the film was made entirely independently and   the producers had total editorial control. Now, from the factory to the food business.  Our next guest is asking a very simple question.  Why should anyone go to a restaurant that doesn't   roll out the red carpet? Restauranteur Danny Meyer is well-known for turning shake shack from a hotdog cart in Manhattan to a global burger empire.  He's also the founder   of some of New York's most acclaimed names, including the Gramercy Tavern, Union Square Cafe, and Maialino. The key to his success?  Great service.  Meyer sat down with our Walter Isaacson to talk about his illustrious career breaking all the rules."
     },
     {
       "speaker": {
-        "name": "WALTER ISAACSON",
+        "extractedName": "WALTER ISAACSON",
+        "normalizedName": "WALTER ISAACSON",
         "affiliation": "CONTRIBUTOR"
       },
       "text": "Danny, welcome to the show."
     },
     {
       "speaker": {
-        "name": "DANNY MEYER",
+        "extractedName": "DANNY MEYER",
+        "normalizedName": "DANNY MEYER",
         "affiliation": "FOUNDER & CEO, UNION SQUARE HOSPITALITY GROUP"
       },
       "text": "Thanks, Walter."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "It's about 35 years ago you opened Union Square Cafe.  And it kind of transformed what a restaurant could be.  What was your thinking?"
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "I just wanted to create a restaurant in New York that if only it existed would have been my favorite restaurant.  When I went to a   restaurant growing up, when I went to my favorite trattoria when I was 20- year-old working in Rome, they were genuinely happy to see you. And if you came back, you felt like you belong there.  So I wanted to make a place that made you feel like you belonged and what I was finding in New   York, especially if you think about the 1980s, post-disco era, into the nightclub red velvet rope era, those places were thriving. And a number of the French restaurants were somehow riding a wave of exclusion rather than inclusion.  In other words, the more they pushed you   away, the more you thought you needed to be there. And I just didn't get it.  It didn't resonate with me.  And I said I understand good food, I care about good food, and I also knew good   hospitality. And I just said put them together.  It's not brain science."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "So growing up in St. Louis and a father was in food and travel and that sort of business, we biographers, kind of feel it's all about dad. But your dad went bankrupt.  Explain to me why you followed in his footsteps."
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "Well, it is all about dad and I would say mom.  I really do think it's both. The role my dad played was that he was not only in love with travel and in love with food.  In fact, he and I cook together all the time, spent just   as much time playing catch.  He was my baseball coach, little league baseball growing up. So he was a really, really involved dad but he also was an entrepreneur.  And I was watching.  I was watching how he always would take these ideas   that he had and try to come up with a fresh approach to business. Yes, he went bankrupt twice.  By the time I was 20-years-old, I saw him go bankrupt twice.  You know, I can still cry thinking about those family   meetings where he would be ashamed and talk to us about how things just hadn't worked out this time. And I didn't really understand fully what had happened because I thought his ideas were good.  As a matter of fact, he would ride the wave way up   high and then it would come down. And I thought his flaw was expansion.  I thought that the two times he had gone bankrupt were both associated with growing his company. And so I promised myself I'm going to take the good stuff from him but I'm just never going to expand.  And for that reason, I didn't have a second   restaurant which should become Gramercy Tavern for 10 years.  I had one restaurant for the first 10 years. The real issue that I came to learn was that he really needed to be the king.  And he needed to surround himself with people who made him   feel better about himself as opposed to people who were strong where he had weaknesses. As a result, I think that some of his business lessons became mine.  And to this day, I'm still wary of growth but more than that, I'm really, really   focused on surrounding myself with talented people that challenge me to be better."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "So your restaurant group and you've opened, after your dad, Union Square Cafe and Gramercy Tavern.  And before, you do Shake Shack.    You do a lot of one-off restaurants at a very nice, very casual but also fine-dining.  Tell me about each of the concepts and how you picked them   out."
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "Well, it's so funny because this is not how a typical business school would ever advise you to do it.  Every single one of those   businesses was an episodic reaction to an opportunity that felt right. The most frustrating thing about Union Square Cafe, the first one, is that it's actually not on Union Square.  And so when we got a call from Met Life   who was thinking about redesigning their building, which had been designed in the 1920s, and completed in the 1940 right on Madison Square Park   overlooking the park, I said we got to do something. The deal was you had to do two restaurants.  And I looked at the space and construction, I said that's an American brasserie.  That became 11 Madison   Park. On the other side of the historic wall that couldn't come down, we had to do a second restaurant.  Our chef, Michael Romano at Union Square Cafe, had   been cooking with Indian spices so much so at Union Square Cafe that half of our wines didn't go with our food anymore. And so I said, Michael, why don't we extract the Indian spices and open a green market-driven Indian restaurant.  That became Tabla.  So we opened   both of those restaurants and before too long, we had four restaurants each of which had three stars."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "Why did you decide to do shake shack which is really just a franchise of burgers and fries and everything else?  It doesn't fit into   your fine-dining concept.  It really doesn't fit into your healthy eating concept."
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "It fell squarely into the concept we called enlightened hospitality.  And I had grown a little bit weary of hearing people tell me   that hospitality is only for fancy restaurants. And so when we started the Madison Square Park conservancy to really restore that park, one of the visions was that you can have a revivified   park that is beautiful, that if you don't give people a reason to use it, it's just going to tank again. And I thought that having public art in Madison Square Park would be a great reason for people to come use the park.  We've worked with the Public   Art Fund of New York.  They brought in an artist from Thailand. And the artist said I've got this piece of art with four taxi cabs on stilts and I'm going to design a hot dog cart that looks like a taxi to go   with these things.  We just need someone to operate the hot dog cart. So I said we're going to do it.  We'll do the hot dog cart for your art.  And we're going to do it because I want to prove that you can go to   something as mundane as a hot dog cart and get exceptional hospitality. Well, lo and behold, this was the summer of 2001 pre-9/11.  And we had lines of 60, 80, 100 people waiting to get these hot dogs.  And it worked   so well but the next summer, the art is down, city was obviously depressed. We got the community called please bring back the hot dog cart.  We did it a second year.  We did it a third year. Year four, I wanted to put to the test the notion of building community wealth.  So I said let's turn that hot dog cart into a kiosk.  We called it   Shake Shack.  Raised the money philanthropically, gifted the kiosk to Madison Square Park so it would become the landlord. We would own the business.  No idea that it would be successful.  I scribbled a menu on a piece of paper in about eight minutes.  That became   Shake Shack."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "And how many are there now?"
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "Almost 250, globally right now.  Remember, I told you that we gifted the Shack to the park so the park would become the landlord.    Madison Square Park, which is the landlord, now has an income annually from that one shack of just shy of a million dollars. That goes right back into the park.  That feels good."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "You've been on a crusade against tipping, which is one of the things I think that makes fine-dining uncomfortable for a whole lot of   people.  And it also feels ethically kind of queasy as you're sort of judging sort of these people.  How is that fight against tipping   going?"
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "I think tipping feels queasy in any setting because -- I mean when was the last time you went to go buy a cup of coffee at a coffee shop and   you already pay a lot of money for your cup of coffee, they either do or don't remember to leave room for milk and they turn around the little   register and now you have an opportunity while they're watching you to either put in 50 cents or another dollar or $2. And you feel bad either way.  I've been hell-bent on trying to make hospitality a validated professional career.  Perhaps to get rid of a chip   on my own shoulder.  It was not the business I was supposed to ever go into it. When you pay your people yourself, based on their merit, and you provide the types of benefits that real companies provide, whether it's health   care, whether it's paid family leave for a long time and you don't ask your guests to judge something that they're not qualified to judge.  And in   fact, they don't judge. What we found with our studies, 20 percent tippers are always 20 percent.  They don't say this is a 19 percent.  Bad service or hospitality was a 17   percent. They just -- we don't get any feedback whatsoever.  And I also don't want to hire the kind of people who would look at their station of five tables   and judge who am I going to be nice to base on who I think I can extract the most money from.  I want people who are who they are because it's their   pleasure to deliver hospitality."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "So how is it going now?  Have you gotten rid of tipping in most?"
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "We've gotten rid of tipping in I believe in all but one of our places for now and we're almost there.  We've rolled out since 2015 an   additional restaurant every six months or so. And I'll say that there's a reason this is not happening across the board.  The math is challenging.  The cultural shift is challenging. Asking your employees and your guests to have a whole different way of paying and being paid is challenging.  Having menu prices that are all-  encompassing with no monkey business. It's not like room service in a hotel where your $3 cup of coffee becomes $18 after the room charge, the service charge, the tip and all this kind of   stuff.  There's no line to do anything else. We decided to get rid of the incentive to be nice to people.  That's called your job.  But we retain the incentive to sell. So we take a revenue share at the end of each week and divvy it out based on the number of hours you work, not the night or that lunch you work.  The   two biggest reasons we decided to make this move, that really troubled me, one is that every year since I've been a restauranteur in a tipping   situation, the gap between what a tipped employee and someone who is legally not eligible to accept tips, also known primarily as cooks, the gap   has grown and grown and grown, probably by 300 percent. Because every time a menu price goes up, and I've never seen one go down, your tip which becomes a multiplier of that menu price makes that person   make more money but the cook never gets more money.  Since we've known this, all of our formerly tipped employees are now making, on average,   eight percent more, and our non-tipped employees are making 37 percent more.  So gradually, we're closing that."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "Do you think the minimum wage should be raised then in all of the hospitality industry?"
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "I think we should get rid of the adjusted minimum wage that started off as $0 an hour, the day after slavery was abolished.  And our industry   along with the Pullman train car industry succeeded at petitioning the U.S. government to say it's not slavery if we can get the customers to pay. It's a brilliant scheme that our industry has pulled, which is now inculcated in our entire society, which is we don't have to pay for half of   our workers because you're going to do it separately."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "So in other words, for tipped workers, you could pay zero?"
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "You could pay zero.  That went up some years ago to an adjusted minimum of $2.13.  There remained over 20 states in this country today   where the adjusted minimum wage for tip workers is $2.13. In New York, it's up close to $10 an hour right now.  But my feeling is that the minimum wage, whatever it is, should be the minimum wage for   everybody. And what I love about our system is that every time minimum wage goes up, we're so far above it because we have eliminated tipping, that it's not   going to cause inflation in our restaurants."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "You always seem to break rules like that.  Like breaking the rule on tipping.  Why do you break rules and what other rules are you   looking to break?"
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "The first one, I think, that was probably the scariest thing was in 1990 with just one restaurant, Union Square Cafe.  And this was   very, very shortly after my dad had died from lung cancer and I was angry and sad. I was also really frustrated that every night I would come home smelling like an ashtray.  So that was a scary kind of going in a different   direction, kind of move to eliminate smoking. A full 12 years before it became law in New York City.  And everybody said you're crazy, it's going to kill your business.  We just got busier. If you're in an industry leadership position and you're not trying new things, that you think are right because you're afraid that it's going to   somehow put you out of business, I don't think you deserve to be an industry leader."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "Sexual harassment and sexual aggression have plagued a lot of industries but the restaurant industry is particularly prone.  I know   you've had to deal with it a lot.  And were there things you probably should have done better?"
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "No question.  I should have been a lot more aware of that. I believe that I was so proud of what we had done in the 1980s and 1990s to really extricate the old French kitchen hierarchy that was really like the   military where it was do as I say because I've got the power.  And we never ever put up with chefs who would yell at you, whether you're another cook   or whether you're a worker or whether you're a server. We had a couple of examples of a chef and sous chef who were called out and who had been given warnings by our human resources department.  But maybe   we haven't fully understood or maybe people hadn't fully expressed what was going on and it was painful. It was painful for me as a leader to say that was happening and you didn't know about it.  And I think we've taken some really important steps since   that point. We've had to -- thankfully, it's been a while but terminated quite a few people because we shined a light on it and we said speak up.  We want to   hear about it. In addition to inviting people to speak up and create those forums for people do so and they did.  We also created what we should have had in the   first place, which was an anonymous 24-hour line, not associated with our company. It would give people a fair opportunity to express whatever they wanted to and knock on everything I can knock-on.  We are a way stronger company   because of this. And I do have to say that some of the misbehavior we learned about was guests misbehaving with our staff.  Eliminating tipping has helped with   that dramatically because if I'm a misbehaving guest and I know that your entire income is based on your putting up with how I'm treating you, that's   now been taken away.  So that's good. But I think the other thing that has been really important for us is who has a seat at the table?  I learned the hard way because I just hadn't   given this the proper thought that we didn't have enough women at the table in senior positions. We -- I thought we did.  We had eight of our senior executives are women but then I looked at our board of directors, men.  I looked at our board of   directors, all white. Today that changed.  And we're a better company."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "You said you didn't feel destined for the restaurant industry.  Where did you think you were heading?"
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "Well, being a political science major and being someone who's just always been interested in politics and interested in issues of the day, I   thought that I was either going to be a journalist or a politician. And to become a politician, the obvious step, at least back then, was to become a lawyer.  And it was literally on the eve of taking my LSAT here in   New York City that I just kind of freaked out because I knew I didn't want to be a lawyer. And I was just lucky that on that night my dinner partner was my highly provocative uncle who challenged me and he said you've got to be crazy   because you're going to be dead forever.  You're going to be alive for that long. Why would you do something you don't want to do?  And I said because I don't know what else I could do.  He said you're absolutely crazy.  All   I've heard you talk about your entire life is food and restaurants. And it had never dawned on me that that would be an incredible career path.  It's not the kind of thing that I ever thought I was going to go tell my   parents I'm going to do for a living but thank goodness.  I would have been just about the world's worst lawyer ever."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "Danny Meyer, thank you for being with us."
     },
     {
       "speaker": {
-        "name": "MEYER",
+        "extractedName": "MEYER",
+        "normalizedName": "MEYER",
         "affiliation": ""
       },
       "text": "Thanks, Walter."
     },
     {
       "speaker": {
-        "name": "ISAACSON",
+        "extractedName": "ISAACSON",
+        "normalizedName": "ISAACSON",
         "affiliation": ""
       },
       "text": "Great."
     },
     {
       "speaker": {
-        "name": "AMANPOUR",
+        "extractedName": "AMANPOUR",
+        "normalizedName": "AMANPOUR",
         "affiliation": ""
       },
       "text": "And with that last course, we end our show. Remember, you can listen to our podcast and see us online at amanpour.com.  and you can follow us on Instagram and Twitter. Thank you for watching and goodbye from London. END"

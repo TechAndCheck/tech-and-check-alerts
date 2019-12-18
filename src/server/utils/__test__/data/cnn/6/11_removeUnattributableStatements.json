@@ -3,182 +3,208 @@
   "input": [
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "This is CNN breaking news."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "I am the chosen one.  Somebody had to do it.  So I'm taking on China.  I'm taking on China on trade.  And you know what, we're winning."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "And if you vote for a Democrat, you're very, very disloyal to Israel and to the Jewish people."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "I have been responsible for a lot of great things for Israel. One of them was moving the embassy to Jerusalem, making Jerusalem the capital of Israel."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "Oh, I have an appetite for background checks.  We're going to be doing background checks.  We're working with Democrats, we're working with Republicans.  We already have very strong background checks.  But we're going to be throwing in some of the loopholes we just talked about, concept.  Wayne agrees things have to be done also."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "I thought that the prime minister's statement that it was absurd, that was it -- it was an absurd idea was nasty.  I thought it was an inappropriate statement.  All she had to do was say, no, we wouldn't be interested.  Don't say what an absurd idea that is because she's not talking to me.  Excuse me. She's not talking to me.  She's talking to the United States of America.  You don't talk to the United States that way, at least under me."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "Under President Obama --  Russia outsmarted President Obama. President Obama did that."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "I am the one that kept the families together, OK.  You remember that, right? Just remember I said it.  And now it gets even better.  President Obama and others brought the families apart.  But I'm the one that kept the families together."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "Let me just tell you, very much I have the children on my mind.  It bothers me very greatly."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "REP. MIKE QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "Glad to be here.  Thank you."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "Yes, this is a very tired, old anti-Semitic trope that I hope wouldn't be used again, much less by the president of the United States.  When I first got to Congress 10 years ago it was drilled into our heads that Israel can't be a partisan issue.  Eric Cantor on the Republican side, Steny Hoyer on the Democratic side, said it is not in the U.S. interest for that to happen.  It is clearly not in Israel's interest and very shortsighted of Mr. Netanyahu to think that this should become a partisan issue.  And for the president to move in the opposite direction is really dangerous at this time."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "I think the damage has been done for the last couple of years with the Trump White House.  I'd like to think that cooler heads will prevail sometime when the president is no longer in office.  But there is absolutely too much at stake.   I've been to Israel numerous times and recognize the critical nature of our alliance as an extraordinarily important democracy, the only real democracy in the Middle East.  That relationship matters.   But the votes on Israel are extraordinarily important and they've always been bipartisan.  For him to suggest that Democrats don't support Israel is a mistake.  And in fact, most Jews in the United States are registered Democrats."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "I think it hurts our security.  I think it hurts our standing in the world as a whole.  I just don't know what the president is thinking.   This isn't a land deal in Manhattan, where they are trying to build a high-rise and you can pressure somebody for the purchase.  This is a self-governing people of Greenland under the larger government of Denmark.  So it makes absolutely no sense.   What is next? Next week we talk about purchasing the Falklands?  And if that doesn't work we get angry with their government?   It's bizarre.  I don't know how else to explain it.  And for the prime minister -- the Danish prime minister to call it absurd is absolutely correct.  But I guess no one told the Danish prime minister that our president thinks he's a deity and can make no such mistakes."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "I don't know if many of our allies trust us any more.  I don't know if our NATO allies believe that we would be there in crunch time.  We talk about the percentage of GDP they use in their defense as being very important to all of our security.   The fact is, you mentioned these -- the intelligence that we all share is as important as anything we do together to keep all of us safe.   I often quote FDR's last inaugural in talking about this president. And he talked about the fact that, to keep the peace, we need to work with allies far away to protect ourselves and others.   And indeed, he quoted Emerson, saying, in the final analysis, to have a friend, you need to be a good one and we are not a good one right now to most of our allies."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "I traveled to the G7 with President Obama when it was in Germany.  And obviously Russia wasn't there.  Russia has to earn a place at that table again.  They've done absolutely nothing to earn that.   Their activities in Crimea and the war that's taking place in Ukraine, their all-out assault on our democratic process that continues."
     },
     {
       "speaker": {
-        "name": "DNI C",
+        "extractedName": "DNI C",
+        "normalizedName": "DNI C",
         "affiliation": "just recently having left, still said the lights are flashing red.  Many of our intelligence services are telling us that the Russians haven't left.   So given that, the fact that our upcoming critical election is at stake, you're going to invite the person who perpetrated that and continues that assault to come to the United States and work along more civilized countries? They haven't earned that right. KEILAR"
       },
       "text": "Congressman Mike Quigley, thank you so much for joining us."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "Thank you."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "No president has ever done anywhere close to what I've done. I have been responsible for a lot of great things.  I'm wonderful for the USA.  I am the least racist person ever to serve in office.  The love for me -- and me maybe as a representative of the country -- but for me. I was right and just about everybody admits that.  I was put here by people to do a great job.  And that is what I'm doing.  No president has done what I've done. I am the chosen one."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED FEMALE",
+        "extractedName": "UNIDENTIFIED FEMALE",
+        "normalizedName": "UNIDENTIFIED FEMALE",
         "affiliation": ""
       },
       "text": "That is right."
     },
     {
       "speaker": {
-        "name": "HENICAN",
+        "extractedName": "HENICAN",
+        "normalizedName": "HENICAN",
         "affiliation": ""
       },
       "text": "It's a slippery slope.  So making all sorts of arguments there, going after the prime minister of Denmark, of course, punching at Obama over Russia and the annexation of Crimea and sort of hugging Putin.   So yes, this is what we've come to see from this president.  There is no filter, right.  His sort of Twitterself is the self we get from Donald Trump."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "DONALD TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "In my opinion, you vote for a Democrat, you're being very disloyal to Jewish people and you're being very disloyal to Israel.  And only weak people would say anything other than that."
     },
     {
       "speaker": {
-        "name": "KEVIN MCALEENAN",
+        "extractedName": "KEVIN MCALEENAN",
+        "normalizedName": "KEVIN MCALEENAN",
         "affiliation": "ACTING SECRETARY OF HOMELAND SECURITY"
       },
       "text": "The result of holding families together under the previous administration was a dramatic reduction in the flow of unlawful crossings by families.  By closing this key loophole in Flores, the new rule will restore integrity to our immigration system and eliminate a major pull factor fueling the crisis."
     },
     {
       "speaker": {
-        "name": "SUK-YOUNG KIM",
+        "extractedName": "SUK-YOUNG KIM",
+        "normalizedName": "SUK-YOUNG KIM",
         "affiliation": "AUTHOR, \"ILLUSIVE UTOPIA"
       },
       "text": "THEATER, FILM, AND EVERYDAY PERFORMANCE IN NORTH KOREA\":  North Korean young generation finds many creative ways to access foreign media, especially South Korean pop culture has been phenomenally popular in North Korea for the past 20 years.  And it's really starting to impact the way they conceive of the world as well as to reflect upon their own lives in North Korea."
     },
     {
       "speaker": {
-        "name": "KANG NA-RA",
+        "extractedName": "KANG NA-RA",
+        "normalizedName": "KANG NA-RA",
         "affiliation": "NORTH KOREAN DEFECTOR"
       },
       "text": "North Korea is such a tightly controlled society, and the style we can follow was very limited.  Ri Sol-ju or Moranbong band members were our only permitted role models."
     },
     {
       "speaker": {
-        "name": "HYUN LEE",
+        "extractedName": "HYUN LEE",
+        "normalizedName": "HYUN LEE",
         "affiliation": "NORTH KOREAN DEFECTOR"
       },
       "text": "So North Korean music doesn't have any emotion and feeling of love and then the freedom of society, but South Korean music emphasizes emotion, love."
     },
     {
       "speaker": {
-        "name": "HYUN LEE",
+        "extractedName": "LEE",
+        "normalizedName": "HYUN LEE",
         "affiliation": "NORTH KOREAN DEFECTOR"
       },
       "text": "They basically do search your body and search your home at any time and everywhere.  Once North Koreans are caught by 109, so the severe punishment was execution."
@@ -187,168 +213,192 @@
   "output": [
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "I am the chosen one.  Somebody had to do it.  So I'm taking on China.  I'm taking on China on trade.  And you know what, we're winning."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "And if you vote for a Democrat, you're very, very disloyal to Israel and to the Jewish people."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "I have been responsible for a lot of great things for Israel. One of them was moving the embassy to Jerusalem, making Jerusalem the capital of Israel."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "Oh, I have an appetite for background checks.  We're going to be doing background checks.  We're working with Democrats, we're working with Republicans.  We already have very strong background checks.  But we're going to be throwing in some of the loopholes we just talked about, concept.  Wayne agrees things have to be done also."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "I thought that the prime minister's statement that it was absurd, that was it -- it was an absurd idea was nasty.  I thought it was an inappropriate statement.  All she had to do was say, no, we wouldn't be interested.  Don't say what an absurd idea that is because she's not talking to me.  Excuse me. She's not talking to me.  She's talking to the United States of America.  You don't talk to the United States that way, at least under me."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "Under President Obama --  Russia outsmarted President Obama. President Obama did that."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "I am the one that kept the families together, OK.  You remember that, right? Just remember I said it.  And now it gets even better.  President Obama and others brought the families apart.  But I'm the one that kept the families together."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "Let me just tell you, very much I have the children on my mind.  It bothers me very greatly."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "REP. MIKE QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "Glad to be here.  Thank you."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "Yes, this is a very tired, old anti-Semitic trope that I hope wouldn't be used again, much less by the president of the United States.  When I first got to Congress 10 years ago it was drilled into our heads that Israel can't be a partisan issue.  Eric Cantor on the Republican side, Steny Hoyer on the Democratic side, said it is not in the U.S. interest for that to happen.  It is clearly not in Israel's interest and very shortsighted of Mr. Netanyahu to think that this should become a partisan issue.  And for the president to move in the opposite direction is really dangerous at this time."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "I think the damage has been done for the last couple of years with the Trump White House.  I'd like to think that cooler heads will prevail sometime when the president is no longer in office.  But there is absolutely too much at stake.   I've been to Israel numerous times and recognize the critical nature of our alliance as an extraordinarily important democracy, the only real democracy in the Middle East.  That relationship matters.   But the votes on Israel are extraordinarily important and they've always been bipartisan.  For him to suggest that Democrats don't support Israel is a mistake.  And in fact, most Jews in the United States are registered Democrats."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "I think it hurts our security.  I think it hurts our standing in the world as a whole.  I just don't know what the president is thinking.   This isn't a land deal in Manhattan, where they are trying to build a high-rise and you can pressure somebody for the purchase.  This is a self-governing people of Greenland under the larger government of Denmark.  So it makes absolutely no sense.   What is next? Next week we talk about purchasing the Falklands?  And if that doesn't work we get angry with their government?   It's bizarre.  I don't know how else to explain it.  And for the prime minister -- the Danish prime minister to call it absurd is absolutely correct.  But I guess no one told the Danish prime minister that our president thinks he's a deity and can make no such mistakes."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "I don't know if many of our allies trust us any more.  I don't know if our NATO allies believe that we would be there in crunch time.  We talk about the percentage of GDP they use in their defense as being very important to all of our security.   The fact is, you mentioned these -- the intelligence that we all share is as important as anything we do together to keep all of us safe.   I often quote FDR's last inaugural in talking about this president. And he talked about the fact that, to keep the peace, we need to work with allies far away to protect ourselves and others.   And indeed, he quoted Emerson, saying, in the final analysis, to have a friend, you need to be a good one and we are not a good one right now to most of our allies."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "I traveled to the G7 with President Obama when it was in Germany.  And obviously Russia wasn't there.  Russia has to earn a place at that table again.  They've done absolutely nothing to earn that.   Their activities in Crimea and the war that's taking place in Ukraine, their all-out assault on our democratic process that continues."
     },
     {
       "speaker": {
-        "name": "DNI C",
+        "extractedName": "DNI C",
+        "normalizedName": "DNI C",
         "affiliation": "just recently having left, still said the lights are flashing red.  Many of our intelligence services are telling us that the Russians haven't left.   So given that, the fact that our upcoming critical election is at stake, you're going to invite the person who perpetrated that and continues that assault to come to the United States and work along more civilized countries? They haven't earned that right. KEILAR"
       },
       "text": "Congressman Mike Quigley, thank you so much for joining us."
     },
     {
       "speaker": {
-        "name": "MIKE QUIGLEY",
+        "extractedName": "QUIGLEY",
+        "normalizedName": "MIKE QUIGLEY",
         "affiliation": "(D-IL)"
       },
       "text": "Thank you."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "No president has ever done anywhere close to what I've done. I have been responsible for a lot of great things.  I'm wonderful for the USA.  I am the least racist person ever to serve in office.  The love for me -- and me maybe as a representative of the country -- but for me. I was right and just about everybody admits that.  I was put here by people to do a great job.  And that is what I'm doing.  No president has done what I've done. I am the chosen one."
     },
     {
       "speaker": {
-        "name": "HENICAN",
+        "extractedName": "HENICAN",
+        "normalizedName": "HENICAN",
         "affiliation": ""
       },
       "text": "It's a slippery slope.  So making all sorts of arguments there, going after the prime minister of Denmark, of course, punching at Obama over Russia and the annexation of Crimea and sort of hugging Putin.   So yes, this is what we've come to see from this president.  There is no filter, right.  His sort of Twitterself is the self we get from Donald Trump."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "DONALD TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "In my opinion, you vote for a Democrat, you're being very disloyal to Jewish people and you're being very disloyal to Israel.  And only weak people would say anything other than that."
     },
     {
       "speaker": {
-        "name": "KEVIN MCALEENAN",
+        "extractedName": "KEVIN MCALEENAN",
+        "normalizedName": "KEVIN MCALEENAN",
         "affiliation": "ACTING SECRETARY OF HOMELAND SECURITY"
       },
       "text": "The result of holding families together under the previous administration was a dramatic reduction in the flow of unlawful crossings by families.  By closing this key loophole in Flores, the new rule will restore integrity to our immigration system and eliminate a major pull factor fueling the crisis."
     },
     {
       "speaker": {
-        "name": "SUK-YOUNG KIM",
+        "extractedName": "SUK-YOUNG KIM",
+        "normalizedName": "SUK-YOUNG KIM",
         "affiliation": "AUTHOR, \"ILLUSIVE UTOPIA"
       },
       "text": "THEATER, FILM, AND EVERYDAY PERFORMANCE IN NORTH KOREA\":  North Korean young generation finds many creative ways to access foreign media, especially South Korean pop culture has been phenomenally popular in North Korea for the past 20 years.  And it's really starting to impact the way they conceive of the world as well as to reflect upon their own lives in North Korea."
     },
     {
       "speaker": {
-        "name": "KANG NA-RA",
+        "extractedName": "KANG NA-RA",
+        "normalizedName": "KANG NA-RA",
         "affiliation": "NORTH KOREAN DEFECTOR"
       },
       "text": "North Korea is such a tightly controlled society, and the style we can follow was very limited.  Ri Sol-ju or Moranbong band members were our only permitted role models."
     },
     {
       "speaker": {
-        "name": "HYUN LEE",
+        "extractedName": "HYUN LEE",
+        "normalizedName": "HYUN LEE",
         "affiliation": "NORTH KOREAN DEFECTOR"
       },
       "text": "So North Korean music doesn't have any emotion and feeling of love and then the freedom of society, but South Korean music emphasizes emotion, love."
     },
     {
       "speaker": {
-        "name": "HYUN LEE",
+        "extractedName": "LEE",
+        "normalizedName": "HYUN LEE",
         "affiliation": "NORTH KOREAN DEFECTOR"
       },
       "text": "They basically do search your body and search your home at any time and everywhere.  Once North Koreans are caught by 109, so the severe punishment was execution."

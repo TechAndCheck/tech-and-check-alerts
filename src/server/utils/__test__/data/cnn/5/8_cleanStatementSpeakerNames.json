@@ -3,560 +3,640 @@
   "input": [
     {
       "speaker": {
-        "name": "BECKY ANDERSON",
+        "extractedName": "BECKY ANDERSON",
+        "normalizedName": "BECKY ANDERSON",
         "affiliation": "CNN HOST"
       },
       "text": "Well hello and welcome.  You're watching CONNECT THE WORLD with me Becky Anderson, live from London.  And   we are following breaking news.   Out of Hong Kong tensions heating up at a metro station there where protesters have staged a sit-in at the scene of an attack by suspected   Triad gang members last month.  Now demonstrators have set up barricades -- you see here -- while police are trying to disburse the crowds.   Eleven week in, remember, to these protest movements.  And once again, late at night in Hong Kong we see what looks like a smaller cohort.  Of course   remember, organizers suggest as many as 1.7 million people out with the movement over the weekend again.  Once again, authorities there suggesting   only about 127,000, this is a smaller cohort.  This is a metro station.  It's 11:00 p.m.  at night.   CNN's Will Ripley is in Hong Kong and on his way to the station.  I'm going to get to him as soon as I can for you.  First, let's get you to Matt   Rivers who is in Beijing.  Matt, firstly, are you even seeing these images in Beijing?"
     },
     {
       "speaker": {
-        "name": "MATT RIVERS",
+        "extractedName": "MATT RIVERS",
+        "normalizedName": "MATT RIVERS",
         "affiliation": "CNN CORRESPONDENT"
       },
       "text": "Well, you know, it's interesting question, Becky.  Because China generally has censored a lot of   these images, starting towards the beginning of these protests when they began more than two months ago.  But you know, if this really turns violent   tonight, if the we see tear gas, if we see protesters clashing with police, those are the mages that Beijing wants to show the rest of the world.   You just talk about the 1.7 million according to organizers.  The 1.7 million people that came out over the weekend.  Now let's remind our   viewers, they were peaceful.  They retook the mantle that the protests when they first began in early June and mid-June, they were built upon peaceful   protests, centering on a pro-democracy message, on a message of being fearful of increasing encroachment from Beijing.   And the amount of people that we have seen be violent in these protests are in a very small fraction of the amount of people we have seen in the   streets.  And yet that is the image that Beijing wants to put to the rest of the world.  They don't want people talking about the fact that 1.7   million peacefully marched on their own through the streets of Hong Kong.  They want you right now, the international viewer, to focus on the fact   there are at most several thousand who engaged in violence on a regular basis.  Several thousand out of more than a billion people.  We are talking   about fractions of a percentage.  And that is what Beijing wants to focus on.  So it's interesting.   You know, Beijing is probably going to let some of the images come through.  But fact of the matter is there are protesters that are violent, and what   we could see tonight is repeat of violence.  It's interesting that this is happening.  The MTR station -- as  you mentioned off the top -- that is the   scene where protesters were incredibly angry about a month ago.  Because as people were heading home, there were Triad gang members -- a gang that has   been operating in Hong Kong.  They've been at the China border for decades now.   They are suspected Triad members that savagely beat people who were engaging largely in peaceful protests on the way home, after engaging in   protests.  And the police for 45 minutes did nothing as people were beaten inside that station.  That is the reason why protesters have chosen to do   that sit in tonight, Becky, and we'll have to see where it goes in terms of violence."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "It's not clear as we look at the images -- and viewers, these are coming to us as they are coming to you.  We want you to see the same   images we are getting into CNN now.   Will Ripley is on the line for us.  He's on the way to this very metro station.  It is not clear what the intention of this -- as matt points out   -- small group of protesters is.  But the significance of these images if you will."
     },
     {
       "speaker": {
-        "name": "WILL RIPLEY",
+        "extractedName": "WILL RIPLEY",
+        "normalizedName": "WILL RIPLEY",
         "affiliation": "CNN CORRESPONDENT"
       },
       "text": "Well obviously, this is an attempt to continue the disruption, cycle of disruption.  Prior to this, it   was the Hong Kong International Airport.  It was the legislative council building.  You know, which at time was just and unprecedented moment, the   vandalism of a public space.  And now you have this MTR station, significant because of what happened there a month ago, the stabbing   incident, tied to the Triad, suspected of connections to the Chinese government.   And now you have a small group of protesters here demanding that they will deliver a message.  Wearing gas masks and helmets and prepared   for a confrontation with police that they feel is imminent.  But now Beijing and certainly some aspects of Hong Kong city government can   continue to make a case that these protests are violent and act of terror.  Even though earlier in the day you have much, much larger groups peacefully   staging a sit in, peacefully protesting over the weekend, with an estimated up to 1.7 million people, and no outbreaks of violence.  And now a few days   later, you have a very small group getting a lot of attention for activities that are highly disruptive."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Very briefly, there will be those watching the images, Will, who say that these protesters, these youngsters, this small cohort are goading   authorities, are goading security services, are looking for a response.  Your thoughts."
     },
     {
       "speaker": {
-        "name": "RIPLEY",
+        "extractedName": "RIPLEY",
+        "normalizedName": "RIPLEY",
         "affiliation": ""
       },
       "text": "That clearly has been the motivation and intent time and time again, looking to force action by a much larger entity than the group of   people, these renegades, if you will, that are acting this way."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Will Ripley is on the way to the station.  Will, we'll get back to you as and when you get set up and we'll keep an eye on these images.    Important that we stay on this story.  As and when, viewers, we will get back to that metro station for you.  But those the very latest on what is   this 11-week of protest now there in Hong Kong, these images slightly different from those that we've seen before.   We are learning that Donald Trump's play book with dictators is the following, big blustering threats.  Then an offer to talk.  And so, playing   out with Venezuela.  You remember that Donald Trump's administration gave support to what was a coup d'etat in the Latin American country.  Well that   didn't work out.  So he's gone into secret talks with President Nicolas Maduro."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "DONALD TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "We are in touch.  We're talking to various representatives of Venezuela.  We're helping Venezuela   as much as we can.  We're staying out of it but we are helping it."
     },
     {
       "speaker": {
-        "name": "NICOLAS MADURO",
+        "extractedName": "NICOLAS MADURO",
+        "normalizedName": "NICOLAS MADURO",
         "affiliation": "VENEZUELAN PRESIDENT"
       },
       "text": "As I have sought dialogue in Venezuela, I sought for a way for President Donald Trump   to really listen for real to Venezuela and understand the truth that his officials and collaborators cover up."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "To find out the whole truth, we want to take you now into the part of Venezuela with an exclusive investigation.  CNN's Isa Soares and   her team takes us into the corrupt and bloody industry keeping Maduro in power.  Gold.  First, we must warn you some pictures in this story are   graphic."
     },
     {
       "speaker": {
-        "name": "ISA SOARES",
+        "extractedName": "ISA SOARES",
+        "normalizedName": "ISA SOARES",
         "affiliation": "CNN ANCHOR & CORRESPONDENT"
       },
       "text": "On the fringes of the Amazon Rainforest, a state-sponsored network of violent gangs and corrupt   Venezuelan military hide amongst a vast land, rich in minerals, and seeking gold.:  All this has made this area Maduro's El Dorado and it's this that's giving him a financial lifeline.    We've come deep into Venezuela's mining ark to find out how Nicolas Maduro is holding on to power and able to resist American pressure.   He's given himself direct control over this land and he's bleeding it dry.  Enriching himself and buying the allegiance of the military, and it all   starts with the local miners.  Who with mouths to feed at home risk it all operating in this lawless region.   We venture in 50 meters deep.  It is a precarious operation.  Inside the miners guide us through the various levels and galleries, past evidence of   a colonial thirst for gold.  Along the way I meet Darwin Rojas who has been mining here for three years now."
     },
     {
       "speaker": {
-        "name": "DARWIN ROJAS",
+        "extractedName": "DARWIN ROJAS",
+        "normalizedName": "DARWIN ROJAS",
         "affiliation": "MINER"
       },
       "text": "The gold comes out of here, from the earth."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "Backbreaking work in intense humidity."
     },
     {
       "speaker": {
-        "name": "ROJAS",
+        "extractedName": "ROJAS",
+        "normalizedName": "ROJAS",
         "affiliation": ""
       },
       "text": "When you're working a large section of the mine, we could dig as many as 50 or 60 bags."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "Everywhere you looked speckles shimmer from above.:  This mine has been so productive for them because they have got 250 kilos of gold out of this mine, just to give you a sense really why   it's called \"the millionaire's mine.\"    If 250 kilos or just over 550 pounds is accurate, that's well over $10 million at global market prices, all from one single   dug hole.  There are dozens around as thousands within Venezuela's mining ark. But not all that shimmers is gold and these miners know it.  These rocks need to be crushed, processed, scraped and melted before you actually see   the gold.   This nugget here $315 but it comes at a cost to the health for the miners as well as the environment, with mercury and other chemicals used to   separate gold from grit poisoning everything you see around us. But this is business and these mills don't do it for free.  And then there is an additional cost, even if the miners are scared to admit it."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "Do you have to pay anyone else?"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "No one else.  No, no one else."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "Right?  It's like that."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "It's like that?"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "It's like that."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "Is it more or less like that?"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "More or less like that."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "It's clear from what he's saying there are other forces involved, there are other people they have to pay in order to be continuing to work   in these mine -- in these mines but clearly, they're not prepared to tell us who they are.    They have every reason to be afraid.  These mines are run by a network of hooded militias called \"pranes\" who according to a senior   military source enter to mines to extort, steal in silence.  They do so together with complicit members of the military who they bribe to operate   freely."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "What kind of pressure, they kill people?:  A local miner to scare too scared to speak out about the gang's close to the mines opens up once his identity is hidden."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "They mutilate people.  They cut them and torture them and the ones that speak are also tortured and   mutilated.  They killed them and throw them down those holes."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "One active senior military sources confirmed what we've heard in El Callao, telling me the same group used death squads to command   obedience.  Battling each other and the military for control over this mining area. It's a pressure tactic of blood and bullets.  I asked the miner if he blames Maduro."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "I think the government has the capacity to put an end to the pranes, if he wants to do it.  But they are   not going to do it because they benefit from it."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "This is echoed from the top, General Manuel Figuera was the former spy chief for the Venezuelan president until April the 30th when he   defected."
     },
     {
       "speaker": {
-        "name": "MANUEL CRISTOPHER FIGUERA",
+        "extractedName": "GENERAL MANUEL CRISTOPHER FIGUERA",
+        "normalizedName": "MANUEL CRISTOPHER FIGUERA",
         "affiliation": "MADURO'S FORMER SPY CHIEF"
       },
       "text": "Maduro has knowledgeable of all of this.  And has done very   little, if anything."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "For years he was part of Maduro's inner circle.  With the U.S. Treasury sanctioning him of accusations he oversaw mass torture, mass human   rights violations and mass persecution.   Now, with sanctions dropped, he's speaking out about corruption at the very top.  Backing the U.S. assessment that Maduro's family are also profiting."
     },
     {
       "speaker": {
-        "name": "FIGUERA",
+        "extractedName": "FIGUERA",
+        "normalizedName": "FIGUERA",
         "affiliation": ""
       },
       "text": "There are companies linked to Maduro's family circle that buy the gold and negotiate the extraction of the gold in   the south of the country.  They sold one part of it to the Central Bank and the other part they take out of the country without any kind of control."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "In Caracas we find this network expands beyond Venezuela.  In 2018 Maduro traded Venezuelan gold to Turkey.  Some in exchange for food which   the government then used in their subsidized food boxes.  But it didn't stop there.    According to a source at the Venezuelan Central Bank, 26 tons of gold were taken out of the bank to the end of April.  They were put into   private airplanes and a destination, Middle East, and Africa.    That's $1.6 billion, much of it skirting U.S. sanctions.  According to the source, several other shipments left Caracas this year to   United Arab Emirates, directly and also via Uganda on a Russian plane in exchange for Euros."
     },
     {
       "speaker": {
-        "name": "FIGUERA",
+        "extractedName": "FIGUERA",
+        "normalizedName": "FIGUERA",
         "affiliation": ""
       },
       "text": "Maduro is at the helm of a criminal enterprise.  He has hijacked all the states institutions to work in his   service.  This has allowed him to corrupt public servants and military official and all the power structures in order to perpetuate his rule."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "This matches what we here on the streets of El Callao, here where gold is a standard currency.  Many like this gold seller are just a cog in   the system which is controlled all the way from the top."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "What we hear, is that everything is completely controlled by the government.  Directly or   indirectly, we're all working for them."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "But with the river of gold running deep and the economy is shrinking by half in the span of five years there is little sign Maduro and   his men will turn their back on this blood gold.  Here human misery goes hand in hand with environmental devastation.  It's a free- for-all, a gold   rush where the main winner is Maduro."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "CNN contacted both the Venezuela government and the Central Bank but obtained no response.  The Venezuelan government has dismissed U.S.   sanctions in the past saying they are an unjustified attack on the country and an attempt to get hold of its resources."
     },
     {
       "speaker": {
-        "name": "CNN",
+        "extractedName": "CNN",
+        "normalizedName": "CNN",
         "affiliation": "received no response.  An Emirati official did tell CNN they take these matters seriously, and that   the UAE government is in compliance with international law but wouldn't comment on legal proceedings in another country.   A woman who sees a solution to this corruption is known as the cracker from Caracas.  Vanessa Neumann, she's effectively a shadow ambassador for a   rival government to Maduro, set up by self-declared interim President Juan Guaido.  And she joins me now.   This makeshift parallel government, Vanessa, that you are part of, set up to challenge the Maduro government to get rid of the President himself.  It   seems to have achieved the exact opposite.  A failed coup, t which o all intents and purposes seems to have made him stronger, not weaker.   VANESSA NEUMANN, JUAN GUAIDO'S OFFICIAL U.K. REPRESENTATIVE"
       },
       "text": "Also, let me differ with you there.  First of all, we are not a parallel government, we   are the government.  We stem directly from the constitution.  Juan Guaido is our constitutional leader according to the constitution of our republic.    That constitution comes from 1999.  Ironically, we are defending it.  The Chavistas are violating it.  And the irony is that it was the constitution   that was set up by -- that was signed into law under Hugo Chavez.  So the Chavistas are violating their hero's constitution while we defend it."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "He still runs the country.  Let me put this to you.  He still runs the country.  He has admitted he is in secret talks with Donald Trump,   who has admitted the same.  The U.S. President is speaking to Maduro and he still runs the country.  So I get where you're going with this, but for all   intents and purposes, this is a parallel government."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "No, absolutely not.  The Maduro regime is more fractured now than it was 16 months ago, and the social uprising to which you refer to as the   failed coup."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Day after day we saw protest in the streets, we're not seeing that anymore.  How is he weak and not stronger."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "He is weaker because they are negotiating behind his back with him and without him.  The entire administration is fractured.  They are, as   Bolton says, scorpions in a bottle.  People reject them.  More than 84 percent of people want Maduro out as soon as possible.  He is using food   and medicine and starving them for social control.  While he blocks food and medicine coming into the country, we are having moderate success   getting them in with the help of patriotic Venezuelans and delivering it to local communities for the past 18 weeks, every weekend."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Let me put this to you.  In the last few weeks, the U.S. has introduced larger sanctions against Venezuela.  As you have described   yourself as voice of the people, it is the people who are suffering greatly.  I know you're going to say it's the Maduro government.  What are   the swinge in U.S. sanctions which are helping no one, only hurting the people of Venezuela."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Nothing has hurt the Venezuelan people more than the sanctions imposed by expropriations from the Chavez administration on down.  They   threw businesspeople into prison.  Took farm producing lands, took the factories, took the things that make the food.  The banking system, the   agriculture, took over everything and absolutely destroyed it.  There is no greater sanction than the economic plan of the Chavez and the Maduro   regime.  They destroyed the economy.   The sanctions imposed by the U.S. government allows in food and medicine.  Who is blocking food and medicine?  Maduro."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "So you do not condemn those U.S. sanctions."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "No, absolutely not.  Absolutely not.  Because they are allowing humanitarian aid in that is being blocked by the Maduro administration that   is purposely starving and torturing my people in order to remain in power.  We have food, we have medicine, they block it.  We smuggle it in with the   help of our patriotic citizens.  And we had a phenomenal economy.  They destroyed it with their greed and by taking it over.  There is no greater   sanction than the destruction of the productive capacity of a country."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "What about the Venezuelan people who support Maduro?  Are they not part of the country?  I am just asking you this question."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Which is why in negotiations that we talked of, and the Guaido government will go anywhere, meet with anyone and have any conversation   that promises to end the suffering of our people."
     },
     {
       "speaker": {
-        "name": "OK.  B",
+        "extractedName": "OK.  B",
+        "normalizedName": "OK.  B",
         "affiliation": "we   have something called the Frente Amplio, which is the broad front.  And we are getting the support of a lot of former what we call Chavistas   dissidents who want to join us and do not like the absolute destruction of the country.  We are politically inclusive as long as they are pro-  democracy.   ANDERSON"
       },
       "text": "Are you still offering deals for amnesty to the regime?  A regime you called a transnational criminal organization fronting as a   government."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "That's right.  Yes.  I say that very frequently.  That is sort of my tagline."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "So you're still offering amnesty deals?"
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "You always offer -- depending --"
     },
     {
       "speaker": {
-        "name": "OK.  S",
+        "extractedName": "OK.  S",
+        "normalizedName": "OK.  S",
         "affiliation": "I worked on reintegration of paramilitaries in Colombia.  So this is not my   first rodeo.  In 2008 and 2009 in the field.  So I have seen traditional justice firsthand.  I have interviewed the people who are the victims and   the perpetrators of violence.   There is a very particular process that's very complicated, where you fess up to what you did.  Where you offer up information and you assist in the   transition.  And depending your level of cooperation, you can become part of the new regime, and that happens everywhere, all over the world in all   transitions.   ANDERSON"
       },
       "text": "Why Guaido?  Let me ask you that."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "He is inexperienced.  He's only had a few years in -- hold on a minute.  He is young, he's inexperienced, he's only had a few years in the   national assembly which of course wields the power.  What legitimizes his claim to the presidency.  I'm not talking about the constitutional claim   because you just explain that.  It's a genuine question that I heard many people ask.  Given the failed coup d'etat -- call it what you will -- we   watched those images on our television screens.  You must have been terribly disappointed."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "I wept."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "I am sure you did.  Is he the right man to take Venezuela forward at this point?"
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Well, he is the man, he is the man who has the legitimacy, who has the constitution behind him.  To put this into context, he is one of   the leaders of the generation of 2007.  What we call the generation of 2007.  Which is when you got a student uprising.  It was after they close   the old TV channel.  When the students had been pro-Chavez suddenly said, all my God, this is a dictatorship and you had this new leadership come up   organically of student leaders."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "I understand that.  We've had the opportunity to talk about the constitution legitimacy.  I'm talking about the man himself.  This is a   huge job, and it's not where you want it to be at present.  Is he the man for the job?"
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "It is true.  It is true that we are stronger than we were 16 weeks ago because the coalition is stronger.  And we are launching -- there   is yet much to be done, I agree.  And as you may know, we have launched a very specific focus and targeted strategy of growing the coalition of   support for our democracy, which means for Juan Guaido to change the strategic environment in which the Maduro administration, the Maduro   regime, recalculate its sense of time.  We must and we will make it clear to the Maduro regime what we and the rest of Venezuela knows, that time is   not on their side."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "The special ambassador from the Juan Guaido regime, government."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Administration."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Thank you very much indeed for joining us."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Thank you very much for having me."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Still to come we are waiting to hear from Mr. Trump on several fronts this hour.  But the controversy over Greenland continues to dominate   the headlines.  Because Mr. Trump just took it to a whole new level.  Why he cancelled a state visit to Denmark.  That is just ahead."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Many people have first regarded it as a joke because it seemed Denmark's Prime Minister said simply absurd.  But U.S. President Donald   Trump was serious.  So serious about buying part of another country's territory that he cancelled the state visit to Denmark when he was   rebuffed.  Some call the whole uproar over Greenland a distraction from real issues.   And while that may be true in part, there could also be real consequences when it comes to diplomacy.  The U.S. wants help from its allies on   everything from guarding shipping in the Strait of Hormuz to denying assistance to an Iranian oil tanker just released by Gibraltar amongst   other things.  So what message does Mr. Trump's snub of Denmark send not only to the loyal U.S. ally but all American allies around the world?   Let's talk more about all of this."
     },
     {
       "speaker": {
-        "name": "CNN",
+        "extractedName": "CNN",
+        "normalizedName": "CNN",
         "affiliation": "Clarissa Ward, live in   Tehran.  And this cancellation by the U.S. President of what was a state visit to Denmark, really it seems catching the country off guard.  What's   been the response there?   ANNA STEWART, CNN REPORTER"
       },
       "text": "Well, Becky, waking up this morning in Copenhagen, I think Danes were frankly shocked.  You know, this story was   initially perhaps treated with a bit of bemusement and some ridicule that the President wanted to buy Greenland.  Which is a semi-autonomous region,   a Danish territory but certainly not for sale.  And Greenland's government has echoed that again today.   Interestingly though, you mention the alliance, the importance of the relationship between Denmark and the United States.  But actually I think   that was nowhere better seen today than the response we got from the Prime Minister.  Because while we had lots of politicians across the political   spectrum actually, all united in insert of shock and offense over the fact that the President has cancelled what was a state visit.  He was invited by   the Queen.  The Prime Minister took a much more reserved, conservative diplomatic line.  Take a listen to what she said."
     },
     {
       "speaker": {
-        "name": "METTE FREDERIKSEN",
+        "extractedName": "METTE FREDERIKSEN",
+        "normalizedName": "METTE FREDERIKSEN",
         "affiliation": "DANISH PRIME MINISTER"
       },
       "text": "It is with regret and surprise that I received the news that President Trump has cancelled his state visit   to Denmark on the 2nd and 3rd of September.  I had been looking forward to the visit.  Our preparations were well under way.  It was an opportunity I   think to celebrate Denmark's close relationship to U.S., and who remains one of Denmark's closest allies.  I was looking forward to having a   dialogue on the many shared interests Denmark has with the U.S."
     },
     {
       "speaker": {
-        "name": "STEWART",
+        "extractedName": "STEWART",
+        "normalizedName": "STEWART",
         "affiliation": ""
       },
       "text": "Not only is Denmark and the U.S. important trading partners, but of course you got to look at the military as well.  You know, Danish troops   fight alongside American troops in Iraq and Afghanistan.  They fought in Syria in the war against ISIS.  They are a small but very strong and   powerful ally for the United States.  The Prime Minister of course with that statement will hopefully or at least will be hoping a line is drawn   under this."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Clarissa, the U.S. intensifying pressure on Iran with what it calls a countdown to terror clock, and even has its own hash tag.    I want to bring that up here as we speak.  The sense where you are as we speak."
     },
     {
       "speaker": {
-        "name": "CLARISSA WARD",
+        "extractedName": "CLARISSA WARD",
+        "normalizedName": "CLARISSA WARD",
         "affiliation": "CNN CHIEF INTERNATIONAL CORRESPONDENT"
       },
       "text": "Well, I think the sense, Becky, is that if the U.S. truly sees Iran as being its primary   adversary, then it's going to have to appeal to elements of the international community to support it in any efforts towards thwarting   Iran.  And one can only assume that the kind of rhetoric that we hear when President Trump talks about buying Greenland or cancelling a trip to   Denmark because Greenland turns out not to be for sale does in same ways damage his relationship with European governments.   He's also put an enormous pressure on the Europeans by pulling out of the Iran Nuclear Deal, leaving the Europeans in a situation where essentially,   they cannot fulfill their end of the bargain with regards to Iran.  Because U.S. independent companies have threatened to stop doing business with   Europeans if they continue to work with the Iranians.  And all of this makes for a very muddled policy when it comes to Iran and to garnering   support for European nations who will be crucial in any further actions against this country -- Becky."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Chief international correspondent, Clarissa Ward in Tehran in Iran.  We're taking a short break.  Back after this."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Right, this hour we are waiting to hear from the U.S. President, Donald Trump.  But if his Twitter feed is any indication, he has an awful   lot on his mind from the U.S. economy to China to Israel.  But the controversy over Greenland continues to dominate the headlines.   Because Mr. Trump just took it to a whole new level.  He actually cancelled a state visit to Denmark because it refused to sell Greenland to the United   States.  Many people in Denmark today are baffled and annoyed and quite frankly insulted to say the least.  I want to mark what's going on and   discuss Donald Trump's position on so many of these issues around the world at present.   I want to bring Stephen Collinson in for you out of Washington.  Talk of recession sure to be looming large, Stephen, on Donald Trump's mind at   present.  A new poll showing well showing quite frankly that America's view of the economy is dipping for the first time since he took office.  Where   is he in all this?"
     },
     {
       "speaker": {
-        "name": "STEPHEN COLLINSON",
+        "extractedName": "STEPHEN COLLINSON",
+        "normalizedName": "STEPHEN COLLINSON",
         "affiliation": "CNN WHITE HOUSE REPORTER"
       },
       "text": "That's a good question.  I think what this shows is that there is a lot as you say kind   of competing for us over prominence in Donald's mind and in his soul.  It's right that the issue of recession is perhaps the biggest long-term threat   to the President.  Some people have said that all of these controversies over the last few days are yet another example of how the President whips   up fervors to disguise bad political developments and to distract people.   I've never been a big fan of that idea just because it sort of suggests a level of strategizing on the part of Donald Trump that doesn't seem to be   there.  This is an impulsive President.  He's making U.S. foreign policy and even U.S. domestic policy a reflection of his character.  He is   erratic, unpredictable, sometimes vengeful, and transactional character.  So I think that's really what's really going on here.  There's like   multiple things that annoy and catch Donald Trump's attention every single day."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Let's discuss one of those.  President Trump drew sharp criticism after making this statement about Jewish voters.  Have a listen."
     },
     {
       "speaker": {
-        "name": "TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "TRUMP",
         "affiliation": ""
       },
       "text": "Democratic Party gone.  Where have they gone where they're defending these two people over the state of Israel?  And I think any   Jewish people that vote for a Democrat, I think it shows either a total lack of knowledge or great disloyalty."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "That, Greenland, various other things are going on at present, including Donald Trump's position on gun law, of the mass shootings in   Texas and Ohio that left 31 dead and dozens wounded.  His suggestion about expanding background checks.  But so much of what we're hearing from him at   present feels like a political distraction.  Is it?"
     },
     {
       "speaker": {
-        "name": "COLLINSON",
+        "extractedName": "COLLINSON",
+        "normalizedName": "COLLINSON",
         "affiliation": ""
       },
       "text": "You know, as I said, I think the question is if this is a political distraction, what is he trying to distract from.  There are   multiple things every day in any other presidency would seem like lunacy honestly.  And so, if he's trying to distract, is he trying to distract   from the situation with Iran, the lack of success with North Korea, on the economy.  I think what this is, it is just showing a window into who Donald   Trump really is.  Those comments were very offensive to the American Jewish community because they play into the trope of loyalty that has been used   against them.   This at the same time the President is accusing members of the Democratic Party of being anti-Semitic.  So he's almost committing the same   transgression that he's accusing others of using.  That is also very interesting because it shows another aspect of the President's character.    In the way that foreign policy now is basically leveraged as to how it will help the President politically.   He's made the U.S. relationship with Israel hyper politicized.  Part of the reason for that is because evangelical voters -- who are strongly   supportive of Israel -- are a very important component of the Trump base.  This is going to have aftereffects down the road.  There are a lot of   Israel's friends in Washington, Republicans as well as Democrats, who are troubled by this.  Because they feel that politicizing this relationship   makes it much more troublesome for Israel to pursue its goals throughout the Congress and wider American politics.   So this is a President who's always thinking of his own personal advantage and his comments reflect his character and I think that's what we're   seeing.  Rather than some kind of strategized effort to distract from whatever crisis seems to be bubbling up at whatever moment of any day."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Well if that is the case, it will be interesting to see his reaction to the Danes who frankly find him pulling this state visit absurd   and quite frankly, insulting.  Stephen, thank you.  Stephen Collinson in the house for you. Let's get you up to speed on some of the other stories that are on our radar now.   A new political crisis for Italy.  The country may be headed for new elections after the Prime Minister Giuseppe Conte resigned on Tuesday.  His   government collapsed after coalition partner and far right-party leader Matteo Salvini withdrew his support.   Sudan has sworn in its new transitional council that will lead the country to new elections.  The council will govern for a three-year period.  It was   put together by country's generals and opposition alliance after a power- sharing deal.  This comes after months of deadly violence and ousting of long-term dictator, Omar Al Bashir.   Well highest ranking Catholic worldwide to be accused of sexual abuse, Cardinal George Pell has lost his appeal.  Pell said he was   disappointed with the decision.  In March he was sentenced to six years in prison after being found guilty of sexual assaulting two 13-year-old choir   boys in the 1990s.   China's foreign ministry confirms it detained an employee of the British consulate in Hong Kong who has been missing for almost two weeks.    According to Chinese foreign ministry, Simon Cheng was detained for violating the country's security administration punishment law.  The U.K.   foreign office tells CNN it is, quote, extremely concerned about Cheng, who is a Hong Kong citizen.   Taking a short break.  20 to 5:00 in London.  Back after this."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Well it is one of nature's mighty spectacles, the great wildebeest migration of Africa.  Two-million proud beasts romping across   the savannah.  What could be more awe inspiring than that?   Well how about the great mattress migration of our time.  You're watching dozens of mattresses, air mattresses cartwheeling their way through a park   in Denver with the wind whipping them up into an impromptu party.  They are blowing away from an outdoor bed cinema where the organizers have clearly   not tied them down.  There is something almost peaceful about that chaos, isn't there?   I am Becky Anderson, that was CONNECT THE WORLD.  Wherever you're watching, have a very good day.  From us here, it's a very good evening.  END"
@@ -565,560 +645,640 @@
   "output": [
     {
       "speaker": {
-        "name": "BECKY ANDERSON",
+        "extractedName": "BECKY ANDERSON",
+        "normalizedName": "BECKY ANDERSON",
         "affiliation": "CNN HOST"
       },
       "text": "Well hello and welcome.  You're watching CONNECT THE WORLD with me Becky Anderson, live from London.  And   we are following breaking news.   Out of Hong Kong tensions heating up at a metro station there where protesters have staged a sit-in at the scene of an attack by suspected   Triad gang members last month.  Now demonstrators have set up barricades -- you see here -- while police are trying to disburse the crowds.   Eleven week in, remember, to these protest movements.  And once again, late at night in Hong Kong we see what looks like a smaller cohort.  Of course   remember, organizers suggest as many as 1.7 million people out with the movement over the weekend again.  Once again, authorities there suggesting   only about 127,000, this is a smaller cohort.  This is a metro station.  It's 11:00 p.m.  at night.   CNN's Will Ripley is in Hong Kong and on his way to the station.  I'm going to get to him as soon as I can for you.  First, let's get you to Matt   Rivers who is in Beijing.  Matt, firstly, are you even seeing these images in Beijing?"
     },
     {
       "speaker": {
-        "name": "MATT RIVERS",
+        "extractedName": "MATT RIVERS",
+        "normalizedName": "MATT RIVERS",
         "affiliation": "CNN CORRESPONDENT"
       },
       "text": "Well, you know, it's interesting question, Becky.  Because China generally has censored a lot of   these images, starting towards the beginning of these protests when they began more than two months ago.  But you know, if this really turns violent   tonight, if the we see tear gas, if we see protesters clashing with police, those are the mages that Beijing wants to show the rest of the world.   You just talk about the 1.7 million according to organizers.  The 1.7 million people that came out over the weekend.  Now let's remind our   viewers, they were peaceful.  They retook the mantle that the protests when they first began in early June and mid-June, they were built upon peaceful   protests, centering on a pro-democracy message, on a message of being fearful of increasing encroachment from Beijing.   And the amount of people that we have seen be violent in these protests are in a very small fraction of the amount of people we have seen in the   streets.  And yet that is the image that Beijing wants to put to the rest of the world.  They don't want people talking about the fact that 1.7   million peacefully marched on their own through the streets of Hong Kong.  They want you right now, the international viewer, to focus on the fact   there are at most several thousand who engaged in violence on a regular basis.  Several thousand out of more than a billion people.  We are talking   about fractions of a percentage.  And that is what Beijing wants to focus on.  So it's interesting.   You know, Beijing is probably going to let some of the images come through.  But fact of the matter is there are protesters that are violent, and what   we could see tonight is repeat of violence.  It's interesting that this is happening.  The MTR station -- as  you mentioned off the top -- that is the   scene where protesters were incredibly angry about a month ago.  Because as people were heading home, there were Triad gang members -- a gang that has   been operating in Hong Kong.  They've been at the China border for decades now.   They are suspected Triad members that savagely beat people who were engaging largely in peaceful protests on the way home, after engaging in   protests.  And the police for 45 minutes did nothing as people were beaten inside that station.  That is the reason why protesters have chosen to do   that sit in tonight, Becky, and we'll have to see where it goes in terms of violence."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "It's not clear as we look at the images -- and viewers, these are coming to us as they are coming to you.  We want you to see the same   images we are getting into CNN now.   Will Ripley is on the line for us.  He's on the way to this very metro station.  It is not clear what the intention of this -- as matt points out   -- small group of protesters is.  But the significance of these images if you will."
     },
     {
       "speaker": {
-        "name": "WILL RIPLEY",
+        "extractedName": "WILL RIPLEY",
+        "normalizedName": "WILL RIPLEY",
         "affiliation": "CNN CORRESPONDENT"
       },
       "text": "Well obviously, this is an attempt to continue the disruption, cycle of disruption.  Prior to this, it   was the Hong Kong International Airport.  It was the legislative council building.  You know, which at time was just and unprecedented moment, the   vandalism of a public space.  And now you have this MTR station, significant because of what happened there a month ago, the stabbing   incident, tied to the Triad, suspected of connections to the Chinese government.   And now you have a small group of protesters here demanding that they will deliver a message.  Wearing gas masks and helmets and prepared   for a confrontation with police that they feel is imminent.  But now Beijing and certainly some aspects of Hong Kong city government can   continue to make a case that these protests are violent and act of terror.  Even though earlier in the day you have much, much larger groups peacefully   staging a sit in, peacefully protesting over the weekend, with an estimated up to 1.7 million people, and no outbreaks of violence.  And now a few days   later, you have a very small group getting a lot of attention for activities that are highly disruptive."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Very briefly, there will be those watching the images, Will, who say that these protesters, these youngsters, this small cohort are goading   authorities, are goading security services, are looking for a response.  Your thoughts."
     },
     {
       "speaker": {
-        "name": "RIPLEY",
+        "extractedName": "RIPLEY",
+        "normalizedName": "RIPLEY",
         "affiliation": ""
       },
       "text": "That clearly has been the motivation and intent time and time again, looking to force action by a much larger entity than the group of   people, these renegades, if you will, that are acting this way."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Will Ripley is on the way to the station.  Will, we'll get back to you as and when you get set up and we'll keep an eye on these images.    Important that we stay on this story.  As and when, viewers, we will get back to that metro station for you.  But those the very latest on what is   this 11-week of protest now there in Hong Kong, these images slightly different from those that we've seen before.   We are learning that Donald Trump's play book with dictators is the following, big blustering threats.  Then an offer to talk.  And so, playing   out with Venezuela.  You remember that Donald Trump's administration gave support to what was a coup d'etat in the Latin American country.  Well that   didn't work out.  So he's gone into secret talks with President Nicolas Maduro."
     },
     {
       "speaker": {
-        "name": "DONALD TRUMP",
+        "extractedName": "DONALD TRUMP",
+        "normalizedName": "DONALD TRUMP",
         "affiliation": "PRESIDENT OF THE UNITED STATES"
       },
       "text": "We are in touch.  We're talking to various representatives of Venezuela.  We're helping Venezuela   as much as we can.  We're staying out of it but we are helping it."
     },
     {
       "speaker": {
-        "name": "NICOLAS MADURO",
+        "extractedName": "NICOLAS MADURO",
+        "normalizedName": "NICOLAS MADURO",
         "affiliation": "VENEZUELAN PRESIDENT"
       },
       "text": "As I have sought dialogue in Venezuela, I sought for a way for President Donald Trump   to really listen for real to Venezuela and understand the truth that his officials and collaborators cover up."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "To find out the whole truth, we want to take you now into the part of Venezuela with an exclusive investigation.  CNN's Isa Soares and   her team takes us into the corrupt and bloody industry keeping Maduro in power.  Gold.  First, we must warn you some pictures in this story are   graphic."
     },
     {
       "speaker": {
-        "name": "ISA SOARES",
+        "extractedName": "ISA SOARES",
+        "normalizedName": "ISA SOARES",
         "affiliation": "CNN ANCHOR & CORRESPONDENT"
       },
       "text": "On the fringes of the Amazon Rainforest, a state-sponsored network of violent gangs and corrupt   Venezuelan military hide amongst a vast land, rich in minerals, and seeking gold.:  All this has made this area Maduro's El Dorado and it's this that's giving him a financial lifeline.    We've come deep into Venezuela's mining ark to find out how Nicolas Maduro is holding on to power and able to resist American pressure.   He's given himself direct control over this land and he's bleeding it dry.  Enriching himself and buying the allegiance of the military, and it all   starts with the local miners.  Who with mouths to feed at home risk it all operating in this lawless region.   We venture in 50 meters deep.  It is a precarious operation.  Inside the miners guide us through the various levels and galleries, past evidence of   a colonial thirst for gold.  Along the way I meet Darwin Rojas who has been mining here for three years now."
     },
     {
       "speaker": {
-        "name": "DARWIN ROJAS",
+        "extractedName": "DARWIN ROJAS",
+        "normalizedName": "DARWIN ROJAS",
         "affiliation": "MINER"
       },
       "text": "The gold comes out of here, from the earth."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "Backbreaking work in intense humidity."
     },
     {
       "speaker": {
-        "name": "ROJAS",
+        "extractedName": "ROJAS",
+        "normalizedName": "ROJAS",
         "affiliation": ""
       },
       "text": "When you're working a large section of the mine, we could dig as many as 50 or 60 bags."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "Everywhere you looked speckles shimmer from above.:  This mine has been so productive for them because they have got 250 kilos of gold out of this mine, just to give you a sense really why   it's called \"the millionaire's mine.\"    If 250 kilos or just over 550 pounds is accurate, that's well over $10 million at global market prices, all from one single   dug hole.  There are dozens around as thousands within Venezuela's mining ark. But not all that shimmers is gold and these miners know it.  These rocks need to be crushed, processed, scraped and melted before you actually see   the gold.   This nugget here $315 but it comes at a cost to the health for the miners as well as the environment, with mercury and other chemicals used to   separate gold from grit poisoning everything you see around us. But this is business and these mills don't do it for free.  And then there is an additional cost, even if the miners are scared to admit it."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "Do you have to pay anyone else?"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "No one else.  No, no one else."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "Right?  It's like that."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "It's like that?"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "It's like that."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "Is it more or less like that?"
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "More or less like that."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "It's clear from what he's saying there are other forces involved, there are other people they have to pay in order to be continuing to work   in these mine -- in these mines but clearly, they're not prepared to tell us who they are.    They have every reason to be afraid.  These mines are run by a network of hooded militias called \"pranes\" who according to a senior   military source enter to mines to extort, steal in silence.  They do so together with complicit members of the military who they bribe to operate   freely."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "What kind of pressure, they kill people?:  A local miner to scare too scared to speak out about the gang's close to the mines opens up once his identity is hidden."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "They mutilate people.  They cut them and torture them and the ones that speak are also tortured and   mutilated.  They killed them and throw them down those holes."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "One active senior military sources confirmed what we've heard in El Callao, telling me the same group used death squads to command   obedience.  Battling each other and the military for control over this mining area. It's a pressure tactic of blood and bullets.  I asked the miner if he blames Maduro."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "I think the government has the capacity to put an end to the pranes, if he wants to do it.  But they are   not going to do it because they benefit from it."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "This is echoed from the top, General Manuel Figuera was the former spy chief for the Venezuelan president until April the 30th when he   defected."
     },
     {
       "speaker": {
-        "name": "MANUEL CRISTOPHER FIGUERA",
+        "extractedName": "GENERAL MANUEL CRISTOPHER FIGUERA",
+        "normalizedName": "MANUEL CRISTOPHER FIGUERA",
         "affiliation": "MADURO'S FORMER SPY CHIEF"
       },
       "text": "Maduro has knowledgeable of all of this.  And has done very   little, if anything."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "For years he was part of Maduro's inner circle.  With the U.S. Treasury sanctioning him of accusations he oversaw mass torture, mass human   rights violations and mass persecution.   Now, with sanctions dropped, he's speaking out about corruption at the very top.  Backing the U.S. assessment that Maduro's family are also profiting."
     },
     {
       "speaker": {
-        "name": "FIGUERA",
+        "extractedName": "FIGUERA",
+        "normalizedName": "FIGUERA",
         "affiliation": ""
       },
       "text": "There are companies linked to Maduro's family circle that buy the gold and negotiate the extraction of the gold in   the south of the country.  They sold one part of it to the Central Bank and the other part they take out of the country without any kind of control."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "In Caracas we find this network expands beyond Venezuela.  In 2018 Maduro traded Venezuelan gold to Turkey.  Some in exchange for food which   the government then used in their subsidized food boxes.  But it didn't stop there.    According to a source at the Venezuelan Central Bank, 26 tons of gold were taken out of the bank to the end of April.  They were put into   private airplanes and a destination, Middle East, and Africa.    That's $1.6 billion, much of it skirting U.S. sanctions.  According to the source, several other shipments left Caracas this year to   United Arab Emirates, directly and also via Uganda on a Russian plane in exchange for Euros."
     },
     {
       "speaker": {
-        "name": "FIGUERA",
+        "extractedName": "FIGUERA",
+        "normalizedName": "FIGUERA",
         "affiliation": ""
       },
       "text": "Maduro is at the helm of a criminal enterprise.  He has hijacked all the states institutions to work in his   service.  This has allowed him to corrupt public servants and military official and all the power structures in order to perpetuate his rule."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "This matches what we here on the streets of El Callao, here where gold is a standard currency.  Many like this gold seller are just a cog in   the system which is controlled all the way from the top."
     },
     {
       "speaker": {
-        "name": "UNIDENTIFIED MALE",
+        "extractedName": "UNIDENTIFIED MALE",
+        "normalizedName": "UNIDENTIFIED MALE",
         "affiliation": ""
       },
       "text": "What we hear, is that everything is completely controlled by the government.  Directly or   indirectly, we're all working for them."
     },
     {
       "speaker": {
-        "name": "SOARES",
+        "extractedName": "SOARES",
+        "normalizedName": "SOARES",
         "affiliation": ""
       },
       "text": "But with the river of gold running deep and the economy is shrinking by half in the span of five years there is little sign Maduro and   his men will turn their back on this blood gold.  Here human misery goes hand in hand with environmental devastation.  It's a free- for-all, a gold   rush where the main winner is Maduro."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "CNN contacted both the Venezuela government and the Central Bank but obtained no response.  The Venezuelan government has dismissed U.S.   sanctions in the past saying they are an unjustified attack on the country and an attempt to get hold of its resources."
     },
     {
       "speaker": {
-        "name": "CNN",
+        "extractedName": "CNN",
+        "normalizedName": "CNN",
         "affiliation": "received no response.  An Emirati official did tell CNN they take these matters seriously, and that   the UAE government is in compliance with international law but wouldn't comment on legal proceedings in another country.   A woman who sees a solution to this corruption is known as the cracker from Caracas.  Vanessa Neumann, she's effectively a shadow ambassador for a   rival government to Maduro, set up by self-declared interim President Juan Guaido.  And she joins me now.   This makeshift parallel government, Vanessa, that you are part of, set up to challenge the Maduro government to get rid of the President himself.  It   seems to have achieved the exact opposite.  A failed coup, t which o all intents and purposes seems to have made him stronger, not weaker.   VANESSA NEUMANN, JUAN GUAIDO'S OFFICIAL U.K. REPRESENTATIVE"
       },
       "text": "Also, let me differ with you there.  First of all, we are not a parallel government, we   are the government.  We stem directly from the constitution.  Juan Guaido is our constitutional leader according to the constitution of our republic.    That constitution comes from 1999.  Ironically, we are defending it.  The Chavistas are violating it.  And the irony is that it was the constitution   that was set up by -- that was signed into law under Hugo Chavez.  So the Chavistas are violating their hero's constitution while we defend it."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "He still runs the country.  Let me put this to you.  He still runs the country.  He has admitted he is in secret talks with Donald Trump,   who has admitted the same.  The U.S. President is speaking to Maduro and he still runs the country.  So I get where you're going with this, but for all   intents and purposes, this is a parallel government."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "No, absolutely not.  The Maduro regime is more fractured now than it was 16 months ago, and the social uprising to which you refer to as the   failed coup."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Day after day we saw protest in the streets, we're not seeing that anymore.  How is he weak and not stronger."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "He is weaker because they are negotiating behind his back with him and without him.  The entire administration is fractured.  They are, as   Bolton says, scorpions in a bottle.  People reject them.  More than 84 percent of people want Maduro out as soon as possible.  He is using food   and medicine and starving them for social control.  While he blocks food and medicine coming into the country, we are having moderate success   getting them in with the help of patriotic Venezuelans and delivering it to local communities for the past 18 weeks, every weekend."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Let me put this to you.  In the last few weeks, the U.S. has introduced larger sanctions against Venezuela.  As you have described   yourself as voice of the people, it is the people who are suffering greatly.  I know you're going to say it's the Maduro government.  What are   the swinge in U.S. sanctions which are helping no one, only hurting the people of Venezuela."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Nothing has hurt the Venezuelan people more than the sanctions imposed by expropriations from the Chavez administration on down.  They   threw businesspeople into prison.  Took farm producing lands, took the factories, took the things that make the food.  The banking system, the   agriculture, took over everything and absolutely destroyed it.  There is no greater sanction than the economic plan of the Chavez and the Maduro   regime.  They destroyed the economy.   The sanctions imposed by the U.S. government allows in food and medicine.  Who is blocking food and medicine?  Maduro."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "So you do not condemn those U.S. sanctions."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "No, absolutely not.  Absolutely not.  Because they are allowing humanitarian aid in that is being blocked by the Maduro administration that   is purposely starving and torturing my people in order to remain in power.  We have food, we have medicine, they block it.  We smuggle it in with the   help of our patriotic citizens.  And we had a phenomenal economy.  They destroyed it with their greed and by taking it over.  There is no greater   sanction than the destruction of the productive capacity of a country."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "What about the Venezuelan people who support Maduro?  Are they not part of the country?  I am just asking you this question."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Which is why in negotiations that we talked of, and the Guaido government will go anywhere, meet with anyone and have any conversation   that promises to end the suffering of our people."
     },
     {
       "speaker": {
-        "name": "OK.  B",
+        "extractedName": "OK.  B",
+        "normalizedName": "OK.  B",
         "affiliation": "we   have something called the Frente Amplio, which is the broad front.  And we are getting the support of a lot of former what we call Chavistas   dissidents who want to join us and do not like the absolute destruction of the country.  We are politically inclusive as long as they are pro-  democracy.   ANDERSON"
       },
       "text": "Are you still offering deals for amnesty to the regime?  A regime you called a transnational criminal organization fronting as a   government."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "That's right.  Yes.  I say that very frequently.  That is sort of my tagline."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "So you're still offering amnesty deals?"
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "You always offer -- depending --"
     },
     {
       "speaker": {
-        "name": "OK.  S",
+        "extractedName": "OK.  S",
+        "normalizedName": "OK.  S",
         "affiliation": "I worked on reintegration of paramilitaries in Colombia.  So this is not my   first rodeo.  In 2008 and 2009 in the field.  So I have seen traditional justice firsthand.  I have interviewed the people who are the victims and   the perpetrators of violence.   There is a very particular process that's very complicated, where you fess up to what you did.  Where you offer up information and you assist in the   transition.  And depending your level of cooperation, you can become part of the new regime, and that happens everywhere, all over the world in all   transitions.   ANDERSON"
       },
       "text": "Why Guaido?  Let me ask you that."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Yes."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "He is inexperienced.  He's only had a few years in -- hold on a minute.  He is young, he's inexperienced, he's only had a few years in the   national assembly which of course wields the power.  What legitimizes his claim to the presidency.  I'm not talking about the constitutional claim   because you just explain that.  It's a genuine question that I heard many people ask.  Given the failed coup d'etat -- call it what you will -- we   watched those images on our television screens.  You must have been terribly disappointed."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "I wept."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "I am sure you did.  Is he the right man to take Venezuela forward at this point?"
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Well, he is the man, he is the man who has the legitimacy, who has the constitution behind him.  To put this into context, he is one of   the leaders of the generation of 2007.  What we call the generation of 2007.  Which is when you got a student uprising.  It was after they close   the old TV channel.  When the students had been pro-Chavez suddenly said, all my God, this is a dictatorship and you had this new leadership come up   organically of student leaders."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "I understand that.  We've had the opportunity to talk about the constitution legitimacy.  I'm talking about the man himself.  This is a   huge job, and it's not where you want it to be at present.  Is he the man for the job?"
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "It is true.  It is true that we are stronger than we were 16 weeks ago because the coalition is stronger.  And we are launching -- there   is yet much to be done, I agree.  And as you may know, we have launched a very specific focus and targeted strategy of growing the coalition of   support for our democracy, which means for Juan Guaido to change the strategic environment in which the Maduro administration, the Maduro   regime, recalculate its sense of time.  We must and we will make it clear to the Maduro regime what we and the rest of Venezuela knows, that time is   not on their side."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "The special ambassador from the Juan Guaido regime, government."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Administration."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Thank you very much indeed for joining us."
     },
     {
       "speaker": {
-        "name": "NEUMANN",
+        "extractedName": "NEUMANN",
+        "normalizedName": "NEUMANN",
         "affiliation": ""
       },
       "text": "Thank you very much for having me."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Still to come we are waiting to hear from Mr. Trump on several fronts this hour.  But the controversy over Greenland continues to dominate   the headlines.  Because Mr. Trump just took it to a whole new level.  Why he cancelled a state visit to Denmark.  That is just ahead."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Many people have first regarded it as a joke because it seemed Denmark's Prime Minister said simply absurd.  But U.S. President Donald   Trump was serious.  So serious about buying part of another country's territory that he cancelled the state visit to Denmark when he was   rebuffed.  Some call the whole uproar over Greenland a distraction from real issues.   And while that may be true in part, there could also be real consequences when it comes to diplomacy.  The U.S. wants help from its allies on   everything from guarding shipping in the Strait of Hormuz to denying assistance to an Iranian oil tanker just released by Gibraltar amongst   other things.  So what message does Mr. Trump's snub of Denmark send not only to the loyal U.S. ally but all American allies around the world?   Let's talk more about all of this."
     },
     {
       "speaker": {
-        "name": "CNN",
+        "extractedName": "CNN",
+        "normalizedName": "CNN",
         "affiliation": "Clarissa Ward, live in   Tehran.  And this cancellation by the U.S. President of what was a state visit to Denmark, really it seems catching the country off guard.  What's   been the response there?   ANNA STEWART, CNN REPORTER"
       },
       "text": "Well, Becky, waking up this morning in Copenhagen, I think Danes were frankly shocked.  You know, this story was   initially perhaps treated with a bit of bemusement and some ridicule that the President wanted to buy Greenland.  Which is a semi-autonomous region,   a Danish territory but certainly not for sale.  And Greenland's government has echoed that again today.   Interestingly though, you mention the alliance, the importance of the relationship between Denmark and the United States.  But actually I think   that was nowhere better seen today than the response we got from the Prime Minister.  Because while we had lots of politicians across the political   spectrum actually, all united in insert of shock and offense over the fact that the President has cancelled what was a state visit.  He was invited by   the Queen.  The Prime Minister took a much more reserved, conservative diplomatic line.  Take a listen to what she said."
     },
     {
       "speaker": {
-        "name": "METTE FREDERIKSEN",
+        "extractedName": "METTE FREDERIKSEN",
+        "normalizedName": "METTE FREDERIKSEN",
         "affiliation": "DANISH PRIME MINISTER"
       },
       "text": "It is with regret and surprise that I received the news that President Trump has cancelled his state visit   to Denmark on the 2nd and 3rd of September.  I had been looking forward to the visit.  Our preparations were well under way.  It was an opportunity I   think to celebrate Denmark's close relationship to U.S., and who remains one of Denmark's closest allies.  I was looking forward to having a   dialogue on the many shared interests Denmark has with the U.S."
     },
     {
       "speaker": {
-        "name": "STEWART",
+        "extractedName": "STEWART",
+        "normalizedName": "STEWART",
         "affiliation": ""
       },
       "text": "Not only is Denmark and the U.S. important trading partners, but of course you got to look at the military as well.  You know, Danish troops   fight alongside American troops in Iraq and Afghanistan.  They fought in Syria in the war against ISIS.  They are a small but very strong and   powerful ally for the United States.  The Prime Minister of course with that statement will hopefully or at least will be hoping a line is drawn   under this."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Clarissa, the U.S. intensifying pressure on Iran with what it calls a countdown to terror clock, and even has its own hash tag.    I want to bring that up here as we speak.  The sense where you are as we speak."
     },
     {
       "speaker": {
-        "name": "CLARISSA WARD",
+        "extractedName": "CLARISSA WARD",
+        "normalizedName": "CLARISSA WARD",
         "affiliation": "CNN CHIEF INTERNATIONAL CORRESPONDENT"
       },
       "text": "Well, I think the sense, Becky, is that if the U.S. truly sees Iran as being its primary   adversary, then it's going to have to appeal to elements of the international community to support it in any efforts towards thwarting   Iran.  And one can only assume that the kind of rhetoric that we hear when President Trump talks about buying Greenland or cancelling a trip to   Denmark because Greenland turns out not to be for sale does in same ways damage his relationship with European governments.   He's also put an enormous pressure on the Europeans by pulling out of the Iran Nuclear Deal, leaving the Europeans in a situation where essentially,   they cannot fulfill their end of the bargain with regards to Iran.  Because U.S. independent companies have threatened to stop doing business with   Europeans if they continue to work with the Iranians.  And all of this makes for a very muddled policy when it comes to Iran and to garnering   support for European nations who will be crucial in any further actions against this country -- Becky."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Chief international correspondent, Clarissa Ward in Tehran in Iran.  We're taking a short break.  Back after this."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Right, this hour we are waiting to hear from the U.S. President, Donald Trump.  But if his Twitter feed is any indication, he has an awful   lot on his mind from the U.S. economy to China to Israel.  But the controversy over Greenland continues to dominate the headlines.   Because Mr. Trump just took it to a whole new level.  He actually cancelled a state visit to Denmark because it refused to sell Greenland to the United   States.  Many people in Denmark today are baffled and annoyed and quite frankly insulted to say the least.  I want to mark what's going on and   discuss Donald Trump's position on so many of these issues around the world at present.   I want to bring Stephen Collinson in for you out of Washington.  Talk of recession sure to be looming large, Stephen, on Donald Trump's mind at   present.  A new poll showing well showing quite frankly that America's view of the economy is dipping for the first time since he took office.  Where   is he in all this?"
     },
     {
       "speaker": {
-        "name": "STEPHEN COLLINSON",
+        "extractedName": "STEPHEN COLLINSON",
+        "normalizedName": "STEPHEN COLLINSON",
         "affiliation": "CNN WHITE HOUSE REPORTER"
       },
       "text": "That's a good question.  I think what this shows is that there is a lot as you say kind   of competing for us over prominence in Donald's mind and in his soul.  It's right that the issue of recession is perhaps the biggest long-term threat   to the President.  Some people have said that all of these controversies over the last few days are yet another example of how the President whips   up fervors to disguise bad political developments and to distract people.   I've never been a big fan of that idea just because it sort of suggests a level of strategizing on the part of Donald Trump that doesn't seem to be   there.  This is an impulsive President.  He's making U.S. foreign policy and even U.S. domestic policy a reflection of his character.  He is   erratic, unpredictable, sometimes vengeful, and transactional character.  So I think that's really what's really going on here.  There's like   multiple things that annoy and catch Donald Trump's attention every single day."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Let's discuss one of those.  President Trump drew sharp criticism after making this statement about Jewish voters.  Have a listen."
     },
     {
       "speaker": {
-        "name": "TRUMP",
+        "extractedName": "TRUMP",
+        "normalizedName": "TRUMP",
         "affiliation": ""
       },
       "text": "Democratic Party gone.  Where have they gone where they're defending these two people over the state of Israel?  And I think any   Jewish people that vote for a Democrat, I think it shows either a total lack of knowledge or great disloyalty."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "That, Greenland, various other things are going on at present, including Donald Trump's position on gun law, of the mass shootings in   Texas and Ohio that left 31 dead and dozens wounded.  His suggestion about expanding background checks.  But so much of what we're hearing from him at   present feels like a political distraction.  Is it?"
     },
     {
       "speaker": {
-        "name": "COLLINSON",
+        "extractedName": "COLLINSON",
+        "normalizedName": "COLLINSON",
         "affiliation": ""
       },
       "text": "You know, as I said, I think the question is if this is a political distraction, what is he trying to distract from.  There are   multiple things every day in any other presidency would seem like lunacy honestly.  And so, if he's trying to distract, is he trying to distract   from the situation with Iran, the lack of success with North Korea, on the economy.  I think what this is, it is just showing a window into who Donald   Trump really is.  Those comments were very offensive to the American Jewish community because they play into the trope of loyalty that has been used   against them.   This at the same time the President is accusing members of the Democratic Party of being anti-Semitic.  So he's almost committing the same   transgression that he's accusing others of using.  That is also very interesting because it shows another aspect of the President's character.    In the way that foreign policy now is basically leveraged as to how it will help the President politically.   He's made the U.S. relationship with Israel hyper politicized.  Part of the reason for that is because evangelical voters -- who are strongly   supportive of Israel -- are a very important component of the Trump base.  This is going to have aftereffects down the road.  There are a lot of   Israel's friends in Washington, Republicans as well as Democrats, who are troubled by this.  Because they feel that politicizing this relationship   makes it much more troublesome for Israel to pursue its goals throughout the Congress and wider American politics.   So this is a President who's always thinking of his own personal advantage and his comments reflect his character and I think that's what we're   seeing.  Rather than some kind of strategized effort to distract from whatever crisis seems to be bubbling up at whatever moment of any day."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Well if that is the case, it will be interesting to see his reaction to the Danes who frankly find him pulling this state visit absurd   and quite frankly, insulting.  Stephen, thank you.  Stephen Collinson in the house for you. Let's get you up to speed on some of the other stories that are on our radar now.   A new political crisis for Italy.  The country may be headed for new elections after the Prime Minister Giuseppe Conte resigned on Tuesday.  His   government collapsed after coalition partner and far right-party leader Matteo Salvini withdrew his support.   Sudan has sworn in its new transitional council that will lead the country to new elections.  The council will govern for a three-year period.  It was   put together by country's generals and opposition alliance after a power- sharing deal.  This comes after months of deadly violence and ousting of long-term dictator, Omar Al Bashir.   Well highest ranking Catholic worldwide to be accused of sexual abuse, Cardinal George Pell has lost his appeal.  Pell said he was   disappointed with the decision.  In March he was sentenced to six years in prison after being found guilty of sexual assaulting two 13-year-old choir   boys in the 1990s.   China's foreign ministry confirms it detained an employee of the British consulate in Hong Kong who has been missing for almost two weeks.    According to Chinese foreign ministry, Simon Cheng was detained for violating the country's security administration punishment law.  The U.K.   foreign office tells CNN it is, quote, extremely concerned about Cheng, who is a Hong Kong citizen.   Taking a short break.  20 to 5:00 in London.  Back after this."
     },
     {
       "speaker": {
-        "name": "ANDERSON",
+        "extractedName": "ANDERSON",
+        "normalizedName": "ANDERSON",
         "affiliation": ""
       },
       "text": "Well it is one of nature's mighty spectacles, the great wildebeest migration of Africa.  Two-million proud beasts romping across   the savannah.  What could be more awe inspiring than that?   Well how about the great mattress migration of our time.  You're watching dozens of mattresses, air mattresses cartwheeling their way through a park   in Denver with the wind whipping them up into an impromptu party.  They are blowing away from an outdoor bed cinema where the organizers have clearly   not tied them down.  There is something almost peaceful about that chaos, isn't there?   I am Becky Anderson, that was CONNECT THE WORLD.  Wherever you're watching, have a very good day.  From us here, it's a very good evening.  END"
