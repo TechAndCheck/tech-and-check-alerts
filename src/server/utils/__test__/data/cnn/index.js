@@ -1,9 +1,9 @@
 import fs from 'fs'
 
+import { isJsonFile } from '../../..'
+
 const testSuiteBasePath = `${__dirname}`
 const testSuites = {}
-
-const isJsonFile = fileName => fileName.endsWith('.json')
 
 const loadTestSuite = suitePath => fs
   .readdirSync(suitePath)

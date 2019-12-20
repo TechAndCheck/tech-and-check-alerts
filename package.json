@@ -18,6 +18,7 @@
     "test:watch": "jest --verbose --watch",
     "test:ci": "jest",
     "migrate": "sequelize db:migrate",
+    "migrate:undo": "sequelize db:migrate:undo",
     "queue:jobs:list": "babel-node -- src/scripts/listScheduledJobs",
     "queue:jobs:schedule": "babel-node -- src/scripts/scheduleJobs",
     "queue:jobs:unschedule": "babel-node -- src/scripts/unscheduleJobs",
@@ -28,7 +29,8 @@
     "sandbox": "babel-node -- src/scripts/_sandbox",
     "scrape:cnn": "babel-node -- src/scripts/scrapeCnnStatements",
     "scrape:twitter": "babel-node -- src/scripts/scrapeTwitterStatements",
-    "generate:test:cnn": "babel-node -- src/scripts/generateCnnUtilTest"
+    "generate:test:cnn": "babel-node -- src/scripts/generateCnnUtilTest",
+    "update:twitter:local": "babel-node -- src/scripts/updateTwitterAccountList"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
