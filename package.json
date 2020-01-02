@@ -53,7 +53,7 @@
     "cheerio": "^1.0.0-rc.3",
     "dayjs": "^1.8.14",
     "dotenv": "^8.0.0",
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.3.0",
     "juice": "^5.2.0",
     "mailgun-js": "^0.22.0",
     "memoize-one": "^5.1.1",
