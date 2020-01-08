@@ -10,6 +10,7 @@ export const STATEMENT_SCRAPER_NAMES = {
 
 export const SCRAPER_NAMES = {
   GENERIC: 'generic',
+  GOOGLE_SPREADSHEET: 'googleSpreadsheet',
 }
 
 /**
