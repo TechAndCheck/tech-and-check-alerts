@@ -21,4 +21,4 @@ export const TWITTER_LIST_NAMES = {
 
 export const CLAIMBUSTER_THRESHHOLD = 0.5
 
-export const CLAIMBUSTER_API_ROOT_URL = 'https://idir.uta.edu/claimbuster-dev/api/v1'
+export const CLAIMBUSTER_API_ROOT_URL = 'https://idir.uta.edu/claimbuster/api/v1'
