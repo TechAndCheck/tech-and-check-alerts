@@ -11,7 +11,8 @@ export const tweets = [tweet]
 
 export const extractedStatement = {
   speaker: {
-    name: tweet.user.name,
+    extractedName: tweet.user.name,
+    normalizedName: tweet.user.name,
     affiliation: tweet.user.description,
   },
   text: tweet.full_text,
@@ -22,7 +23,8 @@ export const extractedStatements = [extractedStatement]
 
 export const statement = {
   speaker: {
-    name: 'justin spooky reese',
+    extractedName: 'justin spooky reese',
+    normalizedName: 'justin spooky reese',
     affiliation: 'BIFFUD',
   },
   source: 'reefdog',
@@ -33,7 +35,7 @@ export const statements = [statement]
 export const normalizedStatement = Object.assign({}, statement, {
   speaker: {
     ...statement.speaker,
-    name: 'Justin Reese',
+    normalizedName: 'Justin Reese',
   },
 })
 export const normalizedStatements = [normalizedStatement]
