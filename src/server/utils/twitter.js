@@ -32,7 +32,8 @@ export const getTimestampFromTweet = tweet => tweet.created_at
 
 export const extractStatementsFromTweets = tweets => tweets.map(tweet => ({
   speaker: {
-    name: getSpeakerNameFromTweet(tweet),
+    extractedName: getSpeakerNameFromTweet(tweet),
+    normalizedName: getSpeakerNameFromTweet(tweet),
     affiliation: getSpeakerAffiliationFromTweet(tweet),
   },
   text: getTextFromTweet(tweet),
@@ -126,7 +127,7 @@ export const normalizeStatementSpeaker = (statement, displayNamesByScreenName) =
     source,
     speaker,
     speaker: {
-      name: speakerName,
+      extractedName: speakerName,
     },
   } = statement
   const preferredDisplayName = displayNamesByScreenName[getScreenNameHash(source)]
@@ -134,7 +135,7 @@ export const normalizeStatementSpeaker = (statement, displayNamesByScreenName) =
   return Object.assign({}, statement, {
     speaker: {
       ...speaker,
-      name: normalizedSpeakerName,
+      normalizedName: normalizedSpeakerName,
     },
   })
 }
