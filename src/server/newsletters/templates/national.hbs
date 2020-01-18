@@ -10,7 +10,7 @@
         <div class="claim__metadata">
           <a href="{{canonicalUrl}}" class="claim__permalink">
             <cite class="claim__speaker">
-              {{speakerName}}
+              {{speakerNormalizedName}}
             </cite>
             {{#if source}}<span class="claim__source">on {{ source }}</span>{{/if}}
             <span class="claim__platform">({{convertScraperNameToPlatformName scraperName}})</span></a>:
@@ -33,7 +33,7 @@
         <div class="claim__metadata">
           <a href="{{canonicalUrl}}" class="claim__permalink">
             <cite class="claim__speaker">
-              {{speakerName}}
+              {{speakerNormalizedName}}
             </cite>
             <span class="claim__platform">({{convertScraperNameToPlatformName scraperName}})</span></a>:
         </div>

@@ -5,7 +5,7 @@
 📺 TV CLAIMS 📺
 {{#each claims.TV}}
 
-{{speakerName}}{{#if source}} on {{ source }}{{/if}} ({{convertScraperNameToPlatformName scraperName}}):
+{{speakerNormalizedName}}{{#if source}} on {{ source }}{{/if}} ({{convertScraperNameToPlatformName scraperName}}):
 {{ content }}
 — {{canonicalUrl}}
 {{else}}
@@ -17,7 +17,7 @@ Looks like we didn't see any TV claims over the past day. 🤔🤔🤔
 🎭 SOCIAL MEDIA CLAIMS 🎭
 {{#each claims.SOCIAL}}
 
-{{speakerName}} ({{convertScraperNameToPlatformName scraperName}}):
+{{speakerNormalizedName}} ({{convertScraperNameToPlatformName scraperName}}):
 {{ content }}
 — {{canonicalUrl}}
 {{else}}
