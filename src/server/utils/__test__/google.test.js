@@ -13,4 +13,21 @@ describe('getSpreadsheetCsvUrl', () => {
 describe('parseCsvString', () => {
   test('Should parse a CSV from a string', () => parseCsvString('1,2,3\na,b,c').then(data => expect(data)
     .toEqual([['1', '2', '3'], ['a', 'b', 'c']])))
+
+  test('Should parse a CSV with headers from a string', () => parseCsvString(
+    'first,second,third\n1,2,3\na,b,c',
+    true,
+  ).then(data => expect(data)
+    .toEqual([
+      {
+        first: '1',
+        second: '2',
+        third: '3',
+      },
+      {
+        first: 'a',
+        second: 'b',
+        third: 'c',
+      },
+    ])))
 })

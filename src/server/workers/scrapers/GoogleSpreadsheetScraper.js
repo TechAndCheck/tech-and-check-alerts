@@ -6,13 +6,14 @@ import {
 } from '../../utils/google'
 
 class GoogleSpreadsheetScraper extends AbstractScraper {
-  constructor(spreadsheetId) {
+  constructor(spreadsheetId, columnHeaders = false) {
     super(getSpreadsheetCsvUrl(spreadsheetId))
+    this.columnHeaders = columnHeaders
   }
 
   getScraperName = () => STATEMENT_SCRAPER_NAMES.GOOGLE_SPREADSHEET
 
-  scrapeHandler = async responseString => parseCsvString(responseString)
+  scrapeHandler = async responseString => parseCsvString(responseString, this.columnHeaders)
 }
 
 export default GoogleSpreadsheetScraper
