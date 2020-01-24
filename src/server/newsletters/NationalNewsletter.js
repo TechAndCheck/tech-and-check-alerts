@@ -16,7 +16,10 @@ import {
 } from './constants'
 import { getTwitterScreenNamesByListName } from '../utils/newsletters'
 
-const { Claim } = models
+const {
+  sequelize,
+  Claim,
+} = models
 
 class NationalNewsletter extends AbstractNewsletter {
   getMailingList = () => MAILING_LISTS.NATIONAL
@@ -62,11 +65,51 @@ class NationalNewsletter extends AbstractNewsletter {
     order: [['claimBusterScore', 'DESC']],
   })
 
-  fetchTvClaims = async () => (Claim.findAll(this.generateQueryParams({
-    scraperName: {
-      [Sequelize.Op.in]: [STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT],
-    },
-  })))
+  // TODO / NOTE: the use of SQL in method is poor form and duplicates the parameters
+  // created in generateQuery.  This is intentional and understood because ultimately
+  // we feel that known_speakers should eventually be explicitly linked via association
+  // to the claims table.
+  //
+  // Until we have identity resolution, that link cannot be explicit.
+  //
+  // There was consideration of using a view instead, but since views are not formally
+  // supported by Sequelize, we felt that an ad hoc query was the best approach (until the
+  // aforementioned identity resolution is addressed)
+  //
+  // Furthermore, we felt that a newsletter-specific query did not belong in a generic
+  // model and would be better kept here.
+  //
+  // Sequelize doesn't allow us to extract SQL from query objects, which is why we have to
+  // manually reproduce the parameters of generateQuery.  There is an open issue related
+  // to this, which may eventually translated to a feature we might use here.
+  //
+  // https://github.com/sequelize/sequelize/issues/2325
+  fetchTvClaims = async () => {
+    const startTime = dayjs().startOf('hour').subtract(1, 'day').format()
+    const endTime = dayjs().startOf('hour').format()
+
+    // Selects claims, prioritizing claims made by known speakers
+    const rawQuery = `SELECT claims.*
+       FROM claims
+       LEFT JOIN known_speakers ON (
+        LOWER(claims.speaker_normalized_name) = LOWER(CONCAT(
+          known_speakers.first_name,
+          ' ',
+          known_speakers.last_name
+        ))
+       )
+       WHERE claims.claimed_at >= '${startTime}'
+         AND claims.claimed_at < '${endTime}'
+         AND scraper_name = '${STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT}'
+       ORDER BY (known_speakers.id IS NULL),
+        claims.claim_buster_score DESC
+       LIMIT ${NEWSLETTER_SETTINGS.DEFAULT.CLAIM_LIMIT}`
+
+    return sequelize.query(rawQuery, {
+      model: Claim,
+      mapToModel: true,
+    })
+  }
 
   fetchSocialClaims = async () => (Claim.findAll(this.generateQueryParams({
     scraperName: STATEMENT_SCRAPER_NAMES.TWITTER_ACCOUNT,
