@@ -45,6 +45,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "jest": "^24.8.0",
+    "nock": "^11.7.2",
     "nodemon": "^1.19.0",
     "parcel": "^1.12.4",
     "sequelize-cli": "^5.5.0"
