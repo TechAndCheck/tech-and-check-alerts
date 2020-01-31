@@ -63,19 +63,19 @@ describe('getUniqueCanonicalUrls', () => {
   const statements = [
     {
       text: 'Hello world!',
-      canonicalUrl: 'https://pants.com',
+      canonicalUrl: 'https://example.com',
     },
     {
       text: 'Hello again world!',
-      canonicalUrl: 'https://pants.com',
+      canonicalUrl: 'https://example.com',
     },
     {
       text: 'Hello chicken!',
-      canonicalUrl: 'https://chicken.com',
+      canonicalUrl: 'https://example.net',
     },
   ]
   it('Should remove previously scraped statements', () => {
     expect(getUniqueCanonicalUrls(statements).sort())
-      .toEqual(['https://pants.com', 'https://chicken.com'].sort())
+      .toEqual(['https://example.com', 'https://example.net'].sort())
   })
 })
