@@ -60,7 +60,7 @@ describe('utils/cnn', () => {
 
   describe('isTranscriptListUrl', () => {
     it('Should not improperly identify transcript list URLs', () => {
-      expect(isTranscriptListUrl('http://google.com'))
+      expect(isTranscriptListUrl('http://example.com/'))
         .toBe(false)
     })
     it('Should identify transcript list URLs', () => {
@@ -71,7 +71,7 @@ describe('utils/cnn', () => {
 
   describe('isTranscriptUrl', () => {
     it('Should not improperly identify transcript URLs', () => {
-      expect(isTranscriptUrl('http://google.com'))
+      expect(isTranscriptUrl('http://example.com/'))
         .toBe(false)
     })
     it('Should identify transcript list URLs', () => {
@@ -86,8 +86,8 @@ describe('utils/cnn', () => {
 
   describe('getFullCnnUrl', () => {
     it('Should not modify a complete URL', () => {
-      expect(getFullCnnUrl('http://google.com'))
-        .toBe('http://google.com')
+      expect(getFullCnnUrl('http://example.com/'))
+        .toBe('http://example.com/')
       expect(getFullCnnUrl('http://transcripts.cnn.com'))
         .toBe('http://transcripts.cnn.com')
     })

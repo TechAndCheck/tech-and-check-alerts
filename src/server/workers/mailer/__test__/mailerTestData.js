@@ -1,17 +1,17 @@
 export default {
   recipient: {
     valid: [
-      'test@test.com',
-      't@t.co',
-      'first+last@test.com',
-      'first.last@test.com',
-      'test@test.co.uk',
+      'test@example.com',
+      't@example.co',
+      'first+last@example.com',
+      'first.last@example.com',
+      'test@example.co.uk',
     ],
     invalid: [
-      '@test.com',
+      '@example.com',
       'test@',
       'test',
-      'test@test',
+      'test@example',
     ],
   },
   subject: {
