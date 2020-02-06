@@ -1,0 +1,1105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 1`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "",
+    "normalizedName": "",
+  },
+  "text": "J.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 2`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "The House of Representatives withdrew it subpoena to compel Charles Kupperman's testimony. Why did the House withdraw the Kupperman's subpoena. Why didn't the House pursue its legal remedies to enforce its subpoena's?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 3`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "SCHIFF",
+    "normalizedName": "SCHIFF",
+  },
+  "text": "Senators, I thank you for the question. When we -- our practice in the House was to invite witnesses to come voluntarily. If they refused, to give them a subpoena. In the case of Dr. Kupperman, he refused to come in voluntarily and we subpoenaed him. Almost instantly upon receiving the subpoena a length complaint was filed in court where he sought to challenge that subpoena. Interestingly and contrary to I think what you're hearing from the president's counsel here today, the House took the position that a witness cannot challenge -- does not have standing to challenge a congressional subpoena. We were joined, by the way, in that position by the Justice Department, which also said that the -- that Dr. Kupperman didn't have jurisdiction to challenge or get a declaratory judgment as to the validity of a subpoena. So in that litigation we were often on the same page as the Justice Department. But more meaningful to us is we were simply not going to engage in a year's long process of delay to get the answer that we needed. And we proposed to Dr. Kupperman's counsel that if, as you claim, this is really about just wanting to get court blessing, there's a willingness to come forward but we just want to make sure that we're -- it's appropriate that we do so. If you are sincere about that, there's already a case that's been filed. The McGahn case that is about to be decided. Let's agree to be bound by what conclusion Judge Jackson reaches in that case. And their answer was no. And indeed that opinion would have come out shortly thereafter. That opinion said this claim of absolutely immunity is absolute nonsense and there's no precedent for it in the 250 years of juror's prudence on this subject. So we went back to Dr. Kupperman and of course Dr. Kupperman said no, we'd like to get our own judicial opinion. Now have we gone to fruition even though we don't believe and it would have created a bad precedent that they have standing to challenge subpoenas that way. Had they lost they would have gone to Court of Appeals of the Supreme Court. They would have come back to the district court and now no longer arguing absolute immunity because that would have been, we believe defeated. It would make claims of executive privilege and they would litigate those up through the Court of Appeals in the Supreme Court. We knew that course because we're in it with Don McGahn. Nine months after he was subpoenaed we're still litigating it. And they're in court saying Congress shouldn't do what they're saying that we should do before this body. So that's why we withdrew the subpoena. We were not going to go through that exercise. Now you have to ask the question, I think, why did Fiona Hill feel that she could come and testify. She worked for Dr. Kupperman. Why was she willing to show the courage to come and testify when her boss wasn't. There's not a good answer to that question. But I'm awfully glad that she did because without here we would be that much less knowledgeable about this president's scheme. So that was the history of the Kupperman subpoena. Likewise, John Bolton, who has the same counsel, told us if we subpoenaed him, he would sue. Now, why is it that he is willing to testify now and he wasn't willing to testify before the House? You should ask him that question but that was the predicament we faced and in our view, a President should not be able to defeat an investigation into his wrongdoing by endlessly litigating the matter in court, particularly when they're in court saying \\"you can't use the court to enforce your subpoenas.\\"",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 4`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Mr. Manager.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 5`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "HIRONO",
+    "normalizedName": "HIRONO",
+  },
+  "text": "Mr. Chief Justice?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 6`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "The Senator from Hawaii?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 7`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "HIRONO",
+    "normalizedName": "HIRONO",
+  },
+  "text": "I send a question to the desk for the House managers.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 8`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you. The question from Senator Hirono is for the House managers - \\"Can you talk about what has happened to whistleblowers when they have been outed against their will? What are the consequences of revealing their identity, particularly when we have a President who has tried to bully and threaten impeachment witnesses?\\"",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 9`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "SCHIFF",
+    "normalizedName": "SCHIFF",
+  },
+  "text": "Senator, I don't know that we can give you examples of whistleblowers who were the subject of retaliation, although I have no doubt that there are many. We can seek by the latter part of this evening to get a list of some of the whistleblowers that have confronted retaliation. But I - this does give me an opportunity to speak a little more - in a more fulsome way about a point I made earlier about the unique importance of whistleblowers in the Intelligence Community. Our area of intelligence is unique in this respect - if you are a whistleblower who wants to blow the whistle on a fraudulent contract in a transportation project, you can go public. If you're blowing the whistle on misconduct in the area of housing, you can go public, you can have a press conference and you can declare the wrongdoing that you have seen. If you are a whistleblower in the Intelligence Community, however, you cannot go public. You have no recourse to bring to the public's attention wrongdoing except one of really two vehicles. You can go to an Intelligence Committee or you can go to the Inspector General. And in this area where our hearings are in closed session, where you don't have outside stakeholders that can point out the flaws in what an agency has represented, if you are on the Transportation Committee and someone comes in and they say \\"this high speed rail project is on time and under budget,\\" you have outside valid agency (ph) stakeholders that can say \\"that's just not true.\\" In the intel world where our hearings are in closed session, there are not outside stakeholders that are listening that can hold those agencies to account. And so we are uniquely dependent when there's wrongdoing on two things - self reporting by the agencies and the willingness of people of good faith to come forward and blow the whistle. And we do injury to that when we expose those whistleblowers to retaliation. I don't think any of us would have imagined a circumstance in which a President of the United States before now would have called a whistleblower a traitor or a spy or suggested that people that blow the whistle on his wrongdoing are traitors and spies and we should treat them as we used to treat traitors and spies. I don't think we could have imagined a circumstance where a President of the United States would have told a foreign leader that the U.S. Ambassador, our anti-corruption champion in Ukraine, was \\"going to go through some things.\\" I don't think we could have imagined that happening before this presidency and sometimes you just have to step back and realize just how striking and abhorrent this is and what a risk it is to - to civility, to decency, to our institutions. We've become inured to it through endless repetition of attacks on anyone who will stand up to this President. And of course the risk is the very reason we have a whistleblower protection, the very reason why whistleblowers should enjoy a right of anonymity, is that in the absence of that, misconduct and wrongdoing will proliferate. If there's not a mechanism for people lawfully to expose wrongdoing, you can - you can bet that wrongdoing is going to increase and that's why there have been great champions, like Senator Grassley, of whistleblower protections, Senator Burr and Senator Warner and many others, because we all understand, at least we did heretofore, the vital importance and contribution that are made by American citizens who bring wrongdoing to our attention.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 10`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Mr. Manager. The Senator from Missouri?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 11`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "BLUNT",
+    "normalizedName": "BLUNT",
+  },
+  "text": "Chief Justice, I send a question to the desk on behalf of myself, senators Hawley, Wicker and Capito.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 12`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you. The question from Senator - senators Blunt, Hawley, Wicker and Capito is addressed to counsel for the President - \\"What responsibility does the President have to safeguard the use of taxpayer dollars for foreign aid and work to root out corruption?\\"",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 13`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "CIPOLLONE",
+    "normalizedName": "CIPOLLONE",
+  },
+  "text": "Thank you, Mr. Chief Justice, members of the Senate. The president has an important responsibility to safeguard taxpayer dollars that are used in foreign aid or used anywhere, frankly, and to root out corruption. Now, it's no secret that President Trump, from the beginning -- from the time he came down the escalator, has been committed to ensuring that American taxpayer dollars are used appropriately -- are used appropriately, and if they're going to foreign countries, he wants to make sure that they're used wisely and there's ample evidence of that -- ample evidence of that. I don't think that's even disputed or disputable -- and he's fulfilling that obligation. And the other point that he makes repeatedly is that if we're helping countries around the world, other countries should help us help them. We used the word burden sharing. Well, what does that mean? Burden sharing means that if American taxpayers are going to help with a problem in a country around the world -- and we do -- and we do a lot, we do it to the tune of billions and billions of dollars -- when here in our country we need to fix our roads, we need to fix our bridges, so if we're going to take money away from those important projects here in America that come from the hard-earned dollars of taxpayers, why can't other countries help us. That's called burden-sharing. It's also called fairness. So he has that obligation, and every day he fulfills that obligation. Let me make another point in response to Senator Warren's question. The most important thing in terms of the fairness of this proceeding, and that's why I've quoted repeatedly -- I haven't played the videos over and over again, but you -- you remember them, the wise words, the true words of the Democrats in the Clinton impeachment years. And the only point the American people -- they understand it, and I -- I think everyone in this body understands it that there can't be one standard for one political party and another for the other political party. That's important. Those words should be applied here. We can't have a standard that changes depend on -- depending on what somebody thinks about political issues. In order to be fair, the same standard has to be applied regardless -- regardless of your party. So that's the critical issue here, and that's the bedrock principle, not a double standard for justice in the Senate, but one standard, the true standard, the standard that's been articulated eloquently by Democrats over and over again in the Clinton proceedings. That's the standard that's right. That's the standard that we ask for regardless of political party. Thank you.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 14`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Counsel.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 15`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "KING",
+    "normalizedName": "KING",
+  },
+  "text": "Mr. Chief Justice?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 16`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "The Senator from Maine?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 17`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "KING",
+    "normalizedName": "KING",
+  },
+  "text": "I'm sending a question to the desk.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 18`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you. Senator King asks the President's Counsel, \\"Would it be permissible for the President to inform the Prime Minister of Israel that he was holding congressional-appropriated military aid unless the Prime Minister promise to come to the United States and publicly charge opponent with anti-Semitism in the midst of an election campaign?\\"",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 19`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "PHILBIN",
+    "normalizedName": "PHILBIN",
+  },
+  "text": "Mr. Chief Justice and Senator, thank you for the question, but the question really has nothing to do with this case. I mean, it seems to be trying to get at the most extreme hypothetical related to a misinterpretation of what Professor Dershowitz was saying the other night. It's totally irrelevant here. What -- the charges that have been brought here articulated in the articles of impeachment are based on a theory of abuse of power that the House Democrats, the House Managers have made clear depends for them to make their case to establish that when the President raised two issues on the call with President Zelensky of Ukraine, he raised the 2016 election interference and he mentioned the Biden and Burisma incident that there was not any legitimate public policy or foreign policy interest in mentioning those things to the President of Ukraine. That's the standard they've set for themselves. It's on Page 5 of the House Judiciary Committee report. And it's on Page 4, they say that they're going to show -- they have to show it's a sham investigation. And I think it's on Page 6, they say it's a bogus investigation. That's their standard because they know they have to establish that there is no legitimate public policy interest at all in mentioning those in order to come anywhere close to being able to assert something that could be a wrongful conduct by the President, because if there's a legitimate interest, if there's something there that's worth asking, they don't have a case. And that's why they try to tell you again and again there's not a scintilla of evidence. And this is really pretty preposterous for the House Managers to come and say, particularly with respect to the Biden-Burisma incident. There can't beat any legitimate interest in raising that, questioning that because it's all been debunked. And the question has been asked, where was it debunked? By whom was it debunked? Who conducted that investigation? Where is the report from that investigation? Who established that there's nothing there? There is no such report. They've been asked they haven't been able to cite it. There's been no such investigation, but what do we know? We do know that every witness who was asked about it said, at a minimum, there was an appearance of a conflict of interest. We do know that at least two members of the Obama administration -- Amos Hochstein and Deputy Assistant Secretary of State Kent -- raised the issue of a conflict of interest with Vice President Biden's office. We know that the -- Chris Heinz, the stepson of Secretary of State Kerry, who had been a business partner with Hunter Biden, broke off his business ties within because Hunter Biden took a seat on the board of Burisma. So to say that there is nothing that could possibly merit asking a question about that is utterly disingenuous. It can't be said with a straight face. Every witness that was asked about it said that there was something at least gave the appearance of a conflict of interest. There hasn't been any investigation to debunk this theory. There hasn't been any inquiry to find out if there is or not. And it doesn't have to do, as Manager Schiff was suggesting, just with, well, why was Hunter Biden on the board or were they paying him to it? It's the whole situation -- the whole situation of all of a sudden he's put on the board at the time when his father was put in-charge of Ukraine policy. And there are people -- there were witnesses who testified in the House proceedings that it appeared like Burisma was trying to whitewash their reputation by putting people with connections on their board. And then there's the prosecutor being fired. It's just not reasonable to say that no one could possibly say, \\"That looks fishy. There's something maybe that somebody should look into there.\\" Thank you.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 20`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Counsel.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 21`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "MURKOWSKI",
+    "normalizedName": "MURKOWSKI",
+  },
+  "text": "Mr. Chief Justice?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 22`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Senator from Alaska?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 23`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "MURKOWSKI",
+    "normalizedName": "MURKOWSKI",
+  },
+  "text": "I send a question to the desk.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 24`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you. Senator Murkowski asks the Counsel for the President, \\"You explained that Ambassador Sondland and Senator Johnson both said the President explicitly denied that he was looking for a quid pro quo with Ukraine. The reporting on Ambassador Bolton's book suggests the President told Bolton directly that the aid would not be released until Ukraine announced the investigations the President desired. This dispute about material facts weighs in favor of calling additional witnesses with direct knowledge. Why should this body not call Ambassador Bolton?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 25`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "PHILBIN",
+    "normalizedName": "PHILBIN",
+  },
+  "text": "Mr. Chief Justice Senator, thank you for the question. And I think the primary consideration here is to understand that the House could have pursued Ambassador Bolton. The House considered whether or not they would try to have him come testify and subpoena him. They chose not to subpoena him. And this all goes back to the most important consideration, I think, that this chamber has before it, in some ways, especially on this threshold issue of whether there should be witnesses or not has to do with the precedent that's established here for what kind of impeachment proceeding. This body will accept from now going forward because whatever is accepted, in this case, becomes the new normal for every impeachment proceeding in the future. And it will do great damage to this body, as an institution, to say that the proceedings in the House don't have to really be complete. You don't have to subpoena the witnesses that you think are necessary to prove your case. You don't really have to put it all together before you bring the package here. When you're impeaching the President of the United States, the gravest impeachment that they could possibly consider, you don't have to do all of that work before you get to this institution. Instead when you come to this chamber, it can be kind of half-baked, not finished. We need other witnesses, and we want this chamber to do the investigation that wasn't done in the House of Representatives. And then this chamber will have to be issuing the subpoenas and dealing with that. And that's -- that's not the way that this chamber should allow impeachments to be presented to it. And we've heard there was some exchange the other day about, well, there were a lot of witnesses in the Judge Porteous impeachment, and that that was able -- this chamber was able to handle that. It is very different in the impeachment of a judge, which is being handled by a committee. My understanding is that under Rule 11 of the Senate procedures, there was a committee receiving that evidence. But in a Presidential impeachment, there's not going to be just be a committee, it's the entire chamber that is going to have to be sitting as a court of impeachment. And that will -- that will affect the business of the chamber. And so I think the idea that something comes out because someone makes an assertion in a book allegedly, it's only an alleged -- it's -- it's simply alleged now that the manuscript said that. Ambassador Bolton hasn't come out to verify that to my knowledge, that then we should start having this chamber call new witnesses and establish the new normal for impeachment proceedings as being that there doesn't have to be a complete investigation in the House. I think that's very damaging for the future of this institution. Thank you.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 26`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Counsel. The Senator from Hawaii?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 27`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "SCHATZ",
+    "normalizedName": "SCHATZ",
+  },
+  "text": "Mr. Chief Justice, I have a question on behalf of myself, Senators Whitehouse and Heinrich, and this is for the Counsel for the President and the House Managers.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 28`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you. The question from Senator Schatz, White House and Heinrich for both parties, \\"Can the White House really not admit that Senator King's hypothetical would be wrong?\\" We begin with the -- the House Managers.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 29`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "SCHIFF",
+    "normalizedName": "SCHIFF",
+  },
+  "text": "Senator, we have no trouble recognizing just how wrong that would be, but more than that it's the natural extension of Professor Dershowitz argument that if the President believes that that kind of quid pro quo would help his reelection, then it's perfectly fine and non-impeachable. There was a reason, of course, why they didn't want to address that hypothetical, but let me go back also to the question that was asked about the other written reports that Ambassador Bolton and Attorney General Barr were concerned that the President was intervening in cases in which he had business investments like Turkey. Under the theory of the President's lawyers, that's perfectly, oh, take two. If the President thinks somehow that that's in the United States interest because it's in his interest, that's perfectly fine. It's unimpeachable. Now, is it -- is it a crime to give preference to autocrats -- to give special consideration to autocrats where you have business investments? That may not be criminal, but it is impeachable. It certainly should be impeachable if we are going to sacrifice the national security of the country if we're going to withhold military aid. If we're going to bestow favors in U.S. resources to countries where the President has investments, is that what we want driving U.S. policy? But that's the implication of what they have to say. I agree with Counsel about one thing they said, if we have a trial with no witnesses that will be a new precedent. We should be very concerned about the precedent we set here because it will mean heretofore that when a president is impeached that one party can deny the other witnesses, and that will be the new normal that would be trials without witnesses. And I don't think that's the precedent we should be setting here.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 30`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Mr. Manager.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 31`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "PHILBIN",
+    "normalizedName": "PHILBIN",
+  },
+  "text": "Mr. Chief Justice, Senator, thank you for the question. Let me just begin by noting I think it's a -- it's a little bit rich for Manager Schiff to say that one party, i.e., the President is going to deny them witnesses. It was the President who is denied any witnesses throughout this process up until now. But to get back to the question on Senator King's hypothetical, if -- if the President insisted that a foreign leader come here and lie about someone else and he was holding up a military aid or a package of congressional aid and saying, \\"You have to go out and lie about this,\\" that -- that would be wrong, but it's not this case, and it has nothing to do with this case. But I'd like to address something to what Manager Schiff said because he immediately pivoted now to the next thing, what's in the newspapers? What else can we bring in from the newspapers? There's an allegation that the manuscript says something about conversations that Ambassador Bolton had with Attorney General Barr. Well, Attorney General Barr has issued a statement saying that that allegation, that that assertion is not accurate, that that's false. And there are other allegations that are made about what might be in this manuscript. Mick Mulvaney has issued a statement saying that that's not true. So to sort of play the game of there's going to be another leak, somebody right might a book -- might write a book, there's something else. And that's what, again, turning this body into the one doing investigations because the House didn't pursue the investigation. It's not prudentially a wise move for this chamber to take on that task. Thank you.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 32`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Counsel.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 33`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "KENNEDY",
+    "normalizedName": "KENNEDY",
+  },
+  "text": "Your Honor?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 34`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "The Senator from Louisiana?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 35`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "KENNEDY",
+    "normalizedName": "KENNEDY",
+  },
+  "text": "I send a question to the desk for Counsel for the President.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 36`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you. The question from Senator Kennedy is for Counsel for the President. \\"Has the House of Representatives, in its impeachment proceedings or otherwise, investigated the veracity of the statement by former Ukrainian Prosecutor General Viktor Shokin that Mr. Shokin, quote, 'Believes his ouster was because of his interest in Burisma holdings and his claim that had he remain in his post, Shokin said, \\"he would have questioned Hunter Biden,' end quote.\\" As reported on July 22, 2019 in an article in The Washington Post entitled, \\"As vice president, Biden said Ukraine should increase gas production. Then his son got a job with a Ukrainian gas company,\\" by Michael Kranish and David Stern.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 37`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "PHILBIN",
+    "normalizedName": "PHILBIN",
+  },
+  "text": "Mr. Chief Justice, Senator, thank you for that question. And the answer to the best of my knowledge is no, the House of Representatives did not investigate the veracity of the truth of that reporting about the Prosecutor General Shokin. In fact, that was part of the point. And as Manager Schiff was saying here again, the House Democrats position is that everything related to the entire incident of the Bidens and Burisma and what was going on with the prosecutor, it's all debunked. There's nothing to see there, move along, don't ask about it. But they didn't investigate it, and I can't point to anyone who's investigated it. They can't point to anyone who's really looked at it. And as I -- as I said a minute ago and I won't belabor the point, every witness who was asked said that they thought, yes, there's at least the appearance of a conflict of interest there. And at least one witness. And there's a public reporting of another person, Amos Hochstein in the Obama administration -- raised the issue with Vice President Biden's office, but nothing was done about it. There have been questions about whether Vice President Biden sought to receive an ethics opinion. We don't know. I -- not that I've heard of, not that I've seen anywhere, but it's just something that no one has actually inquired into. And there have been questions raised about why now, why was it raised now? And the implication the House Managers have tried to make is it's just because Joe Biden decided in April he was going to run for the presidency. But as I explained the other day, Rudy Giuliani, who's the President's Private Counsel, was exploring matters in Ukraine starting in the fall of 2018. He had tips because he was interested in finding out. Remember, the Mueller investigation was still ongoing at that point. It wasn't clear what the outcome of the Mueller investigation was going to be. And he was trying to find out what were the origins of Russian interference of the -- the Steele dossier, of allegations of collusion by the Trump campaign, and that led him in part to Ukraine and he got information that led him to various strands to pursue. And one of them became the issue of the Biden and Burisma incident. And he prepared a little package on it based on interview notes. In January 23rd and January 25th of 2019, months before Joe Biden had announced that he was going to run for the presidency, Rudy Giuliani was interviewing Shokin and Lutsenko, and wrote down the interview notes and stuff about the Biden and Burisma incident and the firing of Shokin. He put it all in the package. He delivered it to the State Department in March, still before Joe Biden said he was going to be running for President. That didn't happen until 25th. It was all done, all put in a package, all delivered. And that's public now because that little package that he sent to the State Department was released. I think it was in the FOIA litigation, but it's been released publicly. And the notes that he took -- his interview notes are there publicly. So the timing dates back to when Rudy Giuliani was pursuing that starting back in the fall of 2018, takes him time to pursue leads. He was trying to get Shokin to come to this country to interview him, couldn't get him a visa, had to interview him by phone. Lutsenko was in New York and he prepares this package. That's why there's that -- that timing. And then there were public articles published about the Biden-Burisma affair. One of them was just mentioned in a question, a Washington post article, July 22, 2019 specifically about it -- about the firing of Shokin three days before the July 25th telephone call. It was in the news, it was topical. Thank you.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 38`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Counsel?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 39`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "PETERS",
+    "normalizedName": "PETERS",
+  },
+  "text": "Chief Justice?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 40`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "The Senator from Michigan?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 41`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "PETERS",
+    "normalizedName": "PETERS",
+  },
+  "text": "Chief Justice, on behalf of myself and Senator Cornyn, I send a question to the desk for both House Managers and the President's Counsel.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 42`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you. The question from Senators Peters and Cornyn for both parties, \\"How would the verdict in this trial alter the balance of power between the executive and legislative branches in the future?\\" The President's Counsel goes first.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 43`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "CIPOLLONE",
+    "normalizedName": "CIPOLLONE",
+  },
+  "text": "A verdict -- a final judgment of acquittal would be the best thing for our country and would send a great message that will actually help in our separation of powers. Here's why. As I've said repeatedly and according to the standard articulated so well during the Clinton impeachment, what are we dealing with here? We're dealing with a purely partisan impeachment with bipartisan opposition, no crime, no violation of law in an election year.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 44`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "no due process, nothing. And what they're telling you -- I mean, we can talk all we want and we will, but -- but what are we talking about at the end of the day? We're talking about removing a President of the United States from a ballot in an election that's occurring in months. Who thinks that's a good idea, particularly when -- when you're dealing with a purely partisan impeachment that was warned about from the framers? OK.  So the only appropriate result that won't damage our country horribly maybe forever, but certainly for generations is a verdict of acquittal. Here's the other point, getting back to the question of witnesses. Mr. Schiff' is up here, let's make a deal. How about we have the Chief Justice and we have the greatest respect for the Chief Justice? Here's the problem. We're talking about critical constitutional rights that have been protected by the Supreme Court for our history. So what is he really saying? He's saying that the Senate -- think about these questions, the Senate can decide about executive privilege by a vote -- by a majority vote. If the Senate can decide -- with the greatest respect -- with the greatest respect, if the Senate can just decide there's no executive privilege, guess what? You're destroying executive privilege. Can the Senate decide the House's speech or debate protection? I mean, when we asked for documents from Mr. Schiff and his staff, and he says speech or debate, are you going to decide that? Are we going to -- is that how we're going to do this? Are we going to flip a coin? Is that going to be your next suggestion? We're talking about an election of the President. There are critical constitutional issues that will alter our bounds of power for generations if we go down that road. Down this road is the path provided by the Democrats so wisely during the Clinton administration in an election. Thank you. Thank you, Mr. Chief Justice. Appreciate it. SCHIFF",
+    "extractedName": "OK? N",
+    "normalizedName": "OK? N",
+  },
+  "text": "Chief Justice, it may be different in the court that it is in this chamber and in the House, but when anybody begins the sentence with a phrase, \\"I have the greatest respect for,\\" you have to look out for what follows. We trust the justice will make the right decision. The justice has, I think, conducted these proceedings in an eminently fair way. There is nothing in the constitution that would preclude us from taking a week to hear from witnesses and allowing the Chief Justice to make those calls. And I would say also with respect to an argument Counsel made about the Porteous impeachment trial where, yes, the Senate designated 12 Senators to hear the witness testimony. The implication is you can't do that in an impeachment of the President. That's only half correct. The other half is you could do depositions in which only a couple members of the body need participate. And so it's a false argument to say or suggest that the whole body would need to conduct the whole of the depositions. So much as we would like live testimony we have offered a compromise. But with respect to the question about what will this do to the balance of power, I would say this. As I mentioned earlier, our relationship with Ukraine will survive this debacle. But if we hold that a president can define all subpoenas, can tie up to Congress endlessly with bad faith claims and privilege, claiming here one thing, claiming in court something else, it will eviscerate our oversight power. If the President is allowed to decide which subpoenas they will deign to consider valid and which they will deign to consider invalid, your oversight power, our oversight power is gone. That is an irrevocable change to the balance of power. And what's more, if we adopt their theory of the case that a president can abuse his power, can do so by holding another country hostage, by withholding congressionally- appropriated funds, can violate the law in doing so, as long as they think it's in their interest, imagine what that will do to the balance of power. Article 2 will really mean what the President says it means, which is he can do whatever he wants. So yes, the -- the stakes are big here. Article 2 goes to whether our oversight power, particularly in a case of investigating the President's own wrongdoing, continues to have any weight whether the impeachment power itself is now a nullity.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 45`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Mr. Manager.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 46`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "RUBIO",
+    "normalizedName": "RUBIO",
+  },
+  "text": "Mr. Chief Justice?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 47`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "The Senator from Florida?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 48`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "RUBIO",
+    "normalizedName": "RUBIO",
+  },
+  "text": "I send a question to the desk on behalf of myself and Senators Capito and Scott of South Carolina, with all due respect.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 49`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you. The question from Senators Rubio, Capito, Scott and Scott of South Carolina is directed to both parties. And we begin with Counsel for the -- for the House Managers. The question reads, \\"If I understand the Managers' case, the President abused his power because he acted contrary to the advice of his advisors, but he is guilty of obstruction of Congress because he acted in accordance to the advice of his advisors.\\"",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 50`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "SCHIFF",
+    "normalizedName": "SCHIFF",
+  },
+  "text": "That's not our argument at all. The President is impeached on Article 1 not because he acted contrary to the advice of his advisors. That's a red herring offered by the President's legal team. We're not saying that the President is not free to disregard the advice of his Counsel. He is. He is entitled to disregard even really good advice. What he is not free to do is engage in corruption. What he's not free to do is to withhold military aid not for a valid policy disagreement, they have conceded. Rudy Giuliani was not doing policy. What is not permitted is for a president to withhold congressionally- appropriated money for a corrupt purpose, to secure help, elicit foreign help to cheat in an election. That is no policy disagreement. Now, are we arguing in Article 2 that he should be impeached for following his lawyer's advice? No, they were following his advice. His advice was fight all subpoenas. They were giving the legal window dressing to that. They were going to court and arguing one thing and coming before you and arguing another. He was not following their advice, they were following his. You can say a lot about Donald Trump, but he has not led around by the nose by his legal counsel. Ask Don McGahn about that. Don McGahn stood up to the President. And Bob Mueller, if we're going to talk about the Mueller report found several instances, and this goes to the pattern of the President's misconduct in which he sought to obstruct that investigation by including telling the President's lawyer that he should fire the Special Counsel and then that he should lie about that instruction.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 51`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Mr. Manager.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 52`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "CIPOLLONE",
+    "normalizedName": "CIPOLLONE",
+  },
+  "text": "Thank you, Mr. Chief Justice, Members of the Senate. You're right, that's yet another way in which the House Managers' theories of impeachment are incoherent and dangerous. With respect to Article 2, and again I -- I won't respond to the ad hominem attacks that keep coming. I will say, just for the record, that you're right I haven't been elected to anything, but when I say with the greatest respect, I mean it. Article 2, the President has been impeached for exercising longstanding constitutional rights. He's looking out for constitutional rights in the face of a House process that violated all of them against all precedent, and he's looking out for future precedents and for the executive branch. How? If he had said, OK, fine, no rights, no counsel, no witnesses, no right to cross-examine, here's everything you ask for. What sort of precedent would that set? It would -- that would irreparably damage the separation of powers. So again, all you need to look at are the articles of impeachment. The articles of impeachment do not allege a crime. They do not even allege a violation of law. They are purely partisan. They were opposed by Democrats in the House. It is an election year, and they're here saying, instead of an election, let's confront very consequential constitutional issues that have never really been confronted, and let's do it in a week. Let's destroy -- let's destroy executive privilege. Maybe let's destroy speech or debate privilege. And let me point out one other thing. It's not right to accuse somebody falsely of something and then say, \\"Unless you waive your constitutional rights, you're guilty.\\" That's not right. We should accept that in this country. These are longstanding privileges. They've been respected for hundreds of years, and we should continue to respect them. Thank you.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 53`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Counsel. The Senator from West Virginia?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 54`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "MANCHIN",
+    "normalizedName": "MANCHIN",
+  },
+  "text": "Mr. Chief Justice, I send a question to the desk on behalf of myself for the President's Counsel and the House Managers.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 55`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you. The question from Senator Manchin for both parties, we'll begin with the President's Counsel. \\"Over the past two weeks the White House Counsel had detailed all the problems associated with the House's decision to move quickly through their impeachment proceedings. Why shouldn't this body heed their advice and slow down and at least allow the judge to rule in the McGahn case to give the members of this body an official opinion from the judiciary on Article 2?\\"",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 56`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "PHILBIN",
+    "normalizedName": "PHILBIN",
+  },
+  "text": "Mr. Chief Justice, Senator, thank you for the question. And I think the key point here is the McGahn case is not going to directly resolve something related to the obstruction charges here. It's going to address a legal issue with respect to an assertion of absolute immunity for Don McGahn. There should be a decision from the D.C. circuit sometime soon, but that will almost certainly go to the Supreme Court. I mean, if that immunity is being challenged and has been relied upon by the executive for over 40 years, that's an issue destined for the Supreme Court. So the idea, it's not going to be just slow down here a little bit. This trial can't be held open pending the final resolution of that litigation. And that's an important point because this is something that Alexander Hamilton pointed out in Federalist No. 65, when he was discussing who should be the body to try impeachments, and one consideration was potentially drawing in judges from various states to create a new body to try impeachments. And the rationale that Hamilton gave for that would be a bad idea is that there has to be a swift progression from impeachment to the trial to a verdict to having it finished precisely because this is where he talked about the persecution of an intemperate or designing majority in the House of Representatives. He recognized there could be partisan impeachments. And that accusation that impeachment shouldn't be hanging out there. There should be a swift trial to determine things finally. And that's why all of the preparation ought to be done in the House of Representatives to ensure that there's an investigation, there's a case put together. And if they're ready to impeach the President of United States, they had better be finished, have everything buttoned down and have their case ready because they can't have a trial of the President. Hamilton warned against that specifically, hanging over the country for months on end. And so to -- to push off this trial to say, well, we'll wait for litigation and, at that point, that's a very dangerous idea and that's not the way that the trial here should operate. It ought to be finished on the basis of the case that the House Managers came ready to present. If they weren't ready to present the case that can win, there should be an acquittal. Thank you.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 57`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Counsel. We have another half of the presentation. Oh.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 58`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "SCHIFF",
+    "normalizedName": "SCHIFF",
+  },
+  "text": "If we could -- Senator, if we could pull up Slide 37, this is what the District Court had to say in the McGahn litigation now on appeal. \\"Executive branch officials are not absolute immune from compulsory congressional process no matter how many times the Executive branch has asserted as much over the years.\\" That is consistent with the decision in the Miers case where the Court said, \\"Clear precedent and persuasive policy reasons confirm that the Executive cannot be the judge of its own privilege and hence Ms. Miers is not entitled to absolute immunity.\\" Let's look at what the Court said on Slide 38 where Judge Jackson said, \\"Stated simply the primary takeaway from the past 250 years of recorded American history is that presidents are not kings. Compulsory appearance by dint of a subpoena is a legal construct not a political one, and per the constitution, no one is above the law.\\" This is the District Court saying, \\"Thou shalt appear and this claim of absolute immunity is absolute nonsense.\\" The Court -- now this is what the Justice Department is arguing in that case, if we could see Slide 39. The Committee lacks Article 3 standing to sue to enforce a congressional subpoena demanding testimony from an individual on matters related to his duties as an Executive branch official. And so here we are, we're now in the Court of Appeals, the justice's part is saying that you cannot enforce congressional subpoenas. And they're saying, well, let's continue to litigate the matter. Let's -- let's -- let this play out further. To what end? To what end? Yes, I suppose we could wait for a Court of Appeals decision but, of course, they would say they're not satisfied with that court throwing out this idea either. Well, look, we've got a perfectly good justice right here that can make these decisions. Let's let him make the call. Let's let him make the call. Let's -- let's trust that he will be fair and impartial.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 59`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Mr. Manager. The Senator from South Carolina?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 60`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "T. SCOTT",
+    "normalizedName": "T. SCOTT",
+  },
+  "text": "Thank you, Sir. I send a question to the desk on behalf of myself, Senators Hawley, Sasse and Barrasso.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 61`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 62`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "T. SCOTT",
+    "normalizedName": "T. SCOTT",
+  },
+  "text": "Thank you. The question from Senator Scott of South Carolina, Hawley, Sasse and Barrasso is to the Counsel for the President. \\"During their presentation, the House Managers referenced Chairman Gowdy and the House Benghazi investigation. The final report on Benghazi flatly says, quote, 'The administration did not cooperate with the investigation,' end quote. That committee fought for two years to access information and often had information request ignored or denied. Yet this House investigation, after just three months, already supposedly justifies impeachment. Does President Trump owe more compliance than other presidents did?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 63`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "SEKULOW",
+    "normalizedName": "SEKULOW",
+  },
+  "text": "Thank you, Mr. Chief Justice. Part of what we're seeing, I believe, is -- is a kind of a twofold attack or approach. We -- we just saw a citation to two district court opinions as if the final arbiter of an issue of this magnitude is going to be the District Court or, for that matter, the Court of Appeals. You're right, it's going to be the Supreme Court of United States if it goes that -- in that direction. Now with regard to the question about the statement in the Benghazi report that the administration did not cooperate, the same is also true with fast and furious and the investigation there. And in that particular investigation, it reached such a significant point that members of the House determined that then Attorney General of the United States should be held in contempt. Now President Obama exercised executive privilege over documents and testimony related to fast and furious. The constitutional process was followed. Now, I'm not the one that makes the decision whether that was privileged or not privileged. If there was going to be a challenge, it would have been adjudicated. But the fact of the matter is, at least 10 times tonight, Manager Schiff has said we have complete confidence in the Chief Justice ignoring the fact that it's not his call. And I mean that with all sincerity since you're making fun of people (inaudible) with due respect. It's not -- that's not the way it's set-up. Now you could agree to anything. Sure, you can negotiate -- you can negotiate that all the witnesses that'll be called would be the witnesses they requested. We can negotiate that, well, since they had 17 and we had none, we get 17 and they get four. All kind of things will be negotiated under their view. But this is -- this is brought to you by the -- the managers who have an overwhelming case that they proved over and over again that's what they say. They proved it, it's overwhelming, it's incredible. We were able to put it together in a record amount of time. And now we want you, the United States Senate, to start calling witnesses for our overwhelmingly proved case. I would just lay this down if we're negotiating. Why don't we just go to closing arguments, see what this body decides? But I respect the process. The process is we have two days of questioning. Tomorrow there'll be an argument on a motion. There'll be the decision on the motion, and we have to -- that's the system that's in place. That's the system we should follow, but this idea that two district court judges have decided an issue of this magnitude and that is now the determination, they wouldn't accept it if they were in our position. They would say, well, the district court decided so that's going to be it. So I think we have to look at what's really at stake. These are really significant issues. These are serious. I mean, the idea that executive privilege should just be waived or doesn't exist, that, in your view, absolute immunity can't possibly exist. It's only been utilized for administrations for 50 years or more. Professor Dershowitz gave you a list of presidents that have -- have put forward executive privilege in a lot of his writings he talks about. But to say tonight we're just going to -- you know, we'll just cut a deal. We'll do it in a week, we'll get some depositions and that'll make everyone happy. It doesn't make the constitution happy. Thank you.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 64`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you, Counsel.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 65`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "BROWN",
+    "normalizedName": "BROWN",
+  },
+  "text": "Mr. Chief Justice?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 66`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "The Senator from Ohio?",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 67`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "BROWN",
+    "normalizedName": "BROWN",
+  },
+  "text": "I send a question to the desk on behalf of Senators Casey, Klobuchar, Warren and Wyden for the House Managers.",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 68`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "J. ROBERTS",
+    "normalizedName": "J. ROBERTS",
+  },
+  "text": "Thank you. The question for the House Managers from Senator Brown and the other senators is as follows, \\"Yesterday you referenced how President Trump's perpetuating and propagating Russian conspiracy theories undercut our national security objectives. If acquitted in the Senate, what would prevent the President from continuing to side with Putin and other adversaries instead of our intelligence community and career diplomats? And what are the implications on our national security agenda if such behavior continues unchecked?\\"",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
+
+exports[`CnnTranscriptStatementScraper run CnnTranscriptStatementScraper should extract statements from a transcript 69`] = `
+Object {
+  "canonicalUrl": "http://transcripts.cnn.com/TRANSCRIPTS/2001/30/acd.01.html",
+  "claimedAt": Any<String>,
+  "scraperName": "cnnTranscript",
+  "source": "ANDERSON COOPER 360 DEGREES",
+  "speaker": Object {
+    "affiliation": "",
+    "extractedName": "CROW",
+    "normalizedName": "CROW",
+  },
+  "text": "Mr. Chief Justice, Senators, thank you for the question. You know, I've talked a lot tonight and throughout the last week about what's at stake here because, you know, it's getting late in the night, we've been having this debate for several days now, there's a lot of discussion on the legal aspects of this. So I -- I don't want to get in again to, you know, the issues of our troops in Europe, the -- the hot war that continues to happen right now as we're speaking in Ukraine. But I will reiterate the President that we sat with regard to Russia in foreign adversaries, you know, this idea that it's OK to continue to peddle in Russian propaganda in debunked conspiracy theories because Counsel for the President would have you believe that, you know, this is a -- a policy discussion that -- that we have not resolved this, that there's a lot of debate about this issue. And if that is indeed the case, if we can see that, then there are some witnesses that we can call on including Ambassador Bolton that could shed additional light on it. But the fact pattern that we're sitting at right now, what we're talking about right now is 17 witnesses that were called in the House, none of whom had any indicia or had any data to provide that any of these theories are accurate. We have the entire intelligence and law enforcement community of the United States unanimously saying that there's no indication that Ukraine was involved in 2016 election, that it was Russia. And -- and don't buy the red herring, by the way, that the Counsel for the President has brought forth, this idea that, oh, it can only be Russian. You know, they said earlier that we are claiming that it can only be Russia. That's not what we're saying. Nobody on this team has ever said it can only be Russia because indeed we know, as many of these people in the chamber know well that there's a lot of mal actors out there, that there's a lot of countries out there that have the capability and the will and that regularly try to attack us in a variety of ways. What we are saying is with respect to this issue that's before this body right now is unanimously the law enforcement agencies of the United States and the intelligence communities of the United States have said that it was Russia that interfered in 2016 elections and that there's no data that suggests Ukraine was involved. That's the issue. END",
+  "wasPreviouslyScraped": Any<Boolean>,
+}
+`;
