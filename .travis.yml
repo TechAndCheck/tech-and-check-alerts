@@ -1,8 +1,12 @@
 language: node_js
 
+services:
+  - postgresql
+
 before_script:
   - echo "Host $STAGING_SERVER" >> ~/.ssh/config
   - echo "StrictHostKeyChecking no" >> ~/.ssh/config
+  - psql -c 'create database alerts_test;' -U postgres
 
 script:
   - npm run lint
