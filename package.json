@@ -14,6 +14,7 @@
     "start": "concurrently 'yarn start-node' 'yarn parcel:dev'",
     "build": "babel src -d lib",
     "lint": "./node_modules/.bin/eslint 'src/**/*.js'",
+    "pretest": "NODE_ENV=test yarn db:migrate",
     "test": "jest --verbose --coverage",
     "test:watch": "jest --verbose --watch",
     "test:ci": "jest",
