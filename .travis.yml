@@ -10,7 +10,7 @@ before_script:
 
 script:
   - npm run lint
-  - npm run test:ci
+  - npm run test
 
 before_deploy:
   - openssl aes-256-cbc -K $encrypted_fb9daac17ce1_key -iv $encrypted_fb9daac17ce1_iv
