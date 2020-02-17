@@ -1,9 +1,5 @@
 language: node_js
 
-addons:
-  ssh_known_hosts:
-  - "$STAGING_SERVER"
-
 before_script:
   - echo "Host $STAGING_SERVER" >> ~/.ssh/config
   - echo "StrictHostKeyChecking no" >> ~/.ssh/config
