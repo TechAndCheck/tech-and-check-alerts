@@ -14,8 +14,8 @@
     "start": "concurrently 'yarn start-node' 'yarn parcel:dev'",
     "build": "babel src -d lib",
     "lint": "./node_modules/.bin/eslint 'src/**/*.js'",
+    "pretest": "NODE_ENV=test yarn migrate",
     "test": "jest",
-    "test:watch": "jest --verbose --watch",
     "migrate": "sequelize db:migrate",
     "queue:jobs:list": "babel-node -- src/scripts/listScheduledJobs",
     "queue:jobs:schedule": "babel-node -- src/scripts/scheduleJobs",
@@ -69,6 +69,7 @@
     "winston": "^3.2.1"
   },
   "jest": {
-    "cacheDirectory": "./.jestcache"
+    "cacheDirectory": "./.jestcache",
+    "setupFilesAfterEnv": ["./src/test/suiteSetup.js"]
   }
 }
