@@ -16,7 +16,6 @@
     "lint": "./node_modules/.bin/eslint 'src/**/*.js'",
     "pretest": "NODE_ENV=test yarn migrate",
     "test": "jest",
-    "test:watch": "jest --verbose --watch",
     "migrate": "sequelize db:migrate",
     "queue:jobs:list": "babel-node -- src/scripts/listScheduledJobs",
     "queue:jobs:schedule": "babel-node -- src/scripts/scheduleJobs",
