@@ -3,6 +3,7 @@ import dayjs from 'dayjs'
 
 import logger from '../../utils/logger'
 import models from '../../models'
+import { SCRAPE_RESPONSE_CODES } from './constants'
 
 const { ScrapeLog } = models
 
@@ -125,7 +126,7 @@ class AbstractScraper {
       where: {
         scrapeUrl: this.getScrapeUrl(),
         scraperName: this.getScraperName(),
-        error: null,
+        scrapeResponseCode: SCRAPE_RESPONSE_CODES.HTTP_SUCCESS,
       },
       order: [['createdAt', 'DESC']],
     })
@@ -135,17 +136,22 @@ class AbstractScraper {
   }
 
   /**
-   * Generates and saves a scrape log entry
+   * Generates and saves a scrape log entry, with optional response details.
    *
-   * @param  {String} result The stringified result of the scrape
-   * @param  {String} error  The error message, if any
-   * @return {ScrapeLog} the unsaved initial scrape log entry
+   * @param  {Object<String>} scrapeResponseStatus Short status string; should only be one of the
+   *                                               `SCRAPE_RESPONSE_CODES` values (unenforced).
+   * @param  {Object<String>} scrapeResponseMessage Optional longer message to describe response,
+   *                                                e.g. a response error message.
+   * @return {ScrapeLog} The unsaved initial scrape log entry
    */
-  createScrapeLog = (result, error) => ScrapeLog.create({
+  createScrapeLog = ({
+    scrapeResponseCode,
+    scrapeResponseMessage,
+  } = {}) => ScrapeLog.create({
     scrapeUrl: this.getScrapeUrl(),
     scraperName: this.getScraperName(),
-    result,
-    error,
+    scrapeResponseCode,
+    scrapeResponseMessage,
   })
 
   /**
@@ -158,18 +164,32 @@ class AbstractScraper {
     return rp({
       url: this.scrapeUrl,
       headers: await this.generateScrapeHeaders(),
+      resolveWithFullResponse: true,
     })
-      .then(async (responseString) => {
+      .then(async (response) => {
+        const {
+          body,
+          statusCode,
+        } = response
         logger.debug(`Success (${this.scrapeUrl})`)
-        this.setScrapeResponse(responseString)
-        const result = await this.scrapeHandler(responseString)
-        this.createScrapeLog(JSON.stringify(result))
+        this.setScrapeResponse(body)
+        const result = await this.scrapeHandler(body)
+        this.createScrapeLog({
+          scrapeResponseCode: statusCode,
+        })
         return result
       })
       .catch((err) => {
+        const {
+          message,
+          statusCode,
+        } = err
         logger.debug(`Failed (${this.scrapeUrl}), returning default value.`)
         logger.warn(err)
-        this.createScrapeLog(null, err.message)
+        this.createScrapeLog({
+          scrapeResponseCode: statusCode || SCRAPE_RESPONSE_CODES.NON_HTTP_ERROR,
+          scrapeResponseMessage: message,
+        })
         return []
       })
   }
