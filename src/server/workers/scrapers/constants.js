@@ -22,3 +22,8 @@ export const STATEMENT_SCRAPER_PLATFORMS = {
   CNN_TRANSCRIPT: 'CNN',
   TWITTER_ACCOUNT: 'TWITTER',
 }
+
+export const SCRAPE_RESPONSE_CODES = {
+  NON_HTTP_ERROR: 'non-http-error',
+  HTTP_SUCCESS: '200',
+}
