@@ -16,9 +16,9 @@ const processTranscriptUrl = async (url) => {
   if (isDateBeyondScrapeHorizon(urlPublicationDate)) {
     logger.debug(`Skipping: ${url} was published on ${urlPublicationDate} before the horizon`)
   } else {
-    const recentScrapeTime = await scraper.getMostRecentScrapeTime()
-    if (recentScrapeTime) {
-      logger.debug(`Skipping: ${url} was scraped on ${recentScrapeTime.format('YYYY-MM-DD')}`)
+    const recentSuccessfulScrapeTime = await scraper.getMostRecentSuccessfulScrapeTime()
+    if (recentSuccessfulScrapeTime) {
+      logger.debug(`Skipping: ${url} was successfully scraped on ${recentSuccessfulScrapeTime.format('YYYY-MM-DD')}`)
     } else {
       scrapeTranscriptUrl(url)
     }
