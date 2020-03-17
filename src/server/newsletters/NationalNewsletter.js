@@ -90,20 +90,32 @@ class NationalNewsletter extends AbstractNewsletter {
 
     // Selects claims, prioritizing claims made by known speakers
     const rawQuery = `SELECT claims.*
-       FROM claims
-       LEFT JOIN known_speakers ON (
+      FROM claims
+      LEFT JOIN (
+        SELECT DISTINCT ON (known_speakers.first_name, known_speakers.last_name)
+          known_speakers.*
+          FROM known_speakers
+        ) as distinct_known_speakers ON (
         LOWER(claims.speaker_normalized_name) = LOWER(CONCAT(
-          known_speakers.first_name,
+          distinct_known_speakers.first_name,
           ' ',
-          known_speakers.last_name
+          distinct_known_speakers.last_name
         ))
        )
-       WHERE claims.claimed_at >= '${startTime}'
-         AND claims.claimed_at < '${endTime}'
-         AND scraper_name = '${STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT}'
-       ORDER BY (known_speakers.id IS NULL),
+      WHERE claims.claimed_at >= '${startTime}'
+        AND claims.claimed_at < '${endTime}'
+        AND scraper_name = '${STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT}'
+        AND claims.id IN (
+          SELECT MIN(claims.id)
+            FROM claims
+            WHERE claims.claimed_at >= '${startTime}'
+              AND claims.claimed_at < '${endTime}'
+              AND scraper_name = '${STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT}'
+            GROUP BY claims.content
+        )
+      ORDER BY (distinct_known_speakers.id IS NULL),
         claims.claim_buster_score DESC
-       LIMIT ${NEWSLETTER_SETTINGS.DEFAULT.CLAIM_LIMIT}`
+      LIMIT ${NEWSLETTER_SETTINGS.DEFAULT.CLAIM_LIMIT}`
 
     return sequelize.query(rawQuery, {
       model: Claim,
