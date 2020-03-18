@@ -7,11 +7,7 @@
   "author": "Bad Idea Factory <biffuddotcom@biffud.com>",
   "license": "MIT",
   "scripts": {
-    "parcel:dev": "./node_modules/.bin/parcel src/client/index.html",
-    "parcel:watch": "./node_modules/.bin/parcel watch src/client/index.html",
-    "parcel:build": "./node_modules/.bin/parcel build src/client/index.html",
-    "start-node": "nodemon --watch src --exec yarn babel-node -- src/server/index.js",
-    "start": "concurrently 'yarn start-node' 'yarn parcel:dev'",
+    "start": "nodemon --watch src --exec yarn babel-node -- src/server/index.js",
     "build": "babel src -d lib",
     "lint": "./node_modules/.bin/eslint 'src/**/*.js'",
     "pretest": "NODE_ENV=test yarn migrate",
@@ -46,7 +42,6 @@
     "jest": "^24.8.0",
     "nock": "^11.7.2",
     "nodemon": "^1.19.0",
-    "parcel": "^1.12.4",
     "sequelize-cli": "^5.5.0"
   },
   "dependencies": {
