@@ -71,5 +71,8 @@
   "jest": {
     "cacheDirectory": "./.jestcache",
     "setupFilesAfterEnv": ["./src/test/suiteSetup.js"]
+  },
+  "engines": {
+    "node": ">=12.0.0"
   }
 }

@@ -5,7 +5,9 @@
 A system that sends out a daily tip sheet for fact checkers, developed at the Duke Reporters Lab.
 
 ## Installation instructions
-This is a node project, to set up your development environment...
+This is a node project.  The version of node is specified in `package.json` and we recommend the use of [nvm](https://nvm.sh) for managing your local node versions.
+
+To set up your development environment...
 
 ### Install dependencies
 
