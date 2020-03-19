@@ -20,7 +20,7 @@ before_deploy:
   - ssh-add ./deploy_key
 
 node_js:
-  - 10
+  - 12
   - node
 
 jobs:
