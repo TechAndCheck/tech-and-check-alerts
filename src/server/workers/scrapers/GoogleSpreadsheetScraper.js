@@ -1,5 +1,5 @@
 import AbstractScraper from './AbstractScraper'
-import { STATEMENT_SCRAPER_NAMES } from './constants'
+import { SCRAPER_NAMES } from './constants'
 import {
   getSpreadsheetCsvUrl,
   parseCsvString,
@@ -11,7 +11,7 @@ class GoogleSpreadsheetScraper extends AbstractScraper {
     this.columnHeaders = columnHeaders
   }
 
-  getScraperName = () => STATEMENT_SCRAPER_NAMES.GOOGLE_SPREADSHEET
+  getScraperName = () => SCRAPER_NAMES.GOOGLE_SPREADSHEET
 
   scrapeHandler = async responseString => parseCsvString(responseString, this.columnHeaders)
 }
