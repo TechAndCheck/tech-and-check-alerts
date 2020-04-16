@@ -8,6 +8,7 @@ import {
   getSourceFromTweet,
   getTextFromTweet,
   getSpeakerAffiliationFromTweet,
+  extractScreenName,
   getScreenNameHash,
   getBestName,
   getScreenNamesFromStatements,
@@ -92,6 +93,26 @@ describe('getSpeakerAffiliationFromTweet', () => {
   it('Should pull the user description from a tweet', () => {
     expect(getSpeakerAffiliationFromTweet(tweet))
       .toEqual(tweet.user.description)
+  })
+})
+describe('extractScreenName', () => {
+  it('Should extract screen names', () => {
+    expect(extractScreenName('https://www.twitter.com/SenatorBurr')).toEqual('SenatorBurr')
+    expect(extractScreenName('http://wwww.twitter.com/jeffnc2')).toEqual('jeffnc2')
+    expect(extractScreenName('http://twitter.com/CalforNC')).toEqual('CalforNC')
+    expect(extractScreenName('http://twitter.com/CalforNC?q=15')).toEqual('CalforNC')
+    expect(extractScreenName('@slifty')).toEqual('slifty')
+    expect(extractScreenName('@slifty_again')).toEqual('slifty_again')
+    expect(extractScreenName('http://twitter.com/CalforNC?q=15')).toEqual('CalforNC')
+    expect(extractScreenName('twitter.com/cabgop')).toEqual('cabgop')
+    expect(extractScreenName('https://twitter.com/@JudgeHeathNC')).toEqual('JudgeHeathNC')
+  })
+  it('Should not extract screen names from invalid strings', () => {
+    expect(extractScreenName('http://haywooddemocrats.org/slifty')).toEqual('')
+  })
+  it('Should not extract invalid screen names', () => {
+    expect(extractScreenName('---')).toEqual('')
+    expect(extractScreenName('@slifty_but_way_too_long_for_twitter')).toEqual('')
   })
 })
 describe('getScreenNameHash', () => {
