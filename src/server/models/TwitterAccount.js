@@ -2,9 +2,15 @@ const Sequelize = require('sequelize')
 
 module.exports = (sequelize, DataTypes) => {
   const TwitterAccount = sequelize.define('TwitterAccount', {
-    screenName: DataTypes.STRING(128),
+    screenName: {
+      type: DataTypes.STRING(128),
+      unique: 'twitterAccountScreenNameListName',
+    },
     preferredDisplayName: DataTypes.STRING(512),
-    listName: DataTypes.STRING(128),
+    listName: {
+      type: DataTypes.STRING(128),
+      unique: 'twitterAccountScreenNameListName',
+    },
     isActive: DataTypes.BOOLEAN,
   }, {})
 
