@@ -45,5 +45,26 @@ module.exports = (sequelize, DataTypes) => {
   TwitterAccount.getActiveByListName = async listName => TwitterAccount
     .getActiveByListNames([listName])
 
+  TwitterAccount.deactivateTwitterAccountsByList = async (listName, transaction) => TwitterAccount
+    .update(
+      { isActive: false },
+      {
+        where: {
+          listName,
+        },
+        transaction,
+      },
+    )
+
+  TwitterAccount.createOrActivateTwitterAccounts = async (twitterAccounts, transaction) => Promise
+    .all(
+      twitterAccounts.map(
+        account => TwitterAccount.upsert(
+          account,
+          { transaction },
+        ),
+      ),
+    )
+
   return TwitterAccount
 }
