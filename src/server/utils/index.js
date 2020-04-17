@@ -40,3 +40,12 @@ export const squish = string => string.replace(/\s+/g, ' ')
  * @return {Boolean}     True if it has non-whitespace content, else false
  */
 export const hasVisibleContent = text => !!text && text.replace(/\s/g, '').length > 0
+
+/**
+ * Assigns a common set of properties to all objects in an array.
+ *
+ * @param  {Array[Object]} arr        The array of objects to be decorated
+ * @param  {Object}        properties The properties to be assigned to each object
+ * @return {Array[Object]}            The array of decorated objects
+ */
+export const decorateObjects = (arr, properties) => arr.map(item => Object.assign(item, properties))
