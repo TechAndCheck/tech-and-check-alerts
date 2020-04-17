@@ -19,6 +19,7 @@
     "queue:jobs:run:cnn-portal-crawler": "babel-node -- src/scripts/runCnnCrawler",
     "queue:jobs:run:twitter-scrape-initiation": "babel-node -- src/scripts/runTwitterScraper",
     "queue:jobs:run:known-speaker-scraper": "babel-node -- src/scripts/runKnownSpeakerScraper",
+    "queue:jobs:run:twitter-account-list-scraper": "babel-node -- src/scripts/runTwitterAccountListScraper",
     "mailer:send-test": "babel-node -- src/scripts/sendTestEmail",
     "newsletter:send-test": "babel-node -- src/scripts/sendTestNewsletter",
     "sandbox": "babel-node -- src/scripts/_sandbox",
