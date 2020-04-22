@@ -1,5 +1,5 @@
 import parse from 'csv-parse'
-import { TWITTER_LIST_DOCUMENT_MAP } from '../constants'
+import { TWITTER_LIST_GOOGLE_DOC_ID_MAP } from '../constants'
 
 export const getSpreadsheetCsvUrl = spreadsheetId => `https://docs.google.com/spreadsheets/d/${spreadsheetId}/export?format=csv`
 
@@ -32,4 +32,4 @@ export const parseCsvString = async (googleCsvString, columnHeaders = false) => 
  * @param  {String} listName The twitter list name
  * @return {String}          The associated google doc ID
  */
-export const getDocumentIdByTwitterListName = listName => TWITTER_LIST_DOCUMENT_MAP[listName] || ''
+export const getDocumentIdByTwitterListName = listName => TWITTER_LIST_GOOGLE_DOC_ID_MAP[listName] || ''
