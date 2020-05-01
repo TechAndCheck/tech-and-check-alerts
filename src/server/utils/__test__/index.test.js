@@ -1,4 +1,5 @@
 import {
+  decorateObjects,
   isTestEnv,
   isDevelopmentEnv,
   isProductionEnv,
@@ -36,6 +37,23 @@ describe('utils/index', () => {
       expect(hasVisibleContent()).toBe(false)
       expect(hasVisibleContent('')).toBe(false)
       expect(hasVisibleContent(' ')).toBe(false)
+    })
+  })
+  describe('#decorateObjects', () => {
+    it('Should assign the new values to all objects', () => {
+      const originalObjects = [
+        { a: 1, b: 2 },
+        { a: 3, b: 4 },
+      ]
+      const decorator = {
+        c: 5,
+      }
+      const modifiedObjects = decorateObjects(originalObjects, decorator)
+      expect(modifiedObjects).toHaveLength(2)
+      expect(modifiedObjects[0]).toHaveProperty('c')
+      expect(modifiedObjects[0].c).toEqual(5)
+      expect(modifiedObjects[1]).toHaveProperty('c')
+      expect(modifiedObjects[1].c).toEqual(5)
     })
   })
 })

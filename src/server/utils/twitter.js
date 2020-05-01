@@ -43,6 +43,25 @@ export const extractStatementsFromTweets = tweets => tweets.map(tweet => ({
 }))
 
 /**
+ * Attempts to extract a twitter screen name from a string.
+ *
+ * The string could be a Twitter URL, an @handle, or just a handle.
+ *
+ * @param  {String} str The string containing a twitter screen name.
+ * @return {String}     The extracted screen name, hopefully
+ */
+export const extractScreenName = (str) => {
+  const cleanedInput = str
+    .replace(/^@/, '')
+    .replace(/(https?:\/\/(.*\.)?)?twitter\.com\/@?(\w+)(\W.*)?/, '$3')
+
+  if (isTwitterScreenName(cleanedInput)) {
+    return cleanedInput
+  }
+  return ''
+}
+
+/**
  * Converts a screen name to a form that can reliably be used as a dict key.
  *
  * @param  {String} screenName The screen name you want to hash

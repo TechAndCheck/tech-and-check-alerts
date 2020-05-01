@@ -1,4 +1,5 @@
 import parse from 'csv-parse'
+import { TWITTER_LIST_GOOGLE_DOC_ID_MAP } from '../constants'
 
 export const getSpreadsheetCsvUrl = spreadsheetId => `https://docs.google.com/spreadsheets/d/${spreadsheetId}/export?format=csv`
 
@@ -20,3 +21,15 @@ export const parseCsvString = async (googleCsvString, columnHeaders = false) => 
       .on('end', () => resolve(output))
   })
 )
+
+/**
+ * This method is strange, because ultimately this should all be database driven
+ * We should quickly implement a table for this mapping.
+ *
+ * This method takes a twitter list name (which may be deprecated as a concept soon) and returns
+ * the google document ID that contains the content of that list.
+ *
+ * @param  {String} listName The twitter list name
+ * @return {String}          The associated google doc ID
+ */
+export const getDocumentIdByTwitterListName = listName => TWITTER_LIST_GOOGLE_DOC_ID_MAP[listName] || ''

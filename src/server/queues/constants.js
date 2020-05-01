@@ -18,7 +18,9 @@ export const QueueNames = {
   },
   scraperQueues: {
     CNN_TRANSCRIPT_STATEMENT: 'cnnTranscriptStatementScraper',
+    TWITTER_ACCOUNT_LIST: 'twitterAccountStatementScraper',
     TWITTER_ACCOUNT_STATEMENT: 'twitterAccountStatementScraper',
+    TWITTER_ACCOUNT_LIST_SCRAPE_INITITATION: 'twitterAccountListScrapeInitiation',
     TWITTER_SCRAPE_INITITATION: 'twitterScrapeInitiation',
     KNOWN_SPEAKER: 'knownSpeakerScraper',
   },
