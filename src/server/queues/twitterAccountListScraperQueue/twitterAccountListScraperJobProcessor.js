@@ -17,7 +17,6 @@ const {
 } = models
 
 const isTwitterDisplayNameColumn = columnName => /twitter_\d+/.test(columnName)
-  || columnName === 'twitter_%d'
 
 const extractTwitterScreenNameColumnsFromRow = row => Object.keys(row)
   .filter(isTwitterDisplayNameColumn)
