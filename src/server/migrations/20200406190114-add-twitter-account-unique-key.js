@@ -9,8 +9,8 @@ module.exports = {
         {
           type: 'unique',
           name: 'screen_name_list_name',
+          transaction: t,
         },
-        { transaction: t },
       ),
     ])),
   down: queryInterface => queryInterface.removeConstraint(
