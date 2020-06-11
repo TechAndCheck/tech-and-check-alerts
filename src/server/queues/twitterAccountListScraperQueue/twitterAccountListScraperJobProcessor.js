@@ -9,11 +9,11 @@ import {
   extractScreenName,
   isTwitterScreenName,
 } from '../../utils/twitter'
-import { getDocumentIdByTwitterListName } from '../../utils/google'
 
 const {
   sequelize,
   TwitterAccount,
+  TwitterAccountList,
 } = models
 
 const isTwitterDisplayNameColumn = columnName => /twitter_\d+/.test(columnName)
@@ -52,26 +52,26 @@ const extractTwitterAccountsFromRows = (rows, screenNameColumns) => rows
 export default async (job) => {
   const {
     data: {
-      listName,
+      twitterAccountListId,
     },
   } = job
 
-  const documentId = getDocumentIdByTwitterListName(listName)
-  logger.info(`Syncing twitter accounts for "${listName}" from Google doc: ${documentId}`)
-  const scraper = new GoogleSpreadsheetScraper(documentId, true)
+  const twitterAccountList = await TwitterAccountList.findByPk(twitterAccountListId)
+  logger.info(`Syncing twitter accounts for "${twitterAccountList.name}" from Google doc: ${twitterAccountList.googleDocId}`)
+  const scraper = new GoogleSpreadsheetScraper(twitterAccountList.googleDocId, true)
   const rows = await scraper.run()
   const screenNameColumns = extractTwitterScreenNameColumnsFromRow(rows[0] || {})
   const twitterAccounts = extractTwitterAccountsFromRows(rows, screenNameColumns)
   const decoratedTwitterAccounts = decorateObjects(
     twitterAccounts,
     {
-      listName,
+      TwitterAccountListId: twitterAccountList.id, // TODO: Issue #369
       isActive: true,
     },
   )
   logger.info(`Total accounts found: ${decoratedTwitterAccounts.length}`)
   return sequelize.transaction(async (transaction) => {
-    await TwitterAccount.deactivateTwitterAccountsByList(listName, transaction)
-    return TwitterAccount.createOrActivateTwitterAccounts(decoratedTwitterAccounts, transaction)
+    await TwitterAccount.deactivateByTwitterAccountList(twitterAccountList, transaction)
+    return TwitterAccount.createOrActivate(decoratedTwitterAccounts, transaction)
   })
 }

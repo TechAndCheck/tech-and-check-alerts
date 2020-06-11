@@ -1,17 +1,19 @@
 import twitterAccountListScraperQueueDict from '../twitterAccountListScraperQueue'
 import { getQueueFromQueueDict } from '../../utils/queue'
-import { TWITTER_LIST_NAMES } from '../../constants'
+import models from '../../models'
+
+const { TwitterAccountList } = models
 
 const twitterAccountListScraperQueue = getQueueFromQueueDict(
   twitterAccountListScraperQueueDict,
 )
 
-const scrapeTwitterAccountList = listName => twitterAccountListScraperQueue.add({
-  listName,
+const scrapeTwitterAccountList = twitterAccountList => twitterAccountListScraperQueue.add({
+  twitterAccountListId: twitterAccountList.id,
 })
 
 export default async () => {
-  const listNames = Object.entries(TWITTER_LIST_NAMES).map(([, listName]) => listName)
-  listNames.forEach(scrapeTwitterAccountList)
-  return TWITTER_LIST_NAMES
+  const twitterAccountLists = await TwitterAccountList.findAll()
+  twitterAccountLists.forEach(scrapeTwitterAccountList)
+  return twitterAccountLists
 }
