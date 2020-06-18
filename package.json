@@ -10,7 +10,7 @@
     "start": "nodemon --watch src --exec yarn babel-node -- src/server/index.js",
     "build": "babel src -d lib",
     "lint": "./node_modules/.bin/eslint 'src/**/*.js'",
-    "pretest": "NODE_ENV=test sequelize db:migrate:undo:all && NODE_ENV=test yarn migrate",
+    "pretest": "NODE_ENV=test sequelize db:drop && NODE_ENV=test sequelize db:create && NODE_ENV=test yarn migrate",
     "test": "jest",
     "migrate": "sequelize db:migrate",
     "queue:jobs:list": "babel-node -- src/scripts/listScheduledJobs",

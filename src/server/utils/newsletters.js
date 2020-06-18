@@ -54,23 +54,3 @@ export const getTwitterScreenNamesByListName = async listName => (
   TwitterAccount.getActiveByListName(listName)
     .then(accounts => accounts.map(account => account.screenName))
 )
-
-/**
- * Gets the screen names for a given array of Twitter lists.
- *
- * @param  {Array<String>} listNames The Twitter lists we want screen names for
- * @return {Object}                  An array of screen names for each list, organized into an
- *                                   object keyed by list name
- */
-export const getTwitterScreenNamesByListNames = async listNames => (
-  TwitterAccount.getActiveByListNames(listNames)
-    .then(accounts => accounts.reduce((lists, account) => {
-      if (hasKey(lists, account.listName)) {
-        lists[account.listName].push(account.screenName)
-      } else {
-        // eslint-disable-next-line no-param-reassign
-        lists[account.listName] = [account.screenName]
-      }
-      return lists
-    }, {}))
-)

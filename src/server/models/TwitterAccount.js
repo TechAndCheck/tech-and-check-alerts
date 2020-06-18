@@ -7,12 +7,12 @@ module.exports = (sequelize, DataTypes) => {
       unique: 'twitterAccountScreenNameListName',
     },
     preferredDisplayName: DataTypes.STRING(512),
-    listName: {
-      type: DataTypes.STRING(128),
-      unique: 'twitterAccountScreenNameListName',
-    },
     isActive: DataTypes.BOOLEAN,
   }, {})
+
+  TwitterAccount.associate = (models) => {
+    TwitterAccount.belongsTo(models.TwitterAccountList)
+  }
 
   TwitterAccount.getByScreenNames = async screenNames => (TwitterAccount.findAll({
     where: {
@@ -31,32 +31,40 @@ module.exports = (sequelize, DataTypes) => {
     },
   })
 
-  TwitterAccount.getActiveByListNames = async listNames => (
-    TwitterAccount.findAll({
-      where: {
-        listName: {
-          [Sequelize.Op.in]: listNames,
+  TwitterAccount.getActiveByListNames = async listNames => TwitterAccount.findAll({
+    where: {
+      isActive: true,
+    },
+    include: [
+      {
+        model: sequelize.models.TwitterAccountList,
+        where: {
+          name: {
+            [Sequelize.Op.in]: listNames,
+          },
         },
-        isActive: true,
       },
-    })
-  )
+    ],
+  })
 
   TwitterAccount.getActiveByListName = async listName => TwitterAccount
     .getActiveByListNames([listName])
 
-  TwitterAccount.deactivateTwitterAccountsByList = async (listName, transaction) => TwitterAccount
+  TwitterAccount.deactivateByTwitterAccountList = async (
+    twitterAccountList,
+    transaction,
+  ) => TwitterAccount
     .update(
       { isActive: false },
       {
         where: {
-          listName,
+          twitter_account_list_id: twitterAccountList.id, // TODO: Issue #367
         },
         transaction,
       },
     )
 
-  TwitterAccount.createOrActivateTwitterAccounts = async (twitterAccounts, transaction) => Promise
+  TwitterAccount.createOrActivate = async (twitterAccounts, transaction) => Promise
     .all(
       twitterAccounts.map(
         account => TwitterAccount.upsert(
