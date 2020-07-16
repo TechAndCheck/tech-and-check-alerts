@@ -113,8 +113,8 @@ class NationalNewsletter extends AbstractNewsletter {
               AND scraper_name = '${STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT}'
             GROUP BY claims.content
         )
-      ORDER BY (distinct_known_speakers.id IS NULL),
-        claims.claim_buster_score DESC
+        AND distinct_known_speakers.id IS NOT NULL
+      ORDER BY claims.claim_buster_score DESC
       LIMIT ${NEWSLETTER_SETTINGS.DEFAULT.CLAIM_LIMIT}`
 
     return sequelize.query(rawQuery, {
