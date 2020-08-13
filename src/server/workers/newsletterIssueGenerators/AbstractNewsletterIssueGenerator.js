@@ -1,33 +1,30 @@
-import config from '../config'
-import { getFileContents } from '../utils'
+import config from '../../config'
+import { getFileContents } from '../../utils'
 import {
-  getMailingListAddress,
-  guardMailingList,
-} from '../utils/newsletters'
+  guardMailingListAddress,
+} from '../../utils/newsletters'
 import {
   getHandlebarsTemplate,
   cleanNewsletterTemplate,
   moveStylesInline,
-} from '../utils/templates'
-import Mailer from '../workers/mailer'
-import logger from '../utils/logger'
+} from '../../utils/templates'
+import Mailer from '../mailer'
+import logger from '../../utils/logger'
 
-class AbstractNewsletter {
+class AbstractNewsletterIssueGenerator {
   constructor() {
     this.mailer = new Mailer()
   }
 
   /**
-   * Abstract method that provides the mailing list key name associated with the newsletter.
-   * However, don't return the key name as a string literal; return instead the value of the
-   * appropriate property from the MAILING_LISTS constant, e.g. `return MAILING_LISTS.DEVELOPERS`.
+   * Abstract method that provides the mailing list address associated with the newsletter.
    *
    * OVERRIDE WHEN EXTENDING
    *
-   * @return {String} The key name of the associated mailing list
+   * @return {String} The mailing list address that the issue should be sent to.
    */
-  getMailingList = () => {
-    throw new Error('You extended AbstractNewsletter but forgot to define getMailingList()')
+  getMailingListAddress = () => {
+    throw new Error('You extended AbstractNewsletterIssueGenerator but forgot to define getMailingListAddress()')
   }
 
   /**
@@ -38,7 +35,7 @@ class AbstractNewsletter {
    * @return {String} The absolute path to the associated Handlebars template
    */
   getPathToTemplate = () => {
-    throw new Error('You extended AbstractNewsletter but forgot to define getPathToTemplate()')
+    throw new Error('You extended AbstractNewsletterIssueGenerator but forgot to define getPathToTemplate()')
   }
 
   /**
@@ -51,7 +48,7 @@ class AbstractNewsletter {
    * @return {String} The absolute path to the associated Handlebars template
    */
   getPathToTextTemplate = () => {
-    throw new Error('You extended AbstractNewsletter but forgot to define getPathToTextTemplate()')
+    throw new Error('You extended AbstractNewsletterIssueGenerator but forgot to define getPathToTextTemplate()')
   }
 
   /**
@@ -62,7 +59,7 @@ class AbstractNewsletter {
    * @return {String} The newsletter's email subject line
    */
   getSubject = () => {
-    throw new Error('You extended AbstractNewsletter but forgot to define getSubject()')
+    throw new Error('You extended AbstractNewsletterIssueGenerator but forgot to define getSubject()')
   }
 
   /**
@@ -77,7 +74,7 @@ class AbstractNewsletter {
    * @return {Object} The object that will be passed to the templating functions
    */
   getBodyData = async () => {
-    throw new Error('You extended AbstractNewsletter but forgot to define getBodyData()')
+    throw new Error('You extended AbstractNewsletterIssueGenerator but forgot to define getBodyData()')
   }
 
   /**
@@ -95,7 +92,7 @@ class AbstractNewsletter {
    * @return {Boolean}
    */
   assertNewsletterIsSendable = async () => {
-    throw new Error('You extended AbstractNewsletter but forgot to define assertNewsletterIsSendable()')
+    throw new Error('You extended AbstractNewsletterIssueGenerator but forgot to define assertNewsletterIsSendable()')
   }
 
   /**
@@ -140,19 +137,19 @@ class AbstractNewsletter {
    *
    * There are two additions to allow us to test and develop newsletters without mistakenly sending
    * to real (i.e., production) recipient lists:
-   * 1. If there is a valid MAILING_LIST_OVERRIDE environment variable, use that. We use this almost
-   *    exclusively to test sending newsletters in otherwise production environments.
+   * 1. If there is a valid MAILING_LIST_ADDRESS_OVERRIDE environment variable, use that. We use
+   *    this almost exclusively to test sending newsletters in otherwise production environments.
    * 2. If we're not running in production, the mailing list must be internal, or else it defaults
-   *    to the devs list.
-   * Note that if a non-production environment has MAILING_LIST_OVERRIDE set to an external mailing
-   * list, it will get hammered into sending to the devs list.
+   *    to the MAILING_LIST_ADDRESS_OVERRIDE.
+   * If a non-production environment has MAILING_LIST_ADDRESS_OVERRIDE set to an external
+   * mailing list, it will get hammered into sending to the devs list.
    *
    * @return {String} The intended newsletter recipient
    */
   getRecipient = () => {
-    const configuredMailingList = config.MAILING_LIST_OVERRIDE || this.getMailingList()
-    const guardedMailingList = guardMailingList(configuredMailingList)
-    return getMailingListAddress(guardedMailingList)
+    const configuredMailingListAddress = config.MAILING_LIST_ADDRESS_OVERRIDE
+      || this.getMailingListAddress()
+    return guardMailingListAddress(configuredMailingListAddress)
   }
 
   /**
@@ -242,4 +239,4 @@ class AbstractNewsletter {
   }
 }
 
-export default AbstractNewsletter
+export default AbstractNewsletterIssueGenerator

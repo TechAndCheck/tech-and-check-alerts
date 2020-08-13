@@ -31,24 +31,17 @@ module.exports = (sequelize, DataTypes) => {
     },
   })
 
-  TwitterAccount.getActiveByListNames = async listNames => TwitterAccount.findAll({
+  TwitterAccount.getActiveByListIds = async listIds => TwitterAccount.findAll({
     where: {
       isActive: true,
-    },
-    include: [
-      {
-        model: sequelize.models.TwitterAccountList,
-        where: {
-          name: {
-            [Sequelize.Op.in]: listNames,
-          },
-        },
+      TwitterAccountListId: {
+        [Sequelize.Op.in]: listIds,
       },
-    ],
+    },
   })
 
-  TwitterAccount.getActiveByListName = async listName => TwitterAccount
-    .getActiveByListNames([listName])
+  TwitterAccount.getActiveByListId = async listId => TwitterAccount
+    .getActiveByListIds([listId])
 
   TwitterAccount.deactivateByTwitterAccountList = async (
     twitterAccountList,

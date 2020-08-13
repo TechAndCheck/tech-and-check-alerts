@@ -1,56 +1,28 @@
-import { hasKey } from '..'
 import {
-  isInternalMailingList,
-  getMailingListAddress,
-  guardMailingList,
+  isTestSafeMailingListAddress,
+  guardMailingListAddress,
 } from '../newsletters'
-import {
-  GUARDED_MAILING_LIST,
-  MAILING_LISTS,
-  INTERNAL_MAILING_LISTS,
-} from '../../newsletters/constants'
-
-const getInternalMailingList = () => Object.keys(INTERNAL_MAILING_LISTS)[0]
-
-/**
- * This essentially exists because the guarded list is on the internal mailing list array, so we
- * can't accurately test guardMailingList() without choosing a different one.
- */
-const getUnguardedInternalMailingList = () => Object.keys(MAILING_LISTS)
-  .find(list => list !== GUARDED_MAILING_LIST)
-
-const getExternalMailingList = () => Object.keys(MAILING_LISTS)
-  .find(list => !hasKey(INTERNAL_MAILING_LISTS, list))
+import config from '../../config'
 
 describe('utils/newsletters', () => {
-  const internalMailingList = getInternalMailingList()
-  const externalMailingList = getExternalMailingList()
-  describe('#isInternalMailingList', () => {
-    it('Should recognize internal mailing lists', () => {
-      expect(isInternalMailingList(internalMailingList)).toBe(true)
+  describe('#isTestSafeMailingListAddress', () => {
+    it('Should recognize test safe mailing list addresses', () => {
+      const testSafeMailingListAddress = config.TEST_SAFE_MAILING_LIST_ADDRESSES[0]
+      expect(isTestSafeMailingListAddress(testSafeMailingListAddress)).toBe(true)
     })
-    it('Should reject external mailing lists', () => {
-      expect(isInternalMailingList(externalMailingList)).toBe(false)
-    })
-  })
-  describe('#getMailingListAddress', () => {
-    it('Should return email addressess for valid mailing lists', () => {
-      expect(getMailingListAddress(internalMailingList)).toContain('@')
-      expect(getMailingListAddress(externalMailingList)).toContain('@')
-    })
-    it('Should throw an error when passed an invalid mailing list', () => {
-      expect(() => {
-        getMailingListAddress('FAKE')
-      }).toThrowError()
+    it('Should reject mailing list addresses that were not explicitly approved', () => {
+      expect(isTestSafeMailingListAddress('notAnApprovedTestAddress@example.com')).toBe(false)
     })
   })
-  describe('#guardMailingList', () => {
-    it('Should allow internal lists to pass through unguarded', () => {
-      const unguardedInternalMailingList = getUnguardedInternalMailingList()
-      expect(guardMailingList(unguardedInternalMailingList)).toEqual(unguardedInternalMailingList)
+  describe('#guardMailingListAddress', () => {
+    it('Should allow test safe addresses to pass through unguarded', () => {
+      const testSafeMailingListAddress = config.TEST_SAFE_MAILING_LIST_ADDRESSES[0]
+      expect(guardMailingListAddress(testSafeMailingListAddress))
+        .toEqual(testSafeMailingListAddress)
     })
-    it('Should return the guarded list when passed an external list, here in testing', () => {
-      expect(guardMailingList(getExternalMailingList)).toEqual(GUARDED_MAILING_LIST)
+    it('Should return a test safe address when passed an external list during testing', () => {
+      const guardedMailingListAddress = guardMailingListAddress('notAnApprovedTestAddress@example.com')
+      expect(config.TEST_SAFE_MAILING_LIST_ADDRESSES).toContain(guardedMailingListAddress)
     })
     /**
      * TODO: It would be nice to be able to simulate the behavior when `isProductionEnv()` was true.

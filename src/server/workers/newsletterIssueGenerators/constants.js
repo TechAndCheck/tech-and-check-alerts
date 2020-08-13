@@ -13,22 +13,6 @@ export const INTERNAL_MAILING_LISTS = {
 // This is the list that we will default to for safety under certain conditions
 export const GUARDED_MAILING_LIST = 'DEVELOPERS'
 
-export const MAILING_LIST_ADDRESSES = {
-  DEVELOPERS: 'dev@alerts.factstream.co',
-  TESTERS: 'test@alerts.factstream.co',
-  NATIONAL: 'national@alerts.factstream.co',
-  NORTH_CAROLINA: 'northcarolina@alerts.factstream.co',
-}
-
-export const NEWSLETTER_SETTINGS = {
-  DEFAULT: {
-    CLAIM_LIMIT: 15,
-  },
-  NORTH_CAROLINA: {
-    CLAIM_LIMIT: 50,
-  },
-}
-
 export const NEWSLETTER_MEDIA = {
   TV: 'TV',
   SOCIAL: 'SOCIAL',

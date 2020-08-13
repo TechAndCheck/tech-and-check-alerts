@@ -1,5 +1,6 @@
 import fs from 'fs'
 import Handlebars from 'handlebars'
+import markdown from 'helper-markdown'
 import sanitizeHTML from 'sanitize-html'
 import juice from 'juice'
 
@@ -15,7 +16,7 @@ import {
   runSequence,
 } from '.'
 
-const TEMPLATE_PARTIALS_DIRECTORY = `${__dirname}/../newsletters/templates/partials/`
+const TEMPLATE_PARTIALS_DIRECTORY = `${__dirname}/../templates/partials/`
 
 const isHandlebarsTemplate = fileName => fileName.endsWith('.hbs')
 
@@ -34,6 +35,7 @@ const registerHandlebarsHelpers = () => {
       .find(scraperNameKey => STATEMENT_SCRAPER_NAMES[scraperNameKey] === scraperName)
     return PLATFORM_NAMES[STATEMENT_SCRAPER_PLATFORMS[scraper]]
   })
+  Handlebars.registerHelper('markdown', markdown())
 }
 
 const registerHandlebarsPartials = () => {

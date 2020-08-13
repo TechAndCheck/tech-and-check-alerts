@@ -20,8 +20,9 @@
     "queue:jobs:run:twitter-scrape-initiation": "babel-node -- src/scripts/runTwitterScraper",
     "queue:jobs:run:known-speaker-scraper": "babel-node -- src/scripts/runKnownSpeakerScraper",
     "queue:jobs:run:twitter-account-list-scraper": "babel-node -- src/scripts/runTwitterAccountListScraper",
+    "queue:jobs:run:newsletter-delivery": "babel-node -- src/scripts/runNewsletterDelivery",
     "mailer:send-test": "babel-node -- src/scripts/sendTestEmail",
-    "newsletter:send-test": "babel-node -- src/scripts/sendTestNewsletter",
+    "newsletter:send": "babel-node -- src/scripts/sendNewsletter",
     "sandbox": "babel-node -- src/scripts/_sandbox",
     "scrape:cnn": "babel-node -- src/scripts/scrapeCnnStatements",
     "scrape:twitter": "babel-node -- src/scripts/scrapeTwitterStatements",
@@ -66,7 +67,9 @@
   },
   "jest": {
     "cacheDirectory": "./.jestcache",
-    "setupFilesAfterEnv": ["./src/test/suiteSetup.js"]
+    "setupFilesAfterEnv": [
+      "./src/test/suiteSetup.js"
+    ]
   },
   "engines": {
     "node": ">=12.0.0"
