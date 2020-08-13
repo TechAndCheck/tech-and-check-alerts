@@ -51,6 +51,7 @@
     "dayjs": "^1.8.14",
     "dotenv": "^8.0.0",
     "handlebars": "^4.3.0",
+    "helper-markdown": "^1.0.0",
     "juice": "^5.2.0",
     "mailgun-js": "^0.22.0",
     "memoize-one": "^5.1.1",
