@@ -2,39 +2,34 @@ import Sequelize from 'sequelize'
 import dayjs from 'dayjs'
 import assert from 'assert'
 
-import models from '../models'
+import models from '../../models'
+import { STATEMENT_SCRAPER_NAMES } from '../scrapers/constants'
+import AbstractNewsletterIssueGenerator from './AbstractNewsletterIssueGenerator'
 import {
-  PLATFORM_NAMES,
-  TWITTER_LIST_NAMES,
-} from '../constants'
-import { STATEMENT_SCRAPER_NAMES } from '../workers/scrapers/constants'
-import AbstractNewsletter from './AbstractNewsletter'
-import {
-  NEWSLETTER_SETTINGS,
-  MAILING_LISTS,
   NEWSLETTER_MEDIA,
 } from './constants'
-import { getTwitterScreenNamesByListName } from '../utils/newsletters'
+import { getTwitterScreenNamesByListId } from '../../utils/newsletters'
 
 const {
   sequelize,
   Claim,
 } = models
 
-class NationalNewsletter extends AbstractNewsletter {
-  getMailingList = () => MAILING_LISTS.NATIONAL
+class DynamicNewsletterIssueGenerator extends AbstractNewsletterIssueGenerator {
+  constructor(newsletter) {
+    super()
+    this.newsletter = newsletter
+  }
 
-  getPathToTemplate = () => `${__dirname}/templates/national.hbs`
+  getMailingListAddress = () => this.newsletter.mailingListAddress
 
-  getPathToTextTemplate = () => `${__dirname}/templates/nationalText.hbs`
+  getPathToTemplate = () => `${__dirname}/../../templates/html/${this.newsletter.templateName}.hbs`
+
+  getPathToTextTemplate = () => `${__dirname}/../../templates/text/${this.newsletter.textTemplateName}.hbs`
 
   getSubject = () => {
-    const platformNames = [
-      PLATFORM_NAMES.CNN,
-      PLATFORM_NAMES.TWITTER,
-    ]
     const date = dayjs().format('MM/DD/YY')
-    return `Tech & Check Alerts: ${platformNames.join(', ')} ${date}`
+    return `Tech & Check Alerts: ${this.newsletter.subjectDecoration} ${date}`
   }
 
   assertNewsletterIsSendable = async () => {
@@ -61,7 +56,7 @@ class NationalNewsletter extends AbstractNewsletter {
         [Sequelize.Op.lt]: dayjs().startOf('hour').format(),
       },
     },
-    limit: NEWSLETTER_SETTINGS.DEFAULT.CLAIM_LIMIT,
+    limit: this.newsletter.claimLimit,
     order: [['claimBusterScore', 'DESC']],
   })
 
@@ -115,7 +110,7 @@ class NationalNewsletter extends AbstractNewsletter {
         )
         AND distinct_known_speakers.id IS NOT NULL
       ORDER BY claims.claim_buster_score DESC
-      LIMIT ${NEWSLETTER_SETTINGS.DEFAULT.CLAIM_LIMIT}`
+      LIMIT ${this.newsletter.claimLimit}`
 
     return sequelize.query(rawQuery, {
       model: Claim,
@@ -126,16 +121,26 @@ class NationalNewsletter extends AbstractNewsletter {
   fetchSocialClaims = async () => (Claim.findAll(this.generateQueryParams({
     scraperName: STATEMENT_SCRAPER_NAMES.TWITTER_ACCOUNT,
     source: {
-      [Sequelize.Op.in]: await getTwitterScreenNamesByListName(TWITTER_LIST_NAMES.NATIONAL),
+      [Sequelize.Op.in]: await getTwitterScreenNamesByListId(this.newsletter.TwitterAccountListId),
     },
   })))
 
-  getBodyData = async () => ({
-    claims: {
-      [NEWSLETTER_MEDIA.TV]: await this.fetchTvClaims(),
-      [NEWSLETTER_MEDIA.SOCIAL]: await this.fetchSocialClaims(),
-    },
-  })
+  getBodyData = async () => {
+    const bodyData = Object.assign(
+      {
+        claims: {},
+      },
+      this.newsletter.templateSettings,
+    )
+
+    if (this.newsletter.enabledMedia.includes(NEWSLETTER_MEDIA.TV)) {
+      bodyData.claims[NEWSLETTER_MEDIA.TV] = await this.fetchTvClaims()
+    }
+    if (this.newsletter.enabledMedia.includes(NEWSLETTER_MEDIA.SOCIAL)) {
+      bodyData.claims[NEWSLETTER_MEDIA.SOCIAL] = await this.fetchSocialClaims()
+    }
+    return bodyData
+  }
 }
 
-export default NationalNewsletter
+export default DynamicNewsletterIssueGenerator

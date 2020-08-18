@@ -1,30 +1,19 @@
 import models from '../models'
-import {
-  GUARDED_MAILING_LIST,
-  MAILING_LIST_ADDRESSES,
-  INTERNAL_MAILING_LISTS,
-} from '../newsletters/constants'
+import config from '../config'
 import {
   isProductionEnv,
-  hasKey,
 } from '.'
 
 const { TwitterAccount } = models
 
-export const isInternalMailingList = list => hasKey(INTERNAL_MAILING_LISTS, list)
-
 /**
- * Provides the email address for the mailing list associated with the newsletter.
- * Throws an error if there is none, because that makes the newsletter undeliverable
- * and means we've either configured it incorrectly or setup our addresses incorrectly.
- *
- * @return {String} The email address for the associated mailing list
+ * [description]
+ * @param  {[type]} mailingListAddress [description]
+ * @return {[type]}                    [description]
  */
-export const getMailingListAddress = (list) => {
-  const mailingListAddress = MAILING_LIST_ADDRESSES[list]
-  if (!mailingListAddress) throw new Error(`There is no email address associated with the mailing list ${list}.`)
-  return mailingListAddress
-}
+export const isTestSafeMailingListAddress = mailingListAddress => config
+  .TEST_SAFE_MAILING_LIST_ADDRESSES
+  .includes(mailingListAddress)
 
 /**
  * Protects us from accidentally sending newsletters to production recipients.
@@ -37,12 +26,13 @@ export const getMailingListAddress = (list) => {
  * determine the recipeint. Otherwise, we default to the GUARDED_MAILING_LIST constant (currently
  * the developers list).
  *
- * @param  {String} list The mailing list we want to guard
- * @return {String}      The mailing list we passed in, or the default guarded one
+ * @param  {String} list The mailing list address we want to guard
+ * @return {String}      The mailing list address we passed in, or a default guarded one
  */
-export const guardMailingList = list => ((isProductionEnv() || isInternalMailingList(list))
-  ? list
-  : GUARDED_MAILING_LIST)
+export const guardMailingListAddress = mailingListAddress => (
+  (isProductionEnv() || isTestSafeMailingListAddress(mailingListAddress))
+    ? mailingListAddress
+    : config.TEST_SAFE_MAILING_LIST_ADDRESSES[0] || '')
 
 /**
  * Gets the screen names for a given Twitter list.
@@ -54,3 +44,15 @@ export const getTwitterScreenNamesByListName = async listName => (
   TwitterAccount.getActiveByListName(listName)
     .then(accounts => accounts.map(account => account.screenName))
 )
+
+/**
+ * Gets the screen names for a given Twitter list.
+ *
+ * @param  {Number} listId The Twitter list ID we want screen names for
+ * @return {Object}        An array of screen names for the list
+ */
+export const getTwitterScreenNamesByListId = async (listId) => {
+  const accounts = await TwitterAccount.getActiveByListId(listId)
+  const screenNames = accounts.map(account => account.screenName)
+  return screenNames
+}

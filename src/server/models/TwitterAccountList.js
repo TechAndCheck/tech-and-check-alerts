@@ -5,6 +5,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {})
 
   TwitterAccountList.associate = (models) => {
+    TwitterAccountList.hasMany(models.Newsletter)
     TwitterAccountList.hasMany(models.TwitterAccount)
   }
 

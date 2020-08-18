@@ -28,6 +28,8 @@ export const QueueNames = {
     CLAIM_BUSTER: 'claimBusterClaimDetector',
   },
   newsletterDeliveryQueues: {
+    NEWSLETTER_DELIVERY: 'newsletterDelivery',
+    NEWSLETTER_DELIVERY_INITIATION: 'newsletterDeliveryInitiation',
     NATIONAL: 'nationalNewsletterDelivery',
     NORTH_CAROLINA: 'northCarolinaNewsletterDelivery',
   },
