@@ -1,39 +1,33 @@
 language: node_js
-
 services:
-  - postgresql
-
+- postgresql
 before_script:
-  - echo "Host $STAGING_SERVER" >> ~/.ssh/config
-  - echo "StrictHostKeyChecking no" >> ~/.ssh/config
-  - psql -c 'create database alerts_test;' -U postgres
-
+- echo "Host $STAGING_SERVER" >> ~/.ssh/config
+- echo "StrictHostKeyChecking no" >> ~/.ssh/config
+- psql -c 'create database alerts_test;' -U postgres
 script:
-  - npm run lint
-  - npm run test
-
+- npm run lint
+- npm run test
 before_deploy:
-  - openssl aes-256-cbc -K $encrypted_fb9daac17ce1_key -iv $encrypted_fb9daac17ce1_iv
-    -in deploy_key.enc -out ./deploy_key -d
-  - eval "$(ssh-agent -s)"
-  - chmod 600 ./deploy_key
-  - ssh-add ./deploy_key
-
+- openssl aes-256-cbc -K $encrypted_fb9daac17ce1_key -iv $encrypted_fb9daac17ce1_iv
+  -in deploy_key.enc -out ./deploy_key -d
+- eval "$(ssh-agent -s)"
+- chmod 600 ./deploy_key
+- ssh-add ./deploy_key
 node_js:
-  - 12
-  - node
-
+- 12
+- node
 jobs:
   include:
-    - stage: deploy
-      script: skip
-      deploy:
-        - provider: script
-          script:
-            bash scripts/deliver.sh -h $STAGING_SERVER -u $STAGING_SERVER_USER bash &&
-            ssh $STAGING_SERVER_USER@$STAGING_SERVER '
-              cd /var/www/tech-and-check-alerts &&
-              ./scripts/build.sh &&
-              ./scripts/start.sh'
-          on:
-            branch: "$STAGING_BRANCH"
+  - stage: deploy
+    script: skip
+    deploy:
+    - provider: script
+      script: bash scripts/deliver.sh -h $STAGING_SERVER -u $STAGING_SERVER_USER bash
+        && ssh $STAGING_SERVER_USER@$STAGING_SERVER ' cd /var/www/tech-and-check-alerts
+        && ./scripts/build.sh && ./scripts/start.sh'
+      on:
+        branch: "$STAGING_BRANCH"
+notifications:
+  slack:
+    secure: aPP63FN4tJHgwwFrTEgzc45bFu7px3VR0rFrYNbQsNmGhR9Je8Wjos3Wyfcku67mDaz9vVqw9YC4UOM5l7E2KCwV1sN/F8mEZJ5TWucjGwmzUhV9XyUTkY+LEofAzU474sHuGqwUu2EI66DUDt0UTG7P/iK1+2UKohTW3rt4/oLDXfaEaUsBq7fhalke8H3NOKvlJmyQCDDSYmxM2BAd2BGcopIeGgxaCotNeXGMC343Gvhp+PxIVuwOBf2D7JS5KXDcufTXN+J3hNatpB9spc6qfVNwq22LPQD/m/pX4U7svJwlL4wzQYRc7xzn38LXW59pqxVLizFof7Kib1Zd4/6CXzcZzSx7ChZ+hS1VV/EtkbhrXj9UgBDCzU2MnzESMWl3NxOQOA2VkDdlGBtjZoseGCQixEevQdiBGJfwJ03+Xbw5/zMe+5i3TIMURGdyHn+Pt+fOgvq7vA7oXfBiAqBweGo1tbej0hODg9rHqE0yRb0f5tkNY0JaI9pU0kWZ7yCefA2IOJTnl28bzIaWCjxPdgQ2JQWC7Xnl7nrF62oTkYS60PN4FA4rhq8Ik10Zm0a5TvJksNVn4w129Isn+ijEkql28lqOjyUTQX4Q3c8SmPM8784CtxAw21e13qLOjFeIvlCknUx0WFJvQbtZrPRg5YATU96joKj27lO8XqI=
