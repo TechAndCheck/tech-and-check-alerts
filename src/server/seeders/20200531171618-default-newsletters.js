@@ -29,7 +29,7 @@ module.exports = {
     // Now, generate our newsletters and associate with the TwitterAccountList.
     return queryInterface.bulkInsert('newsletters', [
       {
-        name: 'north_carolina',
+        label: 'north_carolina',
         mailing_list_address: 'dev@alerts.factstream.co',
         template_name: 'dynamic',
         text_template_name: 'dynamic',
@@ -56,7 +56,7 @@ Best,
         updated_at: (new Date()).toISOString(),
       },
       {
-        name: 'national',
+        label: 'national',
         mailing_list_address: 'dev@alerts.factstream.co',
         template_name: 'dynamic',
         text_template_name: 'dynamic',
@@ -86,7 +86,7 @@ Best,
         updated_at: (new Date()).toISOString(),
       },
       {
-        name: 'minnesota',
+        label: 'minnesota',
         mailing_list_address: 'dev@alerts.factstream.co',
         template_name: 'dynamic',
         text_template_name: 'dynamic',
