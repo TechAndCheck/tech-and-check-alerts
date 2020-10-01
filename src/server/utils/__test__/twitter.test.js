@@ -106,6 +106,7 @@ describe('extractScreenName', () => {
     expect(extractScreenName('http://twitter.com/CalforNC?q=15')).toEqual('CalforNC')
     expect(extractScreenName('twitter.com/cabgop')).toEqual('cabgop')
     expect(extractScreenName('https://twitter.com/@JudgeHeathNC')).toEqual('JudgeHeathNC')
+    expect(extractScreenName('www.twitter.com/@JudgeHeathNC')).toEqual('JudgeHeathNC')
   })
   it('Should not extract screen names from invalid strings', () => {
     expect(extractScreenName('http://haywooddemocrats.org/slifty')).toEqual('')
