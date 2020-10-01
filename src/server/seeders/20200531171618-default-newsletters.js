@@ -30,7 +30,7 @@ module.exports = {
     return queryInterface.bulkInsert('newsletters', [
       {
         label: 'north_carolina',
-        mailing_list_address: 'dev@alerts.factstream.co',
+        mailing_list_address: 'northcarolina@alerts.factstream.co',
         template_name: 'dynamic',
         text_template_name: 'dynamic',
         template_settings: JSON.stringify({
@@ -57,7 +57,7 @@ Best,
       },
       {
         label: 'national',
-        mailing_list_address: 'dev@alerts.factstream.co',
+        mailing_list_address: 'national@alerts.factstream.co',
         template_name: 'dynamic',
         text_template_name: 'dynamic',
         template_settings: JSON.stringify({
@@ -87,7 +87,7 @@ Best,
       },
       {
         label: 'minnesota',
-        mailing_list_address: 'dev@alerts.factstream.co',
+        mailing_list_address: 'minnesota@alerts.factstream.co',
         template_name: 'dynamic',
         text_template_name: 'dynamic',
         template_settings: JSON.stringify({
@@ -115,19 +115,12 @@ Best,
     ], {})
   },
 
-  down: async (queryInterface, Sequelize) => {
-    const testSpeakers = await queryInterface.sequelize.query("DELETE id FROM speakers WHERE full_name LIKE '[Testing]%';")
-    const testSpeakersIds = testSpeakers[0].map(speaker => speaker.id)
-    // Delete claims first, since they belong to speakers.
-    await queryInterface.bulkDelete('claims', {
-      speaker_id: {
-        [Sequelize.Op.in]: testSpeakersIds,
-      },
-    }, {})
-    await queryInterface.bulkDelete('speakers', {
-      id: {
-        [Sequelize.Op.in]: testSpeakersIds,
-      },
-    }, {})
+  down: async (queryInterface) => {
+    await queryInterface.sequelize.query("DELETE FROM newsletters WHERE label = 'north_carolina'")
+    await queryInterface.sequelize.query("DELETE FROM newsletters WHERE label = 'national'")
+    await queryInterface.sequelize.query("DELETE FROM newsletters WHERE label = 'minnesota'")
+    await queryInterface.sequelize.query("DELETE FROM twitter_account_lists WHERE name = 'North Carolina'")
+    await queryInterface.sequelize.query("DELETE FROM twitter_account_lists WHERE name = 'National'")
+    await queryInterface.sequelize.query("DELETE FROM twitter_account_lists WHERE name = 'Minnesota'")
   },
 }
