@@ -53,7 +53,7 @@ export const extractStatementsFromTweets = tweets => tweets.map(tweet => ({
 export const extractScreenName = (str) => {
   const cleanedInput = str
     .replace(/^@/, '')
-    .replace(/(https?:\/\/(.*\.)?)?twitter\.com\/@?(\w+)(\W.*)?/, '$3')
+    .replace(/((https?:\/\/)?(.*\.)?)?twitter\.com\/@?(\w+)(\W.*)?/, '$4')
 
   if (isTwitterScreenName(cleanedInput)) {
     return cleanedInput
