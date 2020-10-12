@@ -5,7 +5,7 @@ module.exports = {
     // Generate TwitterAccountLists first, so we have an ID to associate with newsletters.
     const listIds = await queryInterface.bulkInsert('twitter_account_lists', [
       {
-        name: 'Wisconson',
+        name: 'Wisconsin',
         google_doc_id: '1l4Kkt2AFb57g0GJdKGs79AKsLBgwsunG0q0okPoPqoU',
         created_at: (new Date()).toISOString(),
         updated_at: (new Date()).toISOString(),
@@ -17,12 +17,12 @@ module.exports = {
     // Now, generate our newsletters and associate with the TwitterAccountList.
     return queryInterface.bulkInsert('newsletters', [
       {
-        label: 'wisconson',
-        mailing_list_address: 'wisconson@alerts.factstream.co',
+        label: 'wisconsin',
+        mailing_list_address: 'wisconsin@alerts.factstream.co',
         template_name: 'dynamic',
         text_template_name: 'dynamic',
         template_settings: JSON.stringify({
-          topBoilerplate: 'Good morning, fact-checkers! This automated Tech & Check Alert features potential claims from selected Wisconson Twitter feeds.',
+          topBoilerplate: 'Good morning, fact-checkers! This automated Tech & Check Alert features potential claims from selected Wisconsin Twitter feeds.',
           bottomBoilerplate: `### About This Alert
 
 This daily email is part of an experimental, automated alert service developed by the Duke Reporters’ Lab as part of our Tech & Check Cooperative. The alerts are computer-generated tip sheets designed to help journalists identify statements from the last 24 hours that are newsworthy enough to fact-check. The alerts are for use in your newsrooms and not intended for broader public distribution. No humans on the Tech & Check team reviewed or verified the accuracy of these statements or their attribution before this alert was sent.
@@ -34,7 +34,7 @@ Please send any feedback to Tech & Check project manager Erica Ryan ([elryan@gma
 Best,
 **Duke Reporters’ Lab**`,
         }),
-        subject_decoration: 'Wisconson Politics',
+        subject_decoration: 'Wisconsin Politics',
         enabled_media: JSON.stringify([
           NEWSLETTER_MEDIA.SOCIAL,
         ]),
@@ -47,7 +47,7 @@ Best,
   },
 
   down: async (queryInterface) => {
-    await queryInterface.sequelize.query("DELETE FROM newsletters WHERE label = 'wisconson'")
-    await queryInterface.sequelize.query("DELETE FROM twitter_account_lists WHERE name = 'Wisconson'")
+    await queryInterface.sequelize.query("DELETE FROM newsletters WHERE label = 'wisconsin'")
+    await queryInterface.sequelize.query("DELETE FROM twitter_account_lists WHERE name = 'Wisconsin'")
   },
 }
