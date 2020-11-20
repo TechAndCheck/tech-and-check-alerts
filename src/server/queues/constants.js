@@ -15,9 +15,11 @@ export const QueueNames = {
     ABSTRACT: 'abstractCrawler',
     CNN_TRANSCRIPT_PORTAL: 'cnnTranscriptPortalCrawler',
     CNN_TRANSCRIPT_LIST: 'cnnTranscriptListCrawler',
+    MTP_TRANSCRIPT_PORTAL: 'mtpTranscriptPortalCrawler',
   },
   scraperQueues: {
     CNN_TRANSCRIPT_STATEMENT: 'cnnTranscriptStatementScraper',
+    MTP_TRANSCRIPT_STATEMENT: 'mtpTranscriptStatementScraper',
     TWITTER_ACCOUNT_LIST: 'twitterAccountListScraper',
     TWITTER_ACCOUNT_STATEMENT: 'twitterAccountStatementScraper',
     TWITTER_ACCOUNT_LIST_SCRAPE_INITITATION: 'twitterAccountListScrapeInitiation',
