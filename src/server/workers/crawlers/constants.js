@@ -4,4 +4,5 @@
 export const CRAWLER_NAMES = {
   CNN_TRANSCRIPT_LIST: 'cnnTranscriptList',
   CNN_TRANSCRIPT_PORTAL: 'cnnTranscriptPortal',
+  MTP_TRANSCRIPT_PORTAL: 'mtpTranscriptPortal',
 }

@@ -17,6 +17,7 @@
     "queue:jobs:schedule": "babel-node -- src/scripts/scheduleJobs",
     "queue:jobs:unschedule": "babel-node -- src/scripts/unscheduleJobs",
     "queue:jobs:run:cnn-portal-crawler": "babel-node -- src/scripts/runCnnCrawler",
+    "queue:jobs:run:mtp-portal-crawler": "babel-node -- src/scripts/runMtpCrawler",
     "queue:jobs:run:twitter-scrape-initiation": "babel-node -- src/scripts/runTwitterScraper",
     "queue:jobs:run:known-speaker-scraper": "babel-node -- src/scripts/runKnownSpeakerScraper",
     "queue:jobs:run:twitter-account-list-scraper": "babel-node -- src/scripts/runTwitterAccountListScraper",
@@ -25,6 +26,7 @@
     "newsletter:send": "babel-node -- src/scripts/sendNewsletter",
     "sandbox": "babel-node -- src/scripts/_sandbox",
     "scrape:cnn": "babel-node -- src/scripts/scrapeCnnStatements",
+    "scrape:mtp": "babel-node -- src/scripts/scrapeMtpStatements",
     "scrape:twitter": "babel-node -- src/scripts/scrapeTwitterStatements",
     "generate:test:cnn": "babel-node -- src/scripts/generateCnnUtilTest"
   },
