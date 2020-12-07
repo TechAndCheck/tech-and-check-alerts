@@ -99,13 +99,15 @@ class DynamicNewsletterIssueGenerator extends AbstractNewsletterIssueGenerator {
        )
       WHERE claims.claimed_at >= '${startTime}'
         AND claims.claimed_at < '${endTime}'
-        AND scraper_name = '${STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT}'
+        AND (scraper_name = '${STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT}'
+          OR scraper_name = '${STATEMENT_SCRAPER_NAMES.MTP_TRANSCRIPT}')
         AND claims.id IN (
           SELECT MIN(claims.id)
             FROM claims
             WHERE claims.claimed_at >= '${startTime}'
               AND claims.claimed_at < '${endTime}'
-              AND scraper_name = '${STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT}'
+              AND (scraper_name = '${STATEMENT_SCRAPER_NAMES.CNN_TRANSCRIPT}'
+                OR scraper_name = '${STATEMENT_SCRAPER_NAMES.MTP_TRANSCRIPT}')
             GROUP BY claims.content
         )
         AND distinct_known_speakers.id IS NOT NULL

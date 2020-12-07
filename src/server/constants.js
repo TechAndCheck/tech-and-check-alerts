@@ -7,11 +7,13 @@ export const ENV_NAMES = {
 export const PLATFORMS = {
   CNN: 'CNN',
   TWITTER: 'TWITTER',
+  MTP: 'MTP',
 }
 
 export const PLATFORM_NAMES = {
   CNN: 'CNN',
   TWITTER: 'Twitter',
+  MTP: 'NBC',
 }
 
 export const TWITTER_LIST_NAMES = {
