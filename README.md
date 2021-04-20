@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/TechAndCheck/tech-and-check-alerts.svg?branch=master)](https://travis-ci.org/TechAndCheck/tech-and-check-alerts)
+[![Build Status](https://api.travis-ci.com/TechAndCheck/tech-and-check-alerts.svg?branch=main)](https://travis-ci.com/TechAndCheck/tech-and-check-alerts)
 
 # Tech & Check Alerts
 
