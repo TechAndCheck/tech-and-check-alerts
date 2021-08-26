@@ -5,7 +5,7 @@ import { CRAWLER_NAMES } from '../constants'
 
 class CnnTranscriptPortalCrawler extends AbstractCrawler {
   constructor() {
-    super('http://transcripts.cnn.com/TRANSCRIPTS/')
+    super('http://transcripts.cnn.com/')
   }
 
   getScraperName = () => CRAWLER_NAMES.CNN_TRANSCRIPT_PORTAL
