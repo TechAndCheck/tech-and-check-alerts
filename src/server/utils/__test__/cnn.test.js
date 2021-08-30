@@ -64,7 +64,7 @@ describe('utils/cnn', () => {
         .toBe(false)
     })
     it('Should identify transcript list URLs', () => {
-      expect(isTranscriptListUrl('/TRANSCRIPTS/2019.06.01.html'))
+      expect(isTranscriptListUrl('/date/2021-08-25'))
         .toBe(true)
     })
   })
@@ -75,11 +75,11 @@ describe('utils/cnn', () => {
         .toBe(false)
     })
     it('Should identify transcript list URLs', () => {
-      expect(isTranscriptUrl('/TRANSCRIPTS/1906/01/cnr.20.html'))
+      expect(isTranscriptUrl('/show/acd/date/2021-08-25/segment/01'))
         .toBe(true)
-      expect(isTranscriptUrl('https://transcripts.cnn.com/TRANSCRIPTS/1906/01/cnr.20.html'))
+      expect(isTranscriptUrl('http://transcripts.cnn.com/show/acd/date/2021-08-25/segment/01'))
         .toBe(true)
-      expect(isTranscriptUrl('http://transcripts.cnn.com/TRANSCRIPTS/1906/01/cnr.20.html'))
+      expect(isTranscriptUrl('https://transcripts.cnn.com/show/acd/date/2021-08-25/segment/01'))
         .toBe(true)
     })
   })
@@ -106,12 +106,19 @@ describe('utils/cnn', () => {
   })
 
   describe('extractPublicationDateFromTranscriptUrl', () => {
-    it('Should extract dates', () => {
-      const date = extractPublicationDateFromTranscriptUrl('/TRANSCRIPTS/1906/01/cnr.20.html')
+    it('Should extract dates from a relative transcript URL', () => {
+      const date = extractPublicationDateFromTranscriptUrl('/show/acd/date/2021-08-25/segment/01')
       expect(date)
         .not.toBeNull()
       expect(date.format('YYYY-MM-DD'))
-        .toEqual('2019-06-01')
+        .toEqual('2021-08-25')
+    })
+    it('Should extract dates from an absolute transcript URL', () => {
+      const date = extractPublicationDateFromTranscriptUrl('https://transcripts.cnn.com/show/acd/date/2021-08-25/segment/01')
+      expect(date)
+        .not.toBeNull()
+      expect(date.format('YYYY-MM-DD'))
+        .toEqual('2021-08-25')
     })
     it('Should throw an error on an invalid URL', () => {
       expect(() => extractPublicationDateFromTranscriptUrl('lololol'))

@@ -9,13 +9,13 @@ describe('CnnTranscriptListCrawler', () => {
     it('CnnTranscriptListCrawler should return urls', async () => {
       const portalMock = fs.readFileSync(path.resolve(__dirname, 'data/transcriptListMock.html'), 'utf8')
       nock('http://transcripts.cnn.com')
-        .get('/TRANSCRIPTS/2020.01.21.html')
+        .get('/date/2021-08-23')
         .reply(200, portalMock)
 
-      const cnnTranscriptListCrawler = new CnnTranscriptListCrawler('/TRANSCRIPTS/2020.01.21.html')
+      const cnnTranscriptListCrawler = new CnnTranscriptListCrawler('/date/2021-08-23')
       const urls = await cnnTranscriptListCrawler.run()
       expect(Array.isArray(urls)).toBe(true)
-      expect(urls).toHaveLength(55)
+      expect(urls).toHaveLength(48)
     })
   })
 })

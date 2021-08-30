@@ -35,13 +35,11 @@ const breakpointRegex = new RegExp(
   'g',
 )
 
-export const isTranscriptListUrl = url => url.startsWith('/TRANSCRIPTS/')
-  && url.endsWith('.html')
+export const isTranscriptListUrl = url => url.startsWith('/date/')
 
-export const isTranscriptUrl = url => (url.startsWith('/TRANSCRIPTS/')
-  || url.startsWith('https://transcripts.cnn.com/TRANSCRIPTS/')
-  || url.startsWith('http://transcripts.cnn.com/TRANSCRIPTS/'))
-  && url.endsWith('.html')
+export const isTranscriptUrl = url => (url.startsWith('/show/')
+  || url.startsWith('https://transcripts.cnn.com/')
+  || url.startsWith('http://transcripts.cnn.com/'))
 
 export const getFullCnnUrl = (url) => {
   if (url.startsWith('/')) return `http://transcripts.cnn.com${url}`
@@ -62,11 +60,11 @@ export const extractPublicationDateFromTranscriptUrl = (url) => {
   if (!isTranscriptUrl(url)) {
     throw new Error(`Passed an invalid URL to extractPublicationDateFromTranscriptUrl: ${url}`)
   }
-  const parts = url.split('/')
-  const year = parts[2].substring(0, 2)
-  const month = parts[2].substring(2)
-  const day = parts[3]
-  return dayjs(`${month}/${day}/${year}`, 'MM/DD/YY')
+  const parts = getFullCnnUrl(url).split('/')
+  const year = parts[6].substring(0, 4)
+  const month = parts[6].substring(5, 7)
+  const day = parts[6].substring(8, 10)
+  return dayjs(`${month}/${day}/${year}`, 'MM/DD/YYYY')
 }
 
 /**
