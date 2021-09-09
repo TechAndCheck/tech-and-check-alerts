@@ -168,7 +168,13 @@ class AbstractNewsletterIssueGenerator {
       const templateSource = getFileContents(templatePath)
       const handlebarsTemplate = getHandlebarsTemplate(templateSource)
       const bodyData = await this.getCachedBodyData()
-      const renderedTemplate = handlebarsTemplate(bodyData)
+      const renderedTemplate = handlebarsTemplate(
+        bodyData,
+        {
+          allowProtoMethodsByDefault: true,
+          allowProtoPropertiesByDefault: true,
+        },
+      )
       return renderedTemplate
     } catch (error) {
       throw new Error(`Unable to compile template. ${error}`)
